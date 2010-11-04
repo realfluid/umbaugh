@@ -17,21 +17,21 @@
 					<h2><a href="single.php">Some Title Here</a></h2>
                     <span class="date">August 20, 2010 <a href="#">Articles and Speeches</a></span>
 					<p>DLorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur, erat eget sollicitudin auctor, sem lacus viverra eros, non feugiat elit sem id nibh. Fusce vitae justo ut nunc tempus tincidunt. Nulla eu odio sed nisl pellentesque tempor quis ut velit. Curabitur vehicula auctor diam, id commodo est porta vitae.</p>
-					<a href="#">Read More &raquo; </a>
+					<a href="single.php">Read More &raquo; </a>
 				</div>
 
 				<div class="news-story">
 					<h2><a href="single.php">Some Title Here</a></h2>
                     <span class="date">August 20, 2010 <a href="#">Articles and Speeches</a></span>
 					<p>DLorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur, erat eget sollicitudin auctor, sem lacus viverra eros, non feugiat elit sem id nibh. Fusce vitae justo ut nunc tempus tincidunt. Nulla eu odio sed nisl pellentesque tempor quis ut velit. Curabitur vehicula auctor diam, id commodo est porta vitae.</p>
-					<a href="#">Read More &raquo; </a>
+					<a href="single.php">Read More &raquo; </a>
 				</div>
 
 				<div class="news-story last">
 					<h2><a href="#">Morbi sed leo dui, eget pulvinar felis. Integer id nunc sed risus condimentum volutpat id nec risus.</a></h2>
                     <span class="date">August 20, 2010 <a href="#">Articles and Speeches</a></span>
 					<p>DLorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur, erat eget sollicitudin auctor, sem lacus viverra eros, non feugiat elit sem id nibh. Fusce vitae justo ut nunc tempus tincidunt. Nulla eu odio sed nisl pellentesque tempor quis ut velit. Curabitur vehicula auctor diam, id commodo est porta vitae.</p>
-					<a href="#">Read More &raquo; </a>
+					<a href="single.php">Read More &raquo; </a>
 				</div>
                 
 			<div id="news-nav" class="pxBuffer">

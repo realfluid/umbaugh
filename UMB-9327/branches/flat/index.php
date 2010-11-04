@@ -13,42 +13,42 @@
 					<h2>It's all about experience</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
 					<p>H. J. Umbaugh &amp; Associates is one of the largest and most active financial advisors to governmental units in the Midwest. Advising cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports isn't just a part of what UMBAUGH does; it is ALL we do.  We offer a depth of experience you won't find elsewhere.</p>
-					<p class="links"><a href="#" class="more">View All Services »</a></p>
+					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 
 				<li id="tab2">
 					<h2>It's all about experience</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas interdum consequat. Vestibulum quis ante nec nisi tincidunt molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas interdum consequat. Vestibulum quis ante nec nisi tincidunt molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas interdum consequat. Vestibulum quis ante nec nisi tincidunt molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas interdum consequat. Vestibulum quis ante nec nisi tincidunt molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas interdum consequat. Vestibulum quis ante nec nisi tincidunt molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas interdum consequat. Vestibulum quis ante nec nisi tincidunt molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas interdum consequat. Vestibulum quis ante nec nisi tincidunt molestie.</p>
-					<p class="links"><a href="#" class="more">View All Services »</a></p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas interdum consequat. Vestibulum quis ante nec nisi tincidunt molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 
 				<li id="tab3">
 					<h2>It's all about experience</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
-					<p>Curabitur id auctor tellus. Sed viverra nisl ac tortor ultrices ultricies. Integer dignissim volutpat porttitor. Aenean tellus massa, imperdiet euismod mollis a, facilisis ac dui. Suspendisse feugiat erat in mauris vestibulum et volutpat dolor aliquet.</p>
-					<p class="links"><a href="#" class="more">View All Services »</a></p>
+					<p>Curabitur id auctor tellus. Sed viverra nisl ac tortor ultrices ultricies. Integer dignissim volutpat porttitor. Aenean tellus massa, imperdiet euismod mollis a, facilisis ac dui.</p>
+					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 
 				<li id="tab4">
 					<h2>It's all about experience</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
 					<p>In euismod dapibus urna, a laoreet turpis molestie non. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-					<p class="links"><a href="#" class="more">View All Services »</a></p>
+					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 
 				<li id="tab5">
 					<h2>It's all about experience</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
 					<p>Proin tempor semper sem nec dignissim. Proin ullamcorper dui a ipsum tincidunt non volutpat nulla rutrum. Vestibulum mollis egestas lacus, non interdum justo consectetur sit amet.</p>
-					<p class="links"><a href="#" class="more">View All Services »</a></p>
+					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 
 				<li id="tab6">
 					<h2>It's all about experience</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
 					<p>Pellentesque egestas tortor eu leo aliquam tristique. Etiam mollis, ipsum quis ornare rhoncus, justo nisi aliquam mauris, tempus laoreet arcu lacus quis arcu. Etiam id tortor justo, vehicula pellentesque nunc.</p>
-					<p class="links"><a href="#" class="more">View All Services »</a></p>
+					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 			</ul>
 

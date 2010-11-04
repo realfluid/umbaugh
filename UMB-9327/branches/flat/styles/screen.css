@@ -214,7 +214,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 #contact-form .message {  float: left; width: 353px; height: 96px; border: 1px solid #ccc; margin:0 0 10px 3px; font-size:11px; color:#7b7a7a; padding-left:6px;} 
 #contact-form .submit { width: 59px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right; margin-right:17px; }
 
-.professional-quickInfo { background-color:#e4ece8; width: 302px; padding:20px 0 0 20px; float:left; margin:0 0px 13px 0;}
+.professional-quickInfo { background-color:#e4ece8; width: 302px; padding:20px 0 0 20px; float:left; margin:10px 0px 13px 0;}
 .professional-quickInfo h2{ font-weight: bold; margin-bottom:15px;}
 .professional-quickInfo .quickInfoColumn{ width:141px; }
 .professional-quickInfo p { font-size:12px !important; }
