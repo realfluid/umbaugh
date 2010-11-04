@@ -1,27 +1,18 @@
 <?php
 	$currentPage = 'services';
-	$title = 'Our Services';
+	$title = 'Libraries';
 ?>
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/xhtml.php' ); ?>
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 		<div class="interior-content">
-			<h1>Our Services</h1>
+			<h1>Libraries</h1>
 			<img src="../images/title-seperator.png" width="657" height="4" />
 
-            
-            
             <div id="mainColumn" class="services">
-			  <div id="callout">
-                	<h2>Our Areas of Expertise</h2>
-						<img src="../images/dotted-seperator.png" />            
-		                <ul>
-                	        <li>&raquo; <a href="government.php">Local Governments</a></li>
-							<li>»&nbsp; <a href="utilities.php">Utilities</a></li>
-							<li>»&nbsp; <a href="development.php">Economic Development</a></li>
-							<li>»&nbsp; <a href="schools.php">Schools</a></li>
-							<li>»&nbsp; <a href="libraries.php">Libraries</a></li>
-						</ul>
+				<div id="callout">
+                	<h2>Title Here</h2>
+					<p>Aenean non enim vestibulum mauris cursus venenatis a vel nulla! Quisque adipiscing arcu vitae ligula viverra molestie. Aliquam urna justo; ullamcorper non fermentum ut, elementum eu purus. Donec rutrum fermentum dui, nec tincidunt diam elementum a.</p>
 	            </div>
 					<p>Aenean non enim vestibulum mauris cursus venenatis a vel nulla! Quisque adipiscing arcu vitae ligula viverra molestie. Aliquam urna justo; ullamcorper non fermentum ut, elementum eu purus. Donec rutrum fermentum dui, nec tincidunt diam elementum a. Quisque vehicula porta leo in varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
 					<p>Liquam urna justo; ullamcorper non fermentum ut, elementum eu purus. Donec rutrum fermentum dui, nec tincidunt diam elementum a. Quisque vehicula porta leo in varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Aenean non enim vestibulum mauris cursus venenatis a vel nulla! Quisque adipiscing arcu vitae ligula viverra molestie. Aliquam urna justo; ullamcorper non fermentum.</p>
