@@ -77,7 +77,7 @@
 						<li><p>Nisi ut aliquip ex ea commodo duis aute irure dolor</p></li>
 						<li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p></li>
 					</ul>
-					<p class="links"><a href="#">More »</a></p>
+					<p class="links"><a href="/services/libraries.php">More »</a></p>
 				</div>
 				<div class="column-two column">
 					<h2>Our Experience</h2>
@@ -86,7 +86,7 @@
 						<li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p></li>
 						<li><p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p></li>
 					</ul>
-					<p class="links"><a href="#">More »</a></p>
+					<p class="links"><a href="/services/experience.php">More »</a></p>
 				</div>
 				<div class="column-three column">
 					<h2>Latest News</h2>
@@ -95,7 +95,7 @@
 						<li><h3>Aud minim venlam</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p></li>
 						<li><h3>Aud minim venlam</h3><p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p></li>
 					</ul>
-					<p class="links"><a href="#">Read more »</a></p>
+					<p class="links"><a href="/news/">Read more »</a></p>
 				</div>
 			</div>
 

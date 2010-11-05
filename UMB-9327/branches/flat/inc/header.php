@@ -3,12 +3,11 @@
 
 		<div class="header">
         	<div>
-
-				<h1><b>Umbaugh</b>It's all about experience</h1>
-					<form action="" class="form-search">
-						<p>(800) 000 000</p>
-						<p><input type="text"> <input type="submit" value="Search" class="submit"></p>
-					</form>
+				<h1>Umbaugh It's all about experience</h1>
+				<form action="" class="form-search">
+					<p>(800) 000 000</p>
+					<p><input type="text"> <input type="submit" value="Search" class="submit"></p>
+				</form>
 
 				<ul class="menu">
 					<li<?php echo($currentPage == 'home') ? ' class="selected first"' : ''?>><a href="/">Home</a></li>
