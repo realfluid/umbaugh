@@ -1,16 +1,13 @@
 <?php
 	$currentPage = 'news';
-	$title = 'Latest News';
+	$title = 'Archive';
 ?>
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/xhtml.php' ); ?>
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 		<div class="interior-content">
-			<h1>Latest News</h1>
+			<h1>Archive for 2010</h1>
 			<img src="../images/title-seperator.png" width="657" height="4" />
-
-            
-            
             <div id="mainColumn">
             <div id="news" class="wide">
 				<div class="news-story">
@@ -52,7 +49,6 @@
 				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/sideBtn.php' ); ?>
 				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/category.php' ); ?>
 				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/archive.php' ); ?>
-
                 
 				<img src="../images/dotted-seperator.png" />
 				

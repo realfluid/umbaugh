@@ -1,17 +1,14 @@
 <?php
 	$currentPage = 'news';
-	$title = 'Latest News';
+	$title = 'What\'s New';
 ?>
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/xhtml.php' ); ?>
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 		<div class="interior-content">
-			<h1>Latest News</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
-
-            
-            
-            <div id="mainColumn">
+			<h1>Category: What's New</h1>
+			<img src="../images/title-seperator.png" width="657" height="4" />            
+			<div id="mainColumn">
             <div id="news" class="wide">
 				<div class="news-story">
 					<h2><a href="single.php">Some Title Here</a></h2>
@@ -51,8 +48,7 @@
             <div id="sideColumn">
 				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/sideBtn.php' ); ?>
 				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/category.php' ); ?>
-				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/archive.php' ); ?>
-
+   				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/archive.php' ); ?>
                 
 				<img src="../images/dotted-seperator.png" />
 				

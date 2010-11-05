@@ -23,27 +23,8 @@
             
             <div id="sideColumn">
 				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/sideBtn.php' ); ?>
-            
-				<img src="../images/dotted-seperator.png" />            
-
-				<div class="resources">
-					<h2>Categories</h2>
-					<ul>
-                    	<li><a href="#">Whats New</a></li>
-                        <li><a href="#">Articles</a></li>
-                        <li><a href="#">News letter</a></li>
-                    </ul>
-				</div><!-- end DIV #resources -->
-                
-				<img src="../images/dotted-seperator.png" />
-
-				<div class="resources">
-					<h2>News Archive</h2>
-					<ul>
-                    	<li><a href="#">2010</a></li>
-                        <li><a href="#">2009</a></li>
-                    </ul>
-				</div><!-- end DIV #resources -->
+				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/category.php' ); ?>
+				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/archive.php' ); ?>
                 
 				<img src="../images/dotted-seperator.png" />
 				
