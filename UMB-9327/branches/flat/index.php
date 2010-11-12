@@ -12,42 +12,42 @@
 				<li id="tab1" class="active">
 					<h2>It's all about experience</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
-					<p>H. J. Umbaugh &amp; Associates is one of the largest and most active financial advisors to governmental units in the Midwest. Advising cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports isn't just a part of what UMBAUGH does; it is ALL we do.  We offer a depth of experience you won't find elsewhere.</p>
+					<p>Umbaugh is one of the largest and most active independent financial advisors to governmental units in the Midwest. Advising cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports is just a part of what UMBAUGH does; it is ALL we do. We offer a depth of experience you won't find elsewhere.</p>
 					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 
 				<li id="tab2">
-					<h2>It's all about experience</h2>
+					<h2>Local Government</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas interdum consequat. Vestibulum quis ante nec nisi tincidunt molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					<p>UMBAUGH applies its broad understanding of how local government works to help community leaders resolve financial issues as they work to improve the quality of life in their communities.</p>
 					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 
 				<li id="tab3">
-					<h2>It's all about experience</h2>
+					<h2>Utilities</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
-					<p>Curabitur id auctor tellus. Sed viverra nisl ac tortor ultrices ultricies. Integer dignissim volutpat porttitor. Aenean tellus massa, imperdiet euismod mollis a, facilisis ac dui.</p>
+					<p>UMBAUGH serves the unique financial needs of municipal utilities, including sanitary, wastewater, gas, electric, storm water and telecom service &mdash; and now even wind generation.</p>
 					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 
 				<li id="tab4">
-					<h2>It's all about experience</h2>
+					<h2>Economic Development</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
-					<p>In euismod dapibus urna, a laoreet turpis molestie non. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					<p>UMBAUGH helps communities develop customized economic packages to generate income and jobs &mdash; and protect their investments.</p>
 					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 
 				<li id="tab5">
-					<h2>It's all about experience</h2>
+					<h2>Schools</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
-					<p>Proin tempor semper sem nec dignissim. Proin ullamcorper dui a ipsum tincidunt non volutpat nulla rutrum. Vestibulum mollis egestas lacus, non interdum justo consectetur sit amet.</p>
+					<p>UMBAUGH serves as the independent financial advisor to school districts of all sizes. We guide them through the process of determining the best financial solutions for meeting the fiscal challenges they are facing &mdash; both in terms of capital improvements and operational needs.</p>
 					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 
 				<li id="tab6">
-					<h2>It's all about experience</h2>
+					<h2>Libraries</h2>
 					<p class="banner-image"><img src="images/temp/01.png" alt=""></p>
-					<p>Pellentesque egestas tortor eu leo aliquam tristique. Etiam mollis, ipsum quis ornare rhoncus, justo nisi aliquam mauris, tempus laoreet arcu lacus quis arcu. Etiam id tortor justo, vehicula pellentesque nunc.</p>
+					<p>UMBAUGH serves as financial advisor for a number of libraries &mdash; particularly for bond issues and projections of property tax revenue.</p>
 					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 			</ul>

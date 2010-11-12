@@ -112,7 +112,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 #mainColumn { width:657px; float:left; clear:left; margin:32px 0 0 11px; }
 #mainColumn p{ color:#444; font-size:14px; width:370px; }
 #mainColumn h2{ font-size:18px; }
-
+#mainColumn ul li {color:#444; font-size:14px; }
 #mainColumn #callout{ background-color:#e4ece8; width:232px; padding:13px 17px 20px 19px; margin: 3px 0 10px 20px; clear:both; float:right; min-height:164px;}
 #mainColumn #callout img{ margin: 8px 0 0 0; padding:0px; }
 #mainColumn #callout p{ font-size:12px; margin:10px 0 0 0; width:100% !important; }
@@ -161,8 +161,9 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 .professional h3 { font-family:"Times New Roman", Times, serif; font-size:16px;  }
 .professional h4 { font-family:"Times New Roman", Times, serif; font-weight: bold; font-size: 14px; clear:left;}
 .professional-role { font-family:"Times New Roman", Times, serif; color:#bb8e1a; font-size:16px; float:left; margin:0; padding:0; }
-.professional .service-areas { float:left; clear:left; width:230px; margin:3px 0 10px 0; }
-.professional .contact-info { float:right; clear:right; width:230px; margin:2px 45px x 0; }
+.professional .two-col { min-height:80px; margin: 5px 0; clear:both;}
+.professional .two-col .service-areas { width:230px; }
+.professional .two-col .contact-info {  width:230px; }
 .professional ul { list-style:none; clear:left; margin:0; padding:0; }
 .professional ul li a, .professional a{ color:#3b7059; text-decoration:underline; }
 .professional p{ font-size: 12px !important; width:100% !important; }
@@ -211,7 +212,8 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 #contact-form .submit-form { overflow: hidden; float: left; width: 260px;}
 #contact-form .submit-form input { float: left; width: 245px; height: 24px; border: 1px solid #ccc; margin-bottom:10px; font-size:11px; color:#7b7a7a; padding-left:6px; }
 #contact-form .file-upload { width: 186px !important; border-right: none !important;  }
-#contact-form .message {  float: left; width: 353px; height: 96px; border: 1px solid #ccc; margin:0 0 10px 3px; font-size:11px; color:#7b7a7a; padding-left:6px;} 
+#contact-form select { float: left; width: 361px; height: 26px; border: 1px solid #ccc; margin:0 0 10px 3px; font-size:11px; color:#7b7a7a; padding:3px 0 0 6px; } 
+#contact-form .message { float: left; width: 353px; height: 96px; border: 1px solid #ccc; margin:0 0 10px 3px; font-size:11px; color:#7b7a7a; padding-left:6px; } 
 #contact-form .submit { width: 59px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right; margin-right:17px; }
 
 .professional-quickInfo { background-color:#e4ece8; width: 302px; padding:20px 0 0 20px; float:left; margin:10px 0px 13px 0;}

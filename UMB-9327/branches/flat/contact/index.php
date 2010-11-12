@@ -66,8 +66,16 @@
 	        	            	<input type="text" value="Your Phone Number">
 								<input type="text" value="Your Company">
 						</div>
+                            <select>
+                              <option value="option1">Select an Item</option>
+                              <option value="optoin2">Option</option>
+                              <option value="option3">Option</option>
+                              <option value="option4">Option</option>
+                            </select>
+
 	        	            <input type="text" value="Your Message" class="message">
 							<input type="submit" value="Submit" class="submit" >
+
 					</form>
                 </div><!-- end DIV #contact-form -->
                	<h2><strong>Client Service Leaders Contact Information</strong></h2>
@@ -75,37 +83,37 @@
                     	<div class="quickInfoColumn left">
                             <p><span>Gerald G. Malone</span><br />
                                 317-465-1501<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:malone@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>John D. Julien</span><br />
                                 574-935-5178<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:julien@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>Colette J. Irwin-Knott</span><br />
                                 317-465-1504<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:irwinknott@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>Curt W. Pletcher</span><br />
                                 574-935-5178<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:pletcher@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
 						</div>
                     	<div class="quickInfoColumn right">
                             <p><span>David C. Frederick</span><br />
                                 317-465-1502<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:frederick@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>John M. Seever</span><br />
                                 317-465-1507<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:seever@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>Todd A. Samuelson</span><br />
                                 574-935-5178<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:samuelson@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>Scott A. Miller</span><br />
                                 317-465-1506<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:miller@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
 						</div>
                 </div>
@@ -114,33 +122,33 @@
                     	<div class="quickInfoColumn left">
                             <p><span>Loren M. Matthes</span><br />
                             	317-465-1505<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:matthes@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>Dan A. Hedden</span><br />
         	                    317-465-1503<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:hedden@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>Doug Baldessari</span><br />
                     	        317-465-1508<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:baldessari@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>Jason Semler</span><br />
 	                            317-465-1540<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:semler@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
 						</div>
                     	<div class="quickInfoColumn right">
                             <p><span>Michael C. Givler</span><br />
 	                            517-321-0110<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:givler@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>Stephen M. Carter</span><br />
             	                574-935-5178<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:carter@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>Brian C. Colton</span><br />
                         	    317-465-1516<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:colton@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
 						</div>
                 </div>
@@ -148,18 +156,17 @@
 				<div class="professional-quickInfo left pxBuffer">
                     	<div class="quickInfoColumn left">
                             <p><span>Paige Gregory</span><br />
-	                            317-465-1505<br />
-                                <a href="#">Email</a><br />
+	                             317-465-1521<br />
+                                <a href="mailto:semler@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
                             <p><span>Jeffrey A. Messer</span><br />
                                 317-465-1531<br />
-                                <a href="#">Email</a><br />
+                                <a href="mailto:gregory@umbaugh.com">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
 						</div>
                     	<div class="quickInfoColumn right">
                             <p><span>Robert J. Clifford</span><br />
 	                            317-465-1560<br />
-                                <a href="#">Email</a><br />
                                 Download <a href="#">Vcard</a></p>
 						</div>
                 </div>
