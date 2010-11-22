@@ -271,6 +271,15 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 #schools-table ul { color:#444; font-size:12px; margin:20px 0 0 0;}
 #schools-table ul li{ width:270px; padding-bottom:6px;}
 
+/*services - schools*/
+#mainColumn #our-library { margin-top:-19px; }
+#mainColumn .library-item { padding:15px 0; padding-left:40px; float:left; border-bottom:#b6bbbf dashed 1px; width:617px; background:url("/images/pdficon_large.gif") 0 15px no-repeat; }
+#mainColumn .library-item h2 a{ color:#3b7059; font-size:18px; font-family:Arial, Helvetica, sans-serif; font-family:"Times New Roman", Times, serif; text-decoration:underline; }
+#mainColumn .library-item .date { font-size:11px; margin:0px; color:#939393; float:left; }
+#mainColumn .library-item .tag { color:#666; font-size:11px; float:left;}
+
+
+
 
 /*
  * Columns
