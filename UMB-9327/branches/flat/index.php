@@ -87,20 +87,19 @@
 				<div class="column-two column">
 					<h2>Our Experience</h2>
 					<ul>
-						<li><p><a href="/PDF/2009_06_19_strategies_for_government_efficiency.pdf">Alternative Energy Sources as Economic Development</a></p></li>
-						<li><p><a href="/PDF/five_keys_to_successfully_managing_your.pdf">Five Keys to Successfully Managing Your Arbitrage Rebate Calculation</a></p></li>
-						<li><p><a href="/PDF/Budget_Myths.pdf">Budget Myths</a></p></li>
-						<li><p><a href="/PDF/Budget_Preparation_FAQs.pdf">Budget Preparation FAQs</a></p></li>
-						<li><p><a href="/PDF/Civility_how_to_manage_the_public_edited.pdf">Civility – How to Manage the Public</a></p></li>
+						<li><p><a href="/PDF/A_Financial_Road_Map_for_Wayne_County.pdf">A Financial Road Map for Wayne County</a></p></li>
+						<li><p><a href="/PDF/Winning_A_Honda_Plant_For_Decatur_County.pdf">Winning A Honda Plant For Decatur County</a></p></li>
+						<li><p><a href="/PDF/Umbaugh_advises_Indianapolis_Public_Schools.pdf">Umbaugh advises Indianapolis Public Schools on Indiana's largest school construction program</a></p></li>
+						<li><p><a href="/PDF/Allen_County_Public_Library.pdf">Allen County Public Library</a></p></li>
 					</ul>
 					<p class="links"><a href="/services/our-experience.php">More »</a></p>
 				</div>
 				<div class="column-three column">
 					<h2>Latest News</h2>
 					<ul>
-						<li><h3>Aud minim venlam</h3><p>Nisi ut aliquip ex ea commodo duis aute irure dolor</p></li>
-						<li><h3>Aud minim venlam</h3><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p></li>
-						<li><h3>Aud minim venlam</h3><p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p></li>
+						<li><h3><a href="/news/Brian_Long_Receives_Award.php">Brian Long Receives the 2010 Nelson Steele Memorial Award</a></h3><p>Brian Long of Umbaugh received the 2010 Nelson Steele Memorial Award from the Indiana Association of Cities and Towns (IACT).</p></li>
+						<li><h3><a href="/news/brian.php">Brian Long Receives the 2010 Nelson Steele Memorial Award</a></h3><p>Brian Long of Umbaugh received the 2010 Nelson Steele Memorial Award from the Indiana Association of Cities and Towns (IACT).</p></li>
+						<li><h3><a href="/news/brian.php">Brian Long Receives the 2010 Nelson Steele Memorial Award</a></h3><p>Brian Long of Umbaugh received the 2010 Nelson Steele Memorial Award from the Indiana Association of Cities and Towns (IACT).</p></li>
 					</ul>
 					<p class="links"><a href="/news/">Read more »</a></p>
 				</div>
