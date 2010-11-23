@@ -79,7 +79,7 @@
 							<div class="dashed"></div>
                     	</div><!-- end DIV professional -->
                         
-                    <div class="professional" id="dfredrick">
+                    <div class="professional" id="dfrederick">
 						<img src="../images/dfrederick.png" width="100" height="130" />
 	                        <div class="bio-info">
                         	  <h3><strong>David C. Frederick</strong> CPA</h3>  
@@ -131,7 +131,7 @@
                	  </div><!-- end DIV professional -->
                   
 			<div class="professional" id="jseever">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/jseever.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>John M. Seever</strong> CPA</h3>  
 						<span class="professional-role">Partner, Indianapolis, IN</span>
@@ -157,7 +157,7 @@
                	  </div><!-- end DIV professional -->
                   
 			<div class="professional" id="cirwin-knott">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/cknott.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Colette J. Irwin-Knott</strong> CPA</h3>  
 						<span class="professional-role">Partner, Indianapolis, IN</span>
@@ -182,7 +182,7 @@
                	  </div><!-- end DIV professional -->
                   
 			<div class="professional" id="tsamuelson">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/tsamuelson.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Todd A. Samuelson</strong> CPA</h3>  
 						<span class="professional-role">Partner, Plymouth, IN</span>
@@ -207,7 +207,7 @@
                	  </div><!-- end DIV professional -->
                   
 			<div class="professional" id="cpletcher">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/cpletcher.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Curt W. Pletcher</strong> CPA</h3>
 						<span class="professional-role">Partner, Plymouth, IN</span>
@@ -231,7 +231,7 @@
                	  </div><!-- end DIV professional -->
                   
 			<div class="professional" id="smiller">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/smiller.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Scott A. Miller</strong> CPA</h3>  
 						<span class="professional-role">Partner, Indianapolis, IN</span>
@@ -257,7 +257,7 @@
                	  </div><!-- end DIV professional -->
                   
 			<div class="professional" id="lmatthes">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/lmatthes.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Loren M. Matthes</strong> CPA</h3>  
 						<span class="professional-role">Principal, Indianapolis, IN</span>
@@ -284,8 +284,8 @@
                	  </div><!-- end DIV professional -->
 
 
-			<div class="professional" id="mgilver">
-			<img src="../images/.png" width="100" height="130" />
+			<div class="professional" id="mgivler">
+			<img src="../images/mgivler.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Michael C. Givler</strong> CPA</h3>  
 						<span class="professional-role">Principal, Lansing, MI</span>
@@ -310,7 +310,7 @@
                	  </div><!-- end DIV professional -->
  
 			<div class="professional" id="dhedden">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/dhedden.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Daniel A. Hedden</strong> CPA</h3>  
 						<span class="professional-role">Principal, Indianapolis, IN</span>
@@ -336,7 +336,7 @@
                	  </div><!-- end DIV professional -->                  
 
 			<div class="professional" id="scarter">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/scarter.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Stephen M. Carter</strong> CPA</h3>  
 						<span class="professional-role">Manager, Plymouth, IN</span>
@@ -361,7 +361,7 @@
                	  </div><!-- end DIV professional -->
 
 			<div class="professional" id="dbaldessari">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/dbaldessari.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Doug Baldessari</strong> CPA</h3>  
 						<span class="professional-role">Principal, Indianapolis, IN</span>
@@ -387,7 +387,7 @@
                	  </div><!-- end DIV professional -->
 
 			<div class="professional" id="bcolton">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/bcolton.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Brian C. Colton</strong> CPA</h3>  
 						<span class="professional-role">Principal, Indianapolis, IN</span>
@@ -416,7 +416,7 @@
                	  </div><!-- end DIV professional -->
 
 			<div class="professional" id="jsemler">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/jsemler.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Jason G. Semler</strong>, CPA</h3>  
 						<span class="professional-role">Principal (effective 2011), Indianapolis, IN</span>
@@ -441,7 +441,7 @@
                	  </div><!-- end DIV professional -->
                   
 			<div class="professional" id="pgregory">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/pgregory.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Paige E. Gregory</strong> CPA</h3>  
 						<span class="professional-role">Manager, Indianapolis, IN</span>
@@ -464,7 +464,7 @@
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
 			<div class="professional" id="rclifford">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/rclifford.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Robert J. Clifford</strong> CPA</h3>  
 						<span class="professional-role">Senior Associate, Indianapolis, IN</span>
@@ -490,7 +490,7 @@
                   
                   
 			<div class="professional" id="jmesser">
-			<img src="../images/.png" width="100" height="130" />
+			<img src="../images/jmesser.png" width="100" height="130" />
 				<div class="bio-info">
                    	  <h3><strong>Jeffrey A. Messer</strong></h3>  
 						<span class="professional-role">Director of Umbaugh Cash Advisory Services, LLC, Indianapolis, IN</span>
