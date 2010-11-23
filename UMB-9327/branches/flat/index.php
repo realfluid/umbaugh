@@ -87,9 +87,11 @@
 				<div class="column-two column">
 					<h2>Our Experience</h2>
 					<ul>
-						<li><p>Nisi ut aliquip ex ea commodo duis aute irure dolor</p></li>
-						<li><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p></li>
-						<li><p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p></li>
+						<li><p><a href="/PDF/2009_06_19_strategies_for_government_efficiency.pdf">Alternative Energy Sources as Economic Development</a></p></li>
+						<li><p><a href="/PDF/five_keys_to_successfully_managing_your.pdf">Five Keys to Successfully Managing Your Arbitrage Rebate Calculation</a></p></li>
+						<li><p><a href="/PDF/Budget_Myths.pdf">Budget Myths</a></p></li>
+						<li><p><a href="/PDF/Budget_Preparation_FAQs.pdf">Budget Preparation FAQs</a></p></li>
+						<li><p><a href="/PDF/Civility_how_to_manage_the_public_edited.pdf">Civility – How to Manage the Public</a></p></li>
 					</ul>
 					<p class="links"><a href="/services/our-experience.php">More »</a></p>
 				</div>
