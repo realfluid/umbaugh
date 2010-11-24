@@ -12,7 +12,7 @@
             <div id="mainColumn">
             <div id="news" class="wide">
 				<div class="news-story last pxBuffer">
-                    <span class="date">August 20, 2010 <a href="#">Newsletters</a></span>
+                    <span class="date">August 20, 2010 <a href="#">Press Release</a></span>
                         <p>INDIANAPOLIS – Brian Long of Umbaugh received the 2010 Nelson Steele Memorial Award from the Indiana Association of Cities and Towns (IACT). Long accepted his award at the Annual Awards Luncheon at noon on Monday, October 4 during the 2010 IACT Annual Conference &amp; Exhibition in Fort Wayne, Ind.</p>
                         <p>The Nelson Steele Memorial Award is given to an individual who has gone above and beyond the call of duty while demonstrating outstanding contributions to municipal government, who exemplifies and encourages leadership, is employed with a firm that is a current IACT Associate Member and has a minimum of five years experience working with municipal government.</p>
                         <p>Long was praised for his commitment to small town Indiana and working to ensure that all communities have access to quality continuing education opportunities through IACT.</p>

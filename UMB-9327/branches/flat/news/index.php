@@ -8,30 +8,28 @@
 		<div class="interior-content">
 			<h1>Latest News</h1>
 			<img src="../images/title-seperator.png" width="657" height="4" />
-
-            
             
             <div id="mainColumn">
             <div id="news" class="wide">
 				<div class="news-story">
 					<h2><a href="Brian_Long_Receives_Award.php">Brian Long Receives the 2010 Nelson Steele Memorial Award</a></h2>
-                    <span class="date">August 20, 2010 <a href="#">Newsletter</a></span>
+                    <span class="date">August 20, 2010 <a href="#">Press Release</a></span>
 					<p>INDIANAPOLIS – Brian Long of Umbaugh received the 2010 Nelson Steele Memorial Award from the Indiana Association of Cities and Towns (IACT). Long accepted his award at the Annual Awards Luncheon at noon on Monday, October 4 during the 2010 IACT Annual Conference & Exhibition in Fort Wayne, Ind.</p>
 					<a href="Brian_Long_Receives_Award.php">Read More &raquo; </a>
 				</div>
 
 				<div class="news-story">
-					<h2><a href="Brian_Long_Receives_Award.php">Some Title Here</a></h2>
-                    <span class="date">August 20, 2010 <a href="#">Articles and Speeches</a></span>
-					<p>DLorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur, erat eget sollicitudin auctor, sem lacus viverra eros, non feugiat elit sem id nibh. Fusce vitae justo ut nunc tempus tincidunt. Nulla eu odio sed nisl pellentesque tempor quis ut velit. Curabitur vehicula auctor diam, id commodo est porta vitae.</p>
-					<a href="Brian_Long_Receives_Award.php">Read More &raquo; </a>
+					<h2><a href="reductions_in_state_income_tax_distributions_deliver_unwelcome_news_for_local_governments_at_budget_time.php">Reductions In State Income Tax Distributions Deliver Unwelcome News For Local Governments At Budget Time</a></h2>
+                    <span class="date">By Gary Malone, CPA, Partner<br />August 18, 2010 <a href="/news/category">Newsletter</a></span>
+					<p>The State Budget Agency announced in early August that local income tax distributions are down for 2011 by an average of 16% statewide.  With so many people unemployed or underemployed the income tax decrease is not entirely unexpected, but it is still unwelcome news.  It signals that economic recovery is still inconsistent, and these new reduced income tax numbers also will have a negative effect on local governments as they prepare 2011 budgets.</p>
+                    <a href="reductions_in_state_income_tax_distributions_deliver_unwelcome_news_for_local_governments_at_budget_time.php">Read More &raquo; </a>
 				</div>
 
 				<div class="news-story last">
-					<h2><a href="#">Morbi sed leo dui, eget pulvinar felis. Integer id nunc sed risus condimentum volutpat id nec risus.</a></h2>
-                    <span class="date">August 20, 2010 <a href="#">Articles and Speeches</a></span>
-					<p>DLorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur, erat eget sollicitudin auctor, sem lacus viverra eros, non feugiat elit sem id nibh. Fusce vitae justo ut nunc tempus tincidunt. Nulla eu odio sed nisl pellentesque tempor quis ut velit. Curabitur vehicula auctor diam, id commodo est porta vitae.</p>
-					<a href="Brian_Long_Receives_Award.php">Read More &raquo; </a>
+					<h2><a href="alternative_energy_sources_as_economic_development.php">Alternative Energy Sources as Economic Development</a></h2>
+                    <span class="date">By Todd Samuelson, CPA, Partner<br />August 11, 2010 <a href="/news/category">Newsletter</a> </span>
+					<p>Wind farms are a relatively new form of economic development with unique financial considerations for both private and public entities. For private land owners, lease terms and liability protection are important factors to consider. For public entities, other aspects rise to the top of the priority list.</p>
+                    <a href="alternative_energy_sources_as_economic_development.php">Read More &raquo; </a>
 				</div>
                 
 			<div id="news-nav" class="pxBuffer">

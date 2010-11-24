@@ -88,8 +88,9 @@
 					<h2>Our Experience</h2>
 					<ul>
 						<li><p><a href="/PDF/A_Financial_Road_Map_for_Wayne_County.pdf">A Financial Road Map for Wayne County</a></p></li>
+						<li><p><a href="/PDF/Mishawaka_Sewage_Works.pdf">Mishawaka Sewage Works</a></p></li>
 						<li><p><a href="/PDF/Winning_A_Honda_Plant_For_Decatur_County.pdf">Winning A Honda Plant For Decatur County</a></p></li>
-						<li><p><a href="/PDF/Umbaugh_advises_Indianapolis_Public_Schools.pdf">Umbaugh advises Indianapolis Public Schools on Indiana's largest school construction program</a></p></li>
+						<li><p><a href="/PDF/Umbaugh_advises_Indianapolis_Public_Schools.pdf">Umbaugh advises Indianapolis Public Schools on Indiana's largest school construction program</a>                        </p></li>
 						<li><p><a href="/PDF/Allen_County_Public_Library.pdf">Allen County Public Library</a></p></li>
 					</ul>
 					<p class="links"><a href="/services/our-experience.php">More »</a></p>
@@ -98,8 +99,6 @@
 					<h2>Latest News</h2>
 					<ul>
 						<li><h3><a href="/news/Brian_Long_Receives_Award.php">Brian Long Receives the 2010 Nelson Steele Memorial Award</a></h3><p>Brian Long of Umbaugh received the 2010 Nelson Steele Memorial Award from the Indiana Association of Cities and Towns (IACT).</p></li>
-						<li><h3><a href="/news/brian.php">Brian Long Receives the 2010 Nelson Steele Memorial Award</a></h3><p>Brian Long of Umbaugh received the 2010 Nelson Steele Memorial Award from the Indiana Association of Cities and Towns (IACT).</p></li>
-						<li><h3><a href="/news/brian.php">Brian Long Receives the 2010 Nelson Steele Memorial Award</a></h3><p>Brian Long of Umbaugh received the 2010 Nelson Steele Memorial Award from the Indiana Association of Cities and Towns (IACT).</p></li>
 					</ul>
 					<p class="links"><a href="/news/">Read more »</a></p>
 				</div>

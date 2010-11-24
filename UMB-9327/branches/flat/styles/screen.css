@@ -105,7 +105,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 /* Interior Pages*/
 .wrapper {  width:100%; float:left; padding-bottom:30px; background:url("/images/interior-bg.png") top left repeat-x; background-color:#FFF; padding-top:25px;}
 .interior-content { width:941px; margin: 0 auto;}
-.interior-content h1 { padding:0px; margin:28px 0 0 11px; font-family:"Times New Roman", Times, serif; float:left; font-size:23px; color:#3f775f;  }
+.interior-content h1 { padding:0px; margin:28px 0 0 11px; font-family:"Times New Roman", Times, serif; float:left; font-size:23px; color:#3f775f; width:657px;  }
 .interior-content h2{ font-family:"Times New Roman", Times, serif; color:#444; font-weight:normal;}
 .interior-content img { clear:both; float:left; margin:5px 0 0 11px;}
 
@@ -224,6 +224,15 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 .professional-quickInfo span { font-family:"Times New Roman", Times, serif; font-size:15px; }
 
 /*news*/
+#mainColumn #news { margin-top:-19px }
+#mainColumn .news-story { margin:10px 0; padding-bottom:27px; float:left; border-bottom:#b6bbbf dashed 1px;}
+#mainColumn .news-story .newsletter-content{ width:500px; margin:0 0 0 15px; padding:0; }
+#mainColumn .news-story h2, #mainColumn .news-story h2 a{ color:#3b7059; font-size:16px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none; }
+#mainColumn .news-story p{ color:#444; font-size: 13px; margin:15px 0 0 0; padding: 0px; float:left;}
+#mainColumn .news-story a{ color:#3f775f; text-decoration:underline; padding: 0px; float:left;}
+#mainColumn .news-story .date { font-size:11px; margin:0px; color:#939393; float:left; clear:both; }
+#mainColumn .news-story .date a { color:#529277; float:none; text-decoration:none; margin-left:5px;  }
+
 #sideColumn #news { margin:13px 0 0 2px; float:left; }
 #sideColumn #news h2{ color:#7b7a7a; font-size:17px;}
 #sideColumn #news .news-story { margin:10px 0 17px 0;}
@@ -233,13 +242,6 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 #sideColumn .date { font-size:11px; float:left; clear:both; margin:8px 0 0 11px; color:#939393; }
 #sideColumn .date a { color:#529277;}
 
-#mainColumn #news { margin-top:-19px }
-#mainColumn .news-story { margin:0; padding-bottom:37px; float:left; border-bottom:#b6bbbf dashed 1px; }
-#mainColumn .news-story h2, #mainColumn .news-story h2 a{ color:#3b7059; font-size:16px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none; }
-#mainColumn .news-story p{ color:#444; font-size: 13px; margin:15px 0 0 0; padding: 0px; float:left;}
-#mainColumn .news-story a{ color:#3f775f; text-decoration:underline; margin-top: 18px; padding: 0px; float:left;}
-#mainColumn .news-story .date { font-size:11px; margin:0px; color:#939393; float:left; clear:both; }
-#mainColumn .news-story .date a { color:#529277; float:none; text-decoration:none; margin-left:5px;  }
 
 
 #testimonial { margin:8px 0 0 2px; float:left;}

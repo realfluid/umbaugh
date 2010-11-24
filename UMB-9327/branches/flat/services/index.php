@@ -17,13 +17,14 @@
 						<img src="../images/dotted-seperator.png" />            
 		                <ul>
                 	        <li>&raquo; <a href="government.php">Local Governments</a></li>
-							<li>»&nbsp; <a href="utilities.php">Utilities</a></li>
-							<li>»&nbsp; <a href="development.php">Economic Development</a></li>
-							<li>»&nbsp; <a href="schools.php">Schools</a></li>
-							<li>»&nbsp; <a href="libraries.php">Libraries</a></li>
+							<li>&raquo; <a href="utilities.php">Utilities</a></li>
+							<li>&raquo; <a href="development.php">Economic Development</a></li>
+							<li>&raquo; <a href="schools.php">Schools</a></li>
+							<li>&raquo; <a href="libraries.php">Libraries</a></li>
 						</ul>
 	            </div>
                     <p>Our comprehensive services are tailored to each client's special needs, offering guidance and assistance from inception to project completion, financial analysis and long-term planning. Because we are independent advisors, we are objective in analyzing, planning and structuring creative solutions for many types of projects.</p>
+					<h2>Airports and Hospitals</h2>
                     <p>Many of the same services and transactions needed by local governmental units themselves also apply to airports, hospitals and similar entities. Umbaugh assists city and county-owned airports and hospitals with: bond financing for capital projects, financial planning, organizational structure and establishing a maximum levy for tax support.</p>
                     <p>Government-owned hospitals in particular are seeking to use the local government's property tax revenues as a back up for bond financing in these times of rising health care costs, a sluggish economy and changes in reimbursement. These arrangements can be carefully structured to minimize risk &mdash; especially since most local governments don't have property tax revenue to spare &mdash; creating a win-win situation for both entities and taxpayers.</p>
 				<ul>
