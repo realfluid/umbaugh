@@ -242,6 +242,11 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 #sideColumn .date { font-size:11px; float:left; clear:both; margin:8px 0 0 11px; color:#939393; }
 #sideColumn .date a { color:#529277;}
 
+#mainColumn .newsletter-item { padding:15px 0; float:left; border-bottom:#b6bbbf dashed 1px; width:617px; }
+#mainColumn .newsletter-item h2 a{ color:#3b7059; font-size:18px; font-family:Arial, Helvetica, sans-serif; font-family:"Times New Roman", Times, serif; text-decoration:underline; }
+#mainColumn .newsletter-item .date { font-size:11px; margin:0px; color:#939393; float:left; }
+#mainColumn .newsletter-item .tag { color:#666; font-size:11px; float:left;}
+
 
 
 #testimonial { margin:8px 0 0 2px; float:left;}
