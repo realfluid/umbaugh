@@ -3,7 +3,7 @@
 
 		<div class="header">
         	<div>
-				<h1>Umbaugh It's all about experience</h1>
+				<h1><a href="/">Umbaugh It's all about experience</a></h1>
 				<form action="" class="form-search">
 					<p>(317) 465 1500</p>
 					<p><input type="text"> <input type="submit" value="Search" class="submit"></p>

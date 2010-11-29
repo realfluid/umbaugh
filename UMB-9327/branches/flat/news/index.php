@@ -19,17 +19,7 @@
 				</div>
 
 				<div class="news-story">
-					<h2><a href="reductions_in_state_income_tax_distributions_deliver_unwelcome_news_for_local_governments_at_budget_time.php">Reductions In State Income Tax Distributions Deliver Unwelcome News For Local Governments At Budget Time</a></h2>
-                    <span class="date">By Gary Malone, CPA, Partner<br />August 18, 2010 <a href="/news/category">Newsletter</a></span>
-					<p>The State Budget Agency announced in early August that local income tax distributions are down for 2011 by an average of 16% statewide.  With so many people unemployed or underemployed the income tax decrease is not entirely unexpected, but it is still unwelcome news.  It signals that economic recovery is still inconsistent, and these new reduced income tax numbers also will have a negative effect on local governments as they prepare 2011 budgets.</p>
-                    <a href="reductions_in_state_income_tax_distributions_deliver_unwelcome_news_for_local_governments_at_budget_time.php">Read More &raquo; </a>
-				</div>
-
-				<div class="news-story last">
-					<h2><a href="alternative_energy_sources_as_economic_development.php">Alternative Energy Sources as Economic Development</a></h2>
-                    <span class="date">By Todd Samuelson, CPA, Partner<br />August 11, 2010 <a href="/news/category">Newsletter</a> </span>
-					<p>Wind farms are a relatively new form of economic development with unique financial considerations for both private and public entities. For private land owners, lease terms and liability protection are important factors to consider. For public entities, other aspects rise to the top of the priority list.</p>
-                    <a href="alternative_energy_sources_as_economic_development.php">Read More &raquo; </a>
+					<h2><a href="august_2010.php">August 2010 Newsletter</a></h2>
 				</div>
                 
 			<div id="news-nav" class="pxBuffer">

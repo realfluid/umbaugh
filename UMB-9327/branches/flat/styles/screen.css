@@ -225,7 +225,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 
 /*news*/
 #mainColumn #news { margin-top:-19px }
-#mainColumn .news-story { margin:10px 0; padding-bottom:27px; float:left; border-bottom:#b6bbbf dashed 1px;}
+#mainColumn .news-story { margin:10px 0; padding-bottom:27px; float:left; border-bottom:#b6bbbf dashed 1px; width:100%; }
 #mainColumn .news-story .newsletter-content{ width:500px; margin:0 0 0 15px; padding:0; }
 #mainColumn .news-story h2, #mainColumn .news-story h2 a{ color:#3b7059; font-size:16px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none; }
 #mainColumn .news-story p{ color:#444; font-size: 13px; margin:15px 0 0 0; padding: 0px; float:left;}
