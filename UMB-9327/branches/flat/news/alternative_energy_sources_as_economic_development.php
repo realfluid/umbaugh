@@ -7,9 +7,9 @@
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 
 		<div class="interior-content">
-			<h1>Alternative Energy Sources as Economic Development</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
             <div id="mainColumn">
+			<h1>Alternative Energy Sources as Economic Development</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
             <div id="news" class="wide">
 				<div class="news-story last pxBuffer">
 				<span class="date">By Todd Samuelson, CPA, Partner<br />August 11, 2010 <a href="#">Newsletter</a> </span>

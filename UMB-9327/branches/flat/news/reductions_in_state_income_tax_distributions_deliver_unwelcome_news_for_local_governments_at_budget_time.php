@@ -9,7 +9,7 @@
 		<div class="interior-content">
             <div id="mainColumn">
 			<h1>Reductions In State Income Tax Distributions Deliver Unwelcome News For Local Governments At Budget Time</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
             <div id="news" class="wide">
 				<div class="news-story last pxBuffer">
 				<span class="date">By Gary Malone, CPA, Partner<br />August 18, 2010 <a href="#">Newsletter</a></span>

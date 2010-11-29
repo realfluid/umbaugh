@@ -7,9 +7,9 @@
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 
 		<div class="interior-content">
-			<h1>Three Common Budgeting Myths</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
             <div id="mainColumn">
+			<h1>Three Common Budgeting Myths</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
             <div id="news" class="wide">
 				<div class="news-story last pxBuffer">
 				<span class="date">By Paige Gregory, CPA, Manager<br /> August 4, 2010 <a href="#">Newsletter</a> </span>

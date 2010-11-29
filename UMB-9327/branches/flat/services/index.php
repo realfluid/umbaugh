@@ -6,12 +6,9 @@
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 		<div class="interior-content">
-			<h1>Our Services</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
-
-            
-            
             <div id="mainColumn" class="services">
+			<h1>Our Services</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />            
 			  <div id="callout">
                 	<h2>Our Areas of Expertise</h2>
 						<img src="../images/dotted-seperator.png" />            

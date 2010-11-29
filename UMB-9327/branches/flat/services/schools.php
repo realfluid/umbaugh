@@ -6,12 +6,9 @@
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 		<div class="interior-content">
-			<h1>Schools</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
-
-            
-            
             <div id="mainColumn" class="services">
+			<h1>Schools</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
 				<div id="callout">
                 	<h2>Our Experience</h2>
 					<p>Indianapolis Public Schools embarked on a plan in 2001 to improve its school buildings in what has become the largest school construction program in the state of Indiana. Umbaugh has advised the district throughout the process for a total of $693 million in bond issues.</p>

@@ -6,10 +6,9 @@
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 		<div class="interior-content">
-			<h1>Latest News</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
-            
             <div id="mainColumn">
+			<h1>Latest News</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
             <div id="news" class="wide">
 				<div class="news-story">
 					<h2><a href="Brian_Long_Receives_Award.php">Brian Long Receives the 2010 Nelson Steele Memorial Award</a></h2>

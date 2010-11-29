@@ -7,9 +7,9 @@
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 
 		<div class="interior-content">
-			<h1>Contact Umbaugh</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
             <div id="mainColumn">
+			<h1>Contact Umbaugh</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
             	<h2>Main Phone Number: <span id="phone-number-lg"> (888)516-9594</span></h2>
 				<div class="locationColumns">
 					<h2>Our Locations:</h2>

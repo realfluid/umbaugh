@@ -30,6 +30,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 
 .no-margin { padding-bottom: 0 !important; }
 .margin { padding-bottom: 1em !important; }
+#solid-seperator { margin:0 0 15px 0;}
 .wide-dotted-seperator { margin:16px 0 30px 0 !important; float:left; }
 
 
@@ -104,30 +105,30 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 
 /* Interior Pages*/
 .wrapper {  width:100%; float:left; padding-bottom:30px; background:url("/images/interior-bg.png") top left repeat-x; background-color:#FFF; padding-top:25px;}
-.interior-content { width:941px; margin: 0 auto;}
-.interior-content h1 { padding:0px; margin:28px 0 0 11px; font-family:"Times New Roman", Times, serif; float:left; font-size:23px; color:#3f775f; width:657px;  }
+.interior-content { width:941px; margin: 0 auto; margin-top:20px;}
+.interior-content h1 { padding:0px; margin:10px 0 0 0; font-family:"Times New Roman", Times, serif; float:left; font-size:23px; color:#3f775f; width:657px;  }
 .interior-content h2{ font-family:"Times New Roman", Times, serif; color:#444; font-weight:normal;}
 .interior-content img { clear:both; float:left; margin:5px 0 0 11px;}
 
-#mainColumn { width:657px; float:left; clear:left; margin:32px 0 0 11px; }
-#mainColumn p{ color:#444; font-size:14px; width:370px; }
-#mainColumn h2{ font-size:18px; }
+#mainColumn { width:657px; float:left; clear:left; padding-left:11px; }
+#mainColumn p{ color:#444; font-size:14px; width:370px;}
+#mainColumn h2{ font-size:18px; margin:0;}
 #mainColumn ul li {color:#444; font-size:14px; }
 #mainColumn #callout{ background-color:#e4ece8; width:232px; padding:13px 17px 20px 19px; margin: 3px 0 10px 20px; clear:both; float:right; min-height:164px;}
 #mainColumn #callout img{ margin: 8px 0 0 0; padding:0px; }
+#mainColumn #callout h2{ margin: 0;}
 #mainColumn #callout p{ font-size:12px; margin:10px 0 0 0; width:100% !important; }
 #mainColumn #callout a{ font-size:12px; margin:10px 0 0 0; color:#3f775f; text-decoration:underline; }
 #mainColumn #callout ul { list-style:none; padding:20px 0 0 0;}
 #mainColumn #callout ul li { color:#3b7059; padding-bottom:5px; text-decoration:none; font-size:15px;  }
 #mainColumn #callout ul li a { text-decoration:none; font-size:15px; }
-
 #mainColumn #wide-callout { width:635px; border:#cbdad4 solid 3px; padding:10px 0 0 14px; font-size:12px; margin:16px 0 40px 0; float:left; }
 #mainColumn #wide-callout p { font-size:12px; margin: 8px 0 0 2px; float:left; width:100% !important; }
 #mainColumn #wide-callout a{ color:#3f775f; text-decoration:underline;}
 #mainColumn #wide-callout h2 { float: left; }
 
 
-#sideColumn { width:218px; float:right; margin:-32px 13px 0 0; }
+#sideColumn { width:218px; float:right; margin:15px 15px 0 0; }
 #sideColumn img{ padding:0px; margin:7px 0 0 2px; float:left; }
 #sideColumn .interior-nav-btn { background:url("../images/gray-btn.png") 0 0 no-repeat; height:34px; margin:0 0 2px 0; width:220px; padding:7px 0 0 38px; }
 #sideColumn .interior-nav-btn a{ font-size:15px; color:#FFF; font-family:"Times New Roman", Times, serif; }
@@ -170,10 +171,10 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 
 /*careers*/
 .career-types p { width:100% !important; font-size:12px !important; margin-bottom:10px; line-height:1.2em; }
-.career-types h3{ color:#bb8e1a; font-size:18px; font-family:"Times New Roman", Times, serif; margin:0 0 10px 2px; }
+.career-types h3{ color:#bb8e1a; font-size:18px; font-family:"Times New Roman", Times, serif; margin:0 0 10px 0; }
 
 .careers p { width:100% !important; font-size:12px !important; margin-left:-1px; }
-.careers h3{ color:#3b5b71; font-size:18px; font-family:"Times New Roman", Times, serif; margin:0 0 10px 2px; }
+.careers h3{ color:#3b5b71; font-size:18px; font-family:"Times New Roman", Times, serif; margin:0 0 10px 0; }
 
 #career-table-top { background-color:#e1e8ed; color:#3b5b71; height:32px; font-size:18px; padding:10px 0 0 15px; font-family:"Times New Roman", Times, serif; margin:3px 0 0 0; border-bottom: #b6bbbf solid 1px; }
 .job{ padding:13px 13px 0 18px; color:#444; min-height:85px; }

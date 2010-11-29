@@ -6,9 +6,9 @@
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 		<div class="interior-content">
-			<h1>Winning a Honda Plant for Decatur County</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
             <div id="mainColumn" class="services">
+			<h1>Winning a Honda Plant for Decatur County</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
 				content from our-experience.txt goes here
 			</div><!-- end div #mainColumn -->
             <div id="sideColumn">

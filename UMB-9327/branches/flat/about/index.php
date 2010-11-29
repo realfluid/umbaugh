@@ -7,10 +7,10 @@
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 
 		<div class="interior-content">
-			<h1>About Umbaugh</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
             <div id="mainColumn" class="about">
-				<img src="../images/team-photo.png" id="team-photo"/>
+			<h1>About Umbaugh</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
+			<img src="../images/team-photo.png" id="team-photo"/>
     	        <h2 id="team-caption">Umbaugh Partners</h2>
 					<p>With more than 60 years of experience and expertise in all areas of public finance, H. J. Umbaugh &amp; Associates Certified Public Accountants is one of the largest and most active independent financial advisors to governmental units in the Midwest. </p>
 					<p>UMBAUGH provides timely, independent, meaningful and actionable financial guidance for cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports.</p>
@@ -520,23 +520,11 @@
 			</div><!-- end div #mainColumn -->
             
             <div id="sideColumn">
-				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/sideBtn.php' ); ?>
-				<img src="../images/dotted-seperator.png" />            
-                
-                <div id="news">
-                	<h2>Latest News</h2>
-						<div class="news-story">
-							<h3>Some Title Here</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet orci odio, vitae commodo.</p>
-							<a href="#">Read More &raquo; </a>
-						</div>
+				<div class="interior-nav-btn"><a href="/services/">View Our Services</a></div>
+				<div class="interior-nav-btn"><a href="/contact/">Contact Us</a></div>
+				<div class="interior-nav-btn"><a href="/join-our-firm/">Join Our Firm</a></div>
+				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/latestNews.php' ); ?>
 
-						<div class="news-story">
-							<h3>Some Title Here</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet orci odio, vitae commodo.</p>
-							<a href="#">Read More &raquo; </a>
-						</div>
-				</div><!-- end DIV #news -->
 
 				<img src="../images/dotted-seperator.png" />
 

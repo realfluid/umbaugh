@@ -6,11 +6,9 @@
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 		<div class="interior-content">
+            <div id="mainColumn">
 			<h1>You + Umbaugh = Opportunity</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
-           
-            
-            <div id="mainColumn" class="pxBuffer">
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
 				<div id="callout">
                 	<h2>Have questions about career opportunities at Umbaugh?</h2>
 					<p>Feel free to <a href="/contact/">contact us</a> with any questions you may have.</p>

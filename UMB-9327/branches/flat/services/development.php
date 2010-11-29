@@ -6,12 +6,9 @@
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 		<div class="interior-content">
-			<h1>Economic Development</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
-
-            
-            
             <div id="mainColumn" class="services">
+			<h1>Economic Development</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
 				<div id="callout">
                 	<h2>Title Here</h2>
 					<p>Decatur County, Indiana, had the opportunity of a lifetime in 2006. All they had to do was present the winning case for why their area was the most advantageous location for a new Honda Motors automobile assembly plant. And like most economic development projects, responding quickly was essential to stay in the running.</p>

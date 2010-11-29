@@ -7,9 +7,9 @@
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 
 		<div class="interior-content">
-			<h1>Our Library</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
 			<div id="mainColumn" class="wide">
+			<h1>Our Library</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
                 <p>We love to share our expertise!  Umbaugh representatives frequently speak before seminars, conferences and government hearings to help even the experts stay current during these changing times for local governments and finances.  You'll find here presentations, timely articles from past issues of Footnotes and even a white paper or two.  (Don't let the term 'white paper' scare you; it's technical, but understandable, information.)</p>
                 <p>Check this section often – we'll update it constantly.</p>
                 <p>If you'd like to schedule a presentation tailored to your group – or if you don't find the topic you're looking for, please call us at (800 number) and we'll find the person or information you're looking for.</p>

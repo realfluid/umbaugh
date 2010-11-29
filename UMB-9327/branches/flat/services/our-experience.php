@@ -7,9 +7,9 @@
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 
 		<div class="interior-content">
-			<h1>Our Experience</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
             <div id="mainColumn" class="wide">
+			<h1>Our Experience</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
 				<p>How do you describe in a list of services all the steps it takes to assemble an economic development package just right for your community? How do you briefly explain what it takes to start with just the need for a new school building and get it financed and built? You can't. Every project is different.</p>
                 <p>You can, however, learn from the experiences of others. In the Umbaugh case studies below see how we helped:</p>
 				<ul>

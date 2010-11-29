@@ -6,9 +6,9 @@
 
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 		<div class="interior-content">
-			<h1>Archive for 2010</h1>
-			<img src="../images/title-seperator.png" width="657" height="4" />
             <div id="mainColumn">
+			<h1>Archive for 2010</h1>
+			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
             <div id="news" class="wide">
 				<div class="news-story">
 					<h2><a href="single.php">Some Title Here</a></h2>
