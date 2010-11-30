@@ -11,10 +11,12 @@
 			<img src="/images/title-seperator.png" width="657" height="4" />            
 				<div class="newsletter-item">
 					<h2><a href="/news/august_2010.php">August 4, 2010</a></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sapien libero, euismod non suscipit vel, tincidunt ac lorem. Quisque lorem tortor, lacinia sed placerat eu, ullamcorper non mauris. Donec lorem sapien, volutpat sit amet imperdiet nec, malesuada ac justo. Integer quis ipsum vel mauris elementum scelerisque.</p>
 				</div>
 
 				<div class="newsletter-item">
 					<h2><a href="/news/august_2010.php">August 10, 2010</a></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sapien libero, euismod non suscipit vel, tincidunt ac lorem. Quisque lorem tortor, lacinia sed placerat eu, ullamcorper non mauris. Donec lorem sapien, volutpat sit amet imperdiet nec, malesuada ac justo. Integer quis ipsum vel mauris elementum scelerisque.</p>
 				</div>
                 
 				<div class="newsletter-item">

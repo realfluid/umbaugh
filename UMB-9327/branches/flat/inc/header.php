@@ -3,9 +3,9 @@
 
 		<div class="header">
         	<div>
-				<h1><a href="/">Umbaugh It's all about experience</a></h1>
+            <a href="/"><img src="/images/logo.png" alt="Umbaugh It's all about experience"></a>
 				<form action="" class="form-search">
-					<p>(317) 465 1500</p>
+					<p>(888) 516 9594</p>
 					<p><input type="text"> <input type="submit" value="Search" class="submit"></p>
 				</form>
 

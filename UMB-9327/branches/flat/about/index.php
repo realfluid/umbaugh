@@ -74,7 +74,7 @@
 									<p>Gary Malone's practice at Umbaugh includes numerous projects for local governments, including bond financing, financial analysis and economic development. He has helped local governments develop financial incentives for such major companies as Toyota, AK Steele, Chrysler/Getrag, Honda and Medco.</p>
 									<p>Malone frequently testifies as an expert witness on the subject of municipal finance before the Indiana General Assembly, state regulatory agencies and local public hearings. He has been a guest speaker and panelist for the Indiana Continuing Legal Education Forum, the Indiana Association of Cities and Towns, the Association of Indiana Counties and several other professional organizations. </p>
 									<p>He has been with Umbaugh since 1975 and is based in the Indianapolis office.  Originally from southwest Indiana, Malone graduated from Indiana University - Bloomington in 1975. He is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society and the Governmental Finance Officers Association and serves on the board of directors of the Indiana Association of Cities and Towns and the Indiana Association of Cities and Towns Foundation. Malone was awarded the 2006 CPA of the Year in Public Practice by the Indiana CPA Society.</p>
-									<a href="#" > Read More</a> &raquo;
+									<a href="#">Back to top</a>
                         	</div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                     	</div><!-- end DIV professional -->
@@ -100,7 +100,7 @@
                                     <p>Frederick is Quality Control Partner for Umbaugh and the Chief Compliance Officer of Umbaugh Cash Advisory Services, LLC.</p>
                                     <p>He is a member of the Indiana CPA Society, the American Institute of CPAs, the Government Finance Officers Association and other professional and utility trade associations. He has spoken before various groups regarding accounting and utility issues. </p>
                                     <p>A graduate of Ohio State University where he also earned an MBA and a Masters of Public Administration, Frederick joined Umbaugh in 1977 and became a partner in 1989. He is based in the Indianapolis office.</p>
-							  <a href="#">Read Less</a> &raquo;
+									<a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -125,7 +125,7 @@
                                     <p>John D. Julien works with utilities and municipalities. He has conducted financial studies for municipally owned sewage, water, stormwater, electric and gas utilities, regional water and sewer districts and conservancy districts. These studies often involve short- and long-term financial planning, cost-of-service studies and financial planning for the issuance of municipal tax-exempt bonds, notes and loans. In addition, Julien has worked extensively on municipal tax budgets, economic development projects, tax incremental financing projects, annexation studies and the issuance of tax-supported and income-supported debt.</p>
                                     <p>Julien has presented at seminars sponsored by the U.S.D.A. - Rural Development (formerly FmHA), the American Association of Civil Engineers and the Michigan and Indiana sections of AWWA and WEA on governmental accounting and public finance, financial planning, performance management, utility rates and cost-of-service studies. He has also been a guest lecturer for the Indiana University School of Public and Environmental Affairs, Bloomington and South Bend campuses.</p>
                                     <p>Julien is a member of the Michigan and Indiana CPA Societies, the American Institute of Certified Public Accountants, Government Finance Officers Association, American Waterworks Association, the National Association of School Business Officers, American Public Power Association and the Water Environment Federation. He has served as an expert witness before the State Tax Board, the Indiana Utility Regulatory Commission and local public hearings regarding utility rate making and tax-exempt financing. He is a graduate of the University of Notre Dame. Julien joined Umbaugh in 1981 and is based in the Plymouth office.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -151,7 +151,7 @@
 									<p>He is a frequent speaker concerning municipal finance and utility rates before various trade groups and often serves as an expert witness on behalf of clients.</p>
 									<p>He is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society and the American Water Works Association, among other professional groups. In addition, he currently serves on Indiana Association of Cities and Town's board of directors and is an officer in the Indiana Section American Water Works Association.</p>
 									<p>Seever graduated from Indiana University - Bloomington. He joined Umbaugh in 1982 and is based in Indianapolis.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -176,7 +176,7 @@
 									<p>Colette Irwin-Knott works with schools, cities, towns, counties and libraries in providing capital budgeting and financial advisory services for municipal bond financings. She has provided expert testimony at State hearings and participated in state and national conferences as a guest speaker and panelist for numerous municipal finance programs.</p>
 									<p>Irwin-Knott is a Certified Independent Public Finance Advisor (CIPFA) and is president of the National Association of Independent Public Finance Advisors (NAIPFA). She serves on the board of directors for Valparaiso University, is a member of the Government Finance Officers Association and was named by the Indianapolis Business Journal as a "Woman in the Lead" for financial services.  </p>
 									<p>Irwin-Knott joined Umbaugh in 1981 after graduating from Valparaiso University with a degree in business administration. She is based in Umbaugh's Indianapolis office.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -201,7 +201,7 @@
 									<p>Samuelson worked with White County, Indiana on an alternative energy economic development project which will become the largest wind farm development in Indiana.  In addition he has worked on economic development packages in Whitley County, Indiana for Steel Dynamics; a county corrections complex and strategic planning for Elkhart County, Indiana; and bond issues for major facility improvements for the Allen County Public Library in Fort Wayne, Indiana.</p>
 									<p>Samuelson has provided expert testimony at local and state public hearings on capital projects, tax increment financing (TIF), property and income tax matters and issuance of tax-exempt bonds.  He also has been a speaker on numerous occasions for the Indiana Association of Cities and Towns (IACT), the Association of Indiana Counties, the Indiana Association of County Commissioners (IACC), the Indiana Library Federation, the Michigan Library Federation, the Michigan School Business Officials and the Indiana League of Municipal Clerk Treasurers.  </p>
 									<p>Samuelson is a member of the Indiana, Michigan and Illinois CPA Societies and the American Institute of Certified Public Accountants.  A 1987 graduate of DePauw University, Samuelson was a senior accountant and financial advisor with Arthur Andersen &amp; Company in Chicago before joining Umbaugh in 1989.  He is based in Umbaugh's Plymouth office.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -225,7 +225,7 @@
 		                        <h4>Experience</h4>
 									<p>Curt W. Pletcher works with schools, cities, towns, counties and libraries, providing financial advisory services for financings and refinancing opportunities as well as providing other client accounting and financial services. Pletcher has over 25 years of financial and accounting management experience in the public and private sectors.  </p>
 									<p>Pletcher, a graduate of Indiana University, joined Umbaugh in 2000.  He is a member of the Indiana CPA Society and the American Institute of Certified Public Accountants. He also serves as a member of the John Glenn School Corporation Board of Trustees.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -251,7 +251,7 @@
                                     <p>He often speaks on utility rates and financing topics for the Indiana Section of the American Water Works Association, the Indiana Rural Water Association, the Alliance of Indiana Rural Water, the Indiana Association of Sewer Companies, the Indiana Water Environment Association and the Indiana Association of Cities and Towns. </p>
                                     <p>In addition, Miller frequently serves as an expert accounting witness before the Indiana Utility Regulatory Commission on behalf of clients in connection with improvement projects, bond issues and rate increases.</p>
                                     <p>A graduate of the Kelley School of Business at Indiana University in Bloomington, Indiana, Miller is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society, the Indiana Water Environment Association and the American Water Works Association.  He has been with Umbaugh since 1995 and is based in the Indianapolis office.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -278,7 +278,7 @@
                                     <p>Prior to joining Umbaugh in 1990, Matthes worked for a national public financial advisory firm and was an economic development specialist for the City of South Bend. </p>
                                     <p>Matthes has served as a guest speaker for the Indiana Association of Cities and Towns, the Indiana County Auditors' Association, the Indiana Economic Development Association, the Indiana Municipal Lawyers Association and the Ball State University - Center for Economic and Community Development.  She has served on the board of directors of the Indiana Economic Development Association (IEDA) and on the IEDA Legislative Committee.</p>
                                     <p>Matthes is a Certified Independent Public Finance Advisor (CIPFA), graduated with honors from the University of Notre Dame and is based in Umbaugh's Indianapolis office.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -304,7 +304,7 @@
 									<p>Michael C. Givler manages the Michigan team in Umbaugh's Lansing office.  Givler serves as the financial advisor/project manager and the main contact for most of Umbaugh's Michigan bond issues. He also serves as manager for Michigan School Investment Association and provides investment, banking, cash flow and borrowing consulting services to the Association's members. He has more than 30 years of experience in business finance, industrial development bonding and in financing for schools, municipalities and utilities and joined Umbaugh in 2001. </p>
 									<p>Givler is a member of the Michigan Association of CPA's, the Indiana CPA Society and the American Institute of Certified Public Accountants and is an affiliate member of Michigan School Business Officials and Michigan Association of School Administrators. He has made presentations for the Michigan Association of School Administrators, Michigan School Business Officials, the Michigan Library Association and regional school business officials' organizations.</p>
 									<p>He is a graduate of Purdue University with a degree in industrial management (economics) and earned a M.S. degree from Northern Illinois University.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -330,7 +330,7 @@
                                     <p>Hedden joined Umbaugh in 1996 and became a principal in the Accounting Services Group in 2007.  </p>
                                     <p>He served in the United States Army and the Indiana Army National Guard and is a graduate of Indiana University-Purdue University in Indianapolis with degrees in accounting and finance. He has completed professional courses sponsored by the American Institute of Certified Public Accountants, the Indiana CPA Society and other professional organizations. Hedden is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society, the Association of Government Accountants and the American Water Works Association.</p>
                                     <p>Hedden lives in Fortville and is based in Umbaugh's Indianapolis office.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->                  
@@ -355,7 +355,7 @@
                                     <p>Stephen M. Carter works on utility rate cases and has provided various financial advisory services for water, sewage and electric utilities, including the preparation of cost-of-service studies. He provides financial advisory services for various governmental entities regarding issuance of tax-exempt securities for the financing of construction projects and the refinancing of outstanding debt. Based in the Indianapolis office, Carter has worked with Winamac, Culver, Monterey, Knox, Bass Lake Conservancy District, St. Joseph County Regional Sewer District, Elkhart County Regional Sewer District and other conservancy districts and regional sewer districts in Indiana. </p>
                                     <p>Before joining Umbaugh in 1996, Carter worked for the State of Indiana as a field examiner for the Indiana State Board of Accounts and controller and administrative services director for the Indiana State Emergency Management Agency and Department of Fire and Building Services.</p>
                                     <p>Carter is a member of the Indiana CPA Society, the American Institute of Certified Public Accountants, the American Waterworks Association and American Public Power Association. Carter is a graduate of the University of Indianapolis with a degree in accounting.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -381,7 +381,7 @@
                                 <p>He has served as an expert accounting witness before the Indiana Utility Regulatory Commission on behalf of clients in connection with improvement projects, bond issues, and rate increases. He has been a guest speaker for various professional organizations.</p>
                                 <p>Baldessari has been with Umbaugh since 2000 and is based in the Indianapolis office.  He is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society and the American Water Works Association.</p>
                                 <p>Baldessari received his Masters of Professional Accountancy from Indiana University and is a graduate of the University of Connecticut with a degree in business with a concentration in finance.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -410,7 +410,7 @@
                                     </ul>
 									<p>Colton has been a guest lecturer on local government finance topics for the School of Public and Environmental Affairs at Indiana University - Bloomington, on local government funding for the Association of Indiana Counties and on public-private partnerships for the Indiana Association of Cities and Towns Municipal Management Institute.</p>
 									<p>Colton joined Umbaugh in 1997. He has a degree in economics and political science from the University of Iowa and a Master's of Public Affairs with concentrations in public financial management and policy analysis from the School of Public and Environmental Affairs at Indiana University. He is also a Certified Independent Public Finance Advisor (CIPFA).  Colton is based in Umbaugh's Indianapolis office and lives in Carmel.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -435,7 +435,7 @@
 									<p>Semler has been involved in numerous governmental projects, including projects financed by bonds secured by ad valorem taxes, income taxes and food and beverage taxes. He has also assisted communities with their capital project planning efforts and analyzed the estimated impacts that recent and proposed property tax regulations could have on various clients throughout Indiana.</p>
 									<p>He is a member of the Indiana CPA Society and the Indiana Economic Development Association.</p>
 									<p>Semler is a graduate of Ball State University with a degree in finance with concentrations in corporate financial management and financial planning.  He joined Umbaugh in 1999. A resident of Noblesville, Semler is based in the Indianapolis office.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -459,7 +459,7 @@
 									<p>Paige E. Gregory's professional engagements include financial studies for municipalities that often determine the impact of levies, tax rates and assessed values based on changing local or legislative initiatives. In addition, she assists numerous taxing units with budget preparation and capital planning.  She has been a guest speaker for many municipal and county events, such as the Newly Elected Official Training sponsored by IACT, the IMLCT Clerk's Institute, and the County Commissioners Conference. She is also a featured instructor of the IACT-sponsored Municipal Management Institute.</p>
 									<p>Prior to joining Umbaugh in 2003, Gregory was the assistant budget director for the Indiana Department of Local Government Finance (DLGF). Her primary focus at DLGF was local government budgeting and she was a voting member of the Local Government Tax Control Board. Before working for the DLGF, Gregory was the administrative manager for the Seymour District of the Indiana Department of Transportation (INDOT). </p>
 									<p>Gregory is a graduate of Indiana University with a degree in finance and a Masters of Professional Accountancy.  Gregory lives in Indianapolis and is based in Umbaugh's Indianapolis office.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -483,7 +483,7 @@
                                     <p>Immediately prior to joining Umbaugh in 2008, Clifford served as the controller for the City of Indianapolis where he managed budgeting, financial reporting, purchasing and licensing. While controller, he served on the Marion County Criminal Justice Planning Council working with the courts, prosecutor, police, the public defender, clerk, sheriff and council members to eliminate the earlier release of inmates from the Marion County Jail.</p>
                                     <p>Clifford also spent five years as the director of the Indianapolis Local Public Improvement Bond Bank where he was responsible for financing redevelopment, economic development and other capital projects. He has also served as vice president of finance at Indiana Municipal Power Agency and executive assistant for government efficiency to Indiana Governor Evan Bayh and worked with a national public accounting firm specializing in utility matters.</p>
                                     <p>Based in the Umbaugh Indianapolis office, Clifford has been a guest speaker and panelist for numerous programs for the Indiana Association of Cities and Towns, Indiana University-Purdue University Indianapolis, The Greater Indianapolis Chamber of Commerce, American Public Power, American Water Works Association and the Midwest Bond Buyer Conference. He is a graduate of Indiana University where he also earned an MBA.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
@@ -511,7 +511,7 @@
                                     <p>Messer is also responsible for the many services provided by the Michigan School Investment Association.  </p>
                                     <p>He writes weekly commentary for the Michigan School Investment Association's Weekly Market Review and is often called upon to give presentations at various association conferences in Michigan and Indiana on investment-related topics.  </p>
 									<p>He is a graduate of Indiana University.</p>
-							  <a href="#">Read Less</a> &raquo;
+							  <a href="#">Back to top</a>
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->    

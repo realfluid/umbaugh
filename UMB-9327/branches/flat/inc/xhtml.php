@@ -11,4 +11,6 @@
 		<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/styles/screen_ie7.css"><![endif]-->
 		<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/styles/screen_ie8.css"><![endif]-->
 	    <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+	<script type="text/javascript" src="/scripts/mootools.js"></script>
+	<script type="text/javascript" src="/scripts/demo.js"></script>
 	</head>

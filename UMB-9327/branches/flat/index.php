@@ -3,11 +3,11 @@
 	$title = '';
 ?>
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/xhtml.php' ); ?>
+
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php' ); ?>
 
 	<div class="home-content">
 		<div class="banner">
-
 			<ul class="tab-content">
 				<li id="tab1" class="active">
 					<h2>It's all about experience</h2>
@@ -51,8 +51,7 @@
 					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
 			</ul>
-
-		</div>
+		</div><!-- end DIV .banner -->
 
 		<div class="banner-tab-labels">
 			<ul>
@@ -63,10 +62,10 @@
 				<li><a href="#tab5" class="banner-tab-label">Schools</a></li>
 				<li><a href="#tab6" class="banner-tab-label">Libraries</a></li>
 			</ul>
-		</div>
+		</div><!-- end DIV .banner-tab-labels -->
 
-		<div class="content"><div>
-
+		<div class="content">
+        	<div>
 			<div class="three-columns">
 				<div class="column-one column">
 					<h2>Our Library</h2>
@@ -103,8 +102,7 @@
 					<p class="links"><a href="/news/">Read more »</a></p>
 				</div>
 			</div>
-
-		</div>
+		</div><!-- end DIV .content -->
 	</div>
     </div>
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/footer.php' ); ?>
