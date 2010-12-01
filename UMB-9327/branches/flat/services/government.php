@@ -11,12 +11,10 @@
 			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
 				<div id="callout">
                 	<h2>Our Experience</h2>
-					<p>Aenean non enim vestibulum mauris cursus venenatis a vel nulla! Quisque adipiscing arcu vitae ligula viverra molestie. Aliquam urna justo; ullamcorper non fermentum ut, elementum eu purus. Donec rutrum fermentum dui, nec tincidunt diam elementum a.</p>
+					<p>Excerpt from a case study relating to Local Government project should go here</p>
 					<a href="our-experience.php">Read More &raquo; </a>
 	            </div>
-			
-               	<p>Aenean non enim vestibulum mauris cursus venenatis a vel nulla! Quisque adipiscing arcu vitae ligula viverra molestie. Aliquam urna justo; ullamcorper non fermentum ut, elementum eu purus. Donec rutrum fermentum dui, nec tincidunt diam elementum a. Quisque vehicula porta leo in varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
+				<p>Operating a local governmental unit always has challenges and opportunities. You may be looking for new efficiencies, projecting changes in tax revenue, finding new revenue sources, working on long-range planning, funding buildings and improvements, or structuring the most advantageous economic development package.  Our years of experience in helping others in similar situations make us uniquely qualified to help you today -- and with tomorrow's challenges.</p>
 				<div id="services-table">
 					<h2>Our Services for Local Government:</h2>
                     <p><strong>Financial Management</strong> - No one who works in local government would say that financial management is "simple."   Your constituents never think about how time consuming your day-to-day tasks are.  Umbaugh can help you with:</p>
@@ -92,33 +90,21 @@
 					<h3>Representative Projects</h3>
 					<p>UMBAUGH has completed hundreds of bond issues ranging from $250,000 to $250 million.</p>
         	        <ul class="left">
-                        <li>Allen Park Public Schools, Allen Park, MI</li>
-                        <li>Bay City Public Schools, Bay City, MI</li>
-                        <li>Brighton Area Schools, Brighton, MI</li>
-                        <li>Carrollton Public School, Carrollton, MI</li>
-                        <li>Cass City Public Schools, Cass City, MI</li>
-                        <li>Concord Community Schools, Elkhart, IN</li>
-                        <li>Duneland School Corporation, Chesterton, IN</li>
-                        <li>Greenfield - Central Community Schools, Greenfield, IN</li>
-                        <li>Indianapolis Public Schools, Indianapolis, IN</li>
-                        <li>Kalamazoo Regional Educational Services Agency (RESA), Kalamazoo, MI</li>
-                        <li>Kent ISD (regional educational service agency), Grand Rapids, MI</li>
-                        <li>Michigan Schools Investment Association (MSIA), Lansing, MI</li>
-                        <li>Milan Community Schools, Milan, IN</li>
+                        <li>City of Greensburg, IN</li>
+                        <li>City of Mishawaka, IN</li>
+                        <li>City of Plymouth, IN</li>
+                        <li>City of South Bend, IN</li>
+                        <li>Elkhart County, IN</li>
+                        <li>Jasper County, IN</li>
+                        <li>Kosciusko County, IN</li>
 	                </ul>
 					<ul class="right">
-                        <li>North Gibson School Corporation, Princeton, IN  </li>
-                        <li>Otsego Public Schools, Otsego, MI</li>
-                        <li>Oxford Community Schools, Oxford, MI</li>
-                        <li>Paw Paw Public Schools, Paw Paw, MI</li>
-                        <li>Portage Public Schools, Portage, MI</li>
-                        <li>Rochester Community Schools, Rochester, MI</li>
-                        <li>South Gibson School Corporation, Fort Branch, IN</li>
-                        <li>St. Johns Public Schools, St. Johns, MI</li>
-                        <li>Tell City - Troy Township School Corporation, Tell City, IN</li>
-                        <li>Valparaiso Community Schools, Valparaiso, IN</li>
-                        <li>Vincennes Community School Corporation, Vincennes, IN</li>
-                        <li>Warrick County School Corporation, Boonville, IN</li>
+                        <li>Marshall County, IN</li>
+                        <li>Ovid Township, MI</li>
+                        <li>Starke County, IN</li>
+                        <li>Wayne County, IN</li>
+                        <li>White County, IN</li>
+                        <li>Whitley County, IN</li>
 					</ul>				
 				</div>
 
