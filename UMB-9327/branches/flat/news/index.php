@@ -19,6 +19,8 @@
 
 				<div class="news-story">
 					<h2><a href="august_2010.php">August 2010 Newsletter</a></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sapien libero, euismod non suscipit vel, tincidunt ac lorem. Quisque lorem tortor, lacinia sed placerat eu, ullamcorper non mauris. Donec lorem sapien, volutpat sit amet imperdiet nec, malesuada ac justo. Integer quis ipsum vel mauris elementum scelerisque.</p>
+
 				</div>
                 
 			<div id="news-nav" class="pxBuffer">
@@ -46,8 +48,11 @@
                 <div class="resources">
 					<h2>Newsletter Sign-Up</h2>
 					<p>Nam rutrum lectus quis nunc sagittis eu vulputate quam tincidunt. Ut accumsan tincidunt libero sed blandit.</p>
-						<form action="" class="newsletter">
-							<p><input type="text"> <input type="submit" value="Submit" class="submit"></p>
+						<form action="http://quinlanux.createsend.com/t/r/s/niidir/" method="post" id="subForm">
+							<div>
+								<label for="niidir-niidir">Email:</label><br /><input type="text" name="cm-niidir-niidir" id="niidir-niidir" /><br />
+								<input type="submit" value="Subscribe" />
+							</div>
 						</form>
 				</div><!-- end DIV #resources -->
                 

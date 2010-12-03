@@ -3,7 +3,7 @@
 	<h2>Categories</h2>
 		<ul>
            	<li><a href="/news/category/">Whats New</a></li>
-            <li><a href="/news/category/">Articles</a></li>
+            <li><a href="/services/our-experience.php">Articles</a></li>
             <li><a href="/news/category/">Newsletters</a></li>
        </ul>
 </div><!-- end DIV #resources -->
