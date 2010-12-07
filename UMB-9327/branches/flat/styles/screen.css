@@ -113,7 +113,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 #mainColumn { width:657px; float:left; clear:left; padding-left:11px; }
 #mainColumn p{ color:#444; font-size:14px; width:370px;}
 #mainColumn h2{ font-size:18px; margin:0;}
-#mainColumn ul li {color:#444; font-size:14px; }
+#mainColumn ul li {color:#444; font-size:12px; }
 #mainColumn #callout{ background-color:#e4ece8; width:232px; padding:13px 17px 20px 19px; margin: 3px 0 10px 20px; clear:both; float:right; min-height:164px;}
 #mainColumn #callout img{ margin: 8px 0 0 0; padding:0px; }
 #mainColumn #callout h2{ margin: 0;}
@@ -270,14 +270,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 #services-table h2 { color:#3b5b71; margin:0px; font-weight:bold; }
 #services-table p { margin-top:20px; font-size:12px; float:left; width:100% !important; }
 #services-table ul { color:#3b5b71; font-size:12px; margin:0 2px 0 17px;}
-#services-table ul li{ width:270px; padding-bottom:6px;}
-
-/*services - schools*/
-#schools-table { background:url("../images/table-yellow-bg.png") top left repeat-x; background-color:#faf6ed; width:630px; float:left; padding:12px 10px 0 10px; margin-top:15px;}
-#schools-table h2 { color:#444; margin:0px; font-weight:bold; margin-left:7px }
-#schools-table p { margin-top:20px; font-size:12px; float:left; width:100% !important; }
-#schools-table ul { color:#444; font-size:12px; margin:20px 0 0 0;}
-#schools-table ul li{ width:270px; padding-bottom:6px;}
+#services-table ul li{ width:270px; padding-bottom:6px; font-size: 12px; }
 
 /*services - schools*/
 #mainColumn #our-library { margin-top:-19px; }

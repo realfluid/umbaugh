@@ -58,7 +58,7 @@
                     <div class="professional" id="gmalone">
 						<img src="../images/gmalone.png" width="100" height="130" />
 	                        <div class="bio-info">
-                       	    <h3><strong>Gerald G. Malone</strong> CPA</h3>  
+                       	    <h3><strong>Gerald G. Malone</strong>, CPA</h3>  
     	                	    <span class="professional-role">Executive Partner, Indianapolis</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -82,7 +82,7 @@
                     <div class="professional" id="dfrederick">
 						<img src="../images/dfrederick.png" width="100" height="130" />
 	                        <div class="bio-info">
-                        	  <h3><strong>David C. Frederick</strong> CPA</h3>  
+                        	  <h3><strong>David C. Frederick</strong>, CPA</h3>  
     	                	    <span class="professional-role">Partner, Indianapolis</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -108,7 +108,7 @@
                     <div class="professional" id="jjulien">
 						<img src="../images/jjulien.png" width="100" height="130" />
 	                        <div class="bio-info">
-                        	  <h3><strong>John D. Julien</strong> CPA</h3>  
+                        	  <h3><strong>John D. Julien</strong>, CPA</h3>  
     	                	    <span class="professional-role">Partner, Plymouth IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -133,7 +133,7 @@
 			<div class="professional" id="jseever">
 			<img src="../images/jseever.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>John M. Seever</strong> CPA</h3>  
+                   	  <h3><strong>John M. Seever</strong>, CPA</h3>  
 						<span class="professional-role">Partner, Indianapolis, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -159,7 +159,7 @@
 			<div class="professional" id="cirwin-knott">
 			<img src="../images/cknott.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Colette J. Irwin-Knott</strong> CPA</h3>  
+                   	  <h3><strong>Colette J. Irwin-Knott</strong>, CPA</h3>  
 						<span class="professional-role">Partner, Indianapolis, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -184,7 +184,7 @@
 			<div class="professional" id="tsamuelson">
 			<img src="../images/tsamuelson.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Todd A. Samuelson</strong> CPA</h3>  
+                   	  <h3><strong>Todd A. Samuelson</strong>, CPA</h3>  
 						<span class="professional-role">Partner, Plymouth, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -209,7 +209,7 @@
 			<div class="professional" id="cpletcher">
 			<img src="../images/cpletcher.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Curt W. Pletcher</strong> CPA</h3>
+                   	  <h3><strong>Curt W. Pletcher</strong>, CPA</h3>
 						<span class="professional-role">Partner, Plymouth, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -233,7 +233,7 @@
 			<div class="professional" id="smiller">
 			<img src="../images/smiller.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Scott A. Miller</strong> CPA</h3>  
+                   	  <h3><strong>Scott A. Miller</strong>, CPA</h3>  
 						<span class="professional-role">Partner, Indianapolis, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -259,7 +259,7 @@
 			<div class="professional" id="lmatthes">
 			<img src="../images/lmatthes.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Loren M. Matthes</strong> CPA</h3>  
+                   	  <h3><strong>Loren M. Matthes</strong>, CPA</h3>  
 						<span class="professional-role">Principal, Indianapolis, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -287,7 +287,7 @@
 			<div class="professional" id="mgivler">
 			<img src="../images/mgivler.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Michael C. Givler</strong> CPA</h3>  
+                   	  <h3><strong>Michael C. Givler</strong>, CPA</h3>  
 						<span class="professional-role">Principal, Lansing, MI</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -312,7 +312,7 @@
 			<div class="professional" id="dhedden">
 			<img src="../images/dhedden.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Daniel A. Hedden</strong> CPA</h3>  
+                   	  <h3><strong>Daniel A. Hedden</strong>, CPA</h3>  
 						<span class="professional-role">Principal, Indianapolis, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -338,8 +338,8 @@
 			<div class="professional" id="scarter">
 			<img src="../images/scarter.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Stephen M. Carter</strong> CPA</h3>  
-						<span class="professional-role">Manager, Plymouth, IN</span>
+                   	  <h3><strong>Stephen M. Carter</strong>, CPA</h3>  
+						<span class="professional-role">Principal, Plymouth, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
                                         <h4>Contact Information</h4>
@@ -363,7 +363,7 @@
 			<div class="professional" id="dbaldessari">
 			<img src="../images/dbaldessari.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Doug Baldessari</strong> CPA</h3>  
+                   	  <h3><strong>Doug Baldessari</strong>, CPA</h3>  
 						<span class="professional-role">Principal, Indianapolis, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -389,7 +389,7 @@
 			<div class="professional" id="bcolton">
 			<img src="../images/bcolton.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Brian C. Colton</strong> CPA</h3>  
+                   	  <h3><strong>Brian C. Colton</strong>, CPA</h3>  
 						<span class="professional-role">Principal, Indianapolis, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
@@ -440,34 +440,11 @@
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
                   
-			<div class="professional" id="pgregory">
-			<img src="../images/pgregory.png" width="100" height="130" />
-				<div class="bio-info">
-                   	  <h3><strong>Paige E. Gregory</strong> CPA</h3>  
-						<span class="professional-role">Manager, Indianapolis, IN</span>
-								<div class="two-col">
-                                    <div class="contact-info">
-                                        <h4>Contact Information</h4>
-                                        <ul>
-                                            <li>(317) 465-1521</li>
-                                            <li><a href="mailto:gregory@umbaugh.com">gregory@umbaugh.com</a></li>
-                                            <li>Download <a href="#">Vcard</a></li>
-                                        </ul>
-                                    </div>
-								</div><!-- end DIV .two-col -->
-		                        <h4>Experience</h4>
-									<p>Paige E. Gregory's professional engagements include financial studies for municipalities that often determine the impact of levies, tax rates and assessed values based on changing local or legislative initiatives. In addition, she assists numerous taxing units with budget preparation and capital planning.  She has been a guest speaker for many municipal and county events, such as the Newly Elected Official Training sponsored by IACT, the IMLCT Clerk's Institute, and the County Commissioners Conference. She is also a featured instructor of the IACT-sponsored Municipal Management Institute.</p>
-									<p>Prior to joining Umbaugh in 2003, Gregory was the assistant budget director for the Indiana Department of Local Government Finance (DLGF). Her primary focus at DLGF was local government budgeting and she was a voting member of the Local Government Tax Control Board. Before working for the DLGF, Gregory was the administrative manager for the Seymour District of the Indiana Department of Transportation (INDOT). </p>
-									<p>Gregory is a graduate of Indiana University with a degree in finance and a Masters of Professional Accountancy.  Gregory lives in Indianapolis and is based in Umbaugh's Indianapolis office.</p>
-							  <a href="#">Back to top</a>
-                   	  </div><!-- end DIV .bio-info -->
-							<div class="dashed"></div>
-               	  </div><!-- end DIV professional -->
 			<div class="professional" id="rclifford">
 			<img src="../images/rclifford.png" width="100" height="130" />
 				<div class="bio-info">
-                   	  <h3><strong>Robert J. Clifford</strong> CPA</h3>  
-						<span class="professional-role">Senior Associate, Indianapolis, IN</span>
+                   	  <h3><strong>Robert J. Clifford</strong>, CPA</h3>  
+						<span class="professional-role">Principal (effective 2011), Indianapolis, IN</span>
 								<div class="two-col">
                                     <div class="contact-info">
                                         <h4>Contact Information</h4>
@@ -487,6 +464,31 @@
                    	  </div><!-- end DIV .bio-info -->
 							<div class="dashed"></div>
                	  </div><!-- end DIV professional -->
+                  
+			<div class="professional" id="pgregory">
+			<img src="../images/pgregory.png" width="100" height="130" />
+				<div class="bio-info">
+                   	  <h3><strong>Paige E. Gregory</strong>, CPA</h3>  
+						<span class="professional-role">Manager, Indianapolis, IN</span>
+								<div class="two-col">
+                                    <div class="contact-info">
+                                        <h4>Contact Information</h4>
+                                        <ul>
+                                            <li>(317) 465-1521</li>
+                                            <li><a href="mailto:gregory@umbaugh.com">gregory@umbaugh.com</a></li>
+                                            <li>Download <a href="#">Vcard</a></li>
+                                        </ul>
+                                    </div>
+								</div><!-- end DIV .two-col -->
+		                        <h4>Experience</h4>
+									<p>Paige E. Gregory's professional engagements include financial studies for municipalities that often determine the impact of levies, tax rates and assessed values based on changing local or legislative initiatives. In addition, she assists numerous taxing units with budget preparation and capital planning.  She has been a guest speaker for many municipal and county events, such as the Newly Elected Official Training sponsored by IACT, the IMLCT Clerk's Institute, and the County Commissioners Conference. She is also a featured instructor of the IACT-sponsored Municipal Management Institute.</p>
+									<p>Prior to joining Umbaugh in 2003, Gregory was the assistant budget director for the Indiana Department of Local Government Finance (DLGF). Her primary focus at DLGF was local government budgeting and she was a voting member of the Local Government Tax Control Board. Before working for the DLGF, Gregory was the administrative manager for the Seymour District of the Indiana Department of Transportation (INDOT). </p>
+									<p>Gregory is a graduate of Indiana University with a degree in finance and a Masters of Professional Accountancy.  Gregory lives in Indianapolis and is based in Umbaugh's Indianapolis office.</p>
+							  <a href="#">Back to top</a>
+                   	  </div><!-- end DIV .bio-info -->
+							<div class="dashed"></div>
+               	  </div><!-- end DIV professional -->
+
                   
                   
 			<div class="professional" id="jmesser">

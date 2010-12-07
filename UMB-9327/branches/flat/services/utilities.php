@@ -18,7 +18,7 @@
 					
                     
 				<div id="services-table">
-					<h2>Our services for Utilities</h2>
+					<h2>Our Services for Utilities</h2>
 					<p>If only it were as simple as turning on a faucet and letting an endless supply of resources flow to customers. But your job as the utility owner gets more difficult every day. Constantly increasing quality standards, new federal mandates and regulatory compliance are just the beginning. When times are good, you must plan ahead to serve more customers to support economic development.  But when customers are closing their doors, you must reduce operations and budgets - and balance good service with rates your customers can afford. </p>
 					<p>Financial management &ndash; UMBAUGH can make your day-to-day financial management easier with:</p>
                     <ul>

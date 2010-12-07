@@ -86,11 +86,11 @@
 				<div class="column-two column">
 					<h2>Our Experience</h2>
 					<ul>
-						<li><p><a href="/PDF/A_Financial_Road_Map_for_Wayne_County.pdf">A Financial Road Map for Wayne County</a></p></li>
-						<li><p><a href="/PDF/Mishawaka_Sewage_Works.pdf">Mishawaka Sewage Works</a></p></li>
-						<li><p><a href="/PDF/Winning_A_Honda_Plant_For_Decatur_County.pdf">Winning A Honda Plant For Decatur County</a></p></li>
-						<li><p><a href="/PDF/Umbaugh_advises_Indianapolis_Public_Schools.pdf">Umbaugh advises Indianapolis Public Schools on Indiana's largest school construction program</a>                        </p></li>
-						<li><p><a href="/PDF/Allen_County_Public_Library.pdf">Allen County Public Library</a></p></li>
+						<li><p><a href="/services/our-experience/financial-road-map-for-wayne-co.php">A Financial Road Map for Wayne County</a></p></li>
+						<li><p><a href="/services/our-experience/mishawaka-sewage-works.php">Mishawaka Sewage Works</a></p></li>
+						<li><p><a href="/services/our-experience/winning-a-honda-plant-for-decatur-county.php">Winning A Honda Plant For Decatur County</a></p></li>
+						<li><p><a href="/services/our-experience/umbaugh-advises-indianapolis-public-schools-on-indianas-largest-school-construction-program.php">Umbaugh advises Indianapolis Public Schools on Indiana's largest school construction program</a>                        </p></li>
+						<li><p><a href="/services/our-experience/allen-county-public-library-renovation-and-expansion.php">Allen County Public Library</a></p></li>
 					</ul>
 					<p class="links"><a href="/services/our-experience.php">More »</a></p>
 				</div>

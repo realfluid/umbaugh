@@ -18,8 +18,8 @@
 				<p>At UMBAUGH, we don't represent both sides of the table. We represent you as a school district. Our independence from the bond underwriting assures you of the greatest objectivity in analyzing, determining and planning - whether that's for capital improvements or operatiing funds.  </p>
 				<p>We quickly respond to your needs. At public hearings, we calmly, accurately and professionally answer all the financial questions your constituents - and your board - will have.</p>
 
-				<div id="schools-table">
-					<h2>Our Services for Schools:</h2>
+				<div id="services-table">
+					<h2>Our Services for Schools</h2>
 					<p>Financial Management - As a school superintendent or business manager, you create and manage a budget so complex it could perplex a Fortune 500 CEO. Every day, you deal with multiple funding streams from federal, state and local governments, grants and other revenue â€" each with its own set of reporting requirements. Let UMBAUGH ease the strain with:</p>
                         <ul class="left">
                             <li>Accounting Systems Design, Implementation and Training</li>

@@ -18,7 +18,7 @@
 					<p>With most local governments' tax revenues decreasing, economic development is the key to growing your tax base. But it's not wise to say yes to every economic development opportunity that comes your way. You need to run the numbers, consider alternatives and make informed decisions about what's right for your community to avoid overburdening your existing taxpayers or putting your investment at risk. UMBAUGH helps communities evaluate and structure economic development packages to produce long-term financial gain - not pain, using tax increment financing, tax abatement and the right balance of a variety of economic development tools.</p>
 					<p>UMBAUGH's economic development services continue long after the deal is done. We provide accurate financial data and reporting so you can make informed decisions about releasing tax revenue and leveraging your investment to generate additional development.</p>
 
-				<div id="schools-table">
+				<div id="services-table">
 					<h2>Our Services for Economic Development</h2>
                     <p>Attracting and Retaining Businesses - Your job boils down to this: How do I attract new business to our area? And how do I keep existing businesses satisfied and economically healthy? The financial package may make the live-or-die difference between businesses choosing your site or someplace else. At the same time, you have this gnawing fear about giving away too much. UMBAUGH can help you make good decisions with:</p>
 					<ul>

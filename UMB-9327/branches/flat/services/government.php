@@ -16,7 +16,7 @@
 	            </div>
 				<p>Operating a local governmental unit always has challenges and opportunities. You may be looking for new efficiencies, projecting changes in tax revenue, finding new revenue sources, working on long-range planning, funding buildings and improvements, or structuring the most advantageous economic development package.  Our years of experience in helping others in similar situations make us uniquely qualified to help you today -- and with tomorrow's challenges.</p>
 				<div id="services-table">
-					<h2>Our Services for Local Government:</h2>
+					<h2>Our Services for Local Government</h2>
                     <p><strong>Financial Management</strong> - No one who works in local government would say that financial management is "simple."   Your constituents never think about how time consuming your day-to-day tasks are.  Umbaugh can help you with:</p>
                         <ul class="left">
                             <li>Audit Preparation</li>
