@@ -10,9 +10,9 @@
 			<h1>Economic Development</h1>
 			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
 				<div id="callout">
-                	<h2>Title Here</h2>
+                	<h2>Our Experience</h2>
 					<p>Decatur County, Indiana, had the opportunity of a lifetime in 2006. All they had to do was present the winning case for why their area was the most advantageous location for a new Honda Motors automobile assembly plant. And like most economic development projects, responding quickly was essential to stay in the running.</p>
-                    <a href="/services/our-experience/winning-a-honda-plant-for-decatur-county.php">Read More</a>
+                    <a href="/services/our-experience/winning-a-honda-plant-for-decatur-county.php">Read More &raquo;</a>
 	            </div>
 					<p>Quick deadlines? We're used to them at UMBAUGH. In the world of economic development, quickly having the right response makes the difference between securing economic development for your area and watching it go elsewhere.</p>
 					<p>With most local governments' tax revenues decreasing, economic development is the key to growing your tax base. But it's not wise to say yes to every economic development opportunity that comes your way. You need to run the numbers, consider alternatives and make informed decisions about what's right for your community to avoid overburdening your existing taxpayers or putting your investment at risk. UMBAUGH helps communities evaluate and structure economic development packages to produce long-term financial gain - not pain, using tax increment financing, tax abatement and the right balance of a variety of economic development tools.</p>

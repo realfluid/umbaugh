@@ -26,8 +26,8 @@
 
 				<div id="testimonial">
 					<h2>Testimonial</h2>
-    	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet orci odio, vitae commodo lorem. Phasellus vitae felis leo, ac tincidunt odio.</p>
-        	            <span id="author">FirstName</span>
+						<p>Umbaugh worked with us on the whole financial analysis and provided good material to discuss with the community.  They made a great presentation when we made our report to the library board.</p>
+        	            <span id="author">Jeffery R. Krull<br />Library Director<br />Allen County Public Library</span>
 				</div><!-- end DIV #testimonial -->
 			</div><!-- end DIV #sideColumn -->
 		</div><!-- end div .interior-content -->

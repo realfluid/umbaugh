@@ -30,8 +30,8 @@
 
 				<div id="testimonial">
 					<h2>Testimonial</h2>
-    	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet orci odio, vitae commodo lorem. Phasellus vitae felis leo, ac tincidunt odio.</p>
-        	            <span id="author">FirstName</span>
+    	                <p>Umbaugh put the numbers together.  They let us know what was and wasn't going to work, what pieces were missing, what we needed and when we needed it.</p>
+        	            <span id="author">Jerome Buening<br />Decatur County Commissioner<br />(Regarding Decatur County's economic development package for Honda)</span>
 				</div><!-- end DIV #testimonial -->
 			</div><!-- end DIV #sideColumn -->
 		</div><!-- end div .interior-content -->

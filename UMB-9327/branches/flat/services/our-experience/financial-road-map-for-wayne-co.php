@@ -30,8 +30,8 @@
 
 				<div id="testimonial">
 					<h2>Testimonial</h2>
-    	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet orci odio, vitae commodo lorem. Phasellus vitae felis leo, ac tincidunt odio.</p>
-        	            <span id="author">FirstName</span>
+    	                <p>The people at Umbaugh are wonderful to work with.  They come to meetings and make presentations to public.  They even make suggestions about how they can help you effectively communicate the financial picture.</p>
+        	            <span id="author">Ken Paust,<br /> County Commissioner,<br /> Wayne County, Indiana</span>
 				</div><!-- end DIV #testimonial -->
 			</div><!-- end DIV #sideColumn -->
 		</div><!-- end div .interior-content -->

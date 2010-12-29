@@ -32,8 +32,8 @@
 
 				<div id="testimonial">
 					<h2>Testimonial</h2>
-    	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet orci odio, vitae commodo lorem. Phasellus vitae felis leo, ac tincidunt odio.</p>
-        	            <span id="author">FirstName</span>
+    	                <p>With Umbaugh's help we have kept our promises to taxpayers about tax rates and budgets. Because of sound financial management and favorable interest rates, each phase of the IPS Capital Improvements Program has been a success.</p>
+        	            <span id="author">Dr. Eugene G. White<br />Superintendent<br />Indianapolis Public Schools</span>
 				</div><!-- end DIV #testimonial -->
 			</div><!-- end DIV #sideColumn -->
 		</div><!-- end div .interior-content -->

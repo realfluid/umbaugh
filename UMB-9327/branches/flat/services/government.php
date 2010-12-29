@@ -11,8 +11,9 @@
 			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
 				<div id="callout">
                 	<h2>Our Experience</h2>
-					<p>Excerpt from a case study relating to Local Government project should go here</p>
-					<a href="our-experience.php">Read More &raquo; </a>
+        		        <p>"Business as it used to run in the counties can no longer happen," says Ken Paust, county commissioner in Wayne County, Indiana.</p>
+                  <p>He's speaking of how local governments in Indiana were affected when property tax caps began taking effect just as a general economic downturn reduced other revenue sources.</p>
+					<a href="/services/our-experience/financial-road-map-for-wayne-co.php">Read More &raquo; </a>
 	            </div>
 				<p>Operating a local governmental unit always has challenges and opportunities. You may be looking for new efficiencies, projecting changes in tax revenue, finding new revenue sources, working on long-range planning, funding buildings and improvements, or structuring the most advantageous economic development package.  Our years of experience in helping others in similar situations make us uniquely qualified to help you today -- and with tomorrow's challenges.</p>
 				<div id="services-table">
