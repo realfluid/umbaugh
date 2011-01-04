@@ -13,7 +13,7 @@
                 	<h2>Our Areas of Expertise</h2>
 						<img src="../images/dotted-seperator.png" />            
 		                <ul>
-                	        <li>&raquo; <a href="government.php">Local Governments</a></li>
+                	        <li>&raquo; <a href="government.php">Local Government</a></li>
 							<li>&raquo; <a href="utilities.php">Utilities</a></li>
 							<li>&raquo; <a href="development.php">Economic Development</a></li>
 							<li>&raquo; <a href="schools.php">Schools</a></li>

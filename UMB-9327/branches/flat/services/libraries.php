@@ -20,43 +20,51 @@
 					<h2>Our Services for Libraries</h2>
 					<p>Most library managers went into that line of work because they really love books and knowledge - not because they enjoy finances or managing facilities! But financial management and keeping your facilities and technology up to the standards today's library users expect and need come with the management job. And like other local governmental units these days, most libraries are grappling with how to operate on reduced revenue.</p>
 					<p>Financial management - You can spend more time with your beloved books (or electronic media!) when you let UMBAUGH assist you with:</p>	
-					<ul>
+					<ul class="left">
                         <li>Accounting Systems Design, Implementation and Training</li>
                         <li>Audit Preparation and Financial Reporting</li>
                         <li>Budget Preparation Assistance</li>
                         <li>Comprehensive Financial Planning</li>
+                    </ul>
+					<ul class="right">
                         <li>GASB 34 Compliance</li>
                         <li>Performance Management Studies</li>
                         <li>Tax Revenue Analysis and Management</li>
                     </ul>
 
 					<p>Capital Planning - Library building or major renovation projects may happen just once in your career. They are truly different experiences from your normal operations, requiring specialized skills. UMBAUGH can help with:</p>
-                    <ul>
+                    <ul class="left">
                         <li>Debt Management Studies</li>
                         <li>Long-Range Capital Planning and Implementation</li>
                         <li>Project Planning and Financial Development</li>
                         <li>Developing and Evaluating Funding Alternatives</li>
+                    </ul>
+					<ul class="right">
                         <li>Refinancing of Existing Debt</li>
                         <li>Referendum Preparation</li>
                         <li>Financial Presentations to Elected Officials and the Public</li>
 					</ul>
 
 					<p>Bond Issuance - Bond issues are not something you do every day, and you've got to get it right. The stakes are literally too high to risk a mistake or miss an opportunity to save. Since UMBAUGH is an independent advisor, our only priority is doing what's best for the libraries we represent.  We can provide:</p>
-					<ul>
+					<ul class="left">
                         <li>Official Statements and Bond Sale Preparations</li>
                         <li>Presentations to Bond Ratings Agencies</li>
                         <li>Evaluation of Bond Insurance Proposals</li>
                         <li>Competitive Bond Sales and Electronic Bidding Services</li>
+                    </ul>
+					<ul class="right">
                         <li>Negotiated Bond Sales and Private Placements</li>
                         <li>Coordination of Bond Closings</li>
                         <li>Assistance to the Trustee Bank</li>
                     </ul>
 
 					<p>Post Issuance - Unfortunately, the paperwork does not go away after the bonds are sold. You as the bond issuer have a great deal of responsibility for reporting and compliance, at a time when you'd much rather be paying attention to your bond-funded project. UMBAUGH can take those worries off your plate as well with:</p>
-					<ul>
+					<ul class="left">
                         <li>In-Progress Construction Reports</li>
                         <li>Arbitrage Rebate Calculations</li>
                         <li>Continuing Disclosure Filings</li>
+                    </ul>
+					<ul class="right">
                         <li>Post Issuance Tax Compliance</li>
                         <li>Escrow Verifications</li>
                         <li>Parity Reports</li>

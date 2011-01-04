@@ -540,9 +540,13 @@
 				<div class="resources">
 					<h2>Resources</h2>
 					<ul>
-                    	<li><a href="#">Indiana Association of Cities and Towns</a></li>
-                        <li><a href="#">Indiana Association of Counties</a></li>
-                        <li><a href="#">Michigan Schools Association</a></li>
+                    	<li><a href="http://www.citiesandtowns.org/">Indiana Association of Cities and Towns</a></li>
+                        <li><a href="http://www.indianacounties.org/">Indiana Association of Counties</a></li>
+                       	<li><a href="http://www.matsupervisors.com/">Michigan Association of Township Supervisors</a></li>
+                   		<li><a href="http://www.gomasa.org/">Michigan Association of School Administrators</a></li>
+                       	<li><a href="http://www.msbo.org/">Michigan Association of Business Officials</a></li>
+                   		<li><a href="http://www.michigantownships.org/">Michigan Township Association</a></li>
+                     	<li><a href="http://mischoolinvest.com/">Michigan School Investment Association</a></li>
                     </ul>
 				</div><!-- end DIV #testimonial -->
                 
