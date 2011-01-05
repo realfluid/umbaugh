@@ -105,6 +105,12 @@
             <div id="sideColumn">
 				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/sideBtn.php' ); ?>
 				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/latestNews.php' ); ?>
+				<img src="../images/dotted-seperator.png" />
+				<div id="testimonial">
+					<h2>Testimonial</h2>
+					<p>The importance of accurate financial data, projectable numbers and solid alternatives is huge.  Working with Umbaugh, I have no doubts that the information is accurate and professional.</p>
+					<span id="author">Jim Schrader<br />General Manager<br />Mishawaka Utilities</span>
+				</div><!-- end DIV #testimonial -->
 			</div><!-- end DIV #sideColumn -->
 		</div><!-- end div .interior-content -->
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/footer.php' ); ?>

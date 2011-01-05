@@ -113,7 +113,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 #mainColumn { width:657px; float:left; clear:left; padding-left:11px; }
 #mainColumn p{ color:#444; font-size:14px; width:370px;}
 #mainColumn h2{ font-size:18px; margin:0;}
-#mainColumn ul li {color:#444; font-size:12px; }
+#mainColumn ul li {color:#444; font-size:14px; }
 #mainColumn #callout{ background-color:#e4ece8; width:232px; padding:13px 17px 20px 19px; margin: 3px 0 10px 20px; clear:both; float:right; min-height:164px;}
 #mainColumn #callout img{ margin: 8px 0 0 0; padding:0px; }
 #mainColumn #callout h2{ margin: 0;}

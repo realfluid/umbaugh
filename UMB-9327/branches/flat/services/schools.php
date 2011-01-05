@@ -120,8 +120,8 @@
 
 				<div id="testimonial">
 					<h2>Testimonial</h2>
-    	                <p>With Umbaugh's help we have kept our promises to taxpayers about tax rates and budgets. Because of sound financial management and favorable interest rates, each phase of the IPS Capital Improvements Program has been a success.</p>
-        	            <span id="author">Dr. Eugene G. White<br />Superintendent<br />Indianapolis Public Schools</span>
+    	                <p>The financial information Umbaugh has supplied for the IPS Capital Improvements Program has been essential.  When Umbaugh provides financing and tax rate projections, people know they can rely on those numbers.</p>
+        	            <span id="author">Debra Kunce, AIA, LEED AP<br />Schmidt Strategies<br />Program Manager, IPS Capital Improvements Program</span>
 				</div><!-- end DIV #testimonial -->
 			</div><!-- end DIV #sideColumn -->
 		</div><!-- end div .interior-content -->

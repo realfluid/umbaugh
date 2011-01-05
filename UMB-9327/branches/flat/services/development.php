@@ -94,7 +94,7 @@
 
 				<div id="testimonial">
 					<h2>Testimonial</h2>
-						<p>Umbaugh put the numbers together. They let us know what was and wasn't going to work, what pieces were missing, what we needed and when we needed it.</p>
+						<p>The people I dealt with at Umbaugh are outstanding individuals. They didn't talk over our heads.  This was a complicated project to understand, and they explained things well.  They are very down to earth and good people to work with.  I'm very pleased that we worked with Umbaugh.</p>
 						<span id="author">Jerome Buening<br />Decatur County Commissioner<br />(Regarding Decatur County's economic development package for Honda)</span>
 				</div><!-- end DIV #testimonial -->
 			</div><!-- end DIV #sideColumn -->

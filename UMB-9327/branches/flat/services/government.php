@@ -119,6 +119,12 @@
             <div id="sideColumn">
 				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/sideBtn.php' ); ?>
 				<?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/latestNews.php' ); ?>
+				<img src="../images/dotted-seperator.png" />
+				<div id="testimonial">
+					<h2>Testimonial</h2>
+						<p>Umbaugh is more than capable of giving you the big picture.  Without the big picture you can't run a county as efficiently as you should.</p>
+        	            <span id="author">Ken Paust<br />County Commissioner<br />Wayne County, Indiana</span>
+				</div><!-- end DIV #testimonial -->
 			</div><!-- end DIV #sideColumn -->
 		</div><!-- end div .interior-content -->
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/inc/footer.php' ); ?>
