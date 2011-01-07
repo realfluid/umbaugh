@@ -1,0 +1,16 @@
+/*
+ * X
+ * 2010/XX/XX
+ *
+ * IE6 fixes
+ */
+* { zoom: 1; }
+body { position: relative; }
+a * { cursor: pointer; }
+
+.header .menu { margin-top: 2em; }
+
+
+li#li-2-5 input {filter: alpha(opacity=0);}
+li#li-2-5 input.browse {filter: alpha(opacity=100);}
+li#li-2-5 input.resume {filter: alpha(opacity=100);}
