@@ -35,8 +35,8 @@
 
 				<div id="testimonial">
 					<h2>Testimonial</h2>
-    	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet orci odio, vitae commodo lorem. Phasellus vitae felis leo, ac tincidunt odio.</p>
-        	            <span id="author">FirstName</span>
+    	                <p>    The importance of accurate financial data, projectable numbers and solid alternatives is huge. Working with Umbaugh, I have no doubts that the information is accurate and professional.</p>
+        	            <span id="author">Jim Schrader,<br />General Manager,<br/ >Mishawaka Utilities</span>
 				</div><!-- end DIV #testimonial -->
 			</div><!-- end DIV #sideColumn -->
 		</div><!-- end div .interior-content -->

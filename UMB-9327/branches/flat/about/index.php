@@ -532,8 +532,8 @@
 
 				<div id="testimonial">
 					<h2>Testimonial</h2>
-    	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet orci odio, vitae commodo lorem. Phasellus vitae felis leo, ac tincidunt odio.</p>
-        	            <span id="author">FirstName</span>
+    	                <p>    Umbaugh is more than capable of giving you the big picture. Without the big picture you can't run a county as efficiently as you should.</p>
+        	            <span id="author">Ken Paust,<br /> County Commissioner,<br />Wayne County, Indiana</span>
 				</div><!-- end DIV #testimonial -->
 				<img src="../images/dotted-seperator.png" />
 

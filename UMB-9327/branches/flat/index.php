@@ -70,16 +70,11 @@
 				<div class="column-one column">
 					<h2>Our Library</h2>
 					<ul>
-						<li><p><a href="PDF/2009_06_19_strategies_for_government_efficiency.pdf">Strategic Planning and Government Efficiency</a><br />
-                        	<em>5-26-2010</em></p></li>
-						<li><p><a href="PDF/2010_02_04_indianas_property_tax_changes.pdf">Indianas Property Tax Changes</a><br />
-                        	<em>2-4-2010</em></p></li>
-						<li><p><a href="PDF/2009_06_19_strategies_for_government_efficiency.pdf">Strategies for Government Efficiency</a><br />
-                        	<em>6-19-2009</em></p></li>
-						<li><p><a href="PDF/2009_06_19_doing_more_with_less.pdf">Doing More With Less</a><br />
-                        	<em>6-19-2009</em></p></li>
-						<li><p><a href="PDF/2009_06_17_reducing_payroll_and_labor_costs.pdf">Reducing Payroll and Labor Costs</a><br />
-	                        	<em>6-17-2009</em></p></li>
+						<li><p><a href="PDF/2009_06_19_strategies_for_government_efficiency.pdf">Strategic Planning and Government Efficiency</a><br /></p></li>
+						<li><p><a href="PDF/2010_02_04_indianas_property_tax_changes.pdf">Indianas Property Tax Changes</a><br /></p></li>
+						<li><p><a href="PDF/2009_06_19_strategies_for_government_efficiency.pdf">Strategies for Government Efficiency</a><br /></p></li>
+						<li><p><a href="PDF/2009_06_19_doing_more_with_less.pdf">Doing More With Less</a><br /><p></li>
+						<li><p><a href="PDF/2009_06_17_reducing_payroll_and_labor_costs.pdf">Reducing Payroll and Labor Costs</a><br /></p></li>
 					</ul>
 					<p class="links"><a href="/services/our-library.php">More »</a></p>
 				</div>

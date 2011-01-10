@@ -21,14 +21,14 @@
                 
 					<div class="news-story">
 						<h2><a href="/services/our-experience/allen-county-public-library-renovation-and-expansion.php">Allen County Public Library Renovation and Expansion</a></h2>
-            	        <span class="date">DATE, Case Study</span>
+            	        <span class="date">Case Study</span>
 						<p>In response to growth and space needs, the Allen County Library, based in Fort Wayne, Indiana, renovated and expanded its main library and upgraded its branch libraries from 2002 to 2007.  Umbaugh assisted with the $84 million bond issue to fund those projects.</p>
 						<a href="/services/our-experience/allen-county-public-library-renovation-and-expansion.php">Read More &raquo; </a>
 					</div>
                     
 					<div class="news-story">
 						<h2><a href="/services/our-experience/financial-road-map-for-wayne-co.php">A Financial Road Map for Wayne County</a></h2>
-            	        <span class="date">DATE, Case Study</span>
+            	        <span class="date">Case Study</span>
             			<p>"Business as it used to run in the counties can no longer happen," says Ken Paust, county commissioner in Wayne County, Indiana.</p>
 			            <p>He's speaking of how local governments in Indiana were affected when property tax caps began taking effect just as a general economic downturn reduced other revenue sources.  </p>
 						<a href="/services/our-experience/financial-road-map-for-wayne-co.php">Read More &raquo; </a>
@@ -36,21 +36,21 @@
                     
 					<div class="news-story">
 						<h2><a href="/services/our-experience/mishawaka-sewage-works.php">Mishawaka Sewage Works - Finding A Solution That Works Environmentally And Financially</a></h2>
-            	        <span class="date">DATE, Case Studay</span>
+            	        <span class="date">Case Studay</span>
 						<p>The City of Mishawaka's municipally owned sewage works is working to make a nearly 60-year-old wastewater treatment facility meet federal guidelines of the Clean Water Act.  Umbaugh analyzed various cost scenarios as the utility negotiated with the U.S. Environmental Protection Agency (EPA), the U.S. Department of Justice and the Indiana Department of Environmental Management (IDEM) to find a workable solution.</p>
                         <a href="/services/our-experience/mishawaka-sewage-works.php">Read More &raquo; </a>
 					</div>
                     
 					<div class="news-story">
 						<h2><a href="/services/our-experience/umbaugh-advises-indianapolis-public-schools-on-indianas-largest-school-construction-program.php">Umbaugh Advises Indianapolis Public Schools on Indiana\'s Largest School Construction Program</a></h2>
-            	        <span class="date">DATE, Case Study</span>
+            	        <span class="date">Case Study</span>
 						<p>Indianapolis Public Schools embarked on a plan in 2001 to improve its school buildings in what has become the largest school construction program in the state of Indiana.  Umbaugh has advised the district throughout the process for a total of $693 million in bond issues.</p>
 						<a href="/services/our-experience/umbaugh-advises-indianapolis-public-schools-on-indianas-largest-school-construction-program.php">Read More &raquo; </a>
 					</div>
                     
 					<div class="news-story last">
 						<h2><a href="/services/our-experience/winning-a-honda-plant-for-decatur-county.php">Winning a Honda Plant for Decatur County</a></h2>
-            	        <span class="date">DATE, Case Study</span>
+            	        <span class="date">Case Study</span>
 						<p>Decatur County, Indiana, had the opportunity of a lifetime in 2006.  All they had to do was present the winning case for why their area was the most advantageous location for a new Honda Motors automobile assembly plant.  And like most economic development projects, responding quickly was essential to stay in the running.</p>
 						<a href="/services/our-experience/winning-a-honda-plant-for-decatur-county.php">Read More &raquo; </a>
 					</div>                
