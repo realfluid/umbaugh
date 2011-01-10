@@ -111,7 +111,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 .interior-content img { clear:both; float:left; margin:5px 0 0 11px;}
 
 #mainColumn { width:657px; float:left; clear:left; padding-left:11px; }
-#mainColumn p{ color:#444; font-size:14px; width:370px;}
+#mainColumn p{ color:#444; font-size:14px; width:300px;}
 #mainColumn h2{ font-size:18px; margin:0;}
 #mainColumn ul li {color:#444; font-size:14px; }
 #mainColumn #callout{ background-color:#e4ece8; width:232px; padding:13px 17px 20px 19px; margin: 3px 0 10px 20px; clear:both; float:right; min-height:164px;}
@@ -142,7 +142,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 
 
 /*About*/
-#team-photo { border:5px solid #d4d4d4; float:right; margin:0 0 0 20px; }
+#team-photo { border:5px solid #d4d4d4; clear:right; float:right; }
 #team-caption { float:right; margin:5px 0px; clear:both; height:40px; width:348px; text-align:center; height:50px;  }
 #professionals-list { width:610px; border:#cbdad4 solid 3px; padding:20px 0 13px 40px	; font-size:12px; margin:16px 0 20px 0; float:left; }
 #professionals-list hr { color:444; width:575px; margin:10px 0; }

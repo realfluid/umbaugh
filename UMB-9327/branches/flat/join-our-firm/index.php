@@ -11,7 +11,7 @@
 			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
 				<div id="callout">
                 	<h2>Have questions about career opportunities at Umbaugh?</h2>
-					<p>Feel free to <a href="/contact/">contact us</a> with any questions you may have.</p>
+					<p>Feel free to <a href="mailto:careers@umbaugh.com">contact us</a> with any questions you may have.</p>
 	            </div>
 					<p>Are you searching for a career opportunity with a positive work environment, an impact on the community, and opportunities for growth and advancement? Apply to join our firm! Umbaugh is not a traditional accounting firm; we don't do tax or audit work.  We provide financial advisory services to local governments, municipal and not-for-profit utilities, school corporations and a variety of other governmental clients. </p>
 					<p>If you would enjoy working with governmental clients to evaluate their financial options and assist in providing solutions, Umbaugh is a place where you will have firsthand knowledge and experience.</p>

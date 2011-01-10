@@ -10,13 +10,13 @@
             <div id="mainColumn" class="about">
 			<h1>About Umbaugh</h1>
 			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
-			<img src="../images/team-photo.png" id="team-photo"/>
-    	        <h2 id="team-caption">Umbaugh Partners</h2>
-					<p>With more than 60 years of experience and expertise in all areas of public finance, H. J. Umbaugh &amp; Associates Certified Public Accountants is one of the largest and most active independent financial advisors to governmental units in the Midwest. </p>
-					<p>UMBAUGH provides timely, independent, meaningful and actionable financial guidance for cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports.</p>
-					<p>We solve problems, maximize opportunities and complete successful financings. In short, we help community leaders resolve the financial issues they face as they work to improve the quality of life in their communities.</p>
-					<p>Our client service leaders are supported by a staff of approximately 70 people in three offices.</p>
 
+   	        <h2 id="team-caption">Umbaugh Partners</h2>
+			<p>With more than 60 years of experience and expertise in all areas of public finance, H. J. Umbaugh &amp; Associates Certified Public Accountants is one of the largest and most active independent financial advisors to governmental units in the Midwest. </p>
+			<p>UMBAUGH provides timely, independent, meaningful and actionable financial guidance for cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports.</p>
+			<p>We solve problems, maximize opportunities and complete successful financings. In short, we help community leaders resolve the financial issues they face as they work to improve the quality of life in their communities.</p>
+			<p>Our client service leaders are supported by a staff of approximately 70 people in three offices.</p>
+			<img src="/images/team-photo.png" id="team-photo"/>
 				<div id="professionals-list">
 	   	                <h2>Client Service Leaders</h2>
 						<hr  />
@@ -402,12 +402,7 @@
                                     </div>
 								</div><!-- end DIV .two-col -->
 		                        <h4>Experience</h4>
-									<p>Brian Colton's practice includes tax increment financing, economic development, municipal bond issues, capital project planning, property tax appeal issues and annexation fiscal plans. Colton has been involved in a number of special projects at Umbaugh, including:</p>
-                                    <ul>
-                                    	<li>the creation of the firm's right-of-way user fees report for the Indiana Association of Cities and Towns,</li>
-										<li>assisting with fiscal home rule reports for the Indiana Association of Cities and Towns and the Association of Indiana Counties and</li>
-										<li>assisting with the firm's analysis of the estimated impact of recent and proposed property tax regulations on TIF areas throughout Indiana.</li>
-                                    </ul>
+									<p>Brian Colton's practice includes tax increment financing, economic development, municipal bond issues, capital project planning, property tax appeal issues and annexation fiscal plans. Colton has been involved in a number of special projects at Umbaugh, including: the creation of the firm's right-of-way user fees report for the Indiana Association of Cities and Towns, assisting with fiscal home rule reports for the Indiana Association of Cities and Towns and the Association of Indiana Counties and assisting with the firm's analysis of the estimated impact of recent and proposed property tax regulations on TIF areas throughout Indiana.</li>
 									<p>Colton has been a guest lecturer on local government finance topics for the School of Public and Environmental Affairs at Indiana University - Bloomington, on local government funding for the Association of Indiana Counties and on public-private partnerships for the Indiana Association of Cities and Towns Municipal Management Institute.</p>
 									<p>Colton joined Umbaugh in 1997. He has a degree in economics and political science from the University of Iowa and a Master's of Public Affairs with concentrations in public financial management and policy analysis from the School of Public and Environmental Affairs at Indiana University. He is also a Certified Independent Public Finance Advisor (CIPFA).  Colton is based in Umbaugh's Indianapolis office and lives in Carmel.</p>
 							  <a href="#">Back to top</a>
