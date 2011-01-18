@@ -69,7 +69,7 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 .header-interior .menu li.selected a { margin-top: -6px; padding-top: 13px; height:35px; background: #fff url('../images/main_menu_hover_bg.png') repeat-x 0 0; color: #474747; text-shadow: none; text-decoration: none; }
 .header-interior .menu li a:hover { margin-top: -6px; padding-top: 13px; height:35px; background: #fff url('../images/main_menu_hover_bg.png') repeat-x 0 0; color: #474747; text-shadow: none; text-decoration: none; }
 
-#breadcrumb {color:#b3b8bc; font-size: 10px; padding:17px 0 0 24px;}
+#breadcrumb {color:#b3b8bc; font-size: 10px; padding:17px 0 0 24px; }
 #breadcrumb a {color:#808990; font-size: 10px;  }
 
 
@@ -105,23 +105,22 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 
 /* Interior Pages*/
 .wrapper {  width:100%; float:left; padding-bottom:30px; background:url("/images/interior-bg.png") top left repeat-x; background-color:#FFF; padding-top:25px;}
-.interior-content { width:941px; margin: 0 auto; margin-top:20px;}
+.interior-content { width:941px; margin: 0 auto; padding-top: 10px;}
 .interior-content h1 { padding:0px; margin:10px 0 0 0; font-family:"Times New Roman", Times, serif; float:left; font-size:23px; color:#3f775f; width:657px;  }
 .interior-content h2{ font-family:"Times New Roman", Times, serif; color:#444; font-weight:normal;}
 .interior-content img { clear:both; float:left; margin:5px 0 0 11px;}
 
-#mainColumn { width:657px; float:left; clear:left; padding-left:11px; }
-#mainColumn p{ color:#444; font-size:14px; width:300px;}
+#mainColumn { width:657px; float:left; padding-left:11px; }
+#mainColumn p{ color:#444; font-size:14px; width: 360px;}
 #mainColumn h2{ font-size:18px; margin:0;}
 #mainColumn ul li {color:#444; font-size:14px; }
-#mainColumn #callout{ background-color:#e4ece8; width:232px; padding:13px 17px 20px 19px; margin: 3px 0 10px 20px; clear:both; float:right; min-height:164px;}
-#mainColumn #callout img{ margin: 8px 0 0 0; padding:0px; }
-#mainColumn #callout h2{ margin: 0;}
-#mainColumn #callout p{ font-size:12px; margin:10px 0 0 0; width:100% !important; }
-#mainColumn #callout a{ font-size:12px; margin:10px 0 0 0; color:#3f775f; text-decoration:underline; }
-#mainColumn #callout ul { list-style:none; padding:20px 0 0 0;}
-#mainColumn #callout ul li { color:#3b7059; padding-bottom:5px; text-decoration:none; font-size:15px;  }
-#mainColumn #callout ul li a { text-decoration:none; font-size:15px; }
+
+#callout { width:240px; min-height:164px; background-color:#e4ece8; float:right; padding:10px 0 15px 20px; margin:5px 0 15px 0;}
+#callout ul { list-style:none; margin:0; padding:0; }
+#callout ul li { color:#3F775F; padding-bottom: 3px; }
+#callout p{ font-size: 12px; width:215px !important; margin:5px 0 0 0; }
+.dotted-seperator { background:url("/images/dotted-seperator.png") ; height:1px; margin:5px 0;}
+
 #mainColumn #wide-callout { width:635px; border:#cbdad4 solid 3px; padding:10px 0 0 14px; font-size:12px; margin:16px 0 40px 0; float:left; }
 #mainColumn #wide-callout p { font-size:12px; margin: 8px 0 0 2px; float:left; width:100% !important; }
 #mainColumn #wide-callout a{ color:#3f775f; text-decoration:underline;}
@@ -142,8 +141,9 @@ button, input.radio, input.checkbox, label, select { cursor: pointer; }
 
 
 /*About*/
-#team-photo { border:5px solid #d4d4d4; clear:right; float:right; }
+#team-photo{ border:5px solid #d4d4d4; float:right; background:url("/images/team-photo.png"); width:338px; height:247px; margin:0 0 0 15px; }
 #team-caption { float:right; margin:5px 0px; clear:both; height:40px; width:348px; text-align:center; height:50px;  }
+
 #professionals-list { width:610px; border:#cbdad4 solid 3px; padding:20px 0 13px 40px	; font-size:12px; margin:16px 0 20px 0; float:left; }
 #professionals-list hr { color:444; width:575px; margin:10px 0; }
 #professionals-list img { margin:0px; padding: 0px;}

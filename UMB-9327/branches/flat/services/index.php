@@ -11,7 +11,7 @@
 			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />            
 			  <div id="callout">
                 	<h2>Our Areas of Expertise</h2>
-						<img src="../images/dotted-seperator.png" />            
+						<div class="dotted-seperator" style="width: 200px;"></div>
 		                <ul>
                 	        <li>&raquo; <a href="government.php">Local Government</a></li>
 							<li>&raquo; <a href="utilities.php">Utilities</a></li>

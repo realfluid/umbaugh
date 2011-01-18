@@ -10,13 +10,13 @@
             <div id="mainColumn" class="about">
 			<h1>About Umbaugh</h1>
 			<img src="/images/title-seperator.png" width="657" height="4" id="solid-seperator" />
-
+			<div id="team-photo"></div>
    	        <h2 id="team-caption">Umbaugh Partners</h2>
 			<p>With more than 60 years of experience and expertise in all areas of public finance, H. J. Umbaugh &amp; Associates Certified Public Accountants is one of the largest and most active independent financial advisors to governmental units in the Midwest. </p>
 			<p>UMBAUGH provides timely, independent, meaningful and actionable financial guidance for cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports.</p>
 			<p>We solve problems, maximize opportunities and complete successful financings. In short, we help community leaders resolve the financial issues they face as they work to improve the quality of life in their communities.</p>
 			<p>Our client service leaders are supported by a staff of approximately 70 people in three offices.</p>
-			<img src="/images/team-photo.png" id="team-photo"/>
+
 				<div id="professionals-list">
 	   	                <h2>Client Service Leaders</h2>
 						<hr  />
