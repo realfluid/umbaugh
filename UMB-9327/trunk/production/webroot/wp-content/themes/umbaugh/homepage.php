@@ -36,9 +36,9 @@ get_header(); ?>
     <div class="content">
         <div>
 			<div class="three-columns">
-				<div class="column-one column">
+<div class="column-one column">
 					<h2><a href="<?php bloginfo('home'); ?>/services/our-library">Our Library</a></h2>
-					<ul>
+					<ul class="links">
                         <?php
                         $links = get_bookmarks("category=4&orderby=name&order=DESC&limit=5");
                         foreach($links as $link): ?>
@@ -47,19 +47,16 @@ get_header(); ?>
                             </li>
                         <?php endforeach; ?>
 					</ul>
-					<p class="links"><a href="<?php bloginfo('home'); ?>/services/our-library">More »</a></p>
-				</div>
+					<p class="links"><a href="<?php bloginfo('home'); ?>/services/our-library">Read More of Our Library »</a></p>
+				</div><!-- end first column -->
+                
 				<div class="column-two column">
-					<h2><a href="<?php bloginfo('home'); ?>/our-experience">Our Experience</a></h2>
-					<ul>
-                        <?php
-                        query_posts("cat=5&posts_per_page=5&orderby=ID&order=desc");
-                        while(have_posts()) : the_post(); ?>
-						<li><p><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p></li>
-                        <?php endwhile; ?>
+					<h2><a href="<?php bloginfo('home'); ?>/services/our-experience">Our Experience</a></h2>
+					<ul class="links">
+						<?php wp_list_pages('child_of=241&title_li='); ?>
 					</ul>
-					<p class="links"><a href="<?php bloginfo('home'); ?>/our-experience">More »</a></p>
-				</div>
+					<p class="links"><a href="<?php bloginfo('home'); ?>/services/our-experience">Read More of Our Experience »</a></p>
+				</div><!-- end second column -->
 				<div class="column-three column">
 					<h2><a href="<?php bloginfo('home'); ?>/latest-news">Latest News</a></h2>
 					<ul>
