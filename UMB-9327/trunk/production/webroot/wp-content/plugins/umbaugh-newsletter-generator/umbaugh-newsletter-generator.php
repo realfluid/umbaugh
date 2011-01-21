@@ -281,7 +281,9 @@ function ung_edit(){
             $post_time = mktime($time_pieces[0], $time_pieces[1], $time_pieces[2], $date_pieces[1], $date_pieces[2], $date_pieces[0]);
             $post->post_time = $post_time;
 
-            $author = $wpdb->get_var($wpdb->prepare("select display_name from $wpdb->users where ID={$post->post_author}"));
+            //$author = $wpdb->get_var($wpdb->prepare("select display_name from $wpdb->users where ID={$post->post_author}"));
+            $q = "select meta_value from $wpdb->postmeta where meta_key='author' and post_id={$post->ID}";
+            $author = $wpdb->get_var($wpdb->prepare($q));
             $post->post_author_name = $author;
             $thumbnail = get_the_post_thumbnail($post->ID, 'newsletter');
             $thumbnail = str_replace("/>", "align='$align' style='$margin: 20px;' />", $thumbnail);
