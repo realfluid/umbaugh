@@ -12,7 +12,7 @@ get_header(); ?>
                 <div id="callout">
                 	<h2>Our Areas of Expertise</h2>
                     <ul class="submenu">
-                        <?php wp_list_pages("child_of=9&depth=1&title_li=&link_before=»&nbsp;&exclude=241,85"); ?>
+                        <?php wp_list_pages("child_of=9&depth=1&title_li=&link_before=» &exclude=241,85"); ?>
                     </ul>
 	            </div>
 
