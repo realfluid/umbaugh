@@ -43,7 +43,7 @@ get_header(); ?>
 			<div class="three-columns">
 <div class="column-one column">
 					<h2><a href="<?php bloginfo('home'); ?>/services/our-library">Our Library</a></h2>
-					<ul class="links">
+					<ul class="links pdf">
                         <?php
                         $links = get_bookmarks("category=4&orderby=name&order=DESC&limit=5");
                         foreach($links as $link): ?>
