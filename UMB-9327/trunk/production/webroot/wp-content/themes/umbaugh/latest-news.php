@@ -9,6 +9,14 @@ get_header(); ?>
 		<h1>Latest News</h1>
 		<div class="wide" id="news">
 		<?php
+		function fake_is_home($args) {
+  // Really doesn't filter posts_results.
+  // Set is_home = 1 to allow sticky posts to be honored.
+  global $wp_query;
+  $wp_query->is_home = 1;
+  return $args;
+}
+add_filter('posts_results','fake_is_home');
         query_posts("cat=3&posts_per_page=10&paged=".get_query_var('paged'));
         while(have_posts()) :the_post(); ?>
 			<div class="news-story">
