@@ -297,7 +297,7 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
 .three-columns .column h3 { color: #3f775f; font-size: 1.083em; }
 .three-columns .column ul { overflow: hidden; margin-top: 3ex; padding: 0; list-style: none; }
 .three-columns .column li { margin-top: -1px; padding: 5px 0; border-top: 1px solid #eaeaea; }
-.three-columns .column .pdf li { background:url("images/pdf-icon-smallbw.gif") top left no-repeat;}
+.three-columns .column .pdf li { background:url("images/pdf-icon-smallbw.gif") top left no-repeat; }
 .three-columns .column p { color: #666; padding-bottom: 1ex; }
 .three-columns .column p.readmore {margin: 1em 0;}
 .three-columns .column p.links a, .three-columns .column p.readmore a { color: #3f775f; text-decoration: underline; }
