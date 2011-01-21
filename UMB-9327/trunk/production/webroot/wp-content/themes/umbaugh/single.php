@@ -137,7 +137,7 @@
 					<h1><?php the_title(); ?></h1>
 					<div id="news" class="wide">
 						<div class="news-story last pxBuffer">
-							<span class="date"><?php the_time("F j, Y"); ?> <?php the_category(", "); ?></span>
+							<span class="date"><?php $author = get_post_meta($post->ID, "author", true); if($author) echo $author.", "; ?><?php the_time("F j, Y"); ?><br><?php the_category(", "); ?></span>
 							<?php the_content(); ?>
 						</div>
 					</div>

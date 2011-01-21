@@ -14,7 +14,12 @@ get_header(); ?>
                     <h2><?php the_title(); ?></h2>
                     <p class="banner-image"><?php the_post_thumbnail('showcase') ?></p>
                     <?php the_excerpt() ?>
-                    <p class="links"><a href="<?php bloginfo('home') ?>/our-services" class="more">View All Services »</a></p>
+					<?php
+					$link_text = get_post_meta($post->ID, "link text", true);
+					$link_url = get_post_meta($post->ID, "link url", true);
+					if($link_text && $link_url): ?>
+                    <p class="links"><a href="<?php bloginfo('home') ?>/<?php echo $link_url ?>" class="more"><?php echo $link_text ?> »</a></p>
+					<?php endif; ?>
                 </li>
             <?php
             $count++;
@@ -49,7 +54,7 @@ get_header(); ?>
 					</ul>
 					<p class="links"><a href="<?php bloginfo('home'); ?>/services/our-library">Read More of Our Library »</a></p>
 				</div><!-- end first column -->
-                
+
 				<div class="column-two column">
 					<h2><a href="<?php bloginfo('home'); ?>/services/our-experience">Our Experience</a></h2>
 					<ul class="links">
