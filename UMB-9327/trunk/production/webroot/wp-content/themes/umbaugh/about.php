@@ -47,7 +47,7 @@ get_header();
     <div id="professionals-table">
         <h2>Partners</h2>
         <?php
-        query_posts("posts_per_page=-1&post_type=partner&orderby=ID('109,111,662,642,116,118,121,124,127,130,133,135,688,138,141,143,146,149')");
+        query_posts("posts_per_page=-1&post_type=partner&orderby=ID&sort=ASC");
         while(have_posts()): the_post(); ?>
         <div class="professional" id="<?php echo $post->post_name; ?>">
             <?php if(has_post_thumbnail()) the_post_thumbnail('partner'); ?>
