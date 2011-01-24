@@ -233,7 +233,7 @@ div.alignright {margin-left: 20px; line-height: 1.5em; text-align: center; }
 #mainColumn .news-story p{ color: #444; font-size: 1.083em; margin: 15px 0 0 0; padding: 0;}
 #mainColumn .news-story a{ color: #3f775f; text-decoration: underline; padding: 0px;}
 #mainColumn .news-story .date { font-size: 0.917em; margin: 0px; color: #939393; clear: both; }
-#mainColumn .news-story .date a { color: #529277; float: none; text-decoration: none; margin-left: 5px;  }
+#mainColumn .news-story .date a { color: #529277; float: none; text-decoration: none; }
 
 #sideColumn #news { margin: 13px 0 0 2px; float: left; }
 #sideColumn #news h2{ color: #7b7a7a; font-size: 1.147em;}
