@@ -25,7 +25,7 @@ add_filter('posts_results','fake_is_home');
 					<?php $author = get_post_meta($post->ID, "author", true); if($author) echo $author.", "; ?>
 					<?php the_time('F j, Y'); ?>
                     <br />
-					<?php the_category(", "); ?></span>
+					<?php the_category(","); ?></span>
 				<p><?php excerpt(30) ?></p>
 			</div>
 		<?php endwhile; ?>
