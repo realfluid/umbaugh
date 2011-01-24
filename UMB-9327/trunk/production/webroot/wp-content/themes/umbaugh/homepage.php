@@ -66,9 +66,9 @@ get_header(); ?>
 					<h2><a href="<?php bloginfo('home'); ?>/latest-news">Latest News</a></h2>
 					<ul>
                         <?php
-                        query_posts("cat=3&posts_per_page=1&orderby=ID&order=desc");
+                        query_posts("cat=3&posts_per_page=3&orderby=ID&order=desc");
                         while(have_posts()) : the_post(); ?>
-                        <li><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3><?php excerpt(50); ?></li>
+                        <li><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3><?php excerpt(12); ?></li>
                         <?php endwhile; ?>
 					</ul>
 				</div>
