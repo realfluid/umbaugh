@@ -1,4 +1,4 @@
-<?php
+	<?php
 /*
  * Template name: Join Our Company
  */
@@ -10,7 +10,7 @@ get_header();
             <h1>You + Umbaugh = Opportunity</h1>
             <div id="callout">
                 <h2>Have questions about career opportunities at Umbaugh?</h2>
-                <p>Feel free to <a href="/contact/">contact us</a> with any questions you may have.</p>
+                <p>Feel free to <a href="mailto:careers@umbaugh.com">contact us</a> with any questions you may have.</p>
             </div>
             <?php the_content(); ?>
         <?php endwhile; ?>
