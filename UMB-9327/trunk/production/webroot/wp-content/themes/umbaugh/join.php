@@ -24,6 +24,7 @@ get_header();
             endwhile; ?>
         </div>
         <div class="careers">
+            <p>Umbaugh provides onsite training, an excellent compensation plan, a mentoring program, and career advancement opportunities. Please send resume and cover letter.</p>
             <h3>Umbaugh is an Equal Opportunity Employer</h3>
             <?php
             query_posts("cat=16&posts_per_page=-1&orderby=ID&order=desc");
@@ -42,11 +43,8 @@ get_header();
 
         <div id="career-form">
             <h3>Interested in joining our firm? Contact Us.</h3>
-            <p>Umbaugh provides onsite training, an excellent compensation plan, a mentoring program, and career advancement opportunities. Please send resume and cover letter.</p>
-            <p>Interested?  Please send resume and cover letter.</p>
-
+            <p>Please send resume and cover letter.</p>
             <?php insert_cform(2); ?>
-
         </div>
     </div>
     <div id="sideColumn">
