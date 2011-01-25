@@ -15,7 +15,7 @@ get_header(); ?>
         <?php $pages = get_pages('child_of=241&sort_column=post_date&sort_order=desc'); ?>
         <?php foreach ($pages as $page): ?>
             <li>
-                <div><h2><?php echo $page->post_title; ?></h2></div>
+                <div><h2><a href="<?php echo get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></h2></div>
                 <div><?php $author = get_userdata($page->post_author);?> <?php if ($author->last_name != '' || $author->last_name != '') {
                     echo $author->last_name . ' ' . substr($author->first_name, 0, 1) . ', ';
                 } ?><span class="date"><?php echo mysql2date('F j, Y', $page->post_date); ?></span></div>
