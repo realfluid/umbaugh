@@ -279,6 +279,8 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
 #mainColumn ul.links li a { color: #3b7059; font-size: 1.5em; font-family: "Times New Roman", Times, serif; text-decoration: underline; }
 
 
+#mainColumn p.readmore {margin-bottom: 10px; }
+
 /*
  * Columns
  */
