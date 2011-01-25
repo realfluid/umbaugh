@@ -11,28 +11,31 @@ get_header(); ?>
     <?php the_content(); ?>
     <?php $id = get_the_ID(); ?>
     <?php endwhile; ?>
+        <p></p>
     <?php if ($id == 241) { ?>
-        <ul>
-        <?php $pages = get_pages('child_of=241&sort_column=post_date&sort_order=desc'); ?>
-        <?php foreach ($pages as $page): ?>
-            <li>
-                <div><h2><a href="<?php echo get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></h2>
-                </div>
-                <div><span class="info"><?php if (get_post_meta($page->ID, 'casestudy_author', true)) {
-                    echo get_post_meta($page->ID, 'casestudy_author', true) . ', ';
-                } ?><?php if (get_post_meta($page->ID, 'casestudy_date', true)) {
-                    echo mysql2date('F j, Y', get_post_meta($page->ID, 'casestudy_date', true));
-                } ?></span></div>
-                <div>
+        <div class="wide" id="news">
+            <?php $pages = get_pages('child_of=241&sort_column=post_date&sort_order=desc'); ?>
+            <?php foreach ($pages as $page): ?>
+                <div class="news-story">
+                    <h2><a href="<?php echo get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></h2>
+                    <span class="date">
+                        <?php $info = Array(); ?>
+                        <?php if(get_post_meta($page->ID, 'casestudy_author', true)) $info[] =  get_post_meta($page->ID, 'casestudy_author', true);?>
+                        <?php if (get_post_meta($page->ID, 'casestudy_date', true)) $info[] = mysql2date('F j, Y', get_post_meta($page->ID, 'casestudy_date', true)); ?>
+                        <?php echo implode(', ', $info); ?>
+                    </span>
                     <p>
-                    <?php echo $page->post_excerpt; ?>
+                        <?php echo $page->post_excerpt; ?>
                     </p>
-
-                    <p class="readmore"><a href="<?php echo get_permalink($page->ID); ?>">Read More &raquo;</a><br/></p>
+                    <p class="readmore">
+                        <a href="<?php echo get_permalink($page->ID); ?>">
+                            Read More &raquo;
+                        </a>
+                        <br/>
+                    </p>
                 </div>
-            </li>
-        <?php endforeach; ?>
-        </ul>
+            <?php endforeach; ?>
+        </div>
     <?php } ?>
     <?php wp_pagenavi() ?>
     </div>
