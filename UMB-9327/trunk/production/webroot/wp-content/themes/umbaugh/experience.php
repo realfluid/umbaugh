@@ -24,7 +24,7 @@ get_header(); ?>
                     <?php echo $page->post_excerpt; ?>
                     </p>
 
-                    <p class="readmore"><a href="<?php echo get_permalink($page->ID); ?>">Read More &raquo;</a></p>
+                    <p class="readmore"><a href="<?php echo get_permalink($page->ID); ?>">Read More &raquo;</a><br /></p>
                 </div>
             </li>
         <?php endforeach; ?>
