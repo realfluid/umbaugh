@@ -63,7 +63,7 @@ get_header();
             <?php for($team = 1; $team <= 3; $team++): ?>
             <div class="professional-quickInfo <?php if($team % 2 == 0) echo "right"; ?>">
                 <?php
-                query_posts("posts_per_page=-1&post_type=partner&orderby=ID&order=desc&meta_key=team&meta_value={$team}");
+                query_posts("posts_per_page=-1&post_type=partner&orderby=DATE&order=asc&meta_key=team&meta_value={$team}");
                 $used = 0; ?>
 
                 <div class="quickInfoColumn left">
