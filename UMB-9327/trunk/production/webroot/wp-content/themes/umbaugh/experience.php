@@ -9,8 +9,9 @@ get_header(); ?>
     <?php if (have_posts()) while (have_posts()) : the_post(); ?>
         <h1><?php the_title(); ?></h1>
     <?php the_content(); ?>
+    <?php $id = get_the_ID(); ?>
     <?php endwhile; ?>
-
+    <?php if ($id == 241) { ?>
         <ul>
         <?php $pages = get_pages('child_of=241&sort_column=post_date&sort_order=desc'); ?>
         <?php foreach ($pages as $page): ?>
@@ -32,6 +33,7 @@ get_header(); ?>
             </li>
         <?php endforeach; ?>
         </ul>
+    <?php } ?>
     <?php wp_pagenavi() ?>
     </div>
     <div id="sideColumn"><?php get_sidebar('experience'); ?></div>
