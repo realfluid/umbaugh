@@ -72,6 +72,7 @@ function ung_new(){
         <div class="wrap">
             <h2>Create a new newsletter</h2>
             <form action="" method="post">
+                <p class="submit"><input type="submit" name="Create" class="button-primary" value="<?php esc_attr_e('Save the newsletter') ?>" /></p>
                 <?php
 
                     if($_POST['Create']){
@@ -208,6 +209,9 @@ function ung_edit(){
         }
     }
 
+    //changing setting of content type to use
+    if($_GET['use'] && $_GET['post']) update_post_meta($_GET['post'], "use in newsletter", $_GET['use']);
+
     //changing order of posts if user clicked "move up" or "move down" link
     if($_GET['up']){
         foreach($posts as $k=>$v) if($posts[$k]->ID == $_GET['up']) {
@@ -282,14 +286,24 @@ function ung_edit(){
             $post->post_time = $post_time;
 
             //$author = $wpdb->get_var($wpdb->prepare("select display_name from $wpdb->users where ID={$post->post_author}"));
-            $q = "select meta_value from $wpdb->postmeta where meta_key='author' and post_id={$post->ID}";
-            $author = $wpdb->get_var($wpdb->prepare($q));
+            //$q = "select meta_value from $wpdb->postmeta where meta_key='author' and post_id={$post->ID}";
+            //$author = $wpdb->get_var($wpdb->prepare($q));
+            $author = get_post_meta($post->ID, "author", true);
             $post->post_author_name = $author;
             $thumbnail = get_the_post_thumbnail($post->ID, 'newsletter');
             $thumbnail = str_replace("/>", "align='$align' style='$margin: 20px;' />", $thumbnail);
+            $use = get_post_meta($post->ID, "use in newsletter", true);
+            //$wpdb->get_var($wpdb->prepare("select meta_value from $wpdb->postmeta where meta_key='use in newsletter' and post_id='{$post->ID}'"));
+            if($use == "content") {
+                $stuff = $post->post_content;
+                $post->content2use = "content";
+            } else {
+                $stuff = $post->post_excerpt;
+                $post->content2use = "excerpt";
+            }
 
             $tags = array("<!-- title -->", "<!-- post_thumbnail -->", "<!-- author -->", "<!-- date -->", "<!-- excerpt -->", "<!-- permalink -->");
-            $values = array($post->post_title, $thumbnail, $author, date("F j, Y", $post_time), $post->post_excerpt, $permalink);
+            $values = array($post->post_title, $thumbnail, $author, date("F j, Y", $post_time), $stuff, $permalink);
             $phtml[] = str_replace($tags, $values, $post_html);
         }
         $posts_html = implode("\n", $phtml);
@@ -341,6 +355,7 @@ function ung_edit(){
                     <tr>
                         <th>Post title</th>
                         <th>Author</th>
+                        <th>Content used</th>
                         <th>Date/Time</th>
                         <th>Actions</th>
                     </tr>
@@ -350,6 +365,13 @@ function ung_edit(){
                 <tr <?php if(!$alt): echo "class='alternate'"; endif; ?>>
                     <td><a href="<?php echo get_option('home')."/".$p->post_name; ?>"><?php echo $p->post_title; ?></a></td>
                     <td><?php echo $p->post_author_name ?></td>
+                    <td>
+                        <?php if($p->content2use == "excerpt"): ?>
+                        Excerpt (<a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($title) ?>&amp;post=<?php echo $p->ID; ?>&amp;use=content">Click here to use content</a>)
+                        <?php else : ?>
+                        Content (<a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($title) ?>&amp;post=<?php echo $p->ID; ?>&amp;use=excerpt">Click here to use excerpt</a>)
+                        <?php endif; ?>
+                    </td>
                     <td><?php echo $p->post_date ?></td>
                     <td><a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($title) ?>&amp;up=<?php echo $p->ID ?>">Move Up</a> | <a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($title) ?>&amp;down=<?php echo $p->ID ?>">Move Down</a> | <a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($title) ?>&amp;del=<?php echo $p->ID ?>">Remove from newsletter</a></td>
                 </tr>
