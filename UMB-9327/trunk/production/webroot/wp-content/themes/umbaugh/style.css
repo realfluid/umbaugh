@@ -120,7 +120,7 @@ div.alignright {margin-left: 20px; line-height: 1.5em; text-align: center; }
 .interior-content img { clear: both; float: left; margin: 5px 0 0 11px;}
 
 #mainColumn { width: 657px; float: left; clear: left; padding-left: 11px; }
-#mainColumn p { color: #444; font-size: 1.167em; width: 370px;}
+#mainColumn p { color: #444; font-size: 1.167em; /* width: 370px; */}
 #mainColumn h1 {margin-bottom: 15px; border-bottom: 4px solid #eee; line-height: 1.5em; }
 #mainColumn h2{ font-size: 1.5em; margin: 0;}
 #mainColumn ul li {color: #444; font-size: 1em; }
