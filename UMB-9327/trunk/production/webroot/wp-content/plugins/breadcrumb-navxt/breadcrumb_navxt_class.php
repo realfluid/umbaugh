@@ -214,7 +214,7 @@ class bcn_breadcrumb_trail
 			//The anchor template for the home page, this is global, two keywords are available %link% and %title%
 			'home_anchor' => __('<a title="Go to %title%." href="%link%">', 'breadcrumb_navxt'),
 			//Should the blog page be shown globally
-			'blog_display' => true,
+			'blog_display' => false,
 			//The anchor template for the blog page only in static front page mode, this is global, two keywords are available %link% and %title%
 			'blog_anchor' => __('<a title="Go to %title%." href="%link%">', 'breadcrumb_navxt'),
 			//The prefix for home breadcrumbs, placed inside of current_item prefix
