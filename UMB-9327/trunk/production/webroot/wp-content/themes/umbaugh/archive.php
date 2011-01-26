@@ -33,7 +33,7 @@
             <?php endwhile; ?>
         </div>
 
-
+    </div>
 		<div id="sideColumn">
 			<?php get_sidebar(); ?>
 		</div>
