@@ -1,31 +1,30 @@
 <?php get_header(); ?>
+	<div class="interior-content">
+        <div id="mainColumn">
 
-		<div class="interior-content">
-        <div id="mainColumn" class="newsletter-content">
-
-<?php if ( have_posts() ) the_post(); ?>
-
+			<?php if ( have_posts() ) the_post(); ?>
 			<h1 class="page-title">
-<?php if ( is_day() ) : ?>
+				<?php if ( is_day() ) : ?>
 				<?php printf( __( 'Daily Archives: <span>%s</span>', 'twentyten' ), get_the_date() ); ?>
-<?php elseif ( is_month() ) : ?>
+				<?php elseif ( is_month() ) : ?>
 				<?php printf( __( 'Monthly Archives: <span>%s</span>', 'twentyten' ), get_the_date('F Y') ); ?>
-<?php elseif ( is_year() ) : ?>
+				<?php elseif ( is_year() ) : ?>
 				<?php printf( __( 'Yearly Archives: <span>%s</span>', 'twentyten' ), get_the_date('Y') ); ?>
-<?php else : ?>
+				<?php else : ?>
 				<?php _e( 'Blog Archives', 'twentyten' ); ?>
-<?php endif; ?>
+				<?php endif; ?>
 			</h1>
 
-<?php rewind_posts(); ?>
+			<?php rewind_posts(); ?>
 
-	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-		<h2><?php the_title(); ?></h2>
-		<?php the_content(); ?>
-	<?php endwhile; ?>
+			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+				<h2><?php the_title(); ?></h2>
+				<?php the_content(); ?>
+			<?php endwhile; ?>
+		</div><!-- end DIV #mainColumn -->
 
-			</div>
-<div id="sideColumn"><?php get_sidebar(); ?></div>
-
-</div>
+		<div id="sideColumn">
+			<?php get_sidebar(); ?>
+		</div>
+	</div><!-- end DIV #interior-content -->
 <?php get_footer(); ?>
