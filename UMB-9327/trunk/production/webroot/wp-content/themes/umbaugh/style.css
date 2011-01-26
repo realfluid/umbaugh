@@ -226,10 +226,11 @@ div.alignright {margin-left: 20px; line-height: 1.5em; text-align: center; }
 
 /*news*/
 #mainColumn #news { margin-top: -19px }
+#mainColumn .news-archive { width: 656px; }
 #mainColumn .news-story { margin: 10px 0; padding: 15px 0 25px; border-bottom: #b6bbbf dashed 1px;  }
 #mainColumn .news-story h2 { color: #3b7059; font-size: 1.333em; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
 #mainColumn .news-story h2 a { color: #3b7059; font-size: 1em; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
-#mainColumn .news-story p{ color: #444; font-size: 1.083em; margin: 15px 0 0 0; padding: 0; width: 656px;  }
+#mainColumn .news-story p{ color: #444; font-size: 1.083em; margin: 15px 0 0 0; padding: 0; }
 #mainColumn .news-story a{ color: #3f775f; text-decoration: underline; padding: 0px;}
 #mainColumn .news-story .date { font-size: 0.917em; margin: 0px; color: #939393; clear: both; }
 #mainColumn .news-story .date a { color: #529277; float: none; text-decoration: none; }
