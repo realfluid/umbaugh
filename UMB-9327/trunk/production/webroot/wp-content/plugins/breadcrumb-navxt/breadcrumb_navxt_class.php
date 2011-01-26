@@ -739,27 +739,6 @@ class bcn_breadcrumb_trail
 				$posts_id = get_option('page_for_posts');
 			}
 			$frontpage_id = get_option('page_on_front');
-			//We'll have to check if this ID is valid, e.g. user has specified a posts page
-			if($posts_id && $posts_id != $frontpage_id)
-			{
-				//Get the blog page
-				$bcn_post = get_post($posts_id);
-				//Place the breadcrumb in the trail, uses the constructor to set the title, prefix, and suffix, get a pointer to it in return
-				$breadcrumb = $this->add(new bcn_breadcrumb(get_the_title($posts_id), $this->opt['post_page_prefix'],
-					$this->opt['post_page_suffix']));
-				//If we're not on the current item we need to setup the anchor
-				if(!is_home() || (is_paged() && $this->opt['paged_display']))
-				{
-					//Deal with the anchor
-					$breadcrumb->set_anchor($this->opt['blog_anchor'], get_permalink($posts_id));
-				}
-				//Done with the "root", now on to the parents
-				//If there is a parent post let's find it
-				if($bcn_post->post_parent && $bcn_post->ID != $bcn_post->post_parent && $frontpage_id != $bcn_post->post_parent)
-				{
-					$this->post_parents($bcn_post->post_parent, $frontpage_id);
-				}
-			}
 		}
 		//On everything else we need to link, but no current item (pre/suf)fixes
 		if($this->opt['home_display'])
