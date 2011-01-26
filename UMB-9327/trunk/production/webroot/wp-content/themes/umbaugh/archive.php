@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 	<div class="interior-content">
-        <div id="mainColumn">
+        <div id="mainColumn" class="news-archive">
 
 			<?php if ( have_posts() ) the_post(); ?>
 			<h1 class="page-title">
