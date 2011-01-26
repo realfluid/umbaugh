@@ -6,7 +6,6 @@
 
 		global $wpdb;
 		$posts_unsorted = $wpdb->get_results("select * from $wpdb->posts where ID in (select post_id from $wpdb->postmeta where meta_key='newsletter' and meta_value='$title')");
-
 		//sorting posts
 		$max_pos = 0;
 		for($i = 0; $i < count($posts_unsorted); $i++){
@@ -38,9 +37,9 @@
         $main_html = fread($file, filesize($path."main.html"));
         flock($file, LOCK_UN);
         fclose($file);
-        $file = fopen($path."post.html", "r");
+        (count($posts_unsorted) > 1) ? $file = fopen($path."post.html", "r") : $file = fopen($path."single.html", "r");
         flock($file, LOCK_SH);
-        $post_html = fread($file, filesize($path."post.html"));
+        (count($posts_unsorted) > 1) ? $post_html = fread($file, filesize($path."post.html")) : $post_html = fread($file, filesize($path."single.html"));
         flock($file, LOCK_UN);
         fclose($file);
 
