@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 		<div class="interior-content">
-        <div id="mainColumn">
+        <div id="mainColumn" class="newsletter-content">
 
 <?php if ( have_posts() ) the_post(); ?>
 
