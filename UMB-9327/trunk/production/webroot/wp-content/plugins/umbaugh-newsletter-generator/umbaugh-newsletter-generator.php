@@ -260,7 +260,9 @@ function ung_edit(){
         $main_html = fread($file, filesize($path."main.html"));
         flock($file, LOCK_UN);
         fclose($file);
-        $file = fopen($path."post.html", "r");
+
+        (count($posts) > 1) ? $file = fopen($path."post.html", "r") : $file = fopen($path."single.html", "r");
+        echo $file;
         flock($file, LOCK_SH);
         $post_html = fread($file, filesize($path."post.html"));
         flock($file, LOCK_UN);
