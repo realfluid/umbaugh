@@ -364,3 +364,16 @@ li#li-2-5 input.resume {position: absolute; left: 0; z-index: 1; width: 150px; o
 .wpsb_form_radio {display: none;}
 input.wpsb_form_btn {width: auto; margin-left: 10px; margin-top: 1.5em; background: #f1f1f1; font-weight: bold;}
 input.wpsb_form_txt {width: 100px;}
+
+/* Contact form */
+#contact-form .submit-form input {
+border: 1px solid #CCC;
+color: #7B7A7A;
+float: left;
+font-size: 11px;
+height: 24px;
+margin-bottom: 10px;
+padding-left: 6px;
+width: 245px;
+font: normal normal normal 1em/normal Arial, Helvetica, sans-serif;
+}

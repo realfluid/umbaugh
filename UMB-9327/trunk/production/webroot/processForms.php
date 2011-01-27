@@ -7,7 +7,8 @@ if(isset($_POST)) {
     $subject = 'Message from the website';
 
     $header = 'From: ' . $from;
-
+    $header .= "MIME-Version: 1.0\r\n";
+    $header .= "Content-type: text/html; charset=iso-8859-1\r\n";
     $file = 'wp-includes/mails/' . time() . '.txt';
     $fileStream = fopen($file, 'w+') or die("couldn't open file ");;
 
@@ -36,8 +37,6 @@ if(isset($_POST)) {
     fclose($fileStream);
 
     if(mail($to,$subject,$table,$header)) {
-        echo 'ok';
-        die();
         header( 'Location: http://' . $_POST['redirect'] ) ;
     }
 } else {
