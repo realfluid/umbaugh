@@ -55,7 +55,32 @@ get_header();
                 </div>
 
                 <div id="contact-form">
-                    <?php the_content(); ?>
+                    <h3>Have any questions? Contact Us.</h3>
+                    <p>We would like to hear from you.</p>
+                    <p>
+                        <form action="/processForms.php" method="post">
+                        <input type="hidden" name="form" value="contact-us">
+                        <div class="submit-form">
+                	    		<input type="text" value="Your Name" name="your-name">
+    							<input type="text" value="Your Email" name="your-email">
+	        	            	<input type="text" value="Your Phone Number" name="your-phone-number">
+								<input type="text" value="Your Organization" name="your-organization">
+						</div>
+                        <div>
+                            <input type="checkbox" name="accounting-services">Accounting Services<br />
+                            <input type="checkbox" name="arbitrage-services">Arbitrage Services<br />
+                            <input type="checkbox" name="bond-issuance">Bond Issuance<br />
+                            <input type="checkbox" name="capital-planning">Capital Planning<br />
+                            <input type="checkbox" name="financial-management">Financial Management<br />
+                            <input type="checkbox" name="post-issuance">Post Issuance<br />
+
+                            <textarea rows="5" cols="30" name="your-message">Your Message</textarea>
+							<input type="submit" name="submit" value="Submit" class="submit">
+                            <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
+                        </div>
+
+					    </form> 
+                    </p>
                 </div>
 			<?php endwhile; ?>
 
