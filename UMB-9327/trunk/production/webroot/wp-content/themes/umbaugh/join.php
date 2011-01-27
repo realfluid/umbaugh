@@ -44,7 +44,6 @@ get_header();
         <div id="career-form">
             <h3>Interested in joining our firm? Contact Us.</h3>
             <p>Please send resume and cover letter.</p>
-            <?php insert_cform(2); ?>
         </div>
     </div>
     <div id="sideColumn">
