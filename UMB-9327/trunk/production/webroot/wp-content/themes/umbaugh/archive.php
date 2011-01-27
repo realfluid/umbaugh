@@ -31,6 +31,10 @@
                 </div>
             <?php //the_content(); ?>
             <?php endwhile; ?>
+            <div class="navigation">
+              <div class="alignleft"><?php previous_posts_link('&laquo; Previous') ?></div>
+              <div class="alignright"><?php next_posts_link('More &raquo;') ?></div>
+            </div>
         </div>
 
     </div>
