@@ -1,1 +1,1 @@
-<?php $abspath = '/home/umbaugh/_subdomains/dev/'; ?>
+<?php $abspath = '/home/umbaugh/public_html/'; ?>
