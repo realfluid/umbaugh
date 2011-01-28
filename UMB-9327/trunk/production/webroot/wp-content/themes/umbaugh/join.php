@@ -44,6 +44,19 @@ get_header();
         <div id="career-form">
             <h3>Interested in joining our firm? Contact Us.</h3>
             <p>Please send resume and cover letter.</p>
+            <form action="/processForms.php" method="post">
+                <input type="hidden" name="form" value="join-us">
+                <div class="submit-form">
+                   <input type="text" value="Your Name" name="your-name">
+                   <input type="text" value="Your Email" name="your-email">
+                   <input type="text" value="Your Phone Number" name="your-phone-number">
+                </div>
+                <div class="submit-form_left">
+                    <textarea rows="7" cols="30" name="your-message">Your Message</textarea>
+                    <input type="submit" value="Submit" class="submit">
+                    <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
+               </div>
+            </form>
         </div>
     </div>
     <div id="sideColumn">
