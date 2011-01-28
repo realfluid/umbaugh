@@ -13,7 +13,9 @@
 					<?php endwhile; ?>
 					<?php wp_pagenavi() ?>
 				<?php else : ?>
+				<div class="news-story">
 					<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'twentyten' ); ?></p>
+				</div>
 				<?php endif; ?>
 			</div>
 		</div>
