@@ -107,7 +107,7 @@ get_header();
                             <?php $email = get_post_meta($post->ID, "email", true); if($email) : ?>
                                 <a href="mailto:<?php echo $email ?>">Email</a><br>
                             <?php endif; ?>
-                            Download <a href="vcard.php?fn=<?php echo $post->post_title ?>&amp;tel=<?php echo $phone ?>&amp;email=<?php echo $email ?>&amp;title=<?php echo $who ?>">Vcard</a></p>
+                            <!--Download <a href="vcard.php?fn=<?php echo $post->post_title ?>&amp;tel=<?php echo $phone ?>&amp;email=<?php echo $email ?>&amp;title=<?php echo $who ?>">Vcard</a>--></p>
                     <?php endif; $used++; endwhile; ?>
                 </div>
 
@@ -125,7 +125,7 @@ get_header();
                             <?php $email = get_post_meta($post->ID, "email", true); if($email) : ?>
                                 <a href="mailto:<?php echo $email ?>">Email</a><br />
                             <?php endif; ?>
-                            Download <a href="vcard.php?fn=<?php echo $post->post_title ?>&amp;tel=<?php echo $phone ?>&amp;email=<?php echo $email ?>&amp;title=<?php echo $who ?>">Vcard</a></p>
+                            <!--Download <a href="vcard.php?fn=<?php echo $post->post_title ?>&amp;tel=<?php echo $phone ?>&amp;email=<?php echo $email ?>&amp;title=<?php echo $who ?>">Vcard</a>--></p>
                     <?php endif; $used++; endwhile; ?>
                 </div>
             </div>

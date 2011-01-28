@@ -65,7 +65,7 @@ get_header();
                             if($phone) : ?><li><?php echo $phone ?></li><?php endif; ?>
                             <?php $email = get_post_meta($post->ID, "email", true);
                             if($email) : ?><li><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li><?php endif; ?>
-                            <li>Download <a href="vcard.php?fn=<?php echo $post->post_title ?>&tel=<?php echo $phone ?>&email=<?php echo $email ?>&title=<?php echo $who ?>">Vcard</a></li>
+                            <!--<li>Download <a href="vcard.php?fn=<?php echo $post->post_title ?>&tel=<?php echo $phone ?>&email=<?php echo $email ?>&title=<?php echo $who ?>">Vcard</a></li>-->
                         </ul>
                     </div>
                 </div>
