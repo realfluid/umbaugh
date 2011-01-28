@@ -45,7 +45,7 @@ get_header(); ?>
 					<h2><a href="<?php bloginfo('home'); ?>/services/our-library">Our Library</a></h2>
 					<ul class="links pdf">
                         <?php
-                        $links = get_bookmarks("category=4&orderby=post_date&order=ASC&limit=5");
+                        $links = get_bookmarks("category=4&orderby=post_date&order=DESC&limit=5");
                         foreach($links as $link): ?>
                             <li>
                                 <p><a href="<?php echo $link->link_url ?>"><?php echo $link->link_name; ?></a><br><em><?php echo $link->link_description; ?></em></p>
