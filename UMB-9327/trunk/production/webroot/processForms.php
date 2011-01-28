@@ -2,7 +2,7 @@
 
 if(isset($_POST)) {
 
-    $to = 'koen@go-online.be';
+    $to = 'webmanager@quinlanmarketing.com';
     $from = 'no-reply@umbaugh.com';
     $subject = 'Message from the website';
     
@@ -36,7 +36,7 @@ if(isset($_POST)) {
     fclose($fileStream);
 
     if(mail($to,$subject,$table,$header)) {
-        header( 'Location: http://' . $_POST['redirect'] ) ;
+        header( 'Location: http://www.umbaugh.com/thank-you' ) ;
     }
 } else {
     header( 'Location: http://' . $_SERVER['HTTP_HOST'] ) ;
