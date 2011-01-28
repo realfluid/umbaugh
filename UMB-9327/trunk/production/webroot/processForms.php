@@ -5,11 +5,10 @@ if(isset($_POST)) {
     $to = 'koen@go-online.be';
     $from = 'no-reply@umbaugh.com';
     $subject = 'Message from the website';
-
-    $header = 'From: ' . $from;
-    $header .= "MIME-Version: 1.0\r\n";
+    
+    $header = "MIME-Version: 1.0\r\n";
     $header .= "Content-type: text/html; charset=iso-8859-1\r\n";
-    $file = 'wp-includes/mails/' . time() . '.txt';
+    $file = 'wp-includes/mails/' . $_POST['form'] . '-' . time() . '.txt';
     $fileStream = fopen($file, 'w+') or die("couldn't open file ");;
 
 
