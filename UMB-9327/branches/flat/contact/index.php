@@ -64,13 +64,15 @@
                 	    		<input type="text" value="Your Name">
     							<input type="text" value="Your Email">
 	        	            	<input type="text" value="Your Phone Number">
-								<input type="text" value="Your Company">
+								<input type="text" value="Your Organization">
 						</div>
                             <select>
-                              <option value="option1">Select an Item</option>
-                              <option value="optoin2">Option</option>
-                              <option value="option3">Option</option>
-                              <option value="option4">Option</option>
+                              <option value="option1">Area(s) of interest</option>
+                              <option value="optoin2">Accounting Services</option>
+                              <option value="option3">Arbitrage Services</option>
+                              <option value="option4">Bond Issuance</option>
+                              <option value="option4">Capital Planning</option>
+                              <option value="option4">Financial Management</option>
                             </select>
 
 	        	            <input type="text" value="Your Message" class="message">
