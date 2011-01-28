@@ -18,7 +18,7 @@ if(isset($_POST)) {
     $table = '<table>';
     foreach($_POST as $key => $value)
     {
-        if($key != 'redirect') {
+        if($key != 'redirect' || $key != 'submit') {
             $name = explode('-',$key);
             $table .=
                 '<tr>
