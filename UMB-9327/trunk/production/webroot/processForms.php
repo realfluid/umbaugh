@@ -2,7 +2,7 @@
 
 if(isset($_POST)) {
 
-    $to = 'webmanager@quinlanmarketing.com';
+    $to = 'koen@go-online.be';
     $from = 'no-reply@umbaugh.com';
     $subject = 'Message from the website';
     
