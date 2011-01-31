@@ -67,6 +67,7 @@ get_header();
                                    <input type="text" value="Your Organization" name="your-organization">
                                 </div>
                                 <div class="submit-form_left">
+                                        Areas of Interest:
                                     <div class="checkbox_box">
                                         <div class="checkbox_left">
                                             <input type="checkbox" name="accounting-services">Accounting Services<br />
