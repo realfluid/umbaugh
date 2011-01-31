@@ -57,7 +57,6 @@ get_header();
                 <div id="contact-form">
                        <h3>Have any questions? Contact Us.</h3>
                        <p>We would like to hear from you.</p>
-                       <p>
                             <form action="/processForms.php" method="post">
                                 <input type="hidden" name="form" value="contact-us">
                                 <div class="submit-form">
@@ -86,7 +85,6 @@ get_header();
                                     <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
                                </div>
                             </form>
-                        </p>
                     </div>                
 			<?php endwhile; ?>
 
