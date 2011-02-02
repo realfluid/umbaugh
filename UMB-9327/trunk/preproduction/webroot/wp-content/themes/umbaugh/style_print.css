@@ -1,0 +1,14 @@
+.header img,
+.header input,
+.header .menu,
+.banner p.links,
+.banner-tab-labels,
+#sideColumn .widget_nav_menu,
+#wpsb,
+#career-form,
+#contact-form
+{display: none;}
+.header {height: 80px; background: #fff;}
+.header form {position: relative; top: -30px; margin-bottom: -45px;}
+.header form p {color: #000;}
+a.logo {display: block; width: 178px; height: 55px; background: url(images/logo-print.png);}
