@@ -8,6 +8,14 @@ get_header(); ?>
         <div id="mainColumn">
 
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
+            <?php
+                /**
+                 * Get the content to use outside while
+                 */
+                $content = get_the_content();
+            ?>
+
 				<h1><?php the_title(); ?></h1>
                 <div id="callout">
                 	<h2><?php echo get_post_meta($post->ID, "box title", true); ?></h2>
@@ -17,7 +25,7 @@ get_header(); ?>
                 <p><?php the_excerpt(); ?></p>
 				<?php if($post->post_content) : ?>
 					<div id="services-table">
-						<?php the_content(); ?>
+						<?php getTestimonial($content, 0); ?>
 					</div>
 				<?php endif; ?>
 
@@ -57,6 +65,9 @@ get_header(); ?>
         <div id="sideColumn">
             <?php get_sidebar('basic'); ?>
 		<?php get_sidebar('our-services'); ?>
+            <div class="widget widget_categoryContent">
+                <?php echo getTestimonial($content, 1); ?>
+            </div>
         </div>
 	</div>
 <?php get_footer(); ?>
