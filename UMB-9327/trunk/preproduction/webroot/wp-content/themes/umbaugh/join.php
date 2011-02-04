@@ -13,7 +13,7 @@ if ($_POST) {
         if ($_FILES['file']['error'] !== UPLOAD_ERR_OK)
             throw new Exception('File was not successfully uploaded from your computer.');
 
-        $tmpDir = uniqid('/tmp/DropboxUploader-');
+        $tmpDir = uniqid('/tmp/');
         if (!mkdir($tmpDir))
             throw new Exception('Cannot create temporary directory!');
 
@@ -23,7 +23,7 @@ if ($_POST) {
         $tmpFile = $tmpDir.'/'.str_replace("/\0", '_', $_FILES['file']['name']);
         if (!move_uploaded_file($_FILES['file']['tmp_name'], $tmpFile))
             throw new Exception('Cannot rename uploaded file!');
-
+        
         // Upload
         $uploader = new DropboxUploader('dannym@quinlanmarketing.com','slukitho');
         $uploader->upload($tmpFile, 'resumes');
@@ -89,15 +89,16 @@ if ($_POST) {
     <div id="career-form">
       <h3>Interested in joining our firm? Contact Us.</h3>
       <p>Please send resume and cover letter.</p>
-      <form action="/processForms.php" method="post">
+      <form enctype="multipart/form-data" action="/processForms.php" method="post">
         <input type="hidden" name="form" value="join-us">
         <div class="submit-form">
           <input type="text" value="Your Name" name="your-name">
           <input type="text" value="Your Email" name="your-email">
           <input type="text" value="Your Phone Number" name="your-phone-number">
+          <input style="width: 460px; border-top: 1px solid #aaa; border-left: 1px solid #aaa; border-bottom: 1px solid #eee; border-right: 1px solid #eee;" name="file" size="70" type="file" />
         </div>
         <div class="submit-form_left">
-          <textarea rows="7" cols="30" name="your-message">Your Message</textarea>
+          <textarea rows="9" cols="30" name="your-message">Your Message</textarea>
           <input type="submit" value="Submit" class="submit">
           <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
         </div>
