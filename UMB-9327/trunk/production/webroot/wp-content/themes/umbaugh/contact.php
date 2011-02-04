@@ -11,7 +11,7 @@ jQuery(document).ready(function(){
     });
 });
 </script>
-<a href="#" id="testjekoen">Dit is de test</a>
+
 <div class="interior-content">
         <div id="mainColumn">
 
