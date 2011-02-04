@@ -104,21 +104,6 @@ if ($_POST) {
         </div>
       </form>
     </div>
-    <div style="float:left;">
-      <form enctype="multipart/form-data" method="POST">
-        <blockquote>
-          <input name="dest" type="hidden" />
-          <table>
-            <tr>
-              <td><input style="width: 460px; border-top: 1px solid #aaa; border-left: 1px solid #aaa; border-bottom: 1px solid #eee; border-right: 1px solid #eee;" name="file" size="70" type="file" /></td>
-            </tr>
-            <tr>
-              <td><input style="padding: 4px; width: 100px; background-color: #cccccc; border: 1px solid #555555; color: #000;" type="submit" value="Upload" /></td>
-            </tr>
-          </table>
-        </blockquote>
-      </form>
-    </div>
   </div>
   <div id="sideColumn">
     <?php get_sidebar('basic'); ?>
