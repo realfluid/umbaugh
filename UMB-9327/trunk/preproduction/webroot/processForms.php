@@ -8,7 +8,7 @@ if(isset($_POST)) {
         if ($_FILES['file']['error'] !== UPLOAD_ERR_OK)
             throw new Exception('File was not successfully uploaded from your computer.');
 
-        $tmpDir = uniqid('/tmp');
+        $tmpDir = uniqid('/tmp/');
         if (!mkdir($tmpDir))
             throw new Exception('Cannot create temporary directory!');
 
