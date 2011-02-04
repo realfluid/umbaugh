@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST)) {
-    require '/wp-content/themes/umbaugh/DropboxUploader.php';
+    require 'wp-content/themes/umbaugh/DropboxUploader.php';
 
     try {
         // Rename uploaded file to reflect original name

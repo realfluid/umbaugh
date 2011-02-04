@@ -4,6 +4,14 @@
  */
 get_header();
 ?>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+    jQuery("a#testjekoen").click({
+        alert('ok');
+    });
+});
+</script>
+<a href="#" id="testjekoen">Dit is de test</a>
 <div class="interior-content">
         <div id="mainColumn">
 
@@ -57,10 +65,10 @@ get_header();
                 <div id="contact-form">
                        <h3>Have any questions? Contact Us.</h3>
                        <p>We would like to hear from you.</p>
-                            <form action="/processForms.php" method="post">
+                            <form action="/processForms.php" method="post" name="contact-us" id="contactusform">
                                 <input type="hidden" name="form" value="contact-us">
                                 <div class="submit-form">
-                                   <input type="text" value="Your Name" name="your-name">
+                                   <input type="text" value="" name="your-name">
                                    <input type="text" value="Your Email" name="your-email">
                                    <input type="text" value="Your Phone Number" name="your-phone-number">
                                    <input type="text" value="Your Organization" name="your-organization">
@@ -81,7 +89,7 @@ get_header();
                                         <div class="clear"></div>
                                     </div>
                                     <textarea rows="5" cols="30" name="your-message">Your Message</textarea>
-                                    <input type="submit" value="Submit" class="submit">
+                                    <input type="submit" value="Submit" class="submit" id="formSubmit">
                                     <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
                                </div>
                             </form>
