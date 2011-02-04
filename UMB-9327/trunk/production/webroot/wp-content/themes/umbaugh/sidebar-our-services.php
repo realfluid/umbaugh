@@ -1,1 +1,1 @@
-<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('our-services') ) {} ?>
+<?php //if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('our-services') ) {} ?>
