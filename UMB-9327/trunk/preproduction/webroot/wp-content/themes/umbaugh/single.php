@@ -80,7 +80,8 @@
                 $stuff = $p->post_excerpt;
                 $post->content2use = "excerpt";
             }
-
+            (count($posts_unsorted) == 1) ? $title = $author : $title;
+            
             $tags = array("<!-- title -->", "<!-- post_thumbnail -->", "<!-- author -->", "<!-- date -->", "<!-- excerpt -->", "<!-- permalink -->");
             $values = array($p->post_title, $thumbnail, $author, date("F j, Y", $post_time), $stuff, $permalink);
             $phtml[] = str_replace($tags, $values, $post_html);
