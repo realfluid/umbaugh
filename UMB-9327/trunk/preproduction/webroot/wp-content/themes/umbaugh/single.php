@@ -69,8 +69,20 @@
             $thumbnail = get_the_post_thumbnail($p->ID, 'newsletter');
             $thumbnail = str_replace("/>", "align='$align' style='$margin: 20px;' />", $thumbnail);
 
+
+            $use = get_post_meta($p->ID, "use in newsletter", true);
+
+            //$wpdb->get_var($wpdb->prepare("select meta_value from $wpdb->postmeta where meta_key='use in newsletter' and post_id='{$post->ID}'"));
+            if($use == "content") {
+                $stuff = $p->post_content;
+                $post->content2use = "content";
+            } else {
+                $stuff = $p->post_excerpt;
+                $post->content2use = "excerpt";
+            }
+
             $tags = array("<!-- title -->", "<!-- post_thumbnail -->", "<!-- author -->", "<!-- date -->", "<!-- excerpt -->", "<!-- permalink -->");
-            $values = array($p->post_title, $thumbnail, $author, date("F j, Y", $post_time), $p->post_excerpt, $permalink);
+            $values = array($p->post_title, $thumbnail, $author, date("F j, Y", $post_time), $stuff, $permalink);
             $phtml[] = str_replace($tags, $values, $post_html);
         }
         $posts_html = implode("\n", $phtml);
