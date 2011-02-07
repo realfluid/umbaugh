@@ -182,7 +182,6 @@ function ung_edit(){
     if($_POST['SaveDescr']){
         $wpdb->update($wpdb->posts, array("post_content" => $_POST['newsletter_descr'], "post_modified" => date("Y-m-d H:i:s")), array("ID" => $_POST['post_id']));
     }
-
     $nl_post = $wpdb->get_row("select * from $wpdb->posts where ID in (select post_id from $wpdb->postmeta where meta_key='nl' and meta_value='$title')");
     $posts_unsorted = $wpdb->get_results("select * from $wpdb->posts where ID in (select post_id from $wpdb->postmeta where meta_key='newsletter' and meta_value='$title')");
 
@@ -248,7 +247,6 @@ function ung_edit(){
         }
     }
 
-
     if(count($posts)){
 
         //generating the newsletter HTML
@@ -271,6 +269,7 @@ function ung_edit(){
 
         //preparing the posts html
         foreach($posts as $post){
+
             $a = !$a;
             if(!$a) {
                 $align = "left";
@@ -296,6 +295,7 @@ function ung_edit(){
             $thumbnail = get_the_post_thumbnail($post->ID, 'newsletter');
             $thumbnail = str_replace("/>", "align='$align' style='$margin: 20px;' />", $thumbnail);
             $use = get_post_meta($post->ID, "use in newsletter", true);
+
             //$wpdb->get_var($wpdb->prepare("select meta_value from $wpdb->postmeta where meta_key='use in newsletter' and post_id='{$post->ID}'"));
             if($use == "content") {
                 $stuff = $post->post_content;
@@ -305,12 +305,12 @@ function ung_edit(){
                 $post->content2use = "excerpt";
             }
 
+            (count($posts) == 1) ? $title = $author : $title;
             $tags = array("<!-- title -->", "<!-- post_thumbnail -->", "<!-- author -->", "<!-- date -->", "<!-- excerpt -->", "<!-- permalink -->");
             $values = array($post->post_title, $thumbnail, $author, date("F j, Y", $post_time), $stuff, $permalink);
             $phtml[] = str_replace($tags, $values, $post_html);
         }
         $posts_html = implode("\n", $phtml);
-
         //preparing main html
         $the_post = $wpdb->get_results("select post_name from $wpdb->posts where ID in (select post_id from $wpdb->postmeta where meta_key='nl' and meta_value='$title')");
         $nl_permalink = get_option('home')."/".$the_post[0]->post_name;
