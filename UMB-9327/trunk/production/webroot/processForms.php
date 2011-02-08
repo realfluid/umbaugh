@@ -49,7 +49,7 @@ if(isset($_POST)) {
     $subject = 'Message from the website';
 
     $header = "MIME-Version: 1.0\r\n";
-    $header .= "From: " . $from;
+    $header .= "From: " . $from . "\r\n";
     $header .= "Content-type: text/html; charset=iso-8859-1\r\n";
     $file = 'wp-includes/mails/' . $_POST['form'] . '-' . time() . '.txt';
     $fileStream = fopen($file, 'w+') or die("couldn't open file ");
