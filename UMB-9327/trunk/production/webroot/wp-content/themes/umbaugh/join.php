@@ -67,7 +67,7 @@ if ($_POST) {
       <?php the_content();
             endwhile; ?>
     </div>
-    <div class="careers">
+    <div class="careers last">
       <h3>Umbaugh is an Equal Opportunity Employer</h3>
       <?php
             query_posts("cat=16&posts_per_page=-1&orderby=ID&order=desc");
