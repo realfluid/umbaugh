@@ -25,7 +25,7 @@ if ($_POST) {
             throw new Exception('Cannot rename uploaded file!');
         
         // Upload
-        $uploader = new DropboxUploader('dannym@quinlanmarketing.com','slukitho');
+        $uploader = new DropboxUploader('webmanager@quinlanmarketing.com','slukitho');
         $uploader->upload($tmpFile, 'resumes');
 
         $msg = "That's right, a new file was uploaded called ".$_FILES['file']['name'];
@@ -68,7 +68,6 @@ if ($_POST) {
             endwhile; ?>
     </div>
     <div class="careers">
-      <p>Umbaugh provides onsite training, an excellent compensation plan, a mentoring program, and career advancement opportunities. Please send resume and cover letter.</p>
       <h3>Umbaugh is an Equal Opportunity Employer</h3>
       <?php
             query_posts("cat=16&posts_per_page=-1&orderby=ID&order=desc");
