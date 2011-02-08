@@ -168,6 +168,7 @@ function ung_new(){
 
 function ung_edit(){
     $title = urldecode($_GET['newsletter']);
+    $newsletterTitle = $title;
     if($title){
     if($_GET['del']) {
         delete_post_meta($_GET['del'], "newsletter", $title);
@@ -246,7 +247,6 @@ function ung_edit(){
             update_post_meta($posts[$next]->ID, "newsletter_order", $posts[$next]->newsletter_order);
         }
     }
-
     if(count($posts)){
 
         //generating the newsletter HTML
@@ -336,7 +336,6 @@ function ung_edit(){
         }
         closedir($handle);
     }
-
     ?>
 
     <div id="wpbody-content">
@@ -370,13 +369,13 @@ function ung_edit(){
                     <td><?php echo $p->post_author_name ?></td>
                     <td>
                         <?php if($p->content2use == "excerpt"): ?>
-                        Excerpt (<a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($title) ?>&amp;post=<?php echo $p->ID; ?>&amp;use=content">Click here to use content</a>)
+                        Excerpt (<a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($newsletterTitle) ?>&amp;post=<?php echo $p->ID; ?>&amp;use=content">Click here to use content</a>)
                         <?php else : ?>
-                        Content (<a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($title) ?>&amp;post=<?php echo $p->ID; ?>&amp;use=excerpt">Click here to use excerpt</a>)
+                        Content (<a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($newsletterTitle) ?>&amp;post=<?php echo $p->ID; ?>&amp;use=excerpt">Click here to use excerpt</a>)
                         <?php endif; ?>
                     </td>
                     <td><?php echo $p->post_date ?></td>
-                    <td><a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($title) ?>&amp;up=<?php echo $p->ID ?>">Move Up</a> | <a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($title) ?>&amp;down=<?php echo $p->ID ?>">Move Down</a> | <a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($title) ?>&amp;del=<?php echo $p->ID ?>">Remove from newsletter</a></td>
+                    <td><a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($newsletterTitle) ?>&amp;up=<?php echo $p->ID ?>">Move Up</a> | <a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($newsletterTitle) ?>&amp;down=<?php echo $p->ID ?>">Move Down</a> | <a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($newsletterTitle) ?>&amp;del=<?php echo $p->ID ?>">Remove from newsletter</a></td>
                 </tr>
                 <?php endforeach ?>
                 </tbody>
