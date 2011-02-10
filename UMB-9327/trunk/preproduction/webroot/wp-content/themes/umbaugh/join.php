@@ -82,7 +82,7 @@ if ($_POST) {
       </div>
       <?php endwhile;
             else : ?>
-      <p>No jobs are currently open at Umbaugh</p>
+      <p><!-- No jobs are currently open at Umbaugh --></p>
       <?php endif; ?>
     </div>
     <div id="career-form">
