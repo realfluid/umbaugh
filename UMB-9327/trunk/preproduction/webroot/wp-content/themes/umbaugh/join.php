@@ -67,7 +67,7 @@ if ($_POST) {
       <?php the_content();
             endwhile; ?>
     </div>
-    <div class="careers">
+    <div class="careers last">
       <h3>Umbaugh is an Equal Opportunity Employer</h3>
       <?php
             query_posts("cat=16&posts_per_page=-1&orderby=ID&order=desc");
@@ -85,7 +85,7 @@ if ($_POST) {
       <p><!-- No jobs are currently open at Umbaugh --></p>
       <?php endif; ?>
     </div>
-    <div id="career-form last">
+    <div id="career-form">
       <h3>Interested in joining our firm? Contact Us.</h3>
       <p>Please send resume and cover letter.</p>
       <form enctype="multipart/form-data" action="/processForms.php" method="post">
