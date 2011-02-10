@@ -43,7 +43,7 @@ if(isset($_POST)) {
             rmdir($tmpDir);
     }
 
-    $to = 'webmanager@quinlanmarketing.com';
+    $to = 'careers@umbaugh.com';
     //$to = 'koen@go-online.be';
     $from = 'no-reply@umbaugh.com';
     $subject = 'Message from the website';
