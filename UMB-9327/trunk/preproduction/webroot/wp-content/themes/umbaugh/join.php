@@ -94,7 +94,7 @@ if ($_POST) {
           <input type="text" value="Your Name" name="your-name">
           <input type="text" value="Your Email" name="your-email">
           <input type="text" value="Your Phone Number" name="your-phone-number">
-          <input name="file" size="70" type="file" />
+          <input name="file" size="33" type="file" />
         </div>
         <div class="submit-form_left">
           <textarea rows="9" cols="30" name="your-message">Your Message</textarea>
