@@ -84,9 +84,7 @@ if(isset($_POST)) {
     $table .= '</table>';
     fclose($fileStream);
 
-    mail(implode(',', $to),$subject,$table,$header);
-
-    if(mail($to,$subject,$table,$header)) {
+    if(mail(implode(',', $to),$subject,$table,$header)) {
         header( 'Location: http://www.umbaugh.com/thank-you' ) ;
     }
 } else {
