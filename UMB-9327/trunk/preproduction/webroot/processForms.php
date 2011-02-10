@@ -43,8 +43,16 @@ if(isset($_POST)) {
             rmdir($tmpDir);
     }
 
-    $to = 'webmanager@quinlanmarketing.com';
+    //$to = 'webmanager@quinlanmarketing.com';
     //$to = 'koen@go-online.be';
+    $to = Array();
+    $to[] = 'webmanager@quinlanmarketing.com';
+    if($_POST['name'] == 'contact-us') {
+        $to[] = 'contactus@umbaugh.com';
+    } elseif($_POST['name'] == 'join-us') {
+        $to[] = 'careers@umbaugh.com';
+    }
+
     $from = 'no-reply@umbaugh.com';
     $subject = 'Message from the website';
 
@@ -76,7 +84,7 @@ if(isset($_POST)) {
     $table .= '</table>';
     fclose($fileStream);
 
-    mail($to,$subject,$table,$header);
+    mail(implode(',', $to),$subject,$table,$header);
 
     if(mail($to,$subject,$table,$header)) {
         header( 'Location: http://www.umbaugh.com/thank-you' ) ;
