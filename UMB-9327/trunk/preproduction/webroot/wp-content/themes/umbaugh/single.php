@@ -144,7 +144,7 @@
 					<div id="wide-callout">
 						<h2>Cash Advisory Services</h2>
 						<p>Umbaugh Cash Advisory Services, LLC was developed as an independent business entity to help create a structured investment program for their bond proceeds and operating funds.</p>
-						<p>To Learn More <a href="mailto:cash@umbaugh.com">email Cash Advisory Services</a></p>
+						<p>To Learn More <a href="mailto:cas@umbaugh.com">email Cash Advisory Services</a></p>
 					</div>
 				<?php else : ?>
 					<h1><?php the_title(); ?></h1>
