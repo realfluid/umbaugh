@@ -13,6 +13,9 @@ get_header();
 
     <ul class="links">
     <?php
+        /**
+         * You can't customize the order of the items in this list
+         */
         $links = get_bookmarks("orderby=ID&order=desc&category=4&categorize=0&title_li=");
         foreach($links as $link) : ?>
             <li>
