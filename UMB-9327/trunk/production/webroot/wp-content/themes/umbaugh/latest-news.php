@@ -18,7 +18,7 @@ get_header(); ?>
             return $args;
         }
         add_filter('posts_results', 'fake_is_home');
-        query_posts("cat=3&posts_per_page=10&paged=&order=DESC" . get_query_var('paged'));
+        query_posts("cat=3,-11&posts_per_page=10&paged=&order=DESC" . get_query_var('paged'));
         while (have_posts()) :the_post(); ?>
             <div class="news-story">
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h2>
