@@ -17,6 +17,7 @@
             <?php endif; ?>
         </h1>
         <div class="wide" id="news">
+			<?php query_posts( 'cat=-11' ); ?>
             <?php rewind_posts(); ?>
             <?php if (have_posts()) while (have_posts()) : the_post(); ?>
                 <div class="news-story">
