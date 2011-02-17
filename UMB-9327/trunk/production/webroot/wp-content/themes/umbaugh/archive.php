@@ -37,7 +37,7 @@
             </div>
         </div>
 
-    </div>
+    </div><!-- end DIV #mainColumn -->
 		<div id="sideColumn">
 			<?php get_sidebar(); ?>
 		</div>
