@@ -25,6 +25,7 @@ get_header(); ?>
                 <p><?php the_excerpt(); ?></p>
 				<?php if($post->post_content) : ?>
 					<div id="services-table">
+                        <?php echo $content; ?>
 						<?php getTestimonial($content, 0); ?>
 					</div>
 				<?php endif; ?>
