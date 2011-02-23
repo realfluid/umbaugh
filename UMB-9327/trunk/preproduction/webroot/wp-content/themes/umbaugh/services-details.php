@@ -17,6 +17,7 @@ get_header(); ?>
                 <p><?php the_excerpt(); ?></p>
 				<?php if($post->post_content) : ?>
 					<div id="services-table">
+                        <?php echo $content; ?>
 						<?php the_content(); ?>
 					</div>
 				<?php endif; ?>
