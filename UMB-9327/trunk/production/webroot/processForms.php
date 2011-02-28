@@ -21,7 +21,7 @@ if(isset($_POST)) {
                 throw new Exception('Cannot rename uploaded file!');
 
             // Upload
-            $uploader = new DropboxUploader('dannym@quinlanmarketing.com','slukitho');
+            $uploader = new DropboxUploader('careers@umbaugh.com','initpass');
             $uploader->upload($tmpFile, 'resumes');
 
             $msg = "That's right, a new file was uploaded called ".$_FILES['file']['name'];
