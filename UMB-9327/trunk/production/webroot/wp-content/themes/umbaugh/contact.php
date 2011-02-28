@@ -68,7 +68,7 @@ jQuery(document).ready(function(){
                             <form action="/processForms.php" method="post" name="contact-us" id="contactusform">
                                 <input type="hidden" name="form" value="contact-us">
                                 <div class="submit-form">
-                                   <input type="text" value="" name="your-name">
+                                   <input type="text" value="Your Name" name="your-name">
                                    <input type="text" value="Your Email" name="your-email">
                                    <input type="text" value="Your Phone Number" name="your-phone-number">
                                    <input type="text" value="Your Organization" name="your-organization">
