@@ -26,7 +26,7 @@ if ($_POST) {
         
         // Upload
         $uploader = new DropboxUploader('careers@umbaugh.com','initpass');
-        $uploader->upload($tmpFile, '/resumes');
+        $uploader->upload($tmpFile, $_POST['resume']);
 
         $msg = "That's right, a new file was uploaded called ".$_FILES['file']['name'];
         $msg.= "\n\n It came from: ".$_POST['email'];
