@@ -48,7 +48,7 @@ get_header(); ?>
                         $links = get_bookmarks("category=4&orderby=ID&order=DESC&limit=5");
                         foreach($links as $link): ?>
                             <li>
-                                <p><a href="<?php echo $link->link_url ?>"><?php echo $link->link_name; ?></a><br><em><?php echo $link->link_description; ?></em></p>
+                                <p><a href="<?php echo $link->link_url ?>"><?php echo $link->link_name; ?></a><br /><?php echo $link->link_description; ?></p>
                             </li>
                         <?php endforeach; ?>
 					</ul>
