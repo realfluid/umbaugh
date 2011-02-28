@@ -4,17 +4,8 @@
  */
 get_header();
 ?>
-<script type="text/javascript">
-jQuery(document).ready(function(){
-    jQuery("a#testjekoen").click({
-        alert('ok');
-    });
-});
-</script>
-
 <div class="interior-content">
         <div id="mainColumn">
-
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 				<h1><?php the_title(); ?></h1>
                 <h2>Main Phone Number: <span id="phone-number-lg"> (888)516-9594</span></h2>
