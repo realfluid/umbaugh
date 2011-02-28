@@ -31,7 +31,7 @@ if ($_POST) {
         $msg = "That's right, a new file was uploaded called ".$_FILES['file']['name'];
         $msg.= "\n\n It came from: ".$_POST['email'];
     	$msg.= "\n\n And here's what they had to say about it: ".$_POST['comments'];
-		mail("careers@umbaugh.com , webmanager@quinlanmarketing.com","New File uploaded at Umbaugh.com",$msg);
+		mail("webmanager@quinlanmarketing.com","New File uploaded at Umbaugh.com",$msg);
         $msg= '<span style="color: green">File successfully uploaded!</span>';
     } catch(Exception $e) {
         $msg= '<span style="color: red">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
