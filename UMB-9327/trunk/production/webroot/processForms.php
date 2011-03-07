@@ -2,7 +2,7 @@
 
 if(isset($_POST)) {
     if(isset($_FILES) != '') {
-        require 'wp-content/themes/umbaugh/DropboxUploader.php';
+        require 'wp-content/themes/umbaugh/dropbox.php';
 
         try {
             // Rename uploaded file to reflect original name
@@ -21,20 +21,33 @@ if(isset($_POST)) {
                 throw new Exception('Cannot rename uploaded file!');
 
             // Upload
-            $uploader = new DropboxUploader('careers@umbaugh.com','initpass');
-            $uploader->upload($tmpFile, 'resumes');
+            //$uploader = new Dropbox('careers@umbaugh.com','initpass');
+            $dropbox = new Dropbox('0b6mkq8ervg1zd5', 'p9tgw4dpb57e0eh');
+            $uploader = $dropbox->token('careers@umbaugh.com', 'initpass');
+
+            $dropbox->setOAuthToken($uploader['token']);
+            $dropbox->setOAuthTokenSecret($uploader['secret']);
+            $response = $dropbox->filesPost('resumes', $tmpFile);
+
+            // output response
+            if(!$response['result'] == "winner!") {
+                throw new Exception('Error on the upload to Dropbox!');
+            }
 
             $msg = "That's right, a new file was uploaded called ".$_FILES['file']['name'];
-            $msg.= "\n\n It came from: ".$_POST['email'];
-        $msg.= "\n\n And here's what they had to say about it: ".$_POST['comments'];
+            $msg.= "\n\n It came from: ".$_POST['your-email'];
+        $msg.= "\n\n And here's what they had to say about it: ".$_POST['your-message'];
 
-        mail("dannym@quinlanmarketing.com","New File uploaded at Umbaugh.com",$msg);
+        $from = 'no-reply@umbaugh.com';
+        $header = "MIME-Version: 1.0\r\n";
+        $header .= "From: " . $from . "\r\n";
+        $header .= "Content-type: text/html; charset=iso-8859-1\r\n";
+        mail("dannym@quinlanmarketing.com","New File uploaded at Umbaugh.com",$msg, $header);
 
             $msg= '<span style="color: green">File successfully uploaded!</span>';
         } catch(Exception $e) {
             $msg= '<span style="color: red">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
         }
-
         // Clean up
         if (isset($tmpFile) && file_exists($tmpFile))
             unlink($tmpFile);
