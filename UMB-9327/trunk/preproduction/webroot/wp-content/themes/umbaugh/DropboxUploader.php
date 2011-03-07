@@ -70,7 +70,7 @@ class DropboxUploader {
         if (!is_string($remoteDir))
             throw new Exception("Remote directory must be a string, is ".gettype($remoteDir)." instead.");
         
-        if (!$this->loggedIn)
+        //if (!$this->loggedIn)
             $this->login();
         
         $data = $this->request('https://www.dropbox.com/home');

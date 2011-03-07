@@ -66,17 +66,22 @@ class DropboxUploader {
     public function upload($filename, $remoteDir='/') {
         if (!file_exists($filename) or !is_file($filename) or !is_readable($filename))
             throw new Exception("File '$filename' does not exist or is not readable.");
-        
+
         if (!is_string($remoteDir))
             throw new Exception("Remote directory must be a string, is ".gettype($remoteDir)." instead.");
-        
-        if (!$this->loggedIn)
+
+        print_r(false);
+        if (!$this->loggedIn) {
             $this->login();
-        
+            echo 'ok2';
+        } else {
+            echo 'ok';
+        }
         $data = $this->request('https://www.dropbox.com/home');
         $token = $this->extractToken($data, 'https://dl-web.dropbox.com/upload');
         
         $data = $this->request('https://dl-web.dropbox.com/upload', true, array('plain'=>'yes', 'file'=>'@'.$filename, 'dest'=>$remoteDir, 't'=>$token));
+        echo $data;
         if (strpos($data, 'HTTP/1.1 302 FOUND') === false)
             throw new Exception('Upload failed!');
     }
@@ -84,7 +89,7 @@ class DropboxUploader {
     protected function login() {
         $data = $this->request('https://www.dropbox.com/login');
         $token = $this->extractToken($data, '/login');
-        
+        echo $data; die();
         $data = $this->request('https://www.dropbox.com/login', true, array('login_email'=>$this->email, 'login_password'=>$this->password, 't'=>$token));
         
         if (stripos($data, 'location: /home') === false)
