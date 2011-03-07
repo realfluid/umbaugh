@@ -27,7 +27,6 @@ if ($_POST) {
         // Upload
         $uploader = new DropboxUploader('careers@umbaugh.com','initpass');
         $uploader->upload($tmpFile, 'resumes');
-
         $msg = "That's right, a new file was uploaded called ".$_FILES['file']['name'];
         $msg.= "\n\n It came from: ".$_POST['email'];
     	$msg.= "\n\n And here's what they had to say about it: ".$_POST['comments'];
@@ -92,7 +91,7 @@ if ($_POST) {
           <input type="text" value="Your Name" name="your-name">
           <input type="text" value="Your Email" name="your-email">
           <input type="text" value="Your Phone Number" name="your-phone-number">
-          <input name="file" size="33" type="file" />
+          <input type="file" name="file">
         </div>
         <div class="submit-form_left">
           <textarea rows="9" cols="30" name="your-message">Your Message</textarea>

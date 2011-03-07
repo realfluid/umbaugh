@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST)) {
-    if(isset($_POST['file']) != '') {
+    if(isset($_FILES) != '') {
         require 'wp-content/themes/umbaugh/DropboxUploader.php';
 
         try {
@@ -9,7 +9,7 @@ if(isset($_POST)) {
             if ($_FILES['file']['error'] !== UPLOAD_ERR_OK)
                 throw new Exception('File was not successfully uploaded from your computer.');
 
-            $tmpDir = uniqid('/tmp/');
+            $tmpDir = uniqid('tmp/');
             if (!mkdir($tmpDir))
                 throw new Exception('Cannot create temporary directory!');
 
@@ -44,8 +44,8 @@ if(isset($_POST)) {
     }
 
     //$to = 'careers@umbaugh.com';
-    //$to = 'koen@go-online.be';
-    $to = 'webmanager@quinlanmarketing.com';
+    $to = 'koen@go-online.be';
+    //$to = 'webmanager@quinlanmarketing.com';
     $from = 'no-reply@umbaugh.com';
     $subject = 'Message from the website';
 
@@ -76,8 +76,6 @@ if(isset($_POST)) {
     }
     $table .= '</table>';
     fclose($fileStream);
-
-    mail($to,$subject,$table,$header);
 
     if(mail($to,$subject,$table,$header)) {
         header( 'Location: http://www.umbaugh.com/thank-you' ) ;
