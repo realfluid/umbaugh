@@ -44,8 +44,8 @@ class DropboxUploader {
      */
     public function __construct($email, $password) {
         // Check requirements
-       // if (!extension_loaded('curl'))
-        //    throw new Exception('DropboxUploader requires the cURL extension.');
+        if (!extension_loaded('curl'))
+            throw new Exception('DropboxUploader requires the cURL extension.');
         
         $this->email = $email;
         $this->password = $password;
@@ -96,10 +96,8 @@ class DropboxUploader {
     protected function request($url, $post=false, $postData=array()) {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
-curl_setopt ($ch, CURLOPT_SSL_VERIFYHOST, 0);
-curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, 0); 
-//        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
-//        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
         switch ($this->caCertSourceType) {
             case self::CACERT_SOURCE_FILE:
                 curl_setopt($ch, CURLOPT_CAINFO, $this->caCertSource);
