@@ -57,8 +57,8 @@ if(isset($_POST)) {
     }
 
     //$to = 'careers@umbaugh.com';
-    $to = 'koen@go-online.be';
-    //$to = 'webmanager@quinlanmarketing.com';
+    //$to = 'koen@go-online.be';
+    $to = 'webmanager@quinlanmarketing.com';
     $from = 'no-reply@umbaugh.com';
     $subject = 'Message from the website';
 
