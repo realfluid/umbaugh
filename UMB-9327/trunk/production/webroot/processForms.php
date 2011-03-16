@@ -34,17 +34,6 @@ if(isset($_POST)) {
                 throw new Exception('Error on the upload to Dropbox!');
             }
 
-            $msg = "That's right, a new file was uploaded called ".$_FILES['file']['name'];
-            $msg.= "\n\n It came from: ".$_POST['your-email'];
-        $msg.= "\n\n And here's what they had to say about it: ".$_POST['your-message'];
-
-        $from = 'no-reply@umbaugh.com';
-        $header = "MIME-Version: 1.0\r\n";
-        $header .= "From: " . $from . "\r\n";
-        $header .= "Content-type: text/html; charset=iso-8859-1\r\n";
-        mail("dannym@quinlanmarketing.com","New File uploaded at Umbaugh.com",$msg, $header);
-
-            $msg= '<span style="color: green">File successfully uploaded!</span>';
         } catch(Exception $e) {
             $msg= '<span style="color: red">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
         }
@@ -59,6 +48,7 @@ if(isset($_POST)) {
     //$to = 'careers@umbaugh.com';
     //$to = 'koen@go-online.be';
     $to = 'webmanager@quinlanmarketing.com';
+    $to .= ', careers@umbaugh.com';
     $from = 'no-reply@umbaugh.com';
     $subject = 'Message from the website';
 
