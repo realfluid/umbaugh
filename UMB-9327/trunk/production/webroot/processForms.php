@@ -45,8 +45,6 @@ if(isset($_POST)) {
             rmdir($tmpDir);
     }
 
-    //$to = 'careers@umbaugh.com';
-    //$to = 'koen@go-online.be';
     $to = 'webmanager@quinlanmarketing.com';
     $to .= ', careers@umbaugh.com';
     $from = 'no-reply@umbaugh.com';
