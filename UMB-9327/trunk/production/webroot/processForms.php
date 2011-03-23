@@ -44,9 +44,11 @@ if(isset($_POST)) {
         if (isset($tmpDir) && file_exists($tmpDir))
             rmdir($tmpDir);
     }
-
     $to = 'webmanager@quinlanmarketing.com';
-    $to .= ', careers@umbaugh.com';
+
+    if($_POST['form'] == 'contact-us') {$to .= ', ContactUs@umbaugh.com'; }
+    if($_POST['form'] == 'join-us') {  $to .= ', careers@umbaugh.com';}
+
     $from = 'no-reply@umbaugh.com';
     $subject = 'Message from the website';
 
