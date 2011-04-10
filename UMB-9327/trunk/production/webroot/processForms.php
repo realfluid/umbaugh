@@ -46,12 +46,8 @@ if(isset($_POST)) {
     }
     $to = 'webmanager@quinlanmarketing.com';
 
-    //if($_POST['form'] == 'contact-us') {$to .= ', ContactUs@umbaugh.com'; }
-    //if($_POST['form'] == 'join-us') {  $to .= ', careers@umbaugh.com';}
-
-	if($_POST['form'] == 'contact-us') {$to .= ', jtpatters@gmail.com'; }
-	if($_POST['form'] == 'join-us') {  $to .= ', jtpatters@gmail.com';}
-
+    if($_POST['form'] == 'contact-us') {$to .= ', ContactUs@umbaugh.com'; }
+    if($_POST['form'] == 'join-us') {  $to .= ', careers@umbaugh.com';}
 
     $from = 'no-reply@umbaugh.com';
     $subject = 'Message from the website';
@@ -82,7 +78,7 @@ if(isset($_POST)) {
             fwrite($fileStream, ucfirst(implode(' ', $name)) . ': ' . $value . '\n');
         }
     }
-    $table.="<tr><td>File:</td>";
+    $table.="<tr><td>Filename</td>";
     $table.="<td>".$_FILES['file']['name']."</td></tr>";
 
     $table .= '</table>';
