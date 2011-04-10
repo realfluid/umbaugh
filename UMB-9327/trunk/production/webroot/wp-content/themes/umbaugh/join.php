@@ -4,7 +4,6 @@
  */
 get_header();
 ?>
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxx
 <?php
 if ($_POST) {
     require 'DropboxUploader.php';
@@ -26,7 +25,7 @@ if ($_POST) {
             throw new Exception('Cannot rename uploaded file!');
 
         // Upload
-        $uploader = new DropboxUploader('jtpatters@gmail.com','initpass');
+        $uploader = new DropboxUploader('careers@umbaugh.com','initpass');
         $uploader->upload($tmpFile, 'resumes');
         $msg = "That's right, a new file was uploaded called ".$_FILES['file']['name'];
         $msg.= "\n\n It came from: ".$_POST['email'];
