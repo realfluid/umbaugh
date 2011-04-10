@@ -23,9 +23,9 @@ if ($_POST) {
         $tmpFile = $tmpDir.'/'.str_replace("/\0", '_', $_FILES['file']['name']);
         if (!move_uploaded_file($_FILES['file']['tmp_name'], $tmpFile))
             throw new Exception('Cannot rename uploaded file!');
-        
+
         // Upload
-        $uploader = new DropboxUploader('careers@umbaugh.com','initpass');
+        $uploader = new DropboxUploader('jtpatters@gmail.com','initpass');
         $uploader->upload($tmpFile, 'resumes');
         $msg = "That's right, a new file was uploaded called ".$_FILES['file']['name'];
         $msg.= "\n\n It came from: ".$_POST['email'];
