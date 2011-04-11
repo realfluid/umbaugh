@@ -84,7 +84,7 @@ if ($_POST) {
     </div>
     <div id="career-form">
       <h3>Interested in joining our firm? Contact Us.</h3>
-      <p>Please send resume and cover letter.</p>
+      <p>Please send resume and cover letter as a single file (e.g., PDF, Word Docuent, etc).</p>
       <form enctype="multipart/form-data" action="/processForms.php" method="post">
         <input type="hidden" name="form" value="join-us">
         <div class="submit-form">
