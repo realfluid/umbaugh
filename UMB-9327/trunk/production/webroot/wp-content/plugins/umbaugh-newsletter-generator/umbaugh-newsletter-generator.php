@@ -304,9 +304,9 @@ function ung_edit(){
                 $stuff = $post->post_excerpt;
                 $post->content2use = "excerpt";
             }
-
             $tags = array("<!-- title -->", "<!-- post_thumbnail -->", "<!-- author -->", "<!-- date -->", "<!-- excerpt -->", "<!-- permalink -->");
             $values = array($post->post_title, $thumbnail, $author, date("F j, Y", $post_time), $stuff, $permalink);
+            var_dump($values); die();
             $phtml[] = str_replace($tags, $values, $post_html);
         }
         $posts_html = implode("\n", $phtml);
