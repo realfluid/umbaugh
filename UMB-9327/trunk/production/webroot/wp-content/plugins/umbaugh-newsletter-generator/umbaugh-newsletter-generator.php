@@ -316,7 +316,7 @@ function ung_edit(){
 
         $tags = array("<!-- home_url -->", "<!-- newsletter_title -->", "<!-- posts -->", "<!-- this_url -->");
         $values = array(get_option('home'), $title, $posts_html, $nl_permalink);
-        var_dump($values); die();
+        
         $main_html = str_replace($tags, $values, $main_html);
 
         //generating the preview file
