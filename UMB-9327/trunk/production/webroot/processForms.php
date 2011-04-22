@@ -37,12 +37,9 @@ if(isset($_POST)) {
         } catch(Exception $e) {
             $msg= '<span style="color: red">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
         }
-        // Clean up
-        if (isset($tmpFile) && file_exists($tmpFile))
-            unlink($tmpFile);
-
-        if (isset($tmpDir) && file_exists($tmpDir))
-            rmdir($tmpDir);
+        
+        $attachment = chunk_split(base64_encode(file_get_contents($tmpFile))); 
+        
     }
     $to = 'webmanager@quinlanmarketing.com';
 
@@ -54,7 +51,11 @@ if(isset($_POST)) {
 
     $header = "MIME-Version: 1.0\r\n";
     $header .= "From: " . $from . "\r\n";
-    $header .= "Content-type: text/html; charset=iso-8859-1\r\n";
+    if(isset($_FILES) == '') {
+    	$header .= "Content-type: text/html; charset=iso-8859-1\r\n";
+    } else {
+    	$headers .= "Content-Type: multipart/mixed; boundary=\"PHP-mixed-".$random_hash."\"\r\n"; 
+    }
     $file = 'wp-includes/mails/' . $_POST['form'] . '-' . time() . '.txt';
     $fileStream = fopen($file, 'w+') or die("couldn't open file ");
 
@@ -86,6 +87,16 @@ if(isset($_POST)) {
 
     if(mail($to,$subject,$table,$header)) {
         header( 'Location: http://www.umbaugh.com/thank-you' ) ;
+    }
+    
+
+    if(isset($_FILES) != '') {
+        // Clean up
+        if (isset($tmpFile) && file_exists($tmpFile))
+            unlink($tmpFile);
+
+        if (isset($tmpDir) && file_exists($tmpDir))
+            rmdir($tmpDir);
     }
 } else {
     header( 'Location: http://' . $_SERVER['HTTP_HOST'] ) ;
