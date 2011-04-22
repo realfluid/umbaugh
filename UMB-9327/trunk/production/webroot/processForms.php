@@ -119,7 +119,7 @@ Content-Disposition: attachment
 $message = ob_get_clean(); 
     
     
-    if(mail($to,$subject,$table,$header)) {
+    if(mail($to,$subject,$message,$header)) {
         header( 'Location: http://www.umbaugh.com/thank-you' ) ;
     }
     
