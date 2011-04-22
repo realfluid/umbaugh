@@ -1,5 +1,5 @@
 <?php
-
+$random_hash = md5(date('r', time()));
 if(isset($_POST)) {
     if(isset($_FILES) != '') {
         require 'wp-content/themes/umbaugh/dropbox.php';
@@ -59,14 +59,32 @@ if(isset($_POST)) {
     $file = 'wp-includes/mails/' . $_POST['form'] . '-' . time() . '.txt';
     $fileStream = fopen($file, 'w+') or die("couldn't open file ");
 
+ob_start(); //Turn on output buffering 
+?> 
+--PHP-mixed-<?php echo $random_hash; ?>  
+Content-Type: multipart/alternative; boundary="PHP-alt-<?php echo $random_hash; ?>" 
 
-    $table = '<table>';
+--PHP-alt-<?php echo $random_hash; ?>  
+Content-Type: text/plain; charset="iso-8859-1" 
+Content-Transfer-Encoding: 7bit
+
+Hello World!!! 
+This is simple text email message. 
+
+--PHP-alt-<?php echo $random_hash; ?>  
+Content-Type: text/html; charset="iso-8859-1" 
+Content-Transfer-Encoding: 7bit
+
+<h2>Hello World!</h2> 
+<p>This is something with <b>HTML</b> formatting.</p> 
+<?php
+    $message .= '<table>';
 
     foreach($_POST as $key => $value)
     {
         if($key != 'redirect' || $key != 'submit') {
             $name = explode('-',$key);
-            $table .=
+            $message .=
                 '<tr>
                     <td>
                        ' . ucfirst(implode(' ', $name)) . '
@@ -79,12 +97,28 @@ if(isset($_POST)) {
             fwrite($fileStream, ucfirst(implode(' ', $name)) . ': ' . $value . '\n');
         }
     }
-    $table.="<tr><td>Filename</td>";
-    $table.="<td>".$_FILES['file']['name']."</td></tr>";
+    $message.="<tr><td>Filename</td>";
+    $message.="<td>".$_FILES['file']['name']."</td></tr>";
 
-    $table .= '</table>';
+    $message .= '</table>';
     fclose($fileStream);
+?>
 
+--PHP-alt-<?php echo $random_hash; ?>-- 
+
+--PHP-mixed-<?php echo $random_hash; ?>  
+Content-Type: application/zip; name="attachment.zip"  
+Content-Transfer-Encoding: base64  
+Content-Disposition: attachment  
+
+<?php echo $attachment; ?> 
+--PHP-mixed-<?php echo $random_hash; ?>-- 
+
+<?php 
+//copy current buffer contents into $message variable and delete current output buffer 
+$message = ob_get_clean(); 
+    
+    
     if(mail($to,$subject,$table,$header)) {
         header( 'Location: http://www.umbaugh.com/thank-you' ) ;
     }
