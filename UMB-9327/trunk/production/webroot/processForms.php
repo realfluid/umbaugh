@@ -58,6 +58,7 @@ if(isset($_POST)) {
     }
     $file = 'wp-includes/mails/' . $_POST['form'] . '-' . time() . '.txt';
     $fileStream = fopen($file, 'w+') or die("couldn't open file ");
+    fclose($fileStream);
 
 ob_start(); //Turn on output buffering 
 ?> 
@@ -101,7 +102,6 @@ Content-Transfer-Encoding: 7bit
     $message.="<td>".$_FILES['file']['name']."</td></tr>";
 
     $message .= '</table>';
-    fclose($fileStream);
 ?>
 
 --PHP-alt-<?php echo $random_hash; ?>-- 
