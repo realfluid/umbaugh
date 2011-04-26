@@ -1,6 +1,17 @@
 <?php
 
 if(isset($_POST)) {
+
+/**
+ * Include Zend Framework
+ */
+set_include_path(get_include_path() . PATH_SEPARATOR . 'library/');
+require_once 'Zend/Loader/Autoloader.php';
+$autoloader = Zend_Loader_Autoloader::getInstance();
+	
+$mail = new Zend_Mail();
+
+
     if(isset($_FILES) != '') {
         require 'wp-content/themes/umbaugh/dropbox.php';
 
@@ -37,6 +48,12 @@ if(isset($_POST)) {
         } catch(Exception $e) {
             $msg= '<span style="color: red">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
         }
+        
+        $at = $mail->createAttachment(file_get_contents($_FILES['file']['tmp_name']));
+		$at->disposition = Zend_Mime::DISPOSITION_INLINE;
+		$at->encoding    = Zend_Mime::ENCODING_BASE64;
+        //if ($_FILES['file']['name'] != "") { $at->filename($_FILES['file']['name']); }
+        
         // Clean up
         if (isset($tmpFile) && file_exists($tmpFile))
             unlink($tmpFile);
@@ -44,13 +61,13 @@ if(isset($_POST)) {
         if (isset($tmpDir) && file_exists($tmpDir))
             rmdir($tmpDir);
     }
-    $to = 'webmanager@quinlanmarketing.com';
+    //$mail->addTo('webmanager@quinlanmarketing.com');
+	$mail->addTo('koen@go-online.be');
+    //if($_POST['form'] == 'contact-us') {$mail->addTo('ContactUs@umbaugh.com'); }
+    //if($_POST['form'] == 'join-us') {  $mail->addTo('careers@umbaugh.com');}
 
-    if($_POST['form'] == 'contact-us') {$to .= ', ContactUs@umbaugh.com'; }
-    if($_POST['form'] == 'join-us') {  $to .= ', careers@umbaugh.com';}
-
-    $from = 'no-reply@umbaugh.com';
-    $subject = 'Message from the website';
+    $mail->setFrom('no-reply@umbaugh.com');
+    $mail->setSubject('Message from the website');
 
     $header = "MIME-Version: 1.0\r\n";
     $header .= "From: " . $from . "\r\n";
@@ -83,10 +100,14 @@ if(isset($_POST)) {
 
     $table .= '</table>';
     fclose($fileStream);
-
-    if(mail($to,$subject,$table,$header)) {
+	$mail->setBodyHtml($table);
+	//Zend_Debug::dump($mail);
+    if($mail->send()) {
         header( 'Location: http://www.umbaugh.com/thank-you' ) ;
     }
+    
+    
+
 } else {
     header( 'Location: http://' . $_SERVER['HTTP_HOST'] ) ;
 }
