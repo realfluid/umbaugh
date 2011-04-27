@@ -62,8 +62,8 @@ $mail = new Zend_Mail();
         if (isset($tmpDir) && file_exists($tmpDir))
             rmdir($tmpDir);
     }
-    //$mail->addTo('webmanager@quinlanmarketing.com');
-	$mail->addTo('koen@go-online.be');
+    $mail->addTo('webmanager@quinlanmarketing.com');
+	//$mail->addTo('koen@go-online.be');
     //if($_POST['form'] == 'contact-us') {$mail->addTo('ContactUs@umbaugh.com'); }
     //if($_POST['form'] == 'join-us') {  $mail->addTo('careers@umbaugh.com');}
 
