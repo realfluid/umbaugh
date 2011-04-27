@@ -49,9 +49,10 @@ $mail = new Zend_Mail();
             $msg= '<span style="color: red">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
         }
         
-        $at = $mail->createAttachment(file_get_contents($_FILES['file']['tmp_name']));
+        $at = $mail->createAttachment(file_get_contents($tmpFile));
 		$at->disposition = Zend_Mime::DISPOSITION_INLINE;
 		$at->encoding    = Zend_Mime::ENCODING_BASE64;
+		$at->filename	 = $_FILES['file']['name'];
         //if ($_FILES['file']['name'] != "") { $at->filename($_FILES['file']['name']); }
         
         // Clean up
@@ -68,10 +69,7 @@ $mail = new Zend_Mail();
 
     $mail->setFrom('no-reply@umbaugh.com');
     $mail->setSubject('Message from the website');
-
-    $header = "MIME-Version: 1.0\r\n";
-    $header .= "From: " . $from . "\r\n";
-    $header .= "Content-type: text/html; charset=iso-8859-1\r\n";
+    
     $file = 'wp-includes/mails/' . $_POST['form'] . '-' . time() . '.txt';
     $fileStream = fopen($file, 'w+') or die("couldn't open file ");
 
