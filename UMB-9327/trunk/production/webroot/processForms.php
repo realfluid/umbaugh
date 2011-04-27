@@ -65,7 +65,7 @@ $mail = new Zend_Mail();
     $mail->addTo('webmanager@quinlanmarketing.com');
 	//$mail->addTo('koen@go-online.be');
     //if($_POST['form'] == 'contact-us') {$mail->addTo('ContactUs@umbaugh.com'); }
-    //if($_POST['form'] == 'join-us') {  $mail->addTo('careers@umbaugh.com');}
+    if($_POST['form'] == 'join-us') {  $mail->addTo('careers@umbaugh.com');}
 
     $mail->setFrom('no-reply@umbaugh.com');
     $mail->setSubject('Message from the website');
