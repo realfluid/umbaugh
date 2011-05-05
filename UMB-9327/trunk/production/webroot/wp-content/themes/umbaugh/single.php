@@ -140,9 +140,9 @@
 							</ul>
 						</div>
 					<?php endif; ?>
-                    <div>
+
                     <iframe src="http://sandbox.qmworks.com/survey/fillsurvey.php?sid=10" width="550" height="500" frameborder="0" scrolling="auto" name="myInlineFrame" align="bottom"></iframe>
-				    </div>
+				    
                 <div id="wide-callout">
 						<h2>Cash Advisory Services</h2>
 						<p>Umbaugh Cash Advisory Services, LLC was developed as an independent business entity to help create a structured investment program for their bond proceeds and operating funds.</p>
