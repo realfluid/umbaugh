@@ -153,9 +153,6 @@
 							<span class="date"><?php $author = get_post_meta($post->ID, "author", true); if($author) echo $author.", "; ?><?php the_time("F j, Y"); ?><br><?php the_category(", "); ?></span>
 							<?php the_content(); ?>
 						</div>
-                        <!-- Enter Survey here --> <a href="http://google.com">survey2 here</a>
-                        <iframe src="http://sandbox.qmworks.com/survey/fillsurvey.php?sid=10" width="550" height="500" frameborder="0" scrolling="auto" name="myInlineFrame" align="bottom"></iframe>
-
 					</div>
 				<?php endif; ?>
 			</div>
