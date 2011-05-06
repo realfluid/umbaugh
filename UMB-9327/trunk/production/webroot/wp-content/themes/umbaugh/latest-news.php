@@ -32,6 +32,9 @@ get_header(); ?>
             </div>
         <?php endwhile; ?>
         <?php wp_pagenavi() ?>
+        	<div id="survey">
+        		The special form
+        	</div>
         </div>
     </div>
     <div id="sideColumn">
