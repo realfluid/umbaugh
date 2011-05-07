@@ -7,7 +7,7 @@ get_header();
 if ( have_posts() ) while ( have_posts() ) : the_post();
 
 	
-	if($_POST['form'] == "newsletter-email") {
+	if($_POST['form'] == "newsletter-email" OR $_POST['form'] == "newsletter-feedback") {
 	
 		/**
 		 * Include Zend Framework
@@ -45,7 +45,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 		//Zend_Debug::dump($authorData);
 		
 		$mail = new Zend_Mail();
-		$mail->addTo($authorData->user_email);
+		if($_POST['form'] == "newsletter-email") $mail->addTo($authorData->user_email);
 		$mail->addTo('webmanager@quinlanmarketing.com');
 		$mail->addTo('footnotes@umbaugh.com');
 		$mail->addTo('koen@go-online.be');
