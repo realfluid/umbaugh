@@ -154,7 +154,23 @@
 						</div>
 						
                         <?php if($_GET['form'] == 'email' && isset($_GET['email'])):?>
-	                        test email
+                        	<h3>Send your feedback:</h3>
+                            <form action="/process-article-forms" method="post" name="newsletter-email" id="newsletter-email">
+                                <input type="hidden" name="form" value="newsletter-email">
+                                <input type="hidden" name="articleId" value="<?php the_ID(); ?>">
+                                <div class="submit-form">
+                                   <input type="text" value="Your Name" name="your-name">
+                                   <input type="text" value="<?php echo $_GET['email']; ?>" name="your-email">
+                                   <input type="text" value="Your Phone Number" name="your-phone-number">
+                                   <input type="text" value="Your Organization" name="your-organization">
+                                </div>
+                                <div class="submit-form_left">
+                                	<br />
+                                    <textarea rows="5" cols="30" name="your-message">Your Message</textarea>
+                                    <input type="submit" value="Submit" class="submit" id="formSubmit">
+                                    <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
+                               </div>
+                            </form>
                         <?php elseif($_GET['form'] == 'feedback'):?>
                         	test feedback
                         <?php else:?>
