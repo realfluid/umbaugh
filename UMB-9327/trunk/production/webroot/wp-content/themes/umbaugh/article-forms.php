@@ -45,9 +45,9 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 		//Zend_Debug::dump($authorData);
 		
 		$mail = new Zend_Mail();
-		//$mail->addTo($authorData->user_email);
+		$mail->addTo($authorData->user_email);
 		$mail->addTo('webmanager@quinlanmarketing.com');
-		//$mail->addTo('footnotes@umbaugh.com');
+		$mail->addTo('footnotes@umbaugh.com');
 		$mail->addTo('koen@go-online.be');
 	    $mail->setFrom('no-reply@umbaugh.com');
 	    $mail->setSubject('Feedback on: ' . $post->post_title);
