@@ -8,7 +8,8 @@ if(isset($_POST)) {
 set_include_path(get_include_path() . PATH_SEPARATOR . 'library/');
 require_once 'Zend/Loader/Autoloader.php';
 $autoloader = Zend_Loader_Autoloader::getInstance();
-	
+
+
 $mail = new Zend_Mail();
 
 
