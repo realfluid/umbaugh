@@ -150,6 +150,7 @@
 					<div id="news" class="wide">
 						<div class="news-story last pxBuffer">
 							<span class="date"><?php $author = get_post_meta($post->ID, "author", true); if($author) echo $author.", "; ?><?php the_time("F j, Y"); ?><br><?php the_category(", "); ?></span>
+							<span style="align:right;"><?php echo get_the_post_thumbnail($post->ID, 'medium');?></span>
 							<?php the_content(); ?>
 						</div>
 						
