@@ -42,7 +42,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 	
 		$post = get_post($_POST['articleId']);
 		$authorData = get_userdata($post->post_author);
-		//Zend_Debug::dump($authorData);
+		Zend_Debug::dump($authorData); die();
 		
 		$mail = new Zend_Mail();
 		if($_POST['form'] == "newsletter-email") $mail->addTo($authorData->user_email);
