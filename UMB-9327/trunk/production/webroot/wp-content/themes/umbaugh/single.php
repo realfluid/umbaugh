@@ -152,6 +152,31 @@
 							<span class="date"><?php $author = get_post_meta($post->ID, "author", true); if($author) echo $author.", "; ?><?php the_time("F j, Y"); ?><br><?php the_category(", "); ?></span>
 							<div class="alignright"><?php echo get_the_post_thumbnail($post->ID, 'medium');?></div>
 							<?php the_content(); ?>
+							<?php if($_GET['form'] == 'email' && isset($_GET['email'])):?>
+	                        <p id="extras">
+	                        	<br />
+	                        	<br />
+								<a href="<?php the_permalink(); ?>?form=feedback&email=Emailaddress#newsletter-feedback">Give Article Feedback &raquo;</a>
+	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	            				E-mail Umbaugh &raquo;
+							</p>
+	                        <?php elseif($_GET['form'] == 'feedback' && isset($_GET['email'])):?>
+	                        <p id="extras">
+	                        	<br />
+	                        	<br />
+	                        	Give Article Feedback &raquo;
+	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	            				<a href="<?php the_permalink(); ?>?form=email&email=Emailaddress#newsletter-email">E-mail Umbaugh &raquo;</a>
+	                        </p>
+	                        <?php else:?>
+	                        <p id="extras">
+	                        	<br />
+	                        	<br />
+	                        	<a href="<?php the_permalink(); ?>?form=feedback&email=Emailaddress#newsletter-feedback">Give Article Feedback &raquo;</a>
+					            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+					            <a href="<?php the_permalink(); ?>?form=email&email=Emailaddress#newsletter-email">E-mail Umbaugh &raquo;</a>
+					        </p>	
+	                        <?php endif;?>
 						</div>
 						
                         <?php if($_GET['form'] == 'email' && isset($_GET['email'])):?>
