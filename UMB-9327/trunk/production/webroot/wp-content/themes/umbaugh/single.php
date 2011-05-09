@@ -150,58 +150,69 @@
 					<div id="news" class="wide">
 						<div class="news-story last pxBuffer">
 							<span class="date"><?php $author = get_post_meta($post->ID, "author", true); if($author) echo $author.", "; ?><?php the_time("F j, Y"); ?><br><?php the_category(", "); ?></span>
-							<span style="align:right;"><?php echo get_the_post_thumbnail($post->ID, 'medium');?></span>
+							<div class="alignright"><?php echo get_the_post_thumbnail($post->ID, 'medium');?></div>
 							<?php the_content(); ?>
 						</div>
 						
                         <?php if($_GET['form'] == 'email' && isset($_GET['email'])):?>
-                        	<div id="form-border">
-	                        	<h3>Contact us:</h3>
-	                            <form action="/process-article-forms" method="post" name="newsletter-email" id="newsletter-email">
-	                                <input type="hidden" name="form" value="newsletter-email">
-	                                <input type="hidden" name="articleId" value="<?php the_ID(); ?>">
-	                                <div class="submit-form">
-	                                   <input type="text" value="Your Name" name="your-name">
-	                                   <input type="text" value="<?php echo $_GET['email']; ?>" name="your-email">
-	                                   <input type="text" value="Your Phone Number" name="your-phone-number">
-	                                   <input type="text" value="Your Organization" name="your-organization">
-	                                </div>
-	                                <div class="submit-form_left">
-	                                	<br />
-	                                    <textarea rows="5" cols="30" name="your-message">Your Message</textarea>
-	                                    <input type="submit" value="Submit" class="submit" id="formSubmit">
-	                                    <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
-	                               </div>
-	                            </form>
-                            </div>
+						<div id="contact_us-form"> 
+							<h3>Contact us:</h3> 
+						    <form action="/process-article-forms" method="post" name="newsletter-email" id="newsletter-email"> 
+						        <input type="hidden" name="form" value="newsletter-email"> 
+						        <input type="hidden" name="articleId" value="<?php the_ID(); ?>"> 
+						        <div class="submit-form"> 
+						           	<input type="text" value="Your Name" name="your-name"> 
+									<input type="text" value="<?php echo $_GET['email']; ?>" name="your-email"> 
+						           	<input type="text" value="Your Phone Number" name="your-phone-number"> 
+						           	<input type="text" value="Your Organization" name="your-organization"> 
+						        </div> 
+						        <div class="submit-form_left"> 
+						            <textarea rows="5" cols="30" name="your-message">Your Message</textarea> 
+						            <input type="submit" value="Submit" class="submit" id="formSubmit"> 
+									<input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"> 
+						       </div> 
+						    </form> 
+						</div>
                         <?php elseif($_GET['form'] == 'feedback' && isset($_GET['email'])):?>
-                        	<div id="form-border">
-	                        	<h3>Send your feedback:</h3>
-	                            <form action="/process-article-forms" method="post" name="newsletter-feedback" id="newsletter-feedback">
-	                                <input type="hidden" name="form" value="newsletter-feedback">
-	                                <input type="hidden" name="articleId" value="<?php the_ID(); ?>">
-	                                <div class="submit-form">
-	                                	<p>
-	                                		Is this item worthy of implementation? <br />
-	                                		<input type="radio" name="implementation" value="Yes" /> Yes <input type="radio" name="implementation" value="No" /> No <input type="radio" name="implementation" value="Maybe" /> Maybe 
-	                                	</p>
-	                                	<p>
-	                                		Is this item worth sharing with other associates? <br />
-	                                		<input type="radio" name="sharing" value="Yes" /> Yes <input type="radio" name="sharing" value="No" /> No <input type="radio" name="sharing" value="Maybe" /> Maybe 
-	                                	</p>
-	                                	<p>
-	                                		Did this item present value to you and your business? <br />
-	                                		<input type="radio" name="value" value="Yes" /> Yes <input type="radio" name="value" value="No" /> No <input type="radio" name="value" value="Maybe" /> Maybe 
-	                                	</p>
-	                                </div>
-	                                <div class="submit-form_left">
-	                                    <input type="text" value="<?php echo $_GET['email']; ?>" name="your-email">
-	                                    <textarea rows="5" cols="30" name="your-message">Your Message</textarea>
-	                                    <input type="submit" value="Submit" class="submit" id="formSubmit">
-	                                    <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
-	                               </div>
-	                            </form>
-                            </div>
+                        <div id="survey-form">						
+							<h3>Send your feedback:</h3> 
+							<form action="/process-article-forms" method="post" name="newsletter-feedback" id="newsletter-feedback"> 
+							    <input type="hidden" name="form" value="newsletter-feedback"> 
+							    <input type="hidden" name="articleId" value="<?php the_ID(); ?>"> 
+							    <div class="submit-form"> 
+							    	<div class="radio_list"> 
+							    		Is this item worthy of implementation?
+							    		<div class="radio_box"> 
+								    		<input type="radio" name="implementation" value="Yes" /><div class="radio_label">Yes</div> 
+								    		<input type="radio" name="implementation" value="No" /><div class="radio_label">No</div> 
+								    		<input type="radio" name="implementation" value="Maybe" /><div class="radio_label">Maybe</div> 
+							    		</div> 
+							    	</div> 
+							    	<div class="radio_list"> 
+							    		Is this item worth sharing with other associates?
+							    		<div class="radio_box"> 
+							    			<input type="radio" name="sharing" value="Yes" /><div class="radio_label">Yes</div> 
+							    			<input type="radio" name="sharing" value="No" /><div class="radio_label">No</div> 
+							    			<input type="radio" name="sharing" value="Maybe" /><div class="radio_label">Maybe</div> 
+							    		</div> 
+							    	</div> 
+							    	<div class="radio_list"> 
+							    		Did this item present value to you and your business?
+							    		<div class="radio_box"> 
+							    			<input type="radio" name="value" value="Yes" /><div class="radio_label">Yes</div> 
+							    			<input type="radio" name="value" value="No" /><div class="radio_label">No</div> 
+							    			<input type="radio" name="value" value="Maybe" /><div class="radio_label">Maybe</div> 
+							    		</div> 
+							    	</div> 
+							    </div> 
+							    <div class="submit-form_left"> 
+							        <input type="text" value="<?php echo $_GET['email']; ?>" name="your-email" id="email"> 
+							        <textarea rows="5" cols="30" name="your-message">Your Message</textarea> 
+									<input type="submit" value="Submit" class="submit" id="formSubmit"> 
+							        <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"> 
+							   </div> 
+							</form> 
+						</div>
                         <?php else:?>
                         	
                         <?php endif;?>

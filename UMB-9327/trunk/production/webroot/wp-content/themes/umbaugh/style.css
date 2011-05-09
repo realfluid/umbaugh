@@ -117,7 +117,7 @@ div.alignright {margin-left: 20px; line-height: 1.5em; text-align: center; }
 .interior-content { width: 941px; margin: 0 auto; margin-top: 20px;}
 .interior-content h1 { padding: 0px; margin: 10px 0 0 0; font-family: "Times New Roman", Times, serif; float: left; font-size: 1.917em; color: #3f775f; width: 657px;  }
 .interior-content h2{ font-family: "Times New Roman", Times, serif; color: #444; font-weight: normal;}
-.interior-content img { clear: both; float: left; margin: 5px 0 0 11px;}
+.interior-content img { border: 4px solid #D4D4D4; margin: 5px 10px 5px 0; float: left;}
 
 #mainColumn { width: 657px; float: left; clear: left; padding-left: 11px; }
 #mainColumn p { color: #444; font-size: 1.167em; width: 370px; }
@@ -252,16 +252,39 @@ div.alignright {margin-left: 20px; line-height: 1.5em; text-align: center; }
 #contact-form .submit { width: 59px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right; margin-right:6px; }
 #contact-form .submit input{padding: 0;margin: 0;}
 
+/*survey*/
+#survey-form { border:#ede0c1 solid 3px; float:left; width:641px; padding:0 0 20px 15px; margin:0 0 34px 0; overflow: hidden;color:#7b7a7a; }
+#survey-form .submit-form input { width: 20px; margin-left: 0; display: inline;}
+#survey-form .radio_list { margin-bottom: 15px;}
+#survey-form .radio_label { display: inline; padding-right: 20px;}
+#survey-form .submit-form { overflow: hidden; float: left; width: 245px; margin-right: 20px;}
+#survey-form .submit-form_left { overflow: hidden; float: left; width: 365px; }
+#survey-form textarea { float: left; width: 347px; height: 185px; border: 1px solid #ccc; margin: 0 0 10px; font-size:11px; color:#7b7a7a;padding: 5px;}
+#survey-form .submit-form_left input#email { float: left; width: 347px; height: 24px; border: 1px solid #ccc; margin-bottom:10px; font-size:11px; color:#7b7a7a;padding: 0 5px;}
+#survey-form .submit { width: 59px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right; margin-right:6px; }
+#survey-form .radio_box {border: 1px solid #ccc; margin-bottom: 5px; background-color: white; padding-top: 8px;  padding-bottom: 5px; padding-left: 10px; margin-top: 5px;}
+#survey-form h3 { margin-bottom: 5px;}
+
+/*contact us*/
+#contact_us-form { border:#ede0c1 solid 3px; float:left; width:641px; padding:0 0 20px 15px; margin:0 0 34px 0; overflow: hidden;color:#7b7a7a; }
+#contact_us-form .submit-form input { float: left; width: 235px; height: 24px; border: 1px solid #ccc; margin-bottom:10px; font-size:11px; color:#7b7a7a;padding: 0 5px;}
+#contact_us-form textarea { float: left; width: 347px; height: 122px; border: 1px solid #ccc; margin: 0 0 10px; font-size:11px; color:#7b7a7a;padding: 5px;}
+#contact_us-form .submit-form { overflow: hidden; float: left; width: 265px;}
+#contact_us-form .submit-form_left { overflow: hidden; float: left; width: 365px; }
+#contact_us-form .submit { width: 59px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right; margin-right:6px; }
+#contact_us-form h3 { margin-bottom: 5px;}
+
 /*news*/
 #mainColumn #news { margin-top: -19px }
 .news-archive p{ width: 656px !important; }
 #mainColumn .news-story { margin: 10px 0; padding: 15px 0 25px; border-bottom: #b6bbbf dashed 1px;  }
 #mainColumn .news-story h2 { color: #3b7059; font-size: 1.333em; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
 #mainColumn .news-story h2 a { color: #3b7059; font-size: 1em; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; }
-#mainColumn .news-story p{ color: #444; font-size: 1.083em; margin: 15px 0 0 0; padding: 0; }
+#mainColumn .news-story p{ color: #444; font-size: 1.083em; margin: 15px 0 0 0; padding: 0;}
+#mainColumn .news-story.last.pxBuffer {}
 #mainColumn .news-story a{ color: #3f775f; text-decoration: underline; padding: 0px;}
 #mainColumn .news-story .date { font-size: 0.917em; margin: 0px; color: #939393; clear: both; }
-#mainColumn .news-story .date a { color: #529277; float: none; text-decoration: none; }
+#mainColumn .news-story .date a { color: #529277; text-decoration: none; float: none;}
 
 #sideColumn #news { margin: 13px 0 0 2px; float: left; }
 #sideColumn #news h2{ color: #7b7a7a; font-size: 1.147em;}
