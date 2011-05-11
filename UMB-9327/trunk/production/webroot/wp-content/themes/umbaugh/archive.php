@@ -17,7 +17,7 @@
             <?php endif; ?>
         </h1>
         <div class="wide" id="news">
-			<?php query_posts( 'cat=-11' ); ?>
+			<?php query_posts( "cat=3&year=" . get_the_date('Y') . "&monthnum=" . get_the_date('m') . "&order=DESC" ); ?>
             <?php rewind_posts(); ?>
             <?php if (have_posts()) while (have_posts()) : the_post(); ?>
                 <div class="news-story">
