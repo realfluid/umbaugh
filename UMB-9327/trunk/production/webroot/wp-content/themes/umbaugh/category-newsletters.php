@@ -6,6 +6,8 @@
 				<?php while(have_posts()) : the_post(); ?>
 					<div class="news-story">
 						<h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
+                        <span class="date">By <?php coauthors(); ?>, <?php the_time("F j, Y"); ?><br><?php the_category(", "); ?></span>
+
 						<p><?php the_content() ?></p>
 					</div>
 				<?php endwhile; ?>
