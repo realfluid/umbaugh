@@ -22,10 +22,7 @@ get_header(); ?>
         while (have_posts()) :the_post(); ?>
             <div class="news-story">
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h2>
-				<span class="date">
-					<?php $author = get_post_meta($post->ID, "author", true); if ($author) echo $author . ", "; ?>
-                    <?php the_time('F j, Y'); ?>
-                        <br/>
+                <span class="date">By <?php coauthors(); ?>, <?php the_time("F j, Y"); ?><br><?php the_category(", "); ?></span>
                     <?php the_category(","); ?></span>
 
                 <p><?php excerpt(30) ?></p>
