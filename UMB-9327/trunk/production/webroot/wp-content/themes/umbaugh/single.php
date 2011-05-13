@@ -149,7 +149,7 @@
 					<h1><?php the_title(); ?></h1>
 					<div id="news" class="wide">
 						<div class="news-story last pxBuffer">
-							<span class="date"><?php $author = get_post_meta($post->ID, "author", true); if($author) echo $author.", "; ?><?php the_time("F j, Y"); ?><br><?php the_category(", "); ?></span>
+							<span class="date">By <?php coauthors(); ?>, <?php the_time("F j, Y"); ?><br><?php the_category(", "); ?></span>
 							<div class="alignright"><?php echo get_the_post_thumbnail($post->ID, 'medium');?></div>
 							<?php the_content(); ?>
 							<?php if($_GET['form'] == 'email' && isset($_GET['email'])):?>
