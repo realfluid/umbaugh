@@ -93,5 +93,5 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 
 
-define('WP_HOME','http://www.umbaugh.com');
-define('WP_SITEURL','http://www.umbaugh.com');
+define('WP_HOME','http://dev.umbaugh.com');
+define('WP_SITEURL','http://dev.umbaugh.com');
