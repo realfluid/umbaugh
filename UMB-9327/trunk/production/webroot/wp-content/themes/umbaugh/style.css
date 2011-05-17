@@ -13,6 +13,7 @@ body { padding: 0; background: #EAEAEA; color: #000; font: .75em/1.5em "Arial","
 
 p, ul, ol, dl { padding-bottom: 1em; }
 ul, ol { margin-left: 0; padding-left: 2em; }
+ul li {margin-bottom:5px;}
 h1, h2, h3, h4, h5, h6 { font-size: 1em; }
 textarea, input, select, option, optgroup, button { font: 1em "Arial", "Helvetica", sans-serif; }
 img { border: none; vertical-align: bottom; }
