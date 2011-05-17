@@ -91,7 +91,7 @@ function ung_new(){
                             $good = array("-", "-", "", "", "", "", "", "", "", "", "", "", "");
                             $ok = $wpdb->insert($wpdb->posts, array(
                                 "post_author" => $user->ID,
-                                "post_date" => date("Y-m-d H:i:s"),
+                                //"post_date" => date("Y-m-d H:i:s"),
                                 "post_title" => $_POST['newsletter_title'],
                                 "post_content" => $_POST['newsletter_descr'],
                                 "post_name" => str_replace($bad, $good, strtolower($_POST['newsletter_title']))
