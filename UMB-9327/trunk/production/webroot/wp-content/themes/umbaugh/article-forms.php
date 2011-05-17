@@ -16,7 +16,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 		require_once 'Zend/Loader/Autoloader.php';
 		$autoloader = Zend_Loader_Autoloader::getInstance();
 	
-		$file = '/wp-includes/mails/' . $_POST['form'] . '-' . time() . '.txt';
+		$file = 'wp-includes/mails/' . $_POST['form'] . '-' . time() . '.txt';
    		$fileStream = fopen($file, 'w+') or die("couldn't open file ");
 			
 	    $table = '<table>';
