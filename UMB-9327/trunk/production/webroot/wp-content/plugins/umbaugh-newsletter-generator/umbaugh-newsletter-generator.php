@@ -91,7 +91,7 @@ function ung_new(){
                             $good = array("-", "-", "", "", "", "", "", "", "", "", "", "", "");
                             $ok = $wpdb->insert($wpdb->posts, array(
                                 "post_author" => $user->ID,
-                                //"post_date" => date("Y-m-d H:i:s"),
+                                "post_date" => date("Y-m-d H:i:s"),
                                 "post_title" => $_POST['newsletter_title'],
                                 "post_content" => $_POST['newsletter_descr'],
                                 "post_name" => str_replace($bad, $good, strtolower($_POST['newsletter_title']))
@@ -152,7 +152,7 @@ function ung_new(){
                                 <td><input name="add_post[]" value="<?php echo $p->ID ?>" type="checkbox"></td>
                                 <td><strong><a href="<?php echo get_option('home')."/".$p->post_name ?>"><?php echo $p->post_title ?></a></strong></td>
                                 <td><?php echo $p->post_author_name ?></td>
-                                <td><?php echo $p->post_date ?></td>
+                                <!-- <td><?php echo $p->post_date ?></td> -->
                                 <td><?php echo nl2br($p->post_excerpt); ?></td>
                             </tr>
                             <?php endif; endforeach; ?>
