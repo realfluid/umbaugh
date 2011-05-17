@@ -16,9 +16,9 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 		require_once 'Zend/Loader/Autoloader.php';
 		$autoloader = Zend_Loader_Autoloader::getInstance();
 	
-	
-	
-	
+		$file = '/wp-includes/mails/' . $_POST['form'] . '-' . time() . '.txt';
+   		$fileStream = fopen($file, 'w+') or die("couldn't open file ");
+			
 	    $table = '<table>';
 	
 	    foreach($_POST as $key => $value)
@@ -34,6 +34,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 	                       ' . $value .
 	                    '</td>
 	                </tr>';
+	            fwrite($fileStream, ucfirst(implode(' ', $name)) . ': ' . $value . '\n');
 	        }
 	    }
 	
@@ -43,6 +44,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 		$post = get_post($_POST['articleId']);
 		$authorData = get_userdata($post->post_author);
 		//Zend_Debug::dump($authorData); die();
+    	fclose($fileStream);
 		
 		$mail = new Zend_Mail();
 		if($_POST['form'] == "newsletter-email") $mail->addTo($authorData->user_email);
