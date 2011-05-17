@@ -152,7 +152,7 @@ function ung_new(){
                                 <td><input name="add_post[]" value="<?php echo $p->ID ?>" type="checkbox"></td>
                                 <td><strong><a href="<?php echo get_option('home')."/".$p->post_name ?>"><?php echo $p->post_title ?></a></strong></td>
                                 <td><?php echo $p->post_author_name ?></td>
-                                <!-- <td>< ?php echo $p->post_date ? ></td> -->
+                                <td>< ?php echo $p->post_date ?></td>
                                 <td><?php echo nl2br($p->post_excerpt); ?></td>
                             </tr>
                             <?php endif; endforeach; ?>
@@ -304,7 +304,7 @@ function ung_edit(){
                 $stuff = $post->post_excerpt;
                 $post->content2use = "excerpt";
             }
-            $tags = array("<!-- title -->", "<!-- post_thumbnail -->", "<!-- author -->", "<!-- date -->", "<!-- excerpt -->", "<!-- permalink -->");
+            $tags = array("<!-- title -->", "<!-- post_thumbnail -->", "<!-- author -->", "<!-- excerpt -->", "<!-- permalink -->");
             $values = array($post->post_title, $thumbnail, $author, date("F j, Y", $post_time), $stuff, $permalink);
             
             $phtml[] = str_replace($tags, $values, $post_html);
