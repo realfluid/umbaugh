@@ -50,7 +50,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 		if($_POST['form'] == "newsletter-email") $mail->addTo($authorData->user_email);
 		$mail->addTo('webmanager@quinlanmarketing.com');
 		$mail->addTo('footnotes@umbaugh.com');
-		$mail->addTo('koen@go-online.be');
+		//$mail->addTo('koen@go-online.be');
 	    $mail->setFrom('no-reply@umbaugh.com');
 	    $mail->setSubject('Feedback on: ' . $post->post_title);
 	    $mail->setBodyHtml($table);
