@@ -36,7 +36,7 @@ function ung_list(){
                 $wpdb->query("delete from $wpdb->term_relationships where object_id={$nl_post->ID}");
             }
 
-            $newsletters = $wpdb->get_results("select meta_value from $wpdb->postmeta where meta_key='nl' order by meta_value asc");
+            $newsletters = $wpdb->get_results("select distinct meta_value from $wpdb->postmeta where meta_key='newsletter' order by meta_value asc");
             if(count($newsletters)):?>
                 <table class="widefat">
                     <thead>
