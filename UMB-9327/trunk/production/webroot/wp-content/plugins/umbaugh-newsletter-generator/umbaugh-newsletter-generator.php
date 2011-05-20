@@ -42,7 +42,6 @@ function ung_list(){
                     <thead>
                         <tr>
                             <th>Newsletter</th>
-                            <th>Post count</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -50,9 +49,6 @@ function ung_list(){
                     <?php foreach($newsletters as $n): $alt = !$alt; ?>
                     <tr <?php if(!$alt): echo "class='alternate'"; endif; ?>>
                         <td><?php echo $n->meta_value; ?></td>
-                        <td>
-                            <?php echo $wpdb->get_var($wpdb->prepare("select count(*) from $wpdb->postmeta where meta_value='{$n->meta_value}' and meta_key='newsletter'")); ?>
-                        </td>
                         <td><a href="edit.php?page=ung_edit&amp;newsletter=<?php echo urlencode($n->meta_value) ?>">Edit</a> | <a href="edit.php?page=ung_list&amp;del=<?php echo urlencode($n->meta_value) ?>">Delete</a></td>
                     </tr>
                     <?php endforeach ?>
