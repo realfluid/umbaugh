@@ -159,6 +159,8 @@
 								<a href="<?php the_permalink(); ?>?form=feedback&email=Emailaddress#newsletter-feedback">Give Article Feedback &raquo;</a>
 	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	            				E-mail Umbaugh &raquo;
+	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	            				<a href="javascript:window.print()">Print Article</a>
 							</p>
 	                        <?php elseif($_GET['form'] == 'feedback' && isset($_GET['email'])):?>
 	                        <p id="extras">
@@ -167,6 +169,8 @@
 	                        	Give Article Feedback &raquo;
 	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	            				<a href="<?php the_permalink(); ?>?form=email&email=Emailaddress#newsletter-email">E-mail Umbaugh &raquo;</a>
+	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	            				<a href="javascript:window.print()">Print Article</a>
 	                        </p>
 	                        <?php else:?>
 	                        <p id="extras">
@@ -175,6 +179,8 @@
 	                        	<a href="<?php the_permalink(); ?>?form=feedback&email=Emailaddress#newsletter-feedback">Give Article Feedback &raquo;</a>
 					            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 					            <a href="<?php the_permalink(); ?>?form=email&email=Emailaddress#newsletter-email">E-mail Umbaugh &raquo;</a>
+	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	            				<a href="javascript:window.print()">Print Article</a>
 					        </p>	
 	                        <?php endif;?>
 						</div>
