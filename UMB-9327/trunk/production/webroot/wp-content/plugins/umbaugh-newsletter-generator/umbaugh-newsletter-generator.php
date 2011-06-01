@@ -289,7 +289,7 @@ function ung_edit(){
             $author = get_post_meta($post->ID, "author", true);
             $post->post_author_name = $author;
             $thumbnail = get_the_post_thumbnail($post->ID, 'newsletter');
-            $thumbnail = str_replace("/>", "align='$align' style='$padding: 20px;' />", $thumbnail);
+            $thumbnail = str_replace("/>", "align='$align' style='padding: 20px;' />", $thumbnail);
             $use = get_post_meta($post->ID, "use in newsletter", true);
 
             //$wpdb->get_var($wpdb->prepare("select meta_value from $wpdb->postmeta where meta_key='use in newsletter' and post_id='{$post->ID}'"));
