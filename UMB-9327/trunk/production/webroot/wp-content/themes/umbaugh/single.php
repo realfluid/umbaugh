@@ -162,7 +162,7 @@
 	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	            				<a href="javascript:window.print()">Print Article &raquo;</a>
 							</p>
-                            <p><em>DISCLAIMER: Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
+                            <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
 	                        <?php elseif($_GET['form'] == 'feedback' && isset($_GET['email'])):?>
 	                        <p id="extras">
 	                        	<br />
@@ -173,7 +173,7 @@
 	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	            				<a href="javascript:window.print()">Print Article &raquo;</a>
 	                        </p>
-                            <p><em>DISCLAIMER: Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
+                            <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
 	                        <?php else:?>
 	                        <p id="extras">
 	                        	<br />
@@ -184,7 +184,7 @@
 	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	            				<a href="javascript:window.print()">Print Article &raquo;</a>
 					        </p>	
-                            <p><em>DISCLAIMER: Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
+                            <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
 	                        <?php endif;?>
 						</div>
 						
