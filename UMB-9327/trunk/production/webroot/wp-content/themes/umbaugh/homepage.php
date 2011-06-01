@@ -41,7 +41,7 @@ get_header(); ?>
     <div class="content">
         <div>
 			<div class="three-columns">
-<div class="column-one column">
+				<div class="column-one column">
 					<h2><a href="<?php bloginfo('home'); ?>/services/our-library">Our Library</a></h2>
 					<ul class="links pdf">
                         <?php
