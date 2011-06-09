@@ -26,6 +26,7 @@
 	if ( is_singular() && get_option( 'thread_comments' ) )	wp_enqueue_script( 'comment-reply' );
 	wp_head();
 ?>
+<meta name="google-site-verification" content="OgmSrMgKFDQKuUJK8D4ljaz60Vb0_W8VXB0uUUh9bKc" />
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
