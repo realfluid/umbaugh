@@ -26,11 +26,11 @@
 	if ( is_singular() && get_option( 'thread_comments' ) )	wp_enqueue_script( 'comment-reply' );
 	wp_head();
 ?>
-<meta name="google-site-verification" content="OgmSrMgKFDQKuUJK8D4ljaz60Vb0_W8VXB0uUUh9bKc" />
+<meta name="google-site-verification" content="2xJ5I2d46hzdZ3yMWKF4prOcQ42jO-zHk4I-45_Kpks" />
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-23878652-1']);
+  _gaq.push(['_setAccount', 'UA-23881157-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
