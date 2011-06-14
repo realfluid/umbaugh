@@ -209,43 +209,48 @@
 						</div>
                         <?php elseif($_GET['form'] == 'feedback' && isset($_GET['email'])):?>
                         <div id="survey-form">						
-							<h3>Send your feedback:</h3> 
-							<form action="/process-article-forms" method="post" name="newsletter-feedback" id="newsletter-feedback"> 
-							    <input type="hidden" name="form" value="newsletter-feedback"> 
-							    <input type="hidden" name="articleId" value="<?php the_ID(); ?>"> 
-							    <div class="submit-form"> 
-							    	<div class="radio_list"> 
+							<h3>Send your feedback:</h3>
+							<form action="/process-article-forms" method="post" name="newsletter-feedback" id="newsletter-feedback">
+							    <input type="hidden" name="form" value="newsletter-feedback">
+							    <input type="hidden" name="articleId" value="1483">
+							    <div class="submit-form">
+							    	<div class="radio_list" id="implementation">
 							    		Is this item worthy of implementation?
-							    		<div class="radio_box"> 
-								    		<input type="radio" name="implementation" value="Yes" /><div class="radio_label">Yes</div> 
-								    		<input type="radio" name="implementation" value="No" /><div class="radio_label">No</div> 
-								    		<input type="radio" name="implementation" value="Maybe" /><div class="radio_label">Maybe</div> 
-							    		</div> 
-							    	</div> 
-							    	<div class="radio_list"> 
+							    		<div class="radio_box">
+								    		<input type="radio" name="implementation" value="Yes" id="implementation"/><div class="radio_label">Yes</div> 
+								    		<input type="radio" name="implementation" value="No" id="implementation"/><div class="radio_label">No</div>
+								    		<input type="radio" name="implementation" value="Maybe" id="implementation"/><div class="radio_label">Maybe</div>
+								    		<br /><label for="implementation" class="error" style="display:none;">This is required</label>
+							    		</div>
+							    		
+							    	</div>
+							    	<div class="radio_list">
 							    		Is this item worth sharing with other associates?
-							    		<div class="radio_box"> 
-							    			<input type="radio" name="sharing" value="Yes" /><div class="radio_label">Yes</div> 
-							    			<input type="radio" name="sharing" value="No" /><div class="radio_label">No</div> 
-							    			<input type="radio" name="sharing" value="Maybe" /><div class="radio_label">Maybe</div> 
-							    		</div> 
-							    	</div> 
-							    	<div class="radio_list"> 
+							    		<div class="radio_box">
+							    			<input type="radio" name="sharing" value="Yes" /><div class="radio_label">Yes</div>
+							    			<input type="radio" name="sharing" value="No" /><div class="radio_label">No</div>
+							    			<input type="radio" name="sharing" value="Maybe" /><div class="radio_label">Maybe</div>
+							    			<br /><label for="sharing" class="error" style="display:none;">This is required</label>
+							    		</div>
+							    		
+							    	</div>
+							    	<div class="radio_list">
 							    		Did this item present value to you and your business?
-							    		<div class="radio_box"> 
-							    			<input type="radio" name="value" value="Yes" /><div class="radio_label">Yes</div> 
-							    			<input type="radio" name="value" value="No" /><div class="radio_label">No</div> 
-							    			<input type="radio" name="value" value="Maybe" /><div class="radio_label">Maybe</div> 
-							    		</div> 
-							    	</div> 
-							    </div> 
-							    <div class="submit-form_left"> 
-							        <input type="text" value="<?php echo $_GET['email']; ?>" name="your-email" id="email"> 
-							        <textarea rows="5" cols="30" name="your-message">Your Message</textarea> 
-									<input type="submit" value="Submit" class="submit" id="formSubmit"> 
-							        <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"> 
-							   </div> 
-							</form> 
+							    		<div class="radio_box">
+							    			<input type="radio" name="value" value="Yes" /><div class="radio_label">Yes</div>
+							    			<input type="radio" name="value" value="No" /><div class="radio_label">No</div>
+							    			<input type="radio" name="value" value="Maybe" /><div class="radio_label">Maybe</div>
+							    			<br /><label for="value" class="error" style="display:none;">This is required</label>
+							    		</div>
+							    	</div>
+							    </div>
+							    <div class="submit-form_left">
+							        <input type="text" value="[email]" name="your-email" id="email"><label for="your-email" id="your-email" class="error" style="display:none;"></label>
+							        <textarea rows="5" cols="30" name="your-message">Your Message</textarea>
+									<input type="submit" value="Submit" class="submit" id="formSubmit">
+							        <input type="hidden" name="redirect" value="www.umbaugh.com/disclaimers-what-do-they-mean?form=feedback&email=[email]">
+							   </div>
+							</form>
 						</div>
                         <?php else:?>
                         	
@@ -256,5 +261,31 @@
 			<div id="sideColumn"><?php get_sidebar(); ?></div>
 		</div>
 		<?php get_footer(); ?>
+	<script src="http://code.jquery.com/jquery-1.6.1.min.js" type="text/javascript"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	$().ready(function() {
+		$("#newsletter-feedback").validate({
+			rules: {
+				implementation: {
+					required: true
+				},
+				sharing: {
+					required: true
+				},
+				value:{
+					required: true
+				},
+				'your-email':{
+					required: true,
+					email: true
+				},
+				'your-message':{
+					required: true
+				}
+			}
+		});
+	});
+	</script>
 	<?php endif; ?>
 <?php endwhile; ?>
