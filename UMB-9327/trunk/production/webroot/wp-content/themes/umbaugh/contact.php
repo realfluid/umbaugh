@@ -57,33 +57,37 @@ get_header();
                        <h3>Have any questions? Contact Us.</h3>
                        <p>We would like to hear from you.</p>
                             <form action="/processForms.php" method="post" name="contact-us" id="contactusform">
-                                <input type="hidden" name="form" value="contact-us">
-                                <div class="submit-form">
-                                   <input type="text" value="Your Name" name="your-name">
-                                   <input type="text" value="Your Email" name="your-email">
-                                   <input type="text" value="Your Phone Number" name="your-phone-number">
-                                   <input type="text" value="Your Organization" name="your-organization">
-                                </div>
-                                <div class="submit-form_left">
-                                        Areas of Interest:
-                                    <div class="checkbox_box">
-                                        <div class="checkbox_left">
-                                            <input type="checkbox" name="accounting-services">Accounting Services<br />
-                                            <input type="checkbox" name="arbitrage-services">Arbitrage Services<br />
-                                            <input type="checkbox" name="bond-issuance">Bond Issuance<br />
-                                        </div>
-                                        <div class="checkbox_right">
-                                            <input type="checkbox" name="capital-planning">Capital Planning<br />
-                                            <input type="checkbox" name="financial-management">Financial Management<br />
-                                            <input type="checkbox" name="post-issuance">Post Issuance<br />
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                    <textarea rows="5" cols="30" name="your-message">Your Message</textarea>
-                                    <input type="submit" value="Submit" class="submit" id="formSubmit">
-                                    <input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
-                               </div>
-                            </form>
+					            <input type="hidden" name="form" value="contact-us">
+					            <div class="submit-form">
+					               <input type="text" value="Your Name" name="your-name" id="your-name">
+					               <input type="text" value="Your Email" name="your-email" id="your-email">
+					               <input type="text" value="Your Phone Number" name="your-phone-number" id="your-phone-number">
+					
+					               <input type="text" value="Your Organization" name="your-organization" id="your-organization">
+					            </div>
+					            <div class="submit-form_left">
+					                    Areas of Interest:
+					                <div class="checkbox_box">
+					                    <div class="checkbox_left">
+					                        <input type="checkbox" name="accounting-services">Accounting Services<br />
+					                        <input type="checkbox" name="arbitrage-services">Arbitrage Services<br />
+					
+					                        <input type="checkbox" name="bond-issuance">Bond Issuance<br />
+					                    </div>
+					                    <div class="checkbox_right">
+					                        <input type="checkbox" name="capital-planning">Capital Planning<br />
+					                        <input type="checkbox" name="financial-management">Financial Management<br />
+					                        <input type="checkbox" name="post-issuance">Post Issuance<br />
+					                    </div>
+					
+					                    <div class="clear"></div>
+					                </div>
+					                <textarea rows="5" cols="30" name="your-message" id="your-message">Your Message</textarea>
+					                <input type="submit" value="Submit" class="submit" id="formSubmit">
+					                <input type="hidden" name="redirect" value="www.umbaugh.com/contact">
+					           </div>
+					        </form>
+
                     </div>                
 			<?php endwhile; ?>
 
@@ -132,3 +136,27 @@ get_header();
         <div id="sideColumn"><?php get_sidebar('basic'); ?><?php get_sidebar('contact-us'); ?></div>
     </div>
 <?php get_footer(); ?>
+<script src="http://code.jquery.com/jquery-1.6.1.min.js" type="text/javascript"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$().ready(function() {
+	$("#contactusform").validate({
+		rules: {
+			'your-name': {
+				required: true,
+				minlength: 2
+			},
+			'your-email': {
+				required: true,
+				email: true
+			},
+			'your-phone-number':{
+				digits: true
+			},
+			'your-message':{
+				required: true
+			}
+		}
+	});
+});
+</script>
