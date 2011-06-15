@@ -10,7 +10,7 @@ get_header(); ?>
 
         <div class="wide" id="news">
         <?php
-                function fake_is_home($args) {
+        function fake_is_home($args) {
             // Really doesn't filter posts_results.
             // Set is_home = 1 to allow sticky posts to be honored.
             global $wp_query;
@@ -18,20 +18,15 @@ get_header(); ?>
             return $args;
         }
         add_filter('posts_results', 'fake_is_home');
-        query_posts("cat=3,-11&posts_per_page=10&paged=&order=DESC" . get_query_var('paged'));
+        query_posts("cat=3,-11&posts_per_page=10&paged=&order=DESC&paged=" . get_query_var('paged'));
         while (have_posts()) :the_post(); ?>
             <div class="news-story">
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h2>
                 <span class="date">By <?php coauthors(); ?>, <?php the_time("F j, Y"); ?><br><?php the_category(", "); ?></span>
-                    <?php the_category(","); ?></span>
-
                 <p><?php excerpt(30) ?></p>
             </div>
         <?php endwhile; ?>
         <?php wp_pagenavi() ?>
-        	<div id="survey">
-        		The special form
-        	</div>
         </div>
     </div>
     <div id="sideColumn">
