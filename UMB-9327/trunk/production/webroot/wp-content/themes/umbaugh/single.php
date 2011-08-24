@@ -1,6 +1,6 @@
 <?php while(have_posts()): the_post();
 	$this_id = $post->ID;
-	if(in_category(11)):
+	if(in_category(11) && get_post_meta($post->ID, "nl", true) != ''):
 
 		$title = get_post_meta($post->ID, "nl", true);
 
@@ -81,7 +81,7 @@
                 $post->content2use = "excerpt";
             }
             //(count($posts_unsorted) == 1) ? $title = $author : $title;
-            
+
             $tags = array("<!-- title -->", "<!-- post_thumbnail -->", "<!-- author -->", "<!-- date -->", "<!-- excerpt -->", "<!-- permalink -->");
             $values = array($p->post_title, $thumbnail, $author, date("F j, Y", $post_time), $stuff, $permalink);
             $phtml[] = str_replace($tags, $values, $post_html);
@@ -97,6 +97,46 @@
         $main_html = str_replace($tags, $values, $main_html);
 
         echo $main_html;
+    elseif (in_category(11)) :
+
+    	$post = get_post($post->ID);
+    	$postItems = get_post_meta($post->ID, 'newsletter_items', true);
+
+    	$path = "wp-content/plugins/umbaugh-newsletter-generator/base/";
+    	$postHtml = file_get_contents($path . '/post.html');
+    	$mainHtml = file_get_contents($path . '/main.html');
+    	foreach ($postItems as $item)
+    	{
+            $a = !$a;
+            if(!$a) {
+                $align = "right";
+                $margin = "margin-left";
+            } else {
+               $align = "right";
+               $margin = "margin-left";
+            }
+
+    		$itemData = get_post($item['id']);
+
+
+    		if($use == "content") {
+                $content = $itemData->post_content;
+            } else {
+                $content = $itemData->post_excerpt;
+            }
+            $thumbnail = get_the_post_thumbnail($itemData->ID, 'newsletter');
+            $thumbnail = str_replace("/>", "align='$align' />", $thumbnail);
+    	    $tags = array("<!-- title -->", "<!-- post_thumbnail -->", "<!-- author -->", "<!-- date -->", "<!-- excerpt -->", "<!-- permalink -->");
+    	    $values = array($itemData->post_title, $thumbnail, get_post_meta($itemData->ID, "author", true), date("F j, Y", $post_time), $content, get_permalink($itemData->ID));
+    	    $phtml[] = str_replace($tags, $values, $postHtml);
+
+    	}
+    	$postsHtml = implode('', $phtml);
+
+        $tags = array("<!-- home_url -->", "<!-- newsletter_title -->", "<!-- posts -->", "<!-- this_url -->");
+        $values = array(get_option('home'), $title, $postsHtml, get_permalink($postId));
+        $mainHtml = str_replace($tags, $values, $mainHtml);
+        echo $mainHtml;
 	else : ?>
 		<?php get_header(); ?>
 		<div class="interior-content">
@@ -183,32 +223,32 @@
 					            <a href="<?php the_permalink(); ?>?form=email&email=Emailaddress#newsletter-email">E-mail Umbaugh &raquo;</a>
 	            				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	            				<a href="javascript:window.print()">Print Article &raquo;</a>
-					        </p>	
+					        </p>
                             <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
 	                        <?php endif;?>
 						</div>
-						
+
                         <?php if($_GET['form'] == 'email' && isset($_GET['email'])):?>
-						<div id="contact_us-form"> 
-							<h3>Contact us:</h3> 
-						    <form action="/process-article-forms" method="post" name="newsletter-email" id="newsletter-email"> 
-						        <input type="hidden" name="form" value="newsletter-email"> 
-						        <input type="hidden" name="articleId" value="<?php the_ID(); ?>"> 
-						        <div class="submit-form"> 
-						           	<input type="text" value="Your Name" name="your-name"> 
-									<input type="text" value="<?php echo $_GET['email']; ?>" name="your-email"> 
-						           	<input type="text" value="Your Phone Number" name="your-phone-number"> 
-						           	<input type="text" value="Your Organization" name="your-organization"> 
-						        </div> 
-						        <div class="submit-form_left"> 
-						            <textarea rows="5" cols="30" name="your-message">Your Message</textarea> 
-						            <input type="submit" value="Submit" class="submit" id="formSubmit"> 
-									<input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"> 
-						       </div> 
-						    </form> 
+						<div id="contact_us-form">
+							<h3>Contact us:</h3>
+						    <form action="/process-article-forms" method="post" name="newsletter-email" id="newsletter-email">
+						        <input type="hidden" name="form" value="newsletter-email">
+						        <input type="hidden" name="articleId" value="<?php the_ID(); ?>">
+						        <div class="submit-form">
+						           	<input type="text" value="Your Name" name="your-name">
+									<input type="text" value="<?php echo $_GET['email']; ?>" name="your-email">
+						           	<input type="text" value="Your Phone Number" name="your-phone-number">
+						           	<input type="text" value="Your Organization" name="your-organization">
+						        </div>
+						        <div class="submit-form_left">
+						            <textarea rows="5" cols="30" name="your-message">Your Message</textarea>
+						            <input type="submit" value="Submit" class="submit" id="formSubmit">
+									<input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
+						       </div>
+						    </form>
 						</div>
                         <?php elseif($_GET['form'] == 'feedback' && isset($_GET['email'])):?>
-                        <div id="survey-form">						
+                        <div id="survey-form">
 							<h3>Send your feedback:</h3>
 							<form action="/process-article-forms" method="post" name="newsletter-feedback" id="newsletter-feedback">
 							    <input type="hidden" name="form" value="newsletter-feedback">
@@ -217,12 +257,12 @@
 							    	<div class="radio_list" id="implementation">
 							    		Is this item worthy of implementation?
 							    		<div class="radio_box">
-								    		<input type="radio" name="implementation" value="Yes" id="implementation"/><div class="radio_label">Yes</div> 
+								    		<input type="radio" name="implementation" value="Yes" id="implementation"/><div class="radio_label">Yes</div>
 								    		<input type="radio" name="implementation" value="No" id="implementation"/><div class="radio_label">No</div>
 								    		<input type="radio" name="implementation" value="Maybe" id="implementation"/><div class="radio_label">Maybe</div>
 								    		<br /><label for="implementation" class="error" style="display:none;">This is required</label>
 							    		</div>
-							    		
+
 							    	</div>
 							    	<div class="radio_list">
 							    		Is this item worth sharing with other associates?
@@ -232,7 +272,7 @@
 							    			<input type="radio" name="sharing" value="Maybe" /><div class="radio_label">Maybe</div>
 							    			<br /><label for="sharing" class="error" style="display:none;">This is required</label>
 							    		</div>
-							    		
+
 							    	</div>
 							    	<div class="radio_list">
 							    		Did this item present value to you and your business?
@@ -253,7 +293,7 @@
 							</form>
 						</div>
                         <?php else:?>
-                        	
+
                         <?php endif;?>
 					</div>
 				<?php endif; ?>
