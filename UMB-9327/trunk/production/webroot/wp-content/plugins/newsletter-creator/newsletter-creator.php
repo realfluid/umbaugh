@@ -146,7 +146,7 @@ function save($data)
 	// Create post object
     $my_post = array(
         'post_title' => $data['newsletter_title'],
-        'post_content' => $data['newsletter_description'],
+        'post_content' => $data['newsletter_descr'],
         'post_status' => $published,
         'post_author' => $current_user->ID,
         'post_category' => array(11),
@@ -260,6 +260,7 @@ function edit()
 	            	$posts = $wpdb->get_results("select * from $wpdb->posts where post_status='publish' and post_type='post' and ID not in (select post_id from $wpdb->postmeta where meta_key='nl') and  post_date > '".date('Y-m-d', strtotime('-90 days'))."' order by id desc");
 
 		        	foreach($posts as $p):
+		        	$cats = wp_get_post_categories($p->ID);
 		        	if(!in_array(11, $cats)) {
         				if ($p->post_title) : $alt = ! $alt; ?>
         		        <tr <?php if (! $alt) echo "class='alternate'"; ?>>
