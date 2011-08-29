@@ -45,12 +45,13 @@ function show_newsletter_list()
 	<a href="/wp-admin/edit.php?page=newsletter-create">Create Newsletter</a>
 	<?php
 
-	query_posts('cat=11&order=DESC');
+	query_posts('cat=11&order=DESC&posts_per_page=-1');
     ?>
     	<table class="widefat">
     		<thead>
 				<tr>
 				    <th>Newsletter</th>
+					<th>Date</th>
 				    <th>Actions</th>
 				</tr>
     		</thead>
@@ -59,6 +60,7 @@ function show_newsletter_list()
     			<?php $alt = !$alt; ?>
     			<tr <?php if(!$alt): echo "class='alternate'"; endif; ?>>
 					<td><?php the_title() ?></td>
+    				<td><?php echo the_time("F j, Y"); ?></td>
 					<td><a href="edit.php?page=newsletter-edit&amp;id=<?php the_ID(); ?>">Edit</a> | <a href="edit.php?page=newsletter-delete&amp;id=<?php the_ID(); ?>">Delete</a> | <a href="<?php the_permalink(); ?>">View newsletter</a></td>
     			</tr>
 
@@ -74,6 +76,29 @@ function show_newsletter_list()
 
 function create()
 {
+
+    if (function_exists('wp_tiny_mce')) {
+
+      add_filter('teeny_mce_before_init', create_function('$a', '
+        $a["theme"] = "advanced";
+        $a["skin"] = "wp_theme";
+        $a["height"] = "200";
+        $a["width"] = "800";
+        $a["onpageload"] = "";
+        $a["mode"] = "exact";
+        $a["elements"] = "newsletter_descr";
+        $a["editor_selector"] = "mceEditor";
+        $a["plugins"] = "safari,inlinepopups,spellchecker";
+
+        $a["forced_root_block"] = false;
+        $a["force_br_newlines"] = true;
+        $a["force_p_newlines"] = false;
+        $a["convert_newlines_to_brs"] = true;
+
+        return $a;'));
+
+     wp_tiny_mce(true);
+    }
 	?>
 	<div class="wrap">
 	<h2>Newsletter Creator</h2>
@@ -84,14 +109,13 @@ function create()
 		name="newsletter_title" id="newsletter_title" size="50"></p>
 	<p><label for="newsletter_descr">Newsletter description (shown on
 	website only): </label><br>
-	<textarea name="newsletter_descr" id="newsletter_descr" rows="5"
-		cols="120"></textarea></p>
+	<textarea id='newsletter_descr' name='newsletter_descr'></textarea></p>
 	<p><input type="checkbox" name="publish" value="1" /> Publish on save
 	<p>Choose posts to be added to the newsletter by selecting appropriate
 	check boxes</p>
 		<?php
 	        	global $wpdb;
-	            $posts = $wpdb->get_results("select * from $wpdb->posts where post_status='publish' and post_type='post' and ID not in (select post_id from $wpdb->postmeta where meta_key='nl') and  post_date > '".date('Y-m-d', strtotime('-90 days'))."' order by id desc");
+	            $posts = $wpdb->get_results("select * from $wpdb->posts where (post_status='publish' OR post_status='future')  and post_type='post' and ID not in (select post_id from $wpdb->postmeta where meta_key='nl') and  post_date > '".date('Y-m-d', strtotime('-90 days'))."' order by id desc");
 	            foreach($posts as $post){
 	                $date_pieces = explode("-", substr($post->post_modified, 0, 10));
 	                $time_pieces = explode(":", substr($post->post_modified, 11));
