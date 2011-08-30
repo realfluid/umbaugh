@@ -1,3 +1,5 @@
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="http://www.isocra.com/js/tablednd.js" type="text/javascript"></script>
 <?php
 /*
 Plugin Name: Newsletter Creator
@@ -100,19 +102,71 @@ function create()
      wp_tiny_mce(true);
     }
 	?>
+	<script>
+		 $(document).ready(function(){
+			$(function() {
+			   $(".checkboxColumn").change(function() {
+			   	if ($(this).is(":checked")){
+			   		var check = $("#posts input:checked").parent().parent();
+			   		$(check).prepend("<td><button>To top</button><button>To bottom</button></td>").addClass("sortbuttons");
+			   		$("#addPosts").append(check);
+			   		$("#addPosts .sortbuttons td:first-child").addClass("eerstelijn");
+			   		$(".eerstelijn").width(85);
+			   		$(".eerstelijn button").width(80)
+			   		}else {
+			   		var uncheck =$(this).parent().parent();
+			   		$("#posts").append(uncheck);
+			   		$("#posts .eerstelijn").remove()
+			   	}	
+			   });
+			   $(".eerstelijn button:first").click(function () {
+			   	var row = $(this).parent().parent().parent()
+			   	$("#addPosts").prepend(row);
+			   });
+			   $(".eerstelijn button:last").click(function () {
+			   	var row = $(this).parent().parent().parent()
+			   	$("#addPosts").append(row);
+			   });
+			});
+		});
+	</script>
 	<div class="wrap">
-	<h2>Newsletter Creator</h2>
-	<form method="post" action="/wp-admin/edit.php?page=newsletter-creator" >
-	<p class="submit"><input type="submit" name="Create" class="button-primary" value="<?php esc_attr_e ( 'Save the newsletter') ?>" /></p>
-
-	<p><label for="newsletter_title">Newsletter title: </label><input
-		name="newsletter_title" id="newsletter_title" size="50"></p>
-	<p><label for="newsletter_descr">Newsletter description (shown on
-	website only): </label><br>
-	<textarea id='newsletter_descr' name='newsletter_descr'></textarea></p>
-	<p><input type="checkbox" name="publish" value="1" /> Publish on save
-	<p>Choose posts to be added to the newsletter by selecting appropriate
-	check boxes</p>
+		<h2>Newsletter Creator</h2>
+		<form method="post" action="/wp-admin/edit.php?page=newsletter-creator" >
+			<p class="submit">
+				<input type="submit" name="Create" class="button-primary" value="<?php esc_attr_e ( 'Save the newsletter') ?>" />
+			</p>
+			<p>
+				<label for="newsletter_title">Newsletter title: </label>
+				<input name="newsletter_title" id="newsletter_title" size="50">
+			</p>
+			<p>
+				<label for="newsletter_descr">Newsletter description (shown on website only): </label><br>
+				<textarea id='newsletter_descr' name='newsletter_descr'></textarea>
+			</p>
+			<p>
+				<input type="checkbox" name="publish" value="1" /> Publish on save
+			</p>
+			<p>
+				Chosen posts:
+				<table class="widefat" id="postTable">
+					<thead>
+						<tr>
+							<th>Sort</th>
+							<th></th>
+							<th>Post title</th>
+							<th>Author</th>
+							<th>Date/Time</th>
+							<th>Excerpt</th>
+						</tr>
+					</thead>
+					<tbody id="addPosts">
+					</tbody>
+				</table>
+			</p>
+			<p>
+				Choose posts to be added to the newsletter by selecting appropriate check boxes
+			</p>
 		<?php
 	        	global $wpdb;
 	            $posts = $wpdb->get_results("select * from $wpdb->posts where (post_status='publish' OR post_status='future')  and post_type='post' and ID not in (select post_id from $wpdb->postmeta where meta_key='nl') and  post_date > '".date('Y-m-d', strtotime('-90 days'))."' order by id desc");
@@ -126,7 +180,7 @@ function create()
 	                $post->post_author_name = $author;
 	            }
 	            if(count($posts)): ?>
-		<table class="widefat">
+		<table class="widefat" id="table">
 			<thead>
 				<tr>
 					<th></th>
@@ -136,13 +190,13 @@ function create()
 					<th>Excerpt</th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody id="posts">
 		        <?php foreach($posts as $p):
 		        $cats = wp_get_post_categories($p->ID);
 		        if(!in_array(11, $cats)) {
 					if ($p->post_title) : $alt = ! $alt; ?>
     		        <tr <?php if (! $alt) echo "class='alternate'"; ?>>
-    					<td><input name="add_post[]" value="<?php echo $p->ID ?>" type="checkbox"></td>
+    					<td><input name="add_post[]" value="<?php echo $p->ID ?>" type="checkbox" class="checkboxColumn"></td>
     					<td><strong><a href="<?php	echo get_option ( 'home' ) . "/" . $p->post_name?>"><?php echo $p->post_title?></a></strong></td>
     					<td><?php echo $p->post_author_name?></td>
     					<td><?php echo $p->post_date?></td>
