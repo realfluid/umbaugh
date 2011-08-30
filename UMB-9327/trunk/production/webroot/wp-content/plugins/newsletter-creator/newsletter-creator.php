@@ -17,10 +17,10 @@ add_action('admin_menu', 'menu');
 
 function menu(){
     add_posts_page('Newsletter Creator', 'Newsletter Creator', 'edit_posts', 'newsletter-creator', 'overview');
-    add_posts_page('', '', 'edit_posts', 'newsletter-create', 'create');
-    add_posts_page('', '', 'edit_posts', 'newsletter-htmlcode', 'html');
-    add_posts_page('', '', 'edit_posts', 'newsletter-edit', 'edit');
-    add_posts_page('', '', 'edit_posts', 'newsletter-delete', 'delete');
+    add_posts_page('', '', 'edit_posts', 'newsletter-create', 'newsletter_create');
+    add_posts_page('', '', 'edit_posts', 'newsletter-htmlcode', 'newsletter_html');
+    add_posts_page('', '', 'edit_posts', 'newsletter-edit', 'newsletter_edit');
+    add_posts_page('', '', 'edit_posts', 'newsletter-delete', 'newsletter_delete');
 }
 
 function overview()
@@ -30,9 +30,9 @@ function overview()
 	<h2>Newsletter Creator</h2>
 		<?php
 				if(isset($_POST['Create'])) {
-					save($_POST);
+					newsletter_save($_POST);
 				} elseif(isset($_POST['Update'])) {
-					update($_POST);
+					newsletter_update($_POST);
 				} else {
 					show_newsletter_list();
 				}
@@ -76,7 +76,7 @@ function show_newsletter_list()
 
 }
 
-function create()
+function newsletter_create()
 {
 
     if (function_exists('wp_tiny_mce')) {
@@ -232,7 +232,7 @@ function create()
 	<?php
 }
 
-function save($data)
+function newsletter_save($data)
 {
 	$published = ($data['publish'] == 1 ? 'publish' : 'draft');
 	$current_user = wp_get_current_user();
@@ -260,7 +260,7 @@ function save($data)
     }
 }
 
-function html($postId)
+function newsletter_html($postId)
 {
 	$post = get_post($postId);
 	$postItems = get_post_meta($postId, 'newsletter_items', true);
@@ -301,7 +301,7 @@ function html($postId)
     echo '<a href="edit.php?page=newsletter-edit&amp;id=' .  $postId . '">Edit this newsletter</a> | <a href="http://www.umbaugh.com/wp-admin/edit.php?page=newsletter-creator">View newsletter list</a><p>' . $mainHtml . '</p>';
 }
 
-function delete()
+function newsletter_delete()
 {
 	$postId = $_GET['id'];
 	wp_delete_post($postId);
@@ -309,7 +309,7 @@ function delete()
 
 }
 
-function edit()
+function newsletter_edit()
 {
 	$postId = $_GET['id'];
 
@@ -518,7 +518,7 @@ function edit()
 	<?php
 }
 
-function update($data)
+function newsletter_update($data)
 {
 	//var_dump($data); die;
 	$published = ($data['publish'] == 1 ? 'publish' : 'draft');
