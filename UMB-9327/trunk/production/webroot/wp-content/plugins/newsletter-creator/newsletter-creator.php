@@ -111,7 +111,8 @@ function create()
 			   	if ($(this).is(":checked")){
 			   		var check = $("#posts input:checked").parent().parent();
 			   		$(check).prepend("<td class=\"sortbuttons\"><span class=\"up\">Up</span></br><span class=\"down\">Down</span></td>").removeClass("alternate");
-			   		$("#addPosts").append(check);
+			   		
+			   					   		$("#addPosts").append(check);
 			   		$(".sortbuttons").width(85);
 			   		$(".sortbuttons a").width(80);
 			   		$(".up").click(function () {
@@ -132,7 +133,8 @@ function create()
 			   	}else {
 			   		var uncheck =$(this).parent().parent();
 			   		$("#posts").append(uncheck);
-			   		$("#posts .sortbuttons").remove()
+			   		$("#posts .sortbuttons").remove();
+			   		$("#posts .contenttype").remove()
 			   		$("#posts td").removeClass("alternate");
 			   		$("#posts tr:even").addClass("alternate");
 			   	}	
@@ -167,6 +169,7 @@ function create()
 							<th>Post title</th>
 							<th>Author</th>
 							<th>Date/Time</th>
+						
 							<th>Excerpt</th>
 						</tr>
 					</thead>
@@ -210,7 +213,7 @@ function create()
     					<td><strong><a href="<?php	echo get_option ( 'home' ) . "/" . $p->post_name?>"><?php echo $p->post_title?></a></strong></td>
     					<td><?php echo $p->post_author_name?></td>
     					<td><?php echo $p->post_date?></td>
-    					<td><?php echo nl2br ( $p->post_excerpt ); ?></td>
+    					<td class="excerpt"><?php echo nl2br ( $p->post_excerpt ); ?></td>
     				</tr>
 
     				<?php endif;
