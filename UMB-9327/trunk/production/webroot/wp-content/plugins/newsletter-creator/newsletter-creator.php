@@ -110,7 +110,7 @@ function create()
 			   $(".checkboxColumn").change(function() {
 			   	if ($(this).is(":checked")){
 			   		var check = $("#posts input:checked").parent().parent();
-			   		var time = event.timeStamp
+			   		var time = $(this).val();
 			   		$(check).prepend("<td class=\"sortbuttons\"><span class=\"up\">Up</span></br><span class=\"down\">Down</span></td>").removeClass("alternate");
 			   		$(check).children(".excerpt").before("<td class=\"contenttype\"><input type=\"radio\" name=\"contentType"+time+"\" value=\"excerpt\" CHECKED/> Excerpt<br /><input type=\"radio\" name=\"contentType"+time+"\" value=\"content\" /> Content</td>");
 			   		$("#addPosts").append(check);
