@@ -104,6 +104,8 @@ function create()
 	?>
 	<script>
 		 $(document).ready(function(){
+		 	$("#posts td").removeClass("alternate");
+		 	$("#posts tr:even").addClass("alternate");
 			$(function() {
 			   $(".checkboxColumn").change(function() {
 			   	if ($(this).is(":checked")){
@@ -115,19 +117,24 @@ function create()
 			   		$(".up").click(function () {
 			   			var row = $(this).parent().parent();
 			   			var previous = row.prev();
-			   			console.log(row);
-			   			console.log(previous);
 			   			previous.before(row);
+			   			$("#addPosts tr").removeClass("alternate");
+			   			$("#addPosts tr:even").addClass("alternate");
 			   		});
 			   		$(".down").click(function () {
 			   			var row = $(this).parent().parent();
 			   			var next = row.next();
-			   			next.after(row)
+			   			next.after(row);
+			   			$("#addPosts tr").removeClass("alternate");
+			   			$("#addPosts tr:even").addClass("alternate");
 			   		});
-			   		}else {
+			   		$("#addPosts tr:even").addClass("alternate");
+			   	}else {
 			   		var uncheck =$(this).parent().parent();
 			   		$("#posts").append(uncheck);
 			   		$("#posts .sortbuttons").remove()
+			   		$("#posts td").removeClass("alternate");
+			   		$("#posts tr:even").addClass("alternate");
 			   	}	
 			   });
 			});
@@ -198,7 +205,7 @@ function create()
 		        $cats = wp_get_post_categories($p->ID);
 		        if(!in_array(11, $cats)) {
 					if ($p->post_title) : $alt = ! $alt; ?>
-    		        <tr <?php if (! $alt) echo "class='alternate'"; ?>>
+    		        <tr>
     					<td><input name="add_post[]" value="<?php echo $p->ID ?>" type="checkbox" class="checkboxColumn"></td>
     					<td><strong><a href="<?php	echo get_option ( 'home' ) . "/" . $p->post_name?>"><?php echo $p->post_title?></a></strong></td>
     					<td><?php echo $p->post_author_name?></td>
