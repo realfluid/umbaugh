@@ -110,11 +110,13 @@ function create()
 			   $(".checkboxColumn").change(function() {
 			   	if ($(this).is(":checked")){
 			   		var check = $("#posts input:checked").parent().parent();
+			   		var time = event.timeStamp
 			   		$(check).prepend("<td class=\"sortbuttons\"><span class=\"up\">Up</span></br><span class=\"down\">Down</span></td>").removeClass("alternate");
-			   		
-			   					   		$("#addPosts").append(check);
+			   		$(check).children(".excerpt").before("<td class=\"contenttype\"><input type=\"radio\" name=\"contentType"+time+"\" value=\"excerpt\" CHECKED/> Excerpt<br /><input type=\"radio\" name=\"contentType"+time+"\" value=\"content\" /> Content</td>");
+			   		$("#addPosts").append(check);
 			   		$(".sortbuttons").width(85);
 			   		$(".sortbuttons a").width(80);
+			   		$(".contenttype").width(80);
 			   		$(".up").click(function () {
 			   			var row = $(this).parent().parent();
 			   			var previous = row.prev();
@@ -169,7 +171,7 @@ function create()
 							<th>Post title</th>
 							<th>Author</th>
 							<th>Date/Time</th>
-						
+							<th>Content type</th>
 							<th>Excerpt</th>
 						</tr>
 					</thead>
