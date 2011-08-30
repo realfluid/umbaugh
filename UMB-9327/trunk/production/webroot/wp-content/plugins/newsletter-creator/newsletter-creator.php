@@ -348,8 +348,25 @@ function edit()
 	?>
 	<script>
 		 $(document).ready(function(){
-		 	$("#posts td").removeClass("alternate");
-		 	$("#posts tr:even").addClass("alternate");
+		 	$("tr").removeClass("alternate");
+		 	$("tr:even").addClass("alternate");
+		 	$(".sortbuttons").width(85);
+		 	$(".sortbuttons a").width(80);
+		 	$(".contenttype").width(80);
+		 	$(".up").click(function () {
+		 		var row = $(this).parent().parent();
+		 		var previous = row.prev();
+		 		previous.before(row);
+		 		$("#addPosts tr").removeClass("alternate");
+		 		$("#addPosts tr:even").addClass("alternate");
+		 	});
+		 	$(".down").click(function () {
+		 		var row = $(this).parent().parent();
+		 		var next = row.next();
+		 		next.after(row);
+		 		$("#addPosts tr").removeClass("alternate");
+		 		$("#addPosts tr:even").addClass("alternate");
+		 	});
 			$(function() {
 			   $(".checkboxColumn").change(function() {
 			   	if ($(this).is(":checked")){
@@ -428,14 +445,14 @@ function edit()
     		        	$cats = wp_get_post_categories($p->ID);
     		        	if(!in_array(11, $cats) && in_array($p->ID, $postIds)) {
             				if ($p->post_title) : $alt = ! $alt; ?>
-            		        <tr <?php if (! $alt) echo "class='alternate'"; ?>>
+            		        <tr>
             		        	<td class="sortbuttons"><span class="up">Up</span></br><span class="down">Down</span></td>
-            					<td><input name="add_post[]" value="<?php echo $p->ID ?>" type="checkbox" <?php echo (in_array($p->ID, $postIds) ? 'checked' : ''); ?>></td>
+            					<td><input name="add_post[]" value="<?php echo $p->ID ?>" type="checkbox" <?php echo (in_array($p->ID, $postIds) ? 'checked' : ''); ?> class="checkboxColumn"></td>
             					<td><strong><a href="<?php	echo get_option ( 'home' ) . "/" . $p->post_name?>"><?php echo $p->post_title?></a></strong></td>
             					<td><?php echo $p->post_author_name?></td>
             					<td><?php echo $p->post_date?></td>
-            					<td class=\"contenttype\"><input type="radio" name="contentType<?php echo $p->ID; ?>" value="excerpt" <?php echo ($contentType[$p->ID] == 'excerpt'? "checked" : "")?>/> Excerpt<br /><input type="radio" name="contentType<?php echo $p->ID; ?>" value="content" <?php echo ($contentType[$p->ID] == 'content'? "checked" : "")?> /> Content</td>
-            					<td><?php echo nl2br ( $p->post_excerpt ); ?></td>
+            					<td class="contenttype"><input type="radio" name="contentType<?php echo $p->ID; ?>" value="excerpt" <?php echo ($contentType[$p->ID] == 'excerpt'? "checked" : "")?>/> Excerpt<br /><input type="radio" name="contentType<?php echo $p->ID; ?>" value="content" <?php echo ($contentType[$p->ID] == 'content'? "checked" : "")?> /> Content</td>
+            					<td class="excerpt"><?php echo nl2br ( $p->post_excerpt ); ?></td>
             				</tr>
 
             				<?php endif;
@@ -477,12 +494,12 @@ function edit()
 		        	$cats = wp_get_post_categories($p->ID);
 		        	if(!in_array(11, $cats) && !in_array($p->ID, $postIds)) {
         				if ($p->post_title) : $alt = ! $alt; ?>
-        		        <tr <?php if (! $alt) echo "class='alternate'"; ?>>
-        					<td><input name="add_post[]" value="<?php echo $p->ID ?>" type="checkbox" <?php echo (in_array($p->ID, $postIds) ? 'checked' : ''); ?>></td>
+        		        <tr>
+        					<td><input name="add_post[]" value="<?php echo $p->ID ?>" type="checkbox" <?php echo (in_array($p->ID, $postIds) ? 'checked' : ''); ?> class="checkboxColumn"></td>
         					<td><strong><a href="<?php	echo get_option ( 'home' ) . "/" . $p->post_name?>"><?php echo $p->post_title?></a></strong></td>
         					<td><?php echo $p->post_author_name?></td>
         					<td><?php echo $p->post_date?></td>
-        					<td><?php echo nl2br ( $p->post_excerpt ); ?></td>
+        					<td class="excerpt"><?php echo nl2br ( $p->post_excerpt ); ?></td>
         				</tr>
 
         				<?php endif;
