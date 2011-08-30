@@ -108,24 +108,27 @@ function create()
 			   $(".checkboxColumn").change(function() {
 			   	if ($(this).is(":checked")){
 			   		var check = $("#posts input:checked").parent().parent();
-			   		$(check).prepend("<td><button>To top</button><button>To bottom</button></td>").addClass("sortbuttons");
+			   		$(check).prepend("<td class=\"sortbuttons\"><span class=\"up\">Up</span></br><span class=\"down\">Down</span></td>").removeClass("alternate");
 			   		$("#addPosts").append(check);
-			   		$("#addPosts .sortbuttons td:first-child").addClass("eerstelijn");
-			   		$(".eerstelijn").width(85);
-			   		$(".eerstelijn button").width(80)
+			   		$(".sortbuttons").width(85);
+			   		$(".sortbuttons a").width(80);
+			   		$(".up").click(function () {
+			   			var row = $(this).parent().parent();
+			   			var previous = row.prev();
+			   			console.log(row);
+			   			console.log(previous);
+			   			previous.before(row);
+			   		});
+			   		$(".down").click(function () {
+			   			var row = $(this).parent().parent();
+			   			var next = row.next();
+			   			next.after(row)
+			   		});
 			   		}else {
 			   		var uncheck =$(this).parent().parent();
 			   		$("#posts").append(uncheck);
-			   		$("#posts .eerstelijn").remove()
+			   		$("#posts .sortbuttons").remove()
 			   	}	
-			   });
-			   $(".eerstelijn button:first").click(function () {
-			   	var row = $(this).parent().parent().parent()
-			   	$("#addPosts").prepend(row);
-			   });
-			   $(".eerstelijn button:last").click(function () {
-			   	var row = $(this).parent().parent().parent()
-			   	$("#addPosts").append(row);
 			   });
 			});
 		});
