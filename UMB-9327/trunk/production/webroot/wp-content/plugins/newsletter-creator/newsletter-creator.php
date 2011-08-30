@@ -298,7 +298,7 @@ function html($postId)
     $tags = array("<!-- home_url -->", "<!-- newsletter_title -->", "<!-- posts -->", "<!-- this_url -->");
     $values = array(get_option('home'), $title, $postsHtml, get_permalink($postId));
     $mainHtml = str_replace($tags, $values, $mainHtml);
-    echo '<p>' . $mainHtml . '</p>';
+    echo '<a href="edit.php?page=newsletter-edit&amp;id=' .  $postId . '">Edit this newsletter</a> | <a href="http://www.umbaugh.com/wp-admin/edit.php?page=newsletter-creator">View newsletter list</a><p>' . $mainHtml . '</p>';
 }
 
 function delete()
@@ -408,19 +408,20 @@ function edit()
 	<div class="wrap">
 		<h2>Newsletter Creator</h2>
 		<form method="post" action="/wp-admin/edit.php?page=newsletter-creator" >
+			<input type="hidden" name="id" value="<?php echo $post->ID;?>" />
 			<p class="submit">
-				<input type="submit" name="Create" class="button-primary" value="<?php esc_attr_e ( 'Save the newsletter') ?>" />
+				<input type="submit" name="Update" class="button-primary" value="<?php esc_attr_e ( 'Save the newsletter') ?>" />
 			</p>
 			<p>
 				<label for="newsletter_title">Newsletter title: </label>
-				<input name="newsletter_title" id="newsletter_title" size="50">
+				<input name="newsletter_title" id="newsletter_title" size="50" value="<?php echo $post->post_title; ?>">
 			</p>
 			<p>
 				<label for="newsletter_descr">Newsletter description (shown on website only): </label><br>
-				<textarea id='newsletter_descr' name='newsletter_descr'></textarea>
+				<textarea id='newsletter_descr' name='newsletter_descr'><?php echo $post->post_content; ?></textarea>
 			</p>
 			<p>
-				<input type="checkbox" name="publish" value="1" /> Publish on save
+				<input type="checkbox" name="publish" value="1" checked /> Publish on save
 			</p>
 			<p>
 				Chosen posts:
@@ -510,7 +511,7 @@ function edit()
 		</table>
 
 		<?php endif; ?>
-		<p class="submit"><input type="submit" name="Create" class="button-primary" value="<?php esc_attr_e ( 'Save the newsletter') ?>" /></p>
+		<p class="submit"><input type="submit" name="Update" class="button-primary" value="<?php esc_attr_e ( 'Save the newsletter') ?>" /></p>
 	<form action=""></form>
 	</div>
 
