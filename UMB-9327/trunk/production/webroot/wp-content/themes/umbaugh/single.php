@@ -119,7 +119,7 @@
     		$itemData = get_post($item['id']);
 
 
-    		if($use == "content") {
+    		if($item['content'] == "content") {
                 $content = $itemData->post_content;
             } else {
                 $content = $itemData->post_excerpt;
