@@ -256,7 +256,7 @@ function newsletter_save($data)
     // Insert the post into the database
     $postId = wp_insert_post( $my_post );
     if(add_post_meta($postId, 'newsletter_items', $postData, true)) {
-    	html($postId);
+    	newsletter_html($postId);
     }
 }
 
