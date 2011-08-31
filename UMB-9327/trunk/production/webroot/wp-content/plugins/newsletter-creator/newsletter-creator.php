@@ -256,7 +256,11 @@ function newsletter_save($data)
     // Insert the post into the database
     $postId = wp_insert_post( $my_post );
     if(add_post_meta($postId, 'newsletter_items', $postData, true)) {
-    	newsletter_html($postId);
+    	?>
+        <div class="updated below-h2">
+            <p>Newsletter has been created. Now you can <a href="edit.php?page=newsletter-edit&amp;id=<?php echo $postId; ?>">edit it</a>.</p>
+        </div>
+    	<?php
     }
 }
 
