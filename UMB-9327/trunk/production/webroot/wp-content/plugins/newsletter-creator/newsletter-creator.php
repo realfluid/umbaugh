@@ -265,7 +265,7 @@ function newsletter_html($postId)
 	$post = get_post($postId);
 	$postItems = get_post_meta($postId, 'newsletter_items', true);
 
-	$path = WP_PLUGIN_DIR .'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)) . '/' . 'base';
+	$path = WP_PLUGIN_DIR .'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)) . 'base';
 	$postHtml = file_get_contents($path . '/post.html');
 	$mainHtml = file_get_contents($path . '/main.html');
 	foreach ($postItems as $item)
