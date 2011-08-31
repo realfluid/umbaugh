@@ -44,6 +44,13 @@ function overview()
 function show_newsletter_list()
 {
 	?>
+	<script>
+    	function deleteConfirm(id)
+    	{
+    	  if (confirm('Are you sure you want to delete?'))
+    	    location.href = "edit.php?page=newsletter-delete&id=" + id;
+    	}
+	</script>
 	<a href="/wp-admin/edit.php?page=newsletter-create">Create Newsletter</a>
 	<?php
 
@@ -63,7 +70,7 @@ function show_newsletter_list()
     			<tr <?php if(!$alt): echo "class='alternate'"; endif; ?>>
 					<td><?php the_title() ?></td>
     				<td><?php echo the_time("F j, Y"); ?></td>
-					<td><a href="edit.php?page=newsletter-edit&amp;id=<?php the_ID(); ?>">Edit</a> | <a href="edit.php?page=newsletter-delete&amp;id=<?php the_ID(); ?>">Delete</a> | <a href="<?php the_permalink(); ?>">View newsletter</a></td>
+					<td><a href="edit.php?page=newsletter-edit&amp;id=<?php the_ID(); ?>">Edit</a> | <a href="#" onClick="deleteConfirm(<?php the_ID(); ?>)">Delete</a> | <a href="<?php the_permalink(); ?>">View newsletter</a></td>
     			</tr>
 
             <?php endwhile; else: ?>
@@ -171,7 +178,7 @@ function newsletter_create()
 							<th>Post title</th>
 							<th>Author</th>
 							<th>Date/Time</th>
-							<th>Content type</th>
+							<th width="100px">Content type</th>
 							<th>Excerpt</th>
 						</tr>
 					</thead>
@@ -258,9 +265,10 @@ function newsletter_save($data)
     if(add_post_meta($postId, 'newsletter_items', $postData, true)) {
     	?>
         <div class="updated below-h2">
-            <p>Newsletter has been created. Now you can <a href="edit.php?page=newsletter-edit&amp;id=<?php echo $postId; ?>">edit it</a>.</p>
+            <p>Newsletter has been created. You can now <a href="edit.php?page=newsletter-edit&amp;id=<?php echo $postId; ?>">edit it</a>.</p>
         </div>
     	<?php
+        show_newsletter_list();
     }
 }
 
@@ -437,7 +445,7 @@ function newsletter_edit()
 							<th>Post title</th>
 							<th>Author</th>
 							<th>Date/Time</th>
-							<th>Content type</th>
+							<th width="100px">Content type</th>
 							<th>Excerpt</th>
 						</tr>
 					</thead>

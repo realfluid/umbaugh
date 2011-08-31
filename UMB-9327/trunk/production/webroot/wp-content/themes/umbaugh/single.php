@@ -132,9 +132,8 @@
 
     	}
     	$postsHtml = implode('', $phtml);
-
         $tags = array("<!-- home_url -->", "<!-- newsletter_title -->", "<!-- posts -->", "<!-- this_url -->");
-        $values = array(get_option('home'), $title, $postsHtml, get_permalink($postId));
+        $values = array(get_option('home'), get_the_title($post->ID), $postsHtml, get_permalink($postId));
         $mainHtml = str_replace($tags, $values, $mainHtml);
         echo $mainHtml;
 	else : ?>
