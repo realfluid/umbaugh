@@ -1,5 +1,4 @@
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<script src="http://www.isocra.com/js/tablednd.js" type="text/javascript"></script>
+
 <?php
 /*
 Plugin Name: Newsletter Creator
@@ -26,6 +25,8 @@ function menu(){
 function overview()
 {
 	?>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="http://www.isocra.com/js/tablednd.js" type="text/javascript"></script>
 	<div class="wrap">
 	<h2>Newsletter Creator</h2>
 		<?php
@@ -44,6 +45,8 @@ function overview()
 function show_newsletter_list()
 {
 	?>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="http://www.isocra.com/js/tablednd.js" type="text/javascript"></script>
 	<script>
     	function deleteConfirm(id)
     	{
@@ -109,6 +112,8 @@ function newsletter_create()
      wp_tiny_mce(true);
     }
 	?>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="http://www.isocra.com/js/tablednd.js" type="text/javascript"></script>
 	<script>
 		 $(document).ready(function(){
 		 	$("#posts td").removeClass("alternate");
@@ -264,6 +269,8 @@ function newsletter_save($data)
     $postId = wp_insert_post( $my_post );
     if(add_post_meta($postId, 'newsletter_items', $postData, true)) {
     	?>
+    	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    	<script src="http://www.isocra.com/js/tablednd.js" type="text/javascript"></script>
         <div class="updated below-h2">
             <p>Newsletter has been created. You can now <a href="edit.php?page=newsletter-edit&amp;id=<?php echo $postId; ?>">edit it</a>.</p>
         </div>
@@ -358,6 +365,8 @@ function newsletter_edit()
      wp_tiny_mce(true);
     }
 	?>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="http://www.isocra.com/js/tablednd.js" type="text/javascript"></script>
 	<script>
 		 $(document).ready(function(){
 		 	$("tr").removeClass("alternate");
