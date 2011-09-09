@@ -570,3 +570,4 @@ function newsletter_update($data)
     	show_newsletter_list();
     }
 }
+?>
