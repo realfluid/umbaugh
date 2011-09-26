@@ -242,7 +242,7 @@
 						        <div class="submit-form_left">
 						            <textarea rows="5" cols="30" name="your-message">Your Message</textarea>
 						            <input type="submit" value="Submit" class="submit" id="formSubmit">
-									<input type="hidden" name="redirect" value="<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>">
+									<input type="hidden" name="redirect" value="<?php the_permalink(); ?>">
 						       </div>
 						    </form>
 						</div>
