@@ -6,7 +6,6 @@ get_header();
 
 if ( have_posts() ) while ( have_posts() ) : the_post();
 
-	var_dump($_POST); die;
 	if($_POST['form'] == "newsletter-email" OR $_POST['form'] == "newsletter-feedback") {
 	
 		/**
