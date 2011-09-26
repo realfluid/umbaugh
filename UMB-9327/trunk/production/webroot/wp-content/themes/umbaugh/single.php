@@ -251,7 +251,7 @@
 							<h3>Send your feedback:</h3>
 							<form action="/process-article-forms" method="post" name="newsletter-feedback" id="newsletter-feedback">
 							    <input type="hidden" name="form" value="newsletter-feedback">
-							    <input type="hidden" name="articleId" value="1483">
+							    <input type="hidden" name="articleId" value="<?php the_ID(); ?>">
 							    <div class="submit-form">
 							    	<div class="radio_list" id="implementation">
 							    		Is this item worthy of implementation?
