@@ -287,7 +287,7 @@
 							        <input type="text" value="[email]" name="your-email" id="email"><label for="your-email" id="your-email" class="error" style="display:none;"></label>
 							        <textarea rows="5" cols="30" name="your-message">Your Message</textarea>
 									<input type="submit" value="Submit" class="submit" id="formSubmit">
-							        <input type="hidden" name="redirect" value="www.umbaugh.com/disclaimers-what-do-they-mean?form=feedback&email=[email]">
+							        <input type="hidden" name="redirect" value="<?php the_permalink(); ?>?form=feedback&email=[email]">
 							   </div>
 							</form>
 						</div>
