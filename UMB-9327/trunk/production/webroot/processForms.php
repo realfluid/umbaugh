@@ -49,11 +49,12 @@ $mail = new Zend_Mail();
         } catch(Exception $e) {
             $msg= '<span style="color: red">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
         }
-        
-        $at = $mail->createAttachment(file_get_contents($tmpFile));
-		$at->disposition = Zend_Mime::DISPOSITION_INLINE;
-		$at->encoding    = Zend_Mime::ENCODING_BASE64;
-		$at->filename	 = $_FILES['file']['name'];
+        if(tmpFile != '') {
+            $at = $mail->createAttachment(file_get_contents($tmpFile));
+    		$at->disposition = Zend_Mime::DISPOSITION_INLINE;
+    		$at->encoding    = Zend_Mime::ENCODING_BASE64;
+    		$at->filename	 = $_FILES['file']['name'];
+        }
         //if ($_FILES['file']['name'] != "") { $at->filename($_FILES['file']['name']); }
         
         // Clean up
