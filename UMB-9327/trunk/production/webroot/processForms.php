@@ -51,7 +51,7 @@ $mail = new Zend_Mail();
         } catch(Exception $e) {
             $msg= '<span style="color: red">Error: ' . htmlspecialchars($e->getMessage()) . '</span>';
         }
-        if(tmpFile != '') {
+        if($tmpFile != '') {
             $at = $mail->createAttachment(file_get_contents($tmpFile));
     		$at->disposition = Zend_Mime::DISPOSITION_INLINE;
     		$at->encoding    = Zend_Mime::ENCODING_BASE64;
