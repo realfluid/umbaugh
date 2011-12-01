@@ -237,6 +237,8 @@ ol li {margin-bottom: 10px; color: #444444;}
 .professional-quickInfo a { color: #3b7059; text-decoration: underline;  }
 .professional-quickInfo span { font-family: "Times New Roman", Times, serif; font-size: 1.25em; }
 
+.error{ color:#cc3333;}
+
 /*news*/
 #mainColumn #news { margin-top: -19px }
 .news-archive p{ width: 656px !important; }
