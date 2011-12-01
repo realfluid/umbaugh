@@ -50,7 +50,7 @@ jQuery(document).ready(function(){
 							<dl>
 		                        <dt class="location-title">Lansing, Michigan</dt>
     	                        <dt>Phone</dt>
-        	                    <dd><strong>(517) 321-0110</strong></dd>
+        	                    <dd><strong>(517) 321-0110 </strong></dd>
             	                <dt>Fax</dt>
                 	            <dd>(517) 321-8866</dd>
                     	        <dt>Address</dt>
