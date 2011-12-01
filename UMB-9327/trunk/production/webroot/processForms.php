@@ -72,7 +72,7 @@ $mail = new Zend_Mail();
     if($_POST['form'] == 'join-us') {  $mail->addTo('careers@umbaugh.com');}
 
     $mail->setFrom('no-reply@umbaugh.com');
-    $mail->setSubject('Message from the website');
+    $mail->setSubject('[' . $_POST['form'] . '] Message from the website');
     
     $file = 'wp-includes/mails/' . $_POST['form'] . '-' . time() . '.txt';
     $fileStream = fopen($file, 'w+') or die("couldn't open file ");
