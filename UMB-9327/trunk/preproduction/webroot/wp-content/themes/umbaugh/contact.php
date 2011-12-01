@@ -54,7 +54,7 @@ jQuery(document).ready(function(){
             	                <dt>Fax</dt>
                 	            <dd>(517) 321-8866</dd>
                     	        <dt>Address</dt>
-                        	    <dd>6639 Centurion Drive<br />
+                        	    <dd>6639 Centurion Drive <br />
                             	Suite 100<br />
 	                            Lansing, MI 48917</dd>
 							</dl>
