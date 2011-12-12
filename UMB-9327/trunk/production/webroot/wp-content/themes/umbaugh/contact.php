@@ -71,13 +71,13 @@ get_header();
 					                    <div class="checkbox_left">
 					                        <input type="checkbox" name="accounting-services">Accounting Services<br />
 					                        <input type="checkbox" name="arbitrage-services">Arbitrage Services<br />
-					
-					                        <input type="checkbox" name="bond-issuance">Bond Issuance<br />
+
+					                        <input type="checkbox" name="debt-management">Debt Management<br />
 					                    </div>
 					                    <div class="checkbox_right">
-					                        <input type="checkbox" name="capital-planning">Capital Planning<br />
+					                        <input type="checkbox" name="economic-development">Economic Development<br />
 					                        <input type="checkbox" name="financial-management">Financial Management<br />
-					                        <input type="checkbox" name="post-issuance">Post Issuance<br />
+					                        <input type="checkbox" name="utility-services">Utility Services<br />
 					                    </div>
 					
 					                    <div class="clear"></div>
@@ -144,19 +144,46 @@ $().ready(function() {
 		rules: {
 			'your-name': {
 				required: true,
-				minlength: 2
+				minlength: 2,
+                notEqualTo: 'Your Name'
 			},
 			'your-email': {
 				required: true,
-				email: true
+				email: true,
+                notEqualTo: 'Your Email'
 			},
 			'your-phone-number':{
-				digits: true
+				digits: true,
+                notEqualTo: 'Your Phone Number'
 			},
 			'your-message':{
-				required: true
+				required: true,
+                notEqualTo: 'Your Message'
 			}
-		}
+		},
+        messages: {
+            'your-name': {
+                required: 'This field is required',
+                notEqualTo: 'Give your name'
+            },
+            'your-email': {
+                required: 'This field is required',
+                email: 'This needs to be an email address',
+                notEqualTo: 'Give your email address'
+            },
+            'your-phone-number': {
+                digits: 'Only digits please',
+                notEqualTo: 'Give you phone number'
+            },
+            'your-message': {
+                required: 'Type a message',
+                notEqualTo: 'Type a message'
+            }
+        }
 	});
+
+    jQuery.validator.addMethod("notEqualTo", function(value, element, param) {
+        return this.optional(element) || value != param;
+     }, "This has to be different...");
 });
 </script>

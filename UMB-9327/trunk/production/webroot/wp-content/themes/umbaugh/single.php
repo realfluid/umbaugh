@@ -322,7 +322,16 @@
 				'your-message':{
 					required: true
 				}
-			}
+			},
+            messages: {
+                'your-email':{
+                    required: 'Please enter your emailaddress',
+                    email: 'Please enter a correct emailaddress'
+                },
+                'your-message':{
+                    required: 'Please enter a message'
+                }
+            }
 		});
 	});
 	</script>
