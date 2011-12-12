@@ -68,10 +68,10 @@ $mail = new Zend_Mail();
     }
     $mail->addTo('webmanager@quinlanmarketing.com');
 	//$mail->addTo('koen@go-online.be');
-    if($_POST['form'] == 'contact-us') {$mail->addTo('contactus@umbaugh.com'); }
     if($_POST['form'] == 'join-us') {
         $mail->addTo('careers@umbaugh.com');
     } elseif($_POST['form'] == 'contact-us') {
+        $mail->addTo('contactus@umbaugh.com');
         $mail->addTo('seago@umbaugh.com');
         $mail->addTo('long@umbaugh.com');
 
