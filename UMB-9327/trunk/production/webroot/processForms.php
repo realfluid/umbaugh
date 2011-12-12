@@ -71,7 +71,7 @@ $mail = new Zend_Mail();
     if($_POST['form'] == 'join-us') {
         $mail->addTo('careers@umbaugh.com');
     } elseif($_POST['form'] == 'contact-us') {
-        $mail->addTo('contactus@umbaugh.com');
+        //$mail->addTo('contactus@umbaugh.com');
         $mail->addTo('seago@umbaugh.com');
         $mail->addTo('long@umbaugh.com');
 
