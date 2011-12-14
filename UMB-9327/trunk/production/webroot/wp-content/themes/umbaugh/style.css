@@ -387,6 +387,12 @@ input.wpsb_form_txt {width: 100px;}
 #contact-form textarea { float: left; width: 347px; height: 50px; border: 1px solid #ccc; margin: 0 0 10px; font-size:11px; color:#7b7a7a;padding: 5px;}
 #contact-form .submit { width: 59px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right; margin-right:6px; }
 #contact-form .submit input{padding: 0;margin: 0;}
+/*** contact validation ***/
+/*** By Toon Nelissen ***/
+/*** From AppSaloon ***/
+#contact-form input.error, #contact-form textarea.error {border-color: red;margin-bottom: 2px;color: red;}
+#contact-form input.error:focus, #contact-form textarea.error:focus {outline-style: dotted;outline-width: 1px;outline-color: red;}
+#contact-form label.error {border-color: red;float: left;color: red;margin-bottom: 10px;padding-left: 10px;}
 
 /*survey form*/
 #survey-form { border:#ede0c1 solid 3px; float:left; width:641px; padding:0 0 20px 15px; margin:0 0 34px 0; overflow: hidden;color:#7b7a7a; }
