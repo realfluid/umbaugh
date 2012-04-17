@@ -133,10 +133,10 @@ ol li {margin-bottom: 10px; color: #444444;}
 #mainColumn #callout ul { list-style: none; padding: 20px 0 0 0;}
 #mainColumn #callout ul li { color: #3b7059; padding-bottom: 5px; text-decoration: none; font-size: 1.25em;  }
 #mainColumn #callout ul li a { text-decoration: none; }
-#mainColumn #wide-callout { width: 635px; border: #cbdad4 solid 3px; padding: 10px 0 0 14px; font-size: 1em; margin: 16px 0 40px 0; float: left; }
-#mainColumn #wide-callout p { font-size: 1em; margin: 8px 0 0 2px; float: left; width: 100% !important; }
-#mainColumn #wide-callout a{ color: #3f775f; text-decoration: underline;}
-#mainColumn #wide-callout h2 { float: left; }
+#wide-callout { width: 635px; border: #cbdad4 solid 3px; padding: 10px 0 0 14px; font-size: 1em; margin: 16px 0 40px 0; float: left; }
+#wide-callout p { font-size: 1em; margin: 8px 0 0 2px; float: left; width: 100% !important; color:#444; }
+#wide-callout a{ color: #3f775f; text-decoration: underline; }
+#wide-callout h2 { float: left; font-family:"Times New Roman", Times, serif; font-size:1.5em; color:#444;  font-weight:normal; }
 
 #mainColumn #callout ul.submenu {margin-top: 10px; padding-top: 10px; border-top: 1px dashed #C2C6C9;}
 
@@ -306,7 +306,7 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
 .two-col-list ul { list-style: none; margin: 0; padding: 0; width: 310px; }
 .two-col-list ul li{color: #444; padding: 3px 0;}
 
-.three-columns { overflow: hidden; padding-top: 64px; }
+.three-columns { overflow: hidden; padding-top: 34px; }
 .three-columns .column-one { float: left; width: 256px; margin: 0 64px 0 12px; }
 .three-columns .column-two { float: left; width: 256px; margin: 0 64px 0 0; }
 .three-columns .column-three { float: left; width: 256px;  }

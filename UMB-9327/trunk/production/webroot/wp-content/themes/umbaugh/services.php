@@ -18,11 +18,10 @@ get_header(); ?>
 
 				<?php the_content(); ?>
 			<?php endwhile; ?>
-            <div id="wide-callout">
-                <h2>Cash Advisory Services</h2>
-                <p>Umbaugh Cash Advisory Services, LLC was developed as an independent business entity to help create structured investment programs for their bond proceeds and operating funds.</p>
-                <p>To Learn More <a href="mailto:cas@umbaugh.com">email Cash Advisory Services</a></p>
-            </div>
+			<div id="wide-callout">
+            	<h2>Cash Advisory Serivces</h2>
+   	            <p><a href="http://cashadvisory.umbaugh.com" target="_blank">Umbaugh Cash Advisory Services, LLC</a> was developed as an independent business entity to help create<br />structured investment programs for our client's bond proceeds and operating funds.</p>
+			</div>
 
 		</div>
         <div id="sideColumn">
