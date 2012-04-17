@@ -147,9 +147,10 @@ get_header(); ?>
 				</div><!-- end thrid column -->
 
             </div><!-- end three columns -->
-			<p><strong><a href="http://cashadvisory.umbaugh.com" target="_blank">Umbaugh Cash Advisory Services, LLC</a> was developed as an independent business entity to help create<br />
-				structured investment programs for our client's bond proceeds and operating funds.</strong></p>
-
+            <div id="wide-callout">
+            	<h2>Cash Advisory Serivces</h2>
+                <p><a href="http://cashadvisory.umbaugh.com" target="_blank">Umbaugh Cash Advisory Services, LLC</a> was developed as an independent business entity to help create<br />structured investment programs for our client's bond proceeds and operating funds.</p>
+            </div>
         </div>
 
     </div><!-- end .content -->
