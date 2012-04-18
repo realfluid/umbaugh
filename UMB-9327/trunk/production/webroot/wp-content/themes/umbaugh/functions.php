@@ -129,8 +129,7 @@ function loadValidation() {
     if(!is_admin()) {
         wp_register_script(
             'jquery-validate',
-            get_bloginfo('template_directory') . '/js/jquery-validate/jquery-validate.min.js',
-            array('jquery')
+            get_bloginfo('template_directory') . '/js/jquery-validate/jquery-validate.min.js'
         );
 		wp_enqueue_script('jquery-validate');
     }
