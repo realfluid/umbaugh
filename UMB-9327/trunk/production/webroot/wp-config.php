@@ -25,7 +25,7 @@ define('DB_USER', 'umbaugh_wp');
 
 /** MySQL database password */
 //define('DB_PASSWORD', '');
-define('DB_PASSWORD', 'whatever_666');
+define('DB_PASSWORD', 'gA52qxbj4of406O');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
