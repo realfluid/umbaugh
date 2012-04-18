@@ -125,15 +125,6 @@ function create_post_types() {
   );
 }
 
-function loadValidation() {
-    if(!is_admin()) {
-        wp_register_script(
-            'jquery-validate',
-            get_bloginfo('template_directory') . '/js/jquery-validate/jquery-validate.min.js'
-        );
-		wp_enqueue_script('jquery-validate');
-    }
-}
 
 function getTestimonial($content, $i)
 {
@@ -142,4 +133,3 @@ function getTestimonial($content, $i)
 }
 
 
-add_action('init', 'loadValidation');
