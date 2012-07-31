@@ -56,7 +56,7 @@ if ($_POST) {
     <?php endwhile; ?>
     <div class="career-types">
       <?php
-            query_posts("cat=17&posts_per_page=2&orderby=ID&order=desc");
+            query_posts("cat=17&posts_per_page=5&orderby=ID&order=desc");
             while(have_posts()): the_post(); ?>
       <h3>
         <?php the_title(); ?>
