@@ -26,175 +26,175 @@ class cnCategory
 			if ( isset($data->count) ) $this->count = $data->count;
 			if ( isset($data->children) ) $this->children = $data->children;
 		}
-	}
+	}
     
-    /**
-     * Returns $children.
-     *
-     * @see cnCategory::$children
-     */
+    /**
+     * Returns $children.
+     *
+     * @see cnCategory::$children
+     */
     public function getChildren() {
         return $this->children;
-    }
+    }
     
-    /**
-     * Sets $children.
-     *
-     * @param object $children
-     * @see cnCategory::$children
-     */
+    /**
+     * Sets $children.
+     *
+     * @param object $children
+     * @see cnCategory::$children
+     */
     public function setChildren($children) {
         $this->children = $children;
-    }
+    }
     
-    /**
-     * Returns $count.
-     *
-     * @see cnCategory::$count
-     */
+    /**
+     * Returns $count.
+     *
+     * @see cnCategory::$count
+     */
     public function getCount() {
         return $this->count;
-    }
+    }
     
-    /**
-     * Sets $count.
-     *
-     * @param object $count
-     * @see cnCategory::$count
-     */
+    /**
+     * Sets $count.
+     *
+     * @param object $count
+     * @see cnCategory::$count
+     */
     public function setCount($count) {
         $this->count = $count;
-    }
+    }
     
-    /**
-     * Returns $description.
-     *
-     * @see cnCategory::$description
-     */
+    /**
+     * Returns $description.
+     *
+     * @see cnCategory::$description
+     */
     public function getDescription() {
         return $this->description;
-    }
+    }
     
-    /**
-     * Sets $description.
-     *
-     * @param object $description
-     * @see cnCategory::$description
-     */
+    /**
+     * Sets $description.
+     *
+     * @param object $description
+     * @see cnCategory::$description
+     */
     public function setDescription($description) {
         $this->description = $description;
-    }
+    }
     
-    /**
-     * Returns $id.
-     *
-     * @see cnCategory::$id
-     */
+    /**
+     * Returns $id.
+     *
+     * @see cnCategory::$id
+     */
     public function getId() {
         return $this->id;
-    }
+    }
     
-    /**
-     * Sets $id.
-     *
-     * @param object $id
-     * @see cnCategory::$id
-     */
+    /**
+     * Sets $id.
+     *
+     * @param object $id
+     * @see cnCategory::$id
+     */
     public function setId($id) {
         $this->id = $id;
-    }
+    }
     
-    /**
-     * Returns $name.
-     *
-     * @see cnCategory::$name
-     */
+    /**
+     * Returns $name.
+     *
+     * @see cnCategory::$name
+     */
     public function getName() {
         return $this->name;
-    }
+    }
     
-    /**
-     * Sets $name.
-     *
-     * @param object $name
-     * @see cnCategory::$name
-     */
+    /**
+     * Sets $name.
+     *
+     * @param object $name
+     * @see cnCategory::$name
+     */
     public function setName($name) {
         $this->name = $name;
-    }
+    }
     
-    /**
-     * Returns $parent.
-     *
-     * @see cnCategory::$parent
-     */
+    /**
+     * Returns $parent.
+     *
+     * @see cnCategory::$parent
+     */
     public function getParent() {
         return $this->parent;
-    }
+    }
     
-    /**
-     * Sets $parent.
-     *
-     * @param object $parent
-     * @see cnCategory::$parent
-     */
+    /**
+     * Sets $parent.
+     *
+     * @param object $parent
+     * @see cnCategory::$parent
+     */
     public function setParent($parent) {
         $this->parent = $parent;
-    }
+    }
     
-    /**
-     * Returns $slug.
-     *
-     * @see cnCategory::$slug
-     */
+    /**
+     * Returns $slug.
+     *
+     * @see cnCategory::$slug
+     */
     public function getSlug() {
         return $this->slug;
-    }
+    }
     
-    /**
-     * Sets $slug.
-     *
-     * @param object $slug
-     * @see cnCategory::$slug
-     */
+    /**
+     * Sets $slug.
+     *
+     * @param object $slug
+     * @see cnCategory::$slug
+     */
     public function setSlug($slug) {
         $this->slug = $slug;
-    }
+    }
     
-    /**
-     * Returns $taxonomy.
-     *
-     * @see cnCategory::$taxonomy
-     */
+    /**
+     * Returns $taxonomy.
+     *
+     * @see cnCategory::$taxonomy
+     */
     public function getTaxonomy() {
         return $this->taxonomy;
-    }
+    }
     
-    /**
-     * Sets $taxonomy.
-     *
-     * @param object $taxonomy
-     * @see cnCategory::$taxonomy
-     */
+    /**
+     * Sets $taxonomy.
+     *
+     * @param object $taxonomy
+     * @see cnCategory::$taxonomy
+     */
     public function setTaxonomy($taxonomy) {
         $this->taxonomy = $taxonomy;
-    }
+    }
     
-    /**
-     * Returns $termGroup.
-     *
-     * @see cnCategory::$termGroup
-     */
+    /**
+     * Returns $termGroup.
+     *
+     * @see cnCategory::$termGroup
+     */
     public function getTermGroup() {
         return $this->termGroup;
-    }
+    }
     
-    /**
-     * Sets $termGroup.
-     *
-     * @param object $termGroup
-     * @see cnCategory::$termGroup
-     */
+    /**
+     * Sets $termGroup.
+     *
+     * @param object $termGroup
+     * @see cnCategory::$termGroup
+     */
     public function setTermGroup($termGroup) {
         $this->termGroup = $termGroup;
     }
