@@ -1,0 +1,1 @@
+Form: newsletter-email\nArticleId: 2427\nYour name: Your Name\nYour email: Emailaddress\nYour phone number: Your Phone Number\nYour organization: Your Organization\nYour message: Your Message\nRedirect: http://www.umbaugh.com/gateway-reporting-update\n

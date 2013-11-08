@@ -1,0 +1,25 @@
+#s5_navv ul li.s5_menubottom, #s5_fm_ul0 ul li.s5_menubottom, #s5_navv ul li.s5_menubottom:hover, #s5_fm_ul0 ul li.s5_menubottom:hover {
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='../images/Shape5_elegance_menubottom.png', sizingmethod='crop');
+}
+#s5_navv ul li.s5_menutop, #s5_navv ul li.s5_menutop:hover {
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='../images/Shape5_elegance_menutop.png', sizingmethod='crop');
+}
+#sl_account_info{
+	padding-left:40px;
+}
+#s5_logo_twitter {
+position:relative;
+height:57px;
+width:42px;
+right:50px;
+background: url(../images/icon_twitter.png) no-repeat;} 
+
+#s5_logo_facebook {
+position:relative;
+height:57px;
+width:42px;
+right:100px;
+background: url(../images/icon_facebook.png) no-repeat;
+}

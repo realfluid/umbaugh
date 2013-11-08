@@ -1,0 +1,3 @@
+Form: join-us\nYour name: Sarab Sarah\nYour email: sarab.sarah@gmail.com\nYour phone number: 517-333-1579\nYour message: I am interested in the Financial Analyst position at Umbaugh. The position requirements and my skills are a perfect match.
+As you’ll see on my enclosed resume, I have a Bachelor Degree in Business Administration and a Master’s Degree in Finance with excellent GPA, professional experience in analyzing, forecasting, and reporting. In addition, I am motivated and enthusiastic, and very hard working. 
+\nRedirect: www.umbaugh.com/join-our-firm\n

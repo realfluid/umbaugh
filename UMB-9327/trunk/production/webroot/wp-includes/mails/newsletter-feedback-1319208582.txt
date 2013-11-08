@@ -1,0 +1,1 @@
+Form: newsletter-feedback\nArticleId: 2294\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: tdegiulio@munster.org\nYour message: Your Message\nRedirect: http://www.umbaugh.com/gateway-debt-management?form=feedback&email=[email]\n

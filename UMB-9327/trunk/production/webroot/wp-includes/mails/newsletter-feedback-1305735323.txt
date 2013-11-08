@@ -1,0 +1,1 @@
+Form: newsletter-feedback\nArticleId: 1718\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: decaturct@onlyinternet.net\nYour message: Your Message\nRedirect: www.umbaugh.com/local-income-taxes-part-3?form=feedback&email=decaturct@onlyinternet.net&email=decaturct@onlyinternet.net\n

@@ -1,0 +1,6 @@
+Form: newsletter-feedback\nArticleId: 1718\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: manager@hudsontown,org\nYour message: Under the new format that you are using, how do we save an article for future review as we could under the old format?
+
+Thank you.
+
+Ward Odom
+Town Manager, Town of Hudson\nRedirect: www.umbaugh.com/local-income-taxes-part-3?form=feedback&email=Emailaddress\n

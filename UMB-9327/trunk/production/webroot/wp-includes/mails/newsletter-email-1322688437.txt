@@ -1,0 +1,1 @@
+Form: newsletter-email\nArticleId: 2407\nYour name: Kathy Straus\nYour email: straus@umbaugh.com\nYour phone number: 317-465-1541\nYour organization: Umbaugh\nYour message: TEST.  PLEASE RESPOND WITH CONFIRMATION OF RECEIPT OF EMAIL.\nRedirect: http://www.umbaugh.com/coming-soon-trends-in-water-sewer-and-stormwater-rates\n

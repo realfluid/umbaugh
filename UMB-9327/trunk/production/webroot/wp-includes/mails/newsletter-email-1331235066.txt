@@ -1,0 +1,1 @@
+Form: newsletter-email\nArticleId: 2611\nYour name: John Solenberg\nYour email: jsolenberg@cityoflawrence.org\nYour phone number: 317-524-6314\nYour organization: City of Lawrence, IN\nYour message: I am the new superintendent of Lawrence Utilities and I would like to subscribe to the Footnotes newsletter.\nRedirect: http://www.umbaugh.com/utility-rate-reports-pt3a\n

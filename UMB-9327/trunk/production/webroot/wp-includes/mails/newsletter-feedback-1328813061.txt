@@ -1,0 +1,1 @@
+Form: newsletter-feedback\nArticleId: 2523\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: lspuller@stes.com\nYour message: Your Message\nRedirect: http://www.umbaugh.com/utility-rates-report-pt1?form=feedback&email=[email]\n

@@ -1,0 +1,1 @@
+Form: newsletter-feedback\nArticleId: 1483\nImplementation: Maybe\nSharing: Yes\nValue: Yes\nYour email: jerryalamb@yahoo.com\nYour message: Your Message\nRedirect: www.umbaugh.com/disclaimers-what-do-they-mean?form=feedback&email=[email]\n

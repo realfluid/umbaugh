@@ -1,0 +1,3 @@
+Form: newsletter-feedback\nArticleId: 3314\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: dvoelker@hcedcindiana.org\nYour message: Loren has been a very valuable leader in the Indiana Economic Development Association.  Her experience has help our organization address legislative issues.  She also gives advice to Local ED professionals and clearly makes a positive impact on the entire state of Indiana.  
+
+This was interesting and timely. \nRedirect: http://www.umbaugh.com/umbaugh-experts-in-the-news?form=feedback&email=[email]\n

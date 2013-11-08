@@ -1,0 +1,4 @@
+Form: newsletter-feedback\nArticleId: 1483\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: geo@endurant.net\nYour message: Smart article Gary.  Well put together. 
+
+George Jensen 
+(Umbaugh web manager)\nRedirect: www.umbaugh.com/disclaimers-what-do-they-mean?form=feedback&email=[email]\n

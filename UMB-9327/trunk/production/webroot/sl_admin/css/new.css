@@ -1,0 +1,165 @@
+#toolbar-box{/*hide joomla's component menu box*/
+	display: none;
+}
+
+#sl_black_fade{
+	background:url("../images/blackfade85p.png");
+	position: fixed;
+	z-index: 500;
+	color:#ffffff;
+	top:0px;
+	left:0px;
+}
+#sl_backdrop_content_wrapper {
+	background-color:#111111;
+	border:thin solid #555555;
+	height:280px;
+	left:50%;
+	margin-left:-240px;
+	margin-top:-140px;
+	padding:10px;
+	position:relative;
+	top:50%;
+	width:480px;
+	overflow-y:auto;
+	font-size:13px;
+}
+.mootabs_title {
+	height: 24px;
+	list-style-image: none;
+	list-style-type: none;
+	position: relative;
+	top: 5px;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 10px;
+	margin: 0px;
+	padding-left: 2px;
+
+}
+
+
+.mootabs_title li {
+	float: left;
+	margin: 0px;
+}
+.mootabs_title a {
+	background-color: #ddd;
+	color: #000;
+	margin-right: 3px;
+	padding: 3px 10px 3px 10px;
+	text-decoration: none;
+	border: 1px solid #ddd;
+}
+
+.mootabs_title a.active {
+	background-color: #aaa;
+	color: #fff;
+	border: 1px solid #aaa;
+	z-index: 100;
+}
+
+.mootabs_panel {
+	display: none;
+	clear: both;
+	top: -1px;
+	position: relative;
+
+	border: 1px solid #aaa;
+	margin-left: 2px;
+	overflow: auto;
+	padding: 8px;
+
+	font-family: "Lucida Sans Unicode","Lucida Grande",Arial,sans-serif;
+	font-size: 12px;
+	text-align: left;
+
+
+	background-color: #aaa;
+	color: #000;
+
+}
+
+.mootabs_panel.active
+{
+	display: block;
+}
+
+#badlist
+{
+margin-left: 10px;
+padding-left: 5px;
+list-style: none;
+}
+
+#badlist li {
+	background-image:url("../images/alert-icon.png");
+	background-position:0.5em 50%;
+	background-repeat:no-repeat;
+	border:1px dotted #AAAAAA;
+	margin-bottom:10px;
+	min-height:25px;
+	padding-bottom:5px;
+	padding-left:30px;
+	padding-top:5px;
+	width:819px;
+}
+#goodlist
+{
+margin-left: 10px;
+padding-left: 5px;
+list-style: none;
+}
+
+#goodlist li {
+	background-image:url("../images/approved-icon.png");
+	background-position:0.5em 50%;
+	background-repeat:no-repeat;
+	border:1px dotted #AAAAAA;
+	margin-bottom:10px;
+	min-height:25px;
+	padding-bottom:5px;
+	padding-left:30px;
+	padding-top:5px;
+	width:819px;
+}
+#tab1,#tab2{
+	overflow:hidden;
+	width:890px;
+}
+#s5_topmenu{
+	width:910px;
+}
+.sl_module_class {
+	left:50%;
+	margin-left:-460px;
+	position:relative;
+	width:920px;
+}
+.gateway_refresh {
+	position:absolute;
+	right:50px;
+	top:5px;
+}
+#stats_div{
+	position:relative;
+}
+#sl_loader_graphic {
+	background:url("../images/sl_logo_trans.png") repeat scroll 0 0 transparent;
+	bottom:5px;
+	height:99px;
+	position:absolute;
+	right:5px;
+	width:89px;
+}
+.setMenuHover {
+    background: none repeat scroll 0 0 #2E2E2E !important;
+    color: #FFFFFF !important;
+    margin-top: 4px;
+    text-decoration: none;
+    padding-top:7px !important;
+    padding-bottom:12px !important;
+}
+.setMenuHover span span{
+    color: #FFFFFF !important;
+}
+/* had to remove width on .s5_w_modwrap div.module div div div in default.css */
