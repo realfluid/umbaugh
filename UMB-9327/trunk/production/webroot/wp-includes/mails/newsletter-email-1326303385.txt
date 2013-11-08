@@ -1,0 +1,1 @@
+Form: newsletter-email\nArticleId: 2491\nYour name: Your Name\nYour email: Emailaddress\nYour phone number: Your Phone Number\nYour organization: Your Organization\nYour message: this isn\'t printing out correctly as web page or pdf\nRedirect: http://www.umbaugh.com/strategic-approach-for-cities-towns-and-counties\n

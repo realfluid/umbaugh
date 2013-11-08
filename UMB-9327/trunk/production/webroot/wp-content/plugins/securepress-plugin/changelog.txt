@@ -1,0 +1,13 @@
+﻿8.4.01, 7-21-2011
+	1. NEW URL Caching feature - speed up your site!
+	2. Improved Lockdown Mode for less false positives
+	3. Improved file path detection scripts
+
+8.3.03, 7-8-2011
+	Modification to post filter term. Modification to RFI detection on lockdown to prevent some false positives. Suppressed possible warning from hostname lookup.  Added another common admin directory to default bypasses.
+
+8.3.02, 6-8-2011
+	Fixed a critical problem with post filter that would cause some programs to malfunction. This upgrade is important for maximum compatibility with your website applications.
+
+8.3.01, 5-11-2011
+	Initial release of SecureLive 8.3, first included change log. Changes to SecureLive 8.3 will be tracked here, but for previous change logs visit the forums on www.securelive.net.  For a full list of SecureLive 8.3 features, visit www.securelive.net

@@ -1,0 +1,414 @@
+#s5_navv ul li.s5_menubottom, #s5_fm_ul0 ul li.s5_menubottom, #s5_navv ul li.s5_menubottom:hover, #s5_fm_ul0 ul li.s5_menubottom:hover {
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='../images/Shape5_elegance_menubottom.png', sizingmethod='crop');
+}
+#s5_navv ul li.s5_menutop, #s5_navv ul li.s5_menutop:hover {
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='../images/Shape5_elegance_menutop.png', sizingmethod='crop');
+}
+#sl_account_info{
+	padding-left:40px;
+}
+#s5_logo_twitter {
+position:relative;
+height:57px;
+width:42px;
+right:50px;
+background: url(../images/icon_twitter.png) no-repeat;
+}
+
+#s5_logo_facebook {
+position:relative;
+height:57px;
+width:42px;
+right:100px;
+background: url(../images/icon_facebook.png) no-repeat;
+}
+
+#sl_account_info{
+	margin: 0px;
+	padding: 0px;	
+	width: 850px;
+}
+
+#s5_wrap{
+	width: 920px;
+}
+
+#s5_headerright{
+	
+}
+
+#s5_logo{
+	float: left;	
+}
+
+.s5_whitemodtr{
+	position: relative;
+	bottom: -8px;
+}
+
+.s5_whitemodtm{
+	position: relative;
+	bottom: -8px;
+}
+
+.s5_whitemodtl{
+	position: relative;
+	bottom: -8px;
+}
+
+#s5_topright{
+	position: relative;
+	padding-left: 0px;
+}
+
+.s5_wrap{
+	position: relative;	
+	text-align: left;
+}
+
+#s5_advert1_50{
+	position: relative;
+	overflow: hidden;
+	width: 450px;
+}
+
+#s5_advert1_50 .module-light div a img{
+	position: relative;	
+}
+
+.s5_w_modbm, .s5_w_modbl, .s5_w_modbr{
+	position: relative;
+	bottom: 0px;	
+}
+
+.s5_leftshadow, .s5_rightshadow{
+	position: relative;
+	bottom: 11px;		
+}
+
+#s5_advert1_100 .module-light, #s5_advert1_100 .module{
+	border-left: #bbbbbb solid 1px;	
+	border-right: #bbbbbb solid 1px;	
+}
+
+#s5_user1_100{
+	text-align: left;
+	position: relative;
+	margin: 0px;
+	padding: 0px;	
+}
+
+#s5_user1_100 label{
+	text-align: left;
+	position: relative;
+	height: 30px;
+}
+
+#s5_user1_100 label span{
+	text-align: left;
+	position: absolute;	
+	padding-top: 8px;
+	background-color: transparent;
+}
+
+#s5_user1_100 label input{
+	width: 0px;
+	height: 0px;
+}
+
+.s5_backmiddlemiddle{
+	position: relative;
+	width: 918px;
+}
+
+#s5_user1_40{
+	position: relative;	
+	width: 355px;
+}
+#s5_user1_40 fieldset{
+	position: relative;
+	top: 0px;	
+}
+
+#s5_user2_30{
+	position: relative;	
+	left: -80px;
+}
+
+#s5_user3_30{
+	position: absolute;	
+	right: 0px;
+}
+
+.module{
+	position: relative;
+}
+
+feildset{
+	position: relative;	
+}
+
+.smovhidden{
+	position: relative;	
+}
+
+.module img{
+	position: relative;
+}
+
+#sl_country_select{
+	position: relative;	
+}
+
+#sl_country_select div{
+	position: relative;	
+	float: left !important;
+}
+
+#sl_whitelist{
+	position: relative;	
+}
+
+#sl_whitelist div{
+	position: relative;	
+	float: left !important;
+}
+
+
+#sl_whitelist label{
+	text-align: left;
+	position: relative;
+	height: 30px;
+}
+
+#sl_whitelist label span{
+	text-align: left;
+	position: absolute;	
+	padding-top: 8px;
+	background-color: transparent;
+}
+
+#sl_whitelist label input{
+	width: 0px;
+	height: 0px;
+}
+
+.login-box{
+	width: 581px;	
+}
+
+.login-box label{
+	margin-top: 16px;
+}
+
+
+.login-form div{
+	position: relative;
+	float: none !important;
+}
+
+#s5_user2_50 table div{
+	position: relative;
+	left: 5px;
+	top: 42px;
+}
+
+#s5_advert1_100 table{
+	position: relative;
+}
+
+#s5_advert1_100 img{
+	position: relative !important;	
+	z-index: 999;
+}
+
+#bodyPan{
+	clear: both;	
+}
+
+#bodyMiddlePan{
+	position: relative;
+	width: 700px;	
+}
+
+#MiddleRightPan{
+	position:absolute;
+	overflow: hidden;
+	float: right;	
+	width: 700px !important;
+}
+
+#MiddleRightPan fresh{
+	overflow: visible;	
+}
+
+
+
+
+.sl_tutorial_div{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	overflow: visible;
+	background-color: white;
+	top: 150px;
+	z-index: 9999;
+}
+
+.sl_tutorial_div div{
+	z-index: 9999;
+}
+
+.tl_tut{ } 
+.t_tut{ width: 500px; } 
+.tr_tut{ } 
+.l_tut{ height: 457px !important; } 
+.r_tut{ height: 457px !important; } 
+.bl_tut{ bottom: -10px; } 
+.b_tut{ width: 500px; bottom: -10px; } 
+.br_tut{ bottom: -10px; }
+
+#sl_logout_btn{
+	top: 53px;	
+}
+
+#s5_advert1_100 .module div div div table{
+	width: 90%;	
+}
+
+#s5_button_content2{
+	position: relative;
+	margin: 0px !important;
+}
+
+ .mod-rounded{
+ 	border: none !important;	
+ 	overflow: visible !important; 
+ }
+ 
+ .box-t1{
+ 	margin-bottom: -4px !important;
+ 	position: static;	 
+ }
+ 
+ #stats_div{
+ 	position: static !important;
+ }
+ 
+ #stats_div select, #stats_div img{
+ 	position: relative !important;
+ 	top: 0px !important;
+ }
+ 
+ #maintop{
+	overflow: visible !important;
+	position: relative;
+	width: 700px !important;	
+ }
+ 
+ #stats_div div{
+ 	position: relative !important; 
+ }
+ 
+ #stats_div table div{
+ 	position: relative !important; 
+ }
+ 
+#stage .header .header-2 .header-3{
+ 	position: relative;	 
+}
+#stage .header .header-2 .header-3 span{
+ 	position: relative;
+ 	width: 500px;
+ 	right: 0px;
+ 	top: -20px;	 
+}
+#stage .header .header-2 .header-3 span img{
+ 	position: relative;
+ 	float: right;	 
+}
+
+#s5_user1_50 .module fieldset{
+	position: relative;
+}
+
+#for_e22, #for_e23, #for_e24{
+	position: relative;	
+}
+
+#sl_whitelist, #sl_blacklist, #sl_safelist, #sl_customlist{
+	width: 190px;
+}
+
+#sl_popup{
+  position:absolute !important;
+  top: expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+50+"px" : body.scrollTop+50+"px");
+  left:0;
+  margin:0;
+  padding:0;
+  width: 890px !important;
+  height: 520px !important;
+}
+
+.shadow_div{
+	position: relative !important;
+	width: 890px !important;
+	height: 520px !important;
+	z-index: 9999 !important;	
+	background: white !important;
+}
+
+.shadow_div div {
+	z-index: 9999 !important;	
+}
+
+.t_shadow, .b_shadow{
+	width: 896px !important;
+	
+	/*ie still refuses to present it this way even though it marks the height as 10 in the dev tools it still marks it as 14 in the box model*/
+	height: 10px !important;
+	
+	background-repeat:repeat-x !important;
+
+}
+.bl_shadow, .br_shadow{
+	background-repeat:repeat-x !important;
+}
+
+.l_shadow, .r_shadow{
+	height: 520px !important;	
+}
+
+
+#sl_calendar_holder{
+	left: 10px;	
+}
+
+#s5_advert1_100 .module-light div img{
+	position: relative;	
+}
+
+#sl_account_info a{
+	margin-top: -24px !important;
+	margin-left: 310px !important;	
+}
+
+#sl_month_graph_container{
+	height: 330px !important;	
+	overflow: scroll;
+	padding-left: -6px !important;
+	left: -10px !important;
+}
+
+/* NEW */
+
+#sl_popup{
+	left:50% !important;
+	margin-left:-433px !important;
+}
+#sl_popup a{
+	top:-15px;
+	position: relative;
+}

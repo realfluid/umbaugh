@@ -1,0 +1,1 @@
+Form: newsletter-feedback\nArticleId: 2294\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: carl.escudero@yahoo.com\nYour message: The Office Of Fair Trading is an agency set up in the United Kingdom to oversee the rights of consumers and their dealing with debt collection agencies\nRedirect: http://www.umbaugh.com/gateway-debt-management?form=feedback&email=[email]\n

@@ -1,0 +1,33 @@
+
+#coauthors-table {
+	
+}
+div.dbx-content #coauthors-table {
+	width:100%;
+}
+#coauthors-table td {
+	padding-left:0;
+	padding-right:0;
+}
+#coauthors-table td.select select {
+	margin-top:0;
+}
+div.dbx-content #coauthors-table td.select select {
+	width:100%;
+}
+div.dbx-content #coauthors-table td.move-up,
+div.dbx-content #coauthors-table td.move-down,
+div.dbx-content #coauthors-table td.delete {
+	width:5%;
+}
+#coauthors-table td.delete button {
+	margin-left:5px;
+	width:25px;
+	margin-right:2px;
+}
+#coauthors-table td button {
+	
+}
+#coauthors-table td.disabled button {
+	display:none;
+}

@@ -1,0 +1,1 @@
+Form: newsletter-email\nArticleId: 1965\nYour name: Your Name\nYour email: Emailaddress\nYour phone number: Your Phone Number\nYour organization: Your Organization\nYour message: Your Message\nRedirect: www.umbaugh.com/new-look-more-user-friendly?form=email&email=Emailaddress\n

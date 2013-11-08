@@ -1,0 +1,83 @@
+/* This is  avery drafty print stylesheet for Bunny's Print CSS plugin.
+I designed it to work with one particular Sandbox-based theme on a site of mine,
+so chances are you're going to have to edit this a little to get what you want.
+
+If you want to make this better to help improve the plugin, do get in touch with your modifications. Credit will be given, of course.
+
+Stephanie -- stephanie.booth@gmail.com -- http.//climbtothestars.org
+
+20.01.2008 print.css v2, including modifications by Kjell Knudsen http://kjell.langvass.org/ for other themes -- many thanks!
+*/
+
+/* general stuff */
+body {
+     font-size:10pt; 
+     color: black; }
+
+/* getting rid of whole blocks we don't want to see */
+/* all themes */
+
+/* sandbox theme */
+#sideColumn, #access, #extras { display:none }	
+
+/* K2 theme */
+div#sidebar-main, div#sidebar-alt, div.header, .entry-edit  { display:none }
+	
+
+/* Cutline theme */
+#masthead, #nav, #header_img,  #sidebar, #l_sidebar, .footer { display: none }
+
+/* getting rid of background-images */
+/*body, div#header, div#container, div#header h1 { background-image: none; }*/
+
+/* header */
+div#header #blog-title, div#header h1 {
+	text-indent: 0px;
+}
+
+div#header h1 a {
+	font-size: 16pt;
+	font-family: Times New Roman, Times, serif;
+	text-decoration: none;
+}
+
+/* getting rid of nasty size constraints */
+
+div#header h1 a, div#header h1, div#header {
+	width: 100%;
+	height: auto;
+}
+/* other things */
+div#content, div#container{ margin:0; 
+     float:none; 
+     width:auto }
+.demo .red { color:black; 
+     font-weight:bold }
+#content a { font-weight:bold; 
+     color:#000066; 
+     text-decoration:underline }
+div#container, div#content{ margin-left:0; 
+     float:none; 
+     width:auto }
+#footer, .ad { display:none }
+h1, h2, h3, h4, h5, h6 { page-break-after:avoid; 
+     page-break-inside:avoid }
+h3 { margin-left:10px; 
+     margin-bottom:0px; 
+     padding-bottom:0px }
+blockquote, table, pre { page-break-inside:avoid }
+ul, ol, dl  { page-break-before:avoid }
+img.centered { display: block; 
+     margin-left: auto; 
+     margin-right: auto; }
+img.right { padding: 4px; 
+     margin: 0 0 2px 7px; 
+     display: inline; }
+img.left { padding: 4px; 
+     margin: 0 7px 2px 0; 
+     display: inline; }
+.right { float: right; }
+.left { float: left }
+img { page-break-inside:avoid; 
+     page-break-after:avoid; }
+}

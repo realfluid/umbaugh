@@ -1,0 +1,3 @@
+Form: newsletter-feedback\nArticleId: 1980\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: Beyenett@gmail.com\nYour message: Thanks for clarifying the difrebce of thees  two words in such simple and understable clarifications.
+
+Thank you verymuch\nRedirect: http://www.umbaugh.com/mediation-vs-arbitration?form=feedback&email=[email]\n

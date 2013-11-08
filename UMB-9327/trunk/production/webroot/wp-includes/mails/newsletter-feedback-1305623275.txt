@@ -1,0 +1,1 @@
+Form: newsletter-feedback\nArticleId: 1483\nImplementation: No\nSharing: Yes\nValue: Maybe\nYour email: koen@go-online.be\nYour message: My testestest\nRedirect: www.umbaugh.com/disclaimers-what-do-they-mean?form=feedback&email=Emailaddress\n
