@@ -160,7 +160,7 @@ $mail = new Zend_Mail();
 
         if($_POST["arbitrage-services"] == 'on') {
 
-            $mail->addTo('carter@umbaugh.com');
+            $mail->addTo('baldessari@umbaugh.com');
 
         }
 
