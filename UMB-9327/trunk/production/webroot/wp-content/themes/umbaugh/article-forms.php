@@ -47,9 +47,8 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 		
 		$mail = new Zend_Mail();
 		if($_POST['form'] == "newsletter-email") $mail->addTo($authorData->user_email);
-		$mail->addTo('webmanager@quinlanmarketing.com');
-		$mail->addTo('footnotes@umbaugh.com');
-		//$mail->addTo('koen@go-online.be');
+		$mail->addTo('seever@umbaugh.com');
+		$mail->addTo('holloway@umbaugh.com');
 	    $mail->setFrom('no-reply@umbaugh.com');
 	    $mail->setSubject('Feedback on: ' . $post->post_title);
 	    $mail->setBodyHtml($table);
