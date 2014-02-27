@@ -134,57 +134,61 @@ $mail = new Zend_Mail();
 
     }
 
-    //$mail->addTo('webmanager@quinlanmarketing.com');
-
-	//$mail->addTo('koen@go-online.be');
-
     if($_POST['form'] == 'join-us') {
 
         $mail->addTo('careers@umbaugh.com');
 
     } elseif($_POST['form'] == 'contact-us') {
 
-        //$mail->addTo('contactus@umbaugh.com');
-
         $mail->addTo('holloway@umbaugh.com');
 
-        $mail->addTo('long@umbaugh.com');
-
+        $mail->addTo('seever@umbaugh.com');
 
 
         if($_POST["accounting-services"] == 'on') {
 
-            $mail->addTo('hedden@umbaugh.com');
+    		$mail->addTo('holloway@umbaugh.com');
 
+	        $mail->addTo('seever@umbaugh.com');
         }
 
         if($_POST["arbitrage-services"] == 'on') {
 
-            $mail->addTo('baldessari@umbaugh.com');
+			$mail->addTo('holloway@umbaugh.com');
+
+			$mail->addTo('seever@umbaugh.com');
 
         }
 
         if($_POST["debt-management"] == 'on') {
 
-            $mail->addTo('colton@umbaugh.com');
+			$mail->addTo('holloway@umbaugh.com');
+
+			$mail->addTo('seever@umbaugh.com');
 
         }
 
         if($_POST["economic-development"] == 'on') {
 
-            $mail->addTo('matthes@umbaugh.com');
+			$mail->addTo('holloway@umbaugh.com');
+
+			$mail->addTo('seever@umbaugh.com');
 
         }
 
         if($_POST["financial-management"] == 'on') {
 
-            $mail->addTo('clifford@umbaugh.com');
+			$mail->addTo('holloway@umbaugh.com');
+
+			$mail->addTo('seever@umbaugh.com');
 
         }
 
         if($_POST["utility-services"] == 'on') {
 
-            $mail->addTo('miller@umbaugh.com');
+			$mail->addTo('holloway@umbaugh.com');
+
+			$mail->addTo('seever@umbaugh.com');
 
         }
 
