@@ -11,7 +11,7 @@
 			<ul class="tab-content">
 				<li id="tab1" class="active">
 					<h2>It's all about experience</h2>
-					<p class="banner-image"><img src="/images/umbaugh.png" alt=""></p>
+					<p class="banner-image"><img src="/images/umbaugh1.png" alt=""></p>
 					<p>Umbaugh is one of the largest and most active independent financial advisors to governmental units in the Midwest. Advising cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports is just a part of what UMBAUGH does; it is ALL we do. We offer a depth of experience you won't find elsewhere.</p>
 					<p class="links"><a href="/services/" class="more">View All Services »</a></p>
 				</li>
