@@ -1,0 +1,62 @@
+/**
+ * Crumbly control panel styles.
+ *
+ * @author			Stephen Lewis <stephen@experienceinternet.co.uk>
+ * @copyright		Experience Internet
+ * @package			Crumbly
+ */
+
+@media screen {
+
+/* =input
+ * ------------------------------------------------------------ */
+#crumbly input[type='text'] {
+    width               : 97%;
+}
+
+
+/* =act
+ * ------------------------------------------------------------ */
+#crumbly .act {
+	padding-right		: 7px;
+	text-align			: right;
+	white-space			: nowrap;
+	width				: 44px;
+}
+
+
+/* =btn
+ * ------------------------------------------------------------ */
+#crumbly .btn {
+	display				: inline-block;
+	margin-right		: 3px;
+	vertical-align		: middle;
+}
+
+#crumbly .btn img {
+	display				: inline-block;
+	vertical-align		: middle;
+}
+
+
+/* =no_content
+ * ------------------------------------------------------------ */
+#crumbly .no_content {
+	-moz-border-radius		: 2px;
+	-moz-box-shadow			: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	-o-border-radius		: 2px;
+	-o-box-shadow			: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	-webkit-border-radius	: 2px;
+	-webkit-box-shadow		: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	background				: rgba(0, 0, 0, 0.05);
+	border-radius			: 2px;
+	box-shadow				: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	margin					: 10px 0;
+	padding					: 15px;
+	text-align				: center;
+}
+
+} /* @media screen */
+
+/* End of file		: cp.css */
+/* File location	: themes/third_party/crumbly/css/cp.css */
