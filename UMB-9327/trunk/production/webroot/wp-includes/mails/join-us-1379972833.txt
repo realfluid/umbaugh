@@ -1,7 +1,0 @@
-Form: join-us\nYour name: Daniel Dixon\nYour email: dgdixon@indiana.edu\nYour phone number: 317-363-7946\nYour message: Hiring Manager,
-
-Attached is my cover letter and resume. I appreciate your consideration for a position at your company.
-
-Sincerely,
-
-Daniel Dixon\nRedirect: www.umbaugh.com/join-our-firm\n

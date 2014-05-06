@@ -1,1 +1,0 @@
-Form: newsletter-email\nArticleId: 3528\nYour name: John Hardwick\nYour email: jhardwick@valpo.us\nYour phone number: Your Phone Number\nYour organization: Your Organization\nYour message: Pleqase change my email to jhardwickpe@comcast.net.\nRedirect: http://www.umbaugh.com/legislative-changes-and-local-governments\n

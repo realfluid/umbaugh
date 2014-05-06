@@ -1,6 +1,0 @@
-Form: contact-us\nYour name: chris lovelace\nYour email: christopher_lovelace@cable.comcast.com\nYour phone number: 3174325400\nYour organization: comcast\nYour message: Hello,
-          My name is Chris Lovelace.  I am a account executive with Comcast Business Class. .  I would like to set up a meeting to discuss your internet, phone and TV needs.  We have some great bundle packages that should save you some money.  I would like to met with you show you the benefits and savings Comcast can provide.  Please let me know a time that works for you.  If a meeting does not work I would like to get a quote out to you.  I look forward to hearing from you.  
-Thanks and have a great day.
-
-We have a new special where I can get you 2 full featured phone lines (long distance and local calls included) and  high speed internet  12/2 for 114.85 per month.   I can add additional phone lines for 24.95 per month as well.   I look forward to hearing from you.
-\nRedirect: www.umbaugh.com/contact\n

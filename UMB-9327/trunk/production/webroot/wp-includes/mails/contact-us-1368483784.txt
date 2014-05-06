@@ -1,7 +1,0 @@
-Form: contact-us\nYour name: Jeremy Colby\nYour email: jercolby@iupui.edu\nYour phone number: (317) 796-2913\nYour organization: Student\nFinancial management: on\nYour message: To whom it may concern,
-
-My name is Jeremy, and I\'m a Finance major at the Kelley School of Business, IUPUI campus. I am working on a project for my career planning class, and I was wondering if I would be able to see what the company\'s job description looks like for the \"Financial Analyst\" position. I would also be interested in knowing more about this for my own purposes as well.
-
-Sincerely,
-
-Jeremy Colby\nRedirect: www.umbaugh.com/contact\n

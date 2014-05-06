@@ -1,1 +1,0 @@
-Sharing: Yes\nYour message: Very nice site!\nValue: Yes\nForm: newsletter-feedback\nYour email: johnc20@aol.com\nArticleId: 1483\nRedirect: www.umbaugh.com/disclaimers-what-do-they-mean?form=feedback&email=[email]\nImplementation: Yes\n

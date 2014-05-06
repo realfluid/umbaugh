@@ -1,1 +1,0 @@
-Form: newsletter-feedback\nArticleId: 2543\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: cissna@umbaugh.com\nYour message: Can I be brutely frank?  The numbers in the table should have been right-justified.  What accounting schedule ever uses left justification?\nRedirect: http://www.umbaugh.com/utility-rate-reports-pt2?form=feedback&email=[email]\n

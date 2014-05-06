@@ -1,3 +1,0 @@
-Form: newsletter-feedback\nArticleId: 3653\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: jyeo@zionsville-in.gov\nYour message: Also very useful article.
-
-Thanks!\nRedirect: http://www.umbaugh.com/legislative-changes-impact-budgeting-for-property-tax-caps?form=feedback&email=[email]\n

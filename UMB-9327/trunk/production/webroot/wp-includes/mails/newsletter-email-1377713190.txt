@@ -1,2 +1,0 @@
-Form: newsletter-email\nArticleId: 3787\nYour name: Greg Hahn\nYour email: ghahn@boselaw.com\nYour phone number: 317-684-5127\nYour organization: Bose McKinney & Evans, LLP\nYour message: Great article.
-Thank you for your great insight!!\nRedirect: http://www.umbaugh.com/municipal-bond-tax-exempt-status\n

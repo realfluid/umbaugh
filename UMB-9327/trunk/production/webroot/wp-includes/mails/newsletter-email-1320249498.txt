@@ -1,1 +1,0 @@
-Form: newsletter-email\nArticleId: 2338\nYour name: Your Name\nYour email: seever@umbaugh.com\nYour phone number: Your Phone Number\nYour organization: Your Organization\nYour message: good article!\nRedirect: http://www.umbaugh.com/water-pollution-advisory-committee-submits-findings\n

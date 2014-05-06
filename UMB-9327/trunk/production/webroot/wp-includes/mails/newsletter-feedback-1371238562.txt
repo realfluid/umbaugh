@@ -1,3 +1,0 @@
-Form: newsletter-feedback\nArticleId: 3585\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: jyeo@zionsville-in.gov\nYour message: Any useful information regarding health care changes such as this is very helpful and appreciated.
-
-Thanks!\nRedirect: http://www.umbaugh.com/seasonal-employees-and-health-care-reform?form=feedback&email=[email]\n

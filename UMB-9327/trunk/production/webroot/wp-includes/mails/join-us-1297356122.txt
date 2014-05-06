@@ -1,3 +1,0 @@
-Form: join-us\nYour name: Thursday test\nYour email: schabath@umbaugh.com\nYour phone number: lalalalalal\nYour message: 
-test of the form fields join us sent Thursday
-KEC  please ignore\nRedirect: www.umbaugh.com/join-our-firm\n

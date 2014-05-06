@@ -1,6 +1,0 @@
-Form: newsletter-feedback\nArticleId: 1718\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: manager@hudsontown,org\nYour message: As an addition, I could not find that there was a place to print an article as there had been in the old format.  Will that be added?
-
-Thank you.
-
-Ward Odom
-Town Manager, Town of Hudson\nRedirect: www.umbaugh.com/local-income-taxes-part-3?form=feedback&email=Emailaddress\n

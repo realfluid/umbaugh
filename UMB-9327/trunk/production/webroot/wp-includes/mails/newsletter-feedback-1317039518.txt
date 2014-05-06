@@ -1,1 +1,0 @@
-Form: newsletter-feedback\nArticleId: 1483\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: georgej@quinlanmarketing.com\nYour message: test4 on Monday\nRedirect: http://www.umbaugh.com/banking-regulations-impact-pt-2?form=feedback&email=[email]\n

@@ -1,1 +1,0 @@
-Form: newsletter-feedback\nArticleId: 1483\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: georgej@quinlanmarketing.com\nYour message: test3 on Monday\nRedirect: http://www.umbaugh.com/taxing-rich-cost-local-taxpayers?form=feedback&email=[email]\n

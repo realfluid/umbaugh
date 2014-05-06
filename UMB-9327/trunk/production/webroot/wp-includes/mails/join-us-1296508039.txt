@@ -1,1 +1,0 @@
-Form: join-us\nYour name: myname\nYour email: my email\nYour phone number: my phone\nYour message: my mesage\nRedirect: www.umbaugh.com/join-our-firm\n

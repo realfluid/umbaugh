@@ -1,1 +1,0 @@
-Form: newsletter-feedback\nArticleId: 3787\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: cissna@umbaugh.com\nYour message: Very interesting article - loved the hsitorical info. too!\nRedirect: http://www.umbaugh.com/municipal-bond-tax-exempt-status?form=feedback&email=[email]\n
