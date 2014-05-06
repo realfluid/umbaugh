@@ -1,1 +1,0 @@
-Sharing: Yes\nYour message: Very nice site!\nValue: Yes\nForm: newsletter-feedback\nYour email: johnk942@aol.com\nArticleId: 616\nRedirect: http://www.umbaugh.com/additional-disaster-recovery-funding-announced-for-areas-affected-by-2008-flooding?form=feedback&email=[email]\nImplementation: Yes\n

@@ -1,1 +1,0 @@
-Form: newsletter-email\nArticleId: 1377\nYour name: Jennifer Acton\nYour email: jennifer.acton@legis.state.ia.us\nYour phone number: Your Phone Number\nYour organization: Your Organization\nYour message: How many PSAPs are there in MI?\nRedirect: http://www.umbaugh.com/consolidation-of-psaps\n

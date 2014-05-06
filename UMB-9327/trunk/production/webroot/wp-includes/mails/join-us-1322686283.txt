@@ -1,1 +1,0 @@
-Form: join-us\nYour name: Kathy Straus\nYour email: straus@umbaugh.com\nYour phone number: Your Phone Number\nYour message: test\nRedirect: www.umbaugh.com/join-our-firm\n

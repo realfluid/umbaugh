@@ -1,2 +1,0 @@
-Form: newsletter-email\nArticleId: 2523\nYour name: Laura Spuller\nYour email: lspuller@stes.com\nYour phone number: 260-427-2696\nYour organization: Allen Co Regional Water & Sewer District\nYour message: Please send me a copy of the comprehensive rate studies for water/sewer/stormwater report.
-Thank you\nRedirect: http://www.umbaugh.com/utility-rates-report-pt1\n

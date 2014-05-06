@@ -1,5 +1,0 @@
-Form: contact-us\nYour name: Michael Schrader\nYour email: mdschrader@centurylink.net\nYour phone number: 2606090406\nYour organization: Whitley County Redevelopment / County Government\nEconomic development: on\nYour message: My email address has changed:
-Old address: mschrader@kconline.com
-
-NEW address:  mdschrader@centurylink.net 
-Thanks!\nRedirect: www.umbaugh.com/contact\n

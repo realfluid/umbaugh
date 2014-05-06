@@ -1,2 +1,0 @@
-Form: contact-us\nYour name: Danny\nYour email: dannym@quinlanmarketing.com\nYour phone number: Your Phone Number\nYour organization: Your Organization\nYour message: This is a test message from Quinlan from the Contact us form that should go to the contactus@umbaugh.com email address.
-Thank you\nRedirect: www.umbaugh.com/contact\n

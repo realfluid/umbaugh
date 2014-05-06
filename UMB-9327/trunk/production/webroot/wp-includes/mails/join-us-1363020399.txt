@@ -1,2 +1,0 @@
-Form: join-us\nYour name: Nick Netherton\nYour email: NNetherton@gmail.com\nYour phone number: 317-331-8099\nYour message: Please find attached my resume. I\'m a recent college grad with a B.S. in Finance from the IU Kelley School of Business in Indianapolis. I\'d love to discuss with you my background experience and any opportunities that may be a good fit. Thanks.
--Nick\nRedirect: www.umbaugh.com/join-our-firm\n

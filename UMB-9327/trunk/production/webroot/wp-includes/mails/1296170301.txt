@@ -1,1 +1,0 @@
-Form: contact-us\nYour name: koen\nYour email: koen@go-online.be\nYour phone number: +3248537\nYour organization: Go-Online\nAccounting services: on\nCapital planning: on\nYour message: A short message\nSubmit: Submit\n

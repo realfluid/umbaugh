@@ -1,2 +1,0 @@
-Form: newsletter-feedback\nArticleId: 1747\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: georgej@quinlanmarketing.com\nYour message: This is a test. 
-Please forward this to me. \nRedirect: www.umbaugh.com/dodd-frank-act-2?form=feedback&email=Emailaddress\n

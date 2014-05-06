@@ -1,1 +1,0 @@
-Form: newsletter-email\nArticleId: 1747\nYour name: Darlene Janulis\nYour email: janulis@umbaugh.com\nYour phone number: Your Phone Number\nYour organization: Your Organization\nYour message: Just wondering who gets this.\nRedirect: www.umbaugh.com/dodd-frank-act-2?form=email&email=janulis@umbaugh.com\n

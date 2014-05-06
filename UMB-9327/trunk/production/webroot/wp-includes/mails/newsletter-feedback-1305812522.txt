@@ -1,1 +1,0 @@
-Form: newsletter-feedback\nArticleId: 1747\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: janulis@umbaugh.com\nYour message: Just testing.  Really cool as it looks like our own and is tied to our web.  Nice.\nRedirect: www.umbaugh.com/dodd-frank-act-2?form=feedback&email=Emailaddress\n

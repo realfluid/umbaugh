@@ -1,2 +1,0 @@
-Form: newsletter-feedback\nArticleId: 1483\nImplementation: Maybe\nSharing: Maybe\nValue: Yes\nYour email: bgoffinet@citiesandtowns.org\nYour message: While I do  agree this may cost Local governemnts more on Municipal bonds, we must do something to get the rich to more their FAIR share of taxes. The Bush tax cuts for the wealthy must be eliminated.
-Bill\nRedirect: www.umbaugh.com/disclaimers-what-do-they-mean?form=feedback&email=[email]\n

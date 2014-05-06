@@ -1,5 +1,0 @@
-Form: newsletter-email\nArticleId: 3444\nYour name: Jonathan Hunter\nYour email: jonathan.hunter@oldnational.com\nYour phone number: 812-462-7457\nYour organization: Old National Bank\nYour message: Good afternoon.....can you please add me to your distriution list for your newsletter?
-
-Regards,
-
-Jonathan\nRedirect: http://www.umbaugh.com/can-you-keep-your-excess-levy-maybe%e2%80%a6\n

@@ -1,1 +1,0 @@
-Form: newsletter-feedback\nArticleId: 1483\nImplementation: Yes\nSharing: Yes\nValue: Yes\nYour email: geo@endurant.net\nYour message: This is a test.  I repeat this is only a test. \nRedirect: www.umbaugh.com/disclaimers-what-do-they-mean?form=feedback&email=[email]\n
