@@ -1,0 +1,52 @@
+{embed='includes/xhtml' page_title="Our Services"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn" class="services">
+      <h1>Our Services</h1>
+      <div id="callout">
+        <h2>Our Areas of Expertise</h2>
+        <div class="dotted-seperator" style="width: 200px;"></div>
+        <ul>
+          <li>&raquo; <a href="/services/government">Local Government</a></li>
+          <li>&raquo; <a href="/services/utilities">Utilities</a></li>
+          <li>&raquo; <a href="/services/development">Economic Development</a></li>
+          <li>&raquo; <a href="/services/schools">Schools</a></li>
+          <li>&raquo; <a href="/services/libraries">Libraries</a></li>
+        </ul>
+      </div>
+      <p>Our comprehensive services are tailored to each client's special needs, offering guidance and assistance from inception to project completion, financial analysis and long-term planning. Because we are independent advisors, we are objective in analyzing, planning and structuring creative solutions for many types of projects.</p>
+      <div id="wide-callout">
+        <h2>Cash Advisory Services</h2>
+        <p><a href="http://cashadvisory.umbaugh.com/">Umbaugh Cash Advisory Services, LLC</a> was developed as an independent business entity to help create structured investment programs for our client's bond proceeds and operating funds.</p>
+      </div>
+    </div>
+    <!-- end div #mainColumn -->
+    <div id="sideColumn">
+      <div id="nav_menu-4" class="widget widget_nav_menu">
+        <div class="menu-sidebar-menu-container">
+          <ul id="menu-sidebar-menu" class="menu">
+            <li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-255"><a href="http://www.umbaugh.com/about">About Us</a></li>
+            <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-64"><a href="http://www.umbaugh.com/contact">Contact Us</a></li>
+            <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-65"><a href="http://www.umbaugh.com/join-our-firm">Join Our Firm</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="category-content" class="widget widget_categoryContent">
+        <h2 class="widget-title"> Latest News </h2>
+        <ul>
+          {exp:channel:entries channel="news" limit="2"}
+          <li> <a href="/latest-news/{url_title}">{title}</a> {exp:word_limit total="20"}{news_body}{/exp:word_limit}
+            <p class="readmore"><a href="/latest-news/{url_title}">Read More &raquo;</a></p>
+          </li>
+          {/exp:channel:entries}
+        </ul>
+      </div>
+    </div>
+    <!-- end DIV #sideColumn --> 
+  </div>
+  <!-- end div .interior-content --> 
+</div>
+<!-- end div #wrapper --> 
+{embed='includes/footer'}

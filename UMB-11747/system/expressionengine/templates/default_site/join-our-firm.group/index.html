@@ -1,0 +1,70 @@
+ {embed='includes/xhtml' page_title="Join Our Firm"}
+    
+    {embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn">
+      <h1>You + Umbaugh = Opportunity</h1>
+      <div id="callout">
+        <h2>Have questions about career opportunities at Umbaugh?</h2>
+        <p>Feel free to <a href="mailto:careers@umbaugh.com">contact us</a> with any questions you may have.</p>
+      </div>
+      <p>Are you searching for a career opportunity with a positive work environment, an impact on the community and opportunities for growth and advancement? Apply to join our firm! Umbaugh is not a traditional accounting firm; we don't do tax or audit work. We provide financial advisory services to local governments, municipal and not-for-profit utilities, school corporations and a variety of other governmental clients.</p>
+      <p>If you would enjoy working with governmental clients to evaluate their financial options and assist in providing solutions, Umbaugh is a place where you will have first-hand knowledge and experience.</p>
+      <br />
+      <h2>We are seeking individuals with a strong academic background in Accounting and/or Finance, outstanding analytical abilities and strong communication skills.</h2>
+      <br />
+      <br />
+      <div class="careers">
+        <h3>Umbaugh is an Equal Opportunity Employer.</h3>
+      </div>
+      <br />
+      <br />
+      <div id="career-form" class="wide">
+        <h3>Interested in joining our firm? Contact us.</h3>
+        <p>Please send resume and cover letter as a single file (e.g., PDF, Word Document, etc).</p>
+
+        {exp:freeform:composer
+            form_name="join_our_firm"
+            return="join-our-firm/thank-you"
+        }
+
+
+      </div>
+      <!-- end div #mainColumn --> 
+    </div>
+    <div id="sideColumn">
+      <div id="nav_menu-4" class="widget widget_nav_menu">
+        <div class="menu-sidebar-menu-container">
+          <ul id="menu-sidebar-menu" class="menu">
+            <li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-255"><a href="http://www.umbaugh.com/services">Our Services</a></li>
+            <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-64"><a href="http://www.umbaugh.com/contact">Contact Us</a></li>
+            <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-65"><a href="http://www.umbaugh.com/join-our-firm">Join Our Firm</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="category-content" class="widget widget_categoryContent">
+        <h2 class="widget-title"> Latest News </h2>
+        <ul>
+          {exp:channel:entries channel="news" limit="2"}
+          <li> <a href="/latest-news/{url_title}">{title}</a> {exp:word_limit total="20"}{news_body}{/exp:word_limit}
+            <p class="readmore"><a href="/latest-news/{url_title}">Read More &raquo;</a></p>
+          </li>
+          {/exp:channel:entries}
+        </ul>
+      </div>
+      <img src="../images/dotted-seperator.png" />
+      <div id="testimonial">
+        <h2>Here's what others say about why they chose to work at Umbaugh:</h2>
+        <p>From the day I began my internship, I knew Umbaugh had the characteristics of a challenging and exciting firm. The type of work I perform is unique, demanding and always evolving in order to better serve our clients. On top of that, the open work environment and the extremely helpful staff have made it a perfect fit for me.</p>
+        <p>I chose to work at Umbaugh because of my interest in working with local governments and the desire to make a difference. I stay at Umbaugh because of the great people with whom I work and the opportunity for professional growth.</p>
+        <p>I selected Umbaugh for three good reasons: the work that Umbaugh does throughout the state is extremely important and meaningful and allows me to feel a sense of satisfaction with my job; the individuals I interviewed with seemed genuinely interested in me; and Umbaugh offers extremely competitive salaries and excellent benefits.</p>
+      </div>
+      <!-- end DIV #testimonial --> 
+    </div>
+    <!-- end DIV #sideColumn --> 
+  </div>
+  <!-- end div .interior-content --> 
+</div>
+<!-- end #wrapper --> 
+{embed='includes/footer'}

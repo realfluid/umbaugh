@@ -1,0 +1,189 @@
+{embed='includes/xhtml' page_title="About Umbaugh"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn" class="about">
+      <h1>About Umbaugh</h1>
+      <img src="/images/team-photo.png" id="team-photo" />
+      <h2 id="team-caption">Umbaugh Partners</h2>
+      <p>With more than 60 years of experience and expertise in all areas of public finance, H. J. Umbaugh &amp; Associates Certified Public Accountants is one of the largest and most active independent financial advisors to governmental units in the Midwest.</p>
+      <p>UMBAUGH provides timely, independent, meaningful and actionable financial guidance for cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports.</p>
+      <p>We solve problems, create opportunities and complete successful financings. In short, we help community leaders resolve the financial issues they face as they work to improve the quality of life in their communities.</p>
+      <p>Our client service leaders are supported by a staff of approximately 70 people in three offices.</p>
+      <div id="professionals-list">
+        <h2>Client Service Leaders</h2>
+        <hr  />
+        <div class="three-column">
+          <ul>
+            {exp:channel:entries channel="people" orderby="date" sort="asc"}
+            {if people_level =="Partner" OR people_level=="Executive Partner"}
+            <li><a href="#{anchor_tag}">{title}</a></li>
+            {/if}
+            {/exp:channel:entries}
+          </ul>
+        </div>
+        <div class="three-column">
+          <ul>
+            {exp:channel:entries channel="people" orderby="date" sort="asc"}
+            {if people_level =="Principal"}
+            <li><a href="#{anchor_tag}">{title}</a></li>
+            {/if}
+            {/exp:channel:entries}
+          </ul>
+        </div>
+        <div class="three-column">
+          <ul>
+            {exp:channel:entries channel="people" orderby="date" sort="asc"}
+            {if people_level =="Director of Umbaugh Cash Advisory Services, LLC"}
+            <li><a href="#{anchor_tag}">{title}</a></li>
+            {/if}
+            {/exp:channel:entries}
+          </ul>
+        </div>
+      </div>
+      <!-- end DIV #professionals-list -->
+      
+      <div id="professionals-table">
+        <h2>Partners</h2>
+        {exp:channel:entries channel="people" orderby="date" sort="asc"}
+        {if people_level =="Partner" OR people_level=="Executive Partner"}
+        <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
+          <div class="bio-info">
+            <h3><strong>{title}</strong>, {people_extension}</h3>
+            <span class="professional-role">{people_level}, {people_location}</span>
+            <div class="two-col">
+              <div class="contact-info">
+                <h4>Contact Information</h4>
+                <ul>
+                  <li>{people_phone}</li>
+                  <li><a href="mailto:{people_email}">{people_email}</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            {people_bio} <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+        {/if}
+        {/exp:channel:entries}
+        
+        
+        
+        {exp:channel:entries channel="people" orderby="date" sort="asc"}
+        {if people_level =="Principal"}
+        <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
+          <div class="bio-info">
+            <h3><strong>{title}</strong>, {people_extension}</h3>
+            <span class="professional-role">{people_level}, {people_location}</span>
+            <div class="two-col">
+              <div class="contact-info">
+                <h4>Contact Information</h4>
+                <ul>
+                  <li>{people_phone}</li>
+                  <li><a href="mailto:{people_email}">{people_email}</a></li>
+                  <li>Download <a href="#">Vcard</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            {people_bio} <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+        {/if}
+        {/exp:channel:entries}
+        
+        
+        
+        
+        {exp:channel:entries channel="people" orderby="date" sort="asc"}
+        {if people_level =="Director of Umbaugh Cash Advisory Services, LLC"}
+        <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
+          <div class="bio-info">
+            <h3><strong>{title}</strong>, {people_extension}</h3>
+            <span class="professional-role">{people_level}, {people_location}</span>
+            <div class="two-col">
+              <div class="contact-info">
+                <h4>Contact Information</h4>
+                <ul>
+                  <li>{people_phone}</li>
+                  <li><a href="mailto:{people_email}">{people_email}</a></li>
+                  <li>Download <a href="#">Vcard</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            {people_bio} <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+        {/if}
+        {/exp:channel:entries} </div>
+      <!-- end DIV #professionals-table --> 
+    </div>
+    <!-- end div #mainColumn -->
+    
+    <div id="sideColumn">
+      <div id="nav_menu-4" class="widget widget_nav_menu">
+        <div class="menu-sidebar-menu-container">
+          <ul id="menu-sidebar-menu" class="menu">
+            <li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-255"><a href="http://www.umbaugh.com/services">Our Services</a></li>
+            <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-64"><a href="http://www.umbaugh.com/contact">Contact Us</a></li>
+            <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-65"><a href="http://www.umbaugh.com/join-our-firm">Join Our Firm</a></li>
+          </ul>
+        </div>
+      </div>
+
+  <div id="category-content" class="widget widget_categoryContent">
+    <h2 class="widget-title"> Latest News </h2>
+    <ul>
+            {exp:channel:entries channel="news" limit="2"}
+            <li>
+              <a href="/latest-news/{url_title}">{title}</a>
+              {exp:word_limit total="20"}{news_body}{/exp:word_limit}
+              <p class="readmore"><a href="/latest-news/{url_title}">Read More &raquo;</a></p>
+            </li>
+            {/exp:channel:entries}
+    </ul>
+  </div>
+
+
+      <img src="../images/dotted-seperator.png" />
+      <!-- start #resources --> 
+      <div class="resources">
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="http://www.inh2o.org/" target="_blank">Alliance of Indiana Rural Water</a></li>
+          <li><a href="http://www.indianacounties.org/" target="_blank">Association of Indiana Counties</a></li>
+          <li><a href="http://www.citiesandtowns.org/" target="_blank">Indiana Association of Cities and Towns</a></li>
+          <li><a href="http://www.indianacountycommissioners.com/" target="_blank">Indiana Association of County Commissioners</a></li>
+          <li><a href="http://www.iapss-in.org/" target="_blank">Indiana Association of Public School Superintendents</a></li>
+          <li><a href="http://www.indiana-asbo.org/" target="_blank">Indiana Association of School Business Officials</a></li>
+          <li><a href="http://www.ilmct.org/default.aspx" target="_blank">Indiana League of Municipal Clerks and Treasurers</a></li>
+          <li><a href="http://www.imea.com/" target="_blank">Indiana Municipal Electric Association</a></li>
+          <li><a href="http://www.indianaruralwater.org/" target="_blank">Indiana Rural Water Association</a></li>
+          <li><a href="http://www.isba-ind.org/" target="_blank">Indiana School Boards Association</a></li>
+          <li><a href="http://www.msbo.org/" target="_blank">Michigan Association of Business Officials</a></li>
+          <li><a href="http://www.gomasa.org/" target="_blank">Michigan Association of School Administrators</a></li>
+          <li><a href="http://www.matsupervisors.com/" target="_blank">Michigan Association of Township Supervisors</a></li>
+          <li><a href="http://www.mml.org" target="_blank">Michigan Municipal League</a></li>
+          <li><a href="http://www.michigantownships.org" target="_blank">Michigan Township Association</a></li>
+        </ul>
+      </div>
+      <!-- end #resources --> 
+      
+    </div>
+    <!-- end DIV #sideColumn --> 
+  </div>
+  <!-- end div .interior-content --> 
+</div>
+<!-- end div .wrapper --> 
+{embed='includes/footer'}
