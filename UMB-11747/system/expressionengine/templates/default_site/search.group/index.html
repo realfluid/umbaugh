@@ -1,0 +1,37 @@
+{embed='includes/xhtml' page_title="Search Results"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn">
+      <div class="wide" id="news">
+        <h1>Search Results for: <span>{exp:search:keywords}{/exp:search:keywords}</span></h1>
+        {exp:search:search_results}
+        <div class="news-story">
+          <h2><a href="{auto_path}">{title}</a></h2>
+          <span class="date">{entry_date format="%m/%d/%y"}<br />
+          {categories}
+          {category_image} <a href="{path='channel/index'}">{category_name}</a> {/categories}
+          {exp:word_limit total="30"}{news_body}{/exp:word_limit}
+          <p class="readmore"><a href="{auto_path}">Read More &raquo;</a></p>
+          </p>
+        </div>
+        {if count == total_results} </div>
+      <!-- div wide id news --> 
+      {/if}
+      
+      {paginate}
+      <p>Page {current_page} of {total_pages} pages {pagination_links}</p>
+      {/paginate}
+      
+      {/exp:search:search_results} </div>
+    <!-- div wide id news --> 
+  </div>
+  <!-- main column --> 
+</div>
+<!-- interior-content -->
+</div>
+<!-- wrapper --> 
+<!--wrapper--> 
+
+{embed='includes/footer'}
