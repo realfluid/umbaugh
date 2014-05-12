@@ -15,6 +15,7 @@ $config['index_page'] = "";
 $config['app_version'] = '281';
 $config['license_number'] = "2672-2956-1979-1384";
 $config['debug'] = '1';
+//$config['cp_url'] = 'http://dev.umbaugh.com/admin.php';
 $config['cp_url'] = 'http://local.umbaugh.com/admin.php';
 $config['doc_url'] = "http://ellislab.com/expressionengine/user-guide/";
 $config['is_system_on'] = "y";

@@ -4,10 +4,10 @@
 <div class="wrapper">
   <div class="interior-content">
     <div id="mainColumn"> 
-    {if segment_2 ==""}
+		{if segment_2 == ""}
+
 			<h1>Latest News </h1>
 				<div id="news" class="wide">
-
                 	{exp:channel:entries channel="news"}
                         <div class="news-story">
                           <h2><a href="{site_url}latest-news/{url_title}">{title}</a></h2>
@@ -17,72 +17,81 @@
                           <p class="readmore"><a href="{url_title}">Read More &raquo;</a></p>
                         </div><!-- end #news-story --> 
 					{/exp:channel:entries}                
-
-
-
-
-
-
-
-
-
 				</div><!-- end #news --> 
 
-      {/if}
-      {if segment_2 == {category}} 
+		{if:elseif segment_2 == "C1" OR segment_2 == "C2" OR segment_2 == "C3" OR segment_2 == "C4" OR segment_2 == "C5" OR segment_2 == "C6" OR segment_2 == "C7" OR segment_2 == "C8" OR segment_2 == "C9" OR segment_2 == "C10" OR segment_2 == "C11" OR segment_2 == "C12" OR segment_2 == "C13" OR segment_2 == "C14" OR segment_2 == "C15"}
 
-      <script>
-        $(function() {
-        $( "#tabs" ).tabs({
-          collapsible: true,
-          active: false
-        });
-        });
-        </script>
+                <h1>{exp:channel:entries channel="news" limit="1"}{categories limit="1"}{category_name}{/categories}{/exp:channel:entries}</h1>
+                    <div id="news" class="wide">
+                        {exp:channel:entries channel="news" category_id="{segment_2}"}
+                            <div class="news-story">
+                              <h2><a href="{site_url}latest-news/{url_title}">{title}</a></h2>
+                              <span class="date"> By {news_author}, {if author_suffix == "Yes"} CPA,{/if} {author_position}, {entry_date format="%F %d, %Y"}</span>
+                              {exp:word_limit total="30"}{news_body}{/exp:word_limit}
+                              <p class="readmore"><a href="{url_title}">Read More &raquo;</a></p>
+                            </div><!-- end #news-story --> 
+    
+    
+                        {/exp:channel:entries} 
+                    </div><!-- #news -->
 
-      <div id="news" class="wide">
-	      {exp:channel:entries channel="news"}
-    			<div class="news-story last pxBuffer">
-          			<h1>{title}</h1>
-          			<span class="date">By {news_author}, CPA, Partner, {entry_date format="%F %d, %Y"}</span><br />
-          				{if news_image != ""}
-          					<div class="alignright"><img src="{news_image}" width="100" height="130"/></div>
-          				{/if}
-          
-          			{news_body}
-          			<div id="tabs">
-		                <ul>
-                          <li id="first"><a href="#tabs-1">Give Article Feedback</a> &raquo;</li>
-                          <li>|</li>
-                          <li><a href="#tabs-2">E-mail Umbaugh</a> &raquo;</li>
-                          <li>|</li>
-                          <li><a href="javascript:window.print()">Print Article</a> &raquo;</li>
-	                	</ul>
-	    				 <div id="tabs-1" class="tab_content" style="display: none;">
-    		                <h2 class="form">Send your feedback:</h2>
-            		        <div class="contact_us-form">
-                    		{exp:freeform:composer
-		                        form_name="send_your_feedback"
-        		            }
-                			</div><!--.contact-us_form-->
-						</div><!--tabs-1-->
-            
-            
-						<div id="tabs-2" class="tab_content" style="display: none;">
-                    		<h2 class="form">Contact Us</h2>
-                    		<div class="contact_us-form ">
-			        		{exp:freeform:composer
-            		            form_name="latest_news_contact_us"
-		                    }
-        	              </div><!--.contat_us-->
-            			</div><!--tabs-2--> 
-					</div><!--#tabs-->
-			      <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
-				</div><!--news-story last pxBuffer --> 
-        {/exp:channel:entries} 
-        </div><!-- end #news--> 
-      {/if} 
-      </div><!-- end #mainColumn -->
+		{if:else}
+
+				<script>
+                $(function() {
+                $( "#tabs" ).tabs({
+                  collapsible: true,
+                  active: false
+                });
+                });
+                </script>
+        
+              <div id="news" class="wide">
+                  {exp:channel:entries channel="news"}
+                        <div class="news-story last pxBuffer">
+                            <h1>{title}</h1>
+                            <span class="date">By {news_author}, CPA, Partner, {entry_date format="%F %d, %Y"}</span><br />
+                                {if news_image != ""}
+                                    <div class="alignright"><img src="{news_image}" width="100" height="130"/></div>
+                                {/if}
+                  
+                            {news_body}
+                            <div id="tabs">
+                                <ul>
+                                  <li id="first"><a href="#tabs-1">Give Article Feedback</a> &raquo;</li>
+                                  <li>|</li>
+                                  <li><a href="#tabs-2">E-mail Umbaugh</a> &raquo;</li>
+                                  <li>|</li>
+                                  <li><a href="javascript:window.print()">Print Article</a> &raquo;</li>
+                                </ul>
+                                 <div id="tabs-1" class="tab_content" style="display: none;">
+                                    <h2 class="form">Send your feedback:</h2>
+                                    <div class="contact_us-form">
+                                    {exp:freeform:composer
+                                        form_name="send_your_feedback"
+                                    }
+                                    </div><!--.contact-us_form-->
+                                </div><!--tabs-1-->
+                    
+                    
+                                <div id="tabs-2" class="tab_content" style="display: none;">
+                                    <h2 class="form">Contact Us</h2>
+                                    <div class="contact_us-form ">
+                                    {exp:freeform:composer
+                                        form_name="latest_news_contact_us"
+                                    }
+                                  </div><!--.contat_us-->
+                                </div><!--tabs-2--> 
+                            </div><!--#tabs-->
+                          <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
+                        </div><!--news-story last pxBuffer --> 
+                {/exp:channel:entries} 
+                </div><!-- end #news--> 
+
+		{/if} 
+      
+      
+    </div><!-- end #mainColumn -->
     
     <div id="sideColumn">
       <div class="widget widget_nav_menu">
@@ -94,7 +103,7 @@
       </div>
       <img src="/images/dotted-seperator.png" /><br />
       <h2>Catagories</h2>
-      {exp:channel:categories channel="news"} <a href="{path='latest-news/index'}">{category_name}</a> {/exp:channel:categories} <img src="../images/dotted-seperator.png" /><br />
+      {exp:channel:categories channel="news" show_empty="no"} <a href="{path='latest-news/index'}">{category_name}</a> {/exp:channel:categories} <img src="../images/dotted-seperator.png" /><br />
       <h2>News Archive</h2>
       <img src="/images/dotted-seperator.png" /><br />
       <h2>Newsletter Sign-Up</h2>
@@ -109,9 +118,8 @@
           <button type="submit" class="wpsb_form_btn">Submit</button>
         </p>
       </form>
-    </div>
-  </div>
-</div>
-<!--wrapper--> 
-
+    </div><!-- sideColumn-->
+  </div><!-- interior-content -->
+</div><!--wrapper--> 
 {embed='includes/footer'}
+
