@@ -14,38 +14,31 @@
         <hr  />
         <div class="three-column">
           <ul>
-            {exp:channel:entries channel="people" orderby="date" sort="asc"}
-            {if people_level =="Partner" OR people_level=="Executive Partner"}
+            {exp:low_reorder:entries set="umbaugh_partners"}
             <li><a href="#{anchor_tag}">{title}</a></li>
-            {/if}
-            {/exp:channel:entries}
+            {/exp:low_reorder:entries}
           </ul>
         </div>
         <div class="three-column">
           <ul>
-            {exp:channel:entries channel="people" orderby="date" sort="asc"}
-            {if people_level =="Principal"}
+            {exp:low_reorder:entries set="umbaugh_principals"}
             <li><a href="#{anchor_tag}">{title}</a></li>
-            {/if}
-            {/exp:channel:entries}
+            {/exp:low_reorder:entries}
           </ul>
         </div>
         <div class="three-column">
           <ul>
-            {exp:channel:entries channel="people" orderby="date" sort="asc"}
-            {if people_level =="Director of Umbaugh Cash Advisory Services, LLC"}
+            {exp:low_reorder:entries set="umbaugh_cas"}
             <li><a href="#{anchor_tag}">{title}</a></li>
-            {/if}
-            {/exp:channel:entries}
+            {/exp:low_reorder:entries}
           </ul>
         </div>
       </div>
       <!-- end DIV #professionals-list -->
-      
+
       <div id="professionals-table">
-        <h2>Partners</h2>
-        {exp:channel:entries channel="people" orderby="date" sort="asc"}
-        {if people_level =="Partner" OR people_level=="Executive Partner"}
+      <h2>Professional</h2>
+        {exp:low_reorder:entries set="umbaugh_partners"}
         <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
           <div class="bio-info">
             <h3><strong>{title}</strong>, {people_extension}</h3>
@@ -66,13 +59,36 @@
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        {/if}
-        {/exp:channel:entries}
+        {/exp:low_reorder:entries}
         
         
         
-        {exp:channel:entries channel="people" orderby="date" sort="asc"}
-        {if people_level =="Principal"}
+        {exp:low_reorder:entries set="umbaugh_principals"}
+        <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
+          <div class="bio-info">
+            <h3><strong>{title}</strong>, {people_extension}</h3>
+            <span class="professional-role">{people_level}, {people_location}</span>
+            <div class="two-col">
+              <div class="contact-info">
+                <h4>Contact Information</h4>
+                <ul>
+                  <li>{people_phone}</li>
+                  <li><a href="mailto:{people_email}">{people_email}</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            {people_bio} <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+        {/exp:low_reorder:entries}
+
+        
+       {exp:low_reorder:entries set="umbaugh_cas"}
+
         <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
           <div class="bio-info">
             <h3><strong>{title}</strong>, {people_extension}</h3>
@@ -94,48 +110,17 @@
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        {/if}
-        {/exp:channel:entries}
-        
-        
-        
-        
-        {exp:channel:entries channel="people" orderby="date" sort="asc"}
-        {if people_level =="Director of Umbaugh Cash Advisory Services, LLC"}
-        <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
-          <div class="bio-info">
-            <h3><strong>{title}</strong>, {people_extension}</h3>
-            <span class="professional-role">{people_level}, {people_location}</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>{people_phone}</li>
-                  <li><a href="mailto:{people_email}">{people_email}</a></li>
-                  <li>Download <a href="#">Vcard</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            {people_bio} <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        {/if}
-        {/exp:channel:entries} </div>
-      <!-- end DIV #professionals-table --> 
-    </div>
-    <!-- end div #mainColumn -->
+        {/exp:low_reorder:entries}
+	</div><!-- end DIV #professionals-table --> 
+    </div><!-- end div #mainColumn -->
     
     <div id="sideColumn">
       <div id="nav_menu-4" class="widget widget_nav_menu">
         <div class="menu-sidebar-menu-container">
           <ul id="menu-sidebar-menu" class="menu">
-            <li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-255"><a href="http://www.umbaugh.com/services">Our Services</a></li>
-            <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-64"><a href="http://www.umbaugh.com/contact">Contact Us</a></li>
-            <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-65"><a href="http://www.umbaugh.com/join-our-firm">Join Our Firm</a></li>
+            <li><a href="http://www.umbaugh.com/services">Our Services</a></li>
+            <li><a href="http://www.umbaugh.com/contact">Contact Us</a></li>
+            <li><a href="http://www.umbaugh.com/join-our-firm">Join Our Firm</a></li>
           </ul>
         </div>
       </div>

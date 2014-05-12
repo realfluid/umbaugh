@@ -188,7 +188,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 #professionals-list { width: 610px; border: #949598 solid 3px; padding: 20px 0 13px 40px; font-size: 1em; margin: 16px 0 20px; float: left; }
 #professionals-list hr { color: #444; width: 575px; margin: 10px 0; }
 #professionals-list img { margin: 0px; padding: 0px;}
-#professionals-table { background: url('images/table-yellow-bg.png') top left repeat-x; background-color: #e3e3e3; width: 637px; float: left; padding: 12px 10px 0 10px; margin: 15px 0 50px 0;}
+#professionals-table { background: url('images/table-yellow-bg.png') top left repeat-x; background-color: #ededed; width: 637px; float: left; padding: 12px 10px 0 10px; margin: 15px 0 50px 0;}
 .three-column { width: 155px; float: left; margin: 0 35px 0 0;}
 
 .three-column-last { width: 100px; float: right; margin: 0 45px 0 0; }
@@ -202,7 +202,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 .professional .bio-info { width: 475px; float: right; margin: 0 0 0 18px; padding: 0px; }
 .professional h3 { font-family:Georgia, "Times New Roman", Times, serif; font-size: 1.333em;}
 .professional h4 { font-family:Georgia, "Times New Roman", Times, serif; font-weight: bold; font-size: 1.167em; clear: left;}
-.professional-role { font-family:Georgia, "Times New Roman", Times, serif; color: #bb8e1a; font-size: 1.333em; float: left; margin: 0; padding: 0; }
+.professional-role { font-family:Georgia, "Times New Roman", Times, serif; color: #E4AE1E; font-size: 1.333em; float: left; margin: 0; padding: 0; }
 .professional .two-col { min-height: 80px; margin: 5px 0; clear: both;}
 .professional .two-col .service-areas { width: 230px; }
 .professional .two-col .contact-info {  width: 230px; }
@@ -333,7 +333,7 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
 .three-columns .column-one { float: left; width: 256px; margin: 0 64px 0 12px; }
 .three-columns .column-two { float: left; width: 256px; margin: 0 64px 0 0; }
 .three-columns .column-three { float: left; width: 256px;  }
-.three-columns .column h2 { padding-bottom: 7px; border-bottom: 4px solid #cacaca; color: #bb8e1a; font-family: 'Times New Roman', 'serif'; font-size: 18px; font-weight: normal; }
+.three-columns .column h2 { padding-bottom: 7px; border-bottom: 4px solid #cacaca; color: #bb8e1a; font-family:Georgia, "Times New Roman", Times, serif; font-size: 18px; font-weight: normal; }
 .three-columns .column h2 a {color: #e4ae1e;}
 .three-columns .column h3{ color: #e4ae1e; font-size: 13px; font-family:franklin_gothic_mediumregular; font-weight:normal; }
 .three-columns .column h3 a{ color: #e4ae1e; }
@@ -351,7 +351,7 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
  */
 .footer { width: 100%; float: left; background-color: #eaeaea; }
 .inner-footer { width: 760px; margin: 0 auto; padding: 25px 0 80px 220px; background:  url('images/logo-footer.png') no-repeat 20px 26px; }
-.footer p { font-family:franklin_gothic_mediumregular; font-size:12px; padding: 0; line-height: 1em; font-weight:normal; color:#717174;}
+.footer p { font-family:franklin_gothic_bookregular; font-size:12px; padding: 0; line-height: 1em; font-weight:normal; color:#717174;}
 .footer .footer-links {overflow: hidden; list-style: none; margin-left: -5px; padding: 1em 0; color: #ccc; }
 .footer .footer-links li {display: inline; margin: 0 0 0 -2px;}
 .footer .footer-links a {padding: 0 5px; color: #3f775f; }
