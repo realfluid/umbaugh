@@ -1,0 +1,24 @@
+{embed='includes/xhtml' page_title="Newsletters"}
+
+{embed='includes/header'}
+
+<div class="wrapper">
+	<div class="interior-content">
+        <div id="mainColumn" class="wide">
+		<h1>Newsletters</h1>
+
+{exp:channel:entries channel="newsletter"}
+        <h1>{title}</h1>
+        {news}
+                <h3>{news:title}</h3>
+                <p>{news:news_author}</p>
+                <p>{news:news_body}</p>
+        {/news}
+{/exp:channel:entries}
+  
+		</div>
+
+	</div>
+</div><!--wrapper-->
+
+{embed='includes/footer'}
