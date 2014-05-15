@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+<title>Umbaugh Newsletter</title>
+<style type="text/css">
+body{margin:0; padding:0;}
+
+@font-face {
+    font-family: 'franklin_gothic_mediumregular';
+    src: url('/system/expressionengine/fonts/franklin_gothic_medium-webfont.eot');
+    src: url('/system/expressionengine/fonts/franklin_gothic_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/system/expressionengine/fonts/franklin_gothic_medium-webfont.woff') format('woff'),
+         url('/system/expressionengine/fonts/franklin_gothic_medium-webfont.ttf') format('truetype'),
+         url('/system/expressionengine/fonts/franklin_gothic_medium-webfont.svg#franklin_gothic_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'franklin_gothic_bookregular';
+    src: url('/system/expressionengine/fonts/franklin_gothic_book-webfont.eot');
+    src: url('/system/expressionengine/fonts/franklin_gothic_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/system/expressionengine/fonts/franklin_gothic_book-webfont.woff') format('woff'),
+         url('/system/expressionengine/fonts/franklin_gothic_book-webfont.ttf') format('truetype'),
+         url('/system/expressionengine/fonts/franklin_gothic_book-webfont.svg#franklin_gothic_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+table{ margin: 0 auto;}
+p { font-family:"franklin_gothic_bookregular"; font-weight:normal; font-size:12px;}
+a { text-decoration:underline; color:#717174;}
+.article-link { padding-right:15px; border-right:solid 1px #b4b4b5;}
+.article-last { padding-left:15px; }
+</style>
+</head>
+<body>
+{exp:channel:entries channel="newsletter"}
+    <table width="620px" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <th scope="col" colspan="2"><img src="/images/newsletter-header.jpg" /></th>
+      </tr>
+      <tr>
+        <td bgcolor="717174" style="color:#e4e3e3; font-family:franklin_gothic_mediumregular; font-size:14px; vertical-align:text-top; text-align:left; padding-left:18px; text-transform:uppercase;" width="75%">{current_time format="%M %Y"}</td>
+        <td bgcolor="717174" style="color:#e4e3e3; font-family:franklin_gothic_mediumregular; font-size:14px; vertical-align:text-top; text-align:right; padding-right:18px;" width="25%">(888) 516 9594</td>
+      </tr>
+	</table>
+
+    <table width="570px" border="0" cellspacing="0" cellpadding="0">
+	{newsletter_article}
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="80%" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px; color:#e8a91a;">{title}</td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="/images/newsletter-seperator.png" /></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td valign="top" style="font:'Franklin Gothic Medium'; size:12px; color:#717174; line-height:15px;">{exp:word_limit total="50"}{news_body}{/exp:word_limit}<br /><br /><span class="article-link"><a href="#">Read Full Article</a> &raquo;</span> <span class="article-link article-last"><a href="#">Give Article Feedback</a> &raquo;</span><span class="article-last"><a href="#">E-mail Umbaugh</a> &raquo;</span></td>
+            <td align="right"><br /><img src="{news_image}" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+	{/newsletter_article}
+    </table>
+    
+    <table width="620px" border="0" cellspacing="0" cellpadding="5" bgcolor="eaeaea">
+      <tr>
+        <td width="25%" style="padding-left:38px; padding-top:20px;"><img src="/images/newsletter-footer-logo.png"</td>
+        <td style="color:#717174; font-family:franklin_gothic_bookregular; font-size:10px; text-align:left; padding-left:20px; padding-top:20px; font-weight:normal;" width="75%">Copyright © 2014  H. J. Umbaugh and Associates, Certified Public Accountants, LLP. 
+		<br />All rights reserved. <a href="http://www.umbaugh.com">www.umbaugh.com</a><br />Terms &amp; Conditions  |   Privacy Policy </td>
+      </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+	</table>
+
+{/exp:channel:entries}
+</body>
+</html>

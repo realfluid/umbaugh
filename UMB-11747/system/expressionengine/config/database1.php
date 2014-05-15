@@ -16,7 +16,7 @@ $db['expressionengine']['cache_on'] = FALSE;
 $db['expressionengine']['autoinit'] = FALSE;
 $db['expressionengine']['char_set'] = 'utf8';
 $db['expressionengine']['dbcollat'] = 'utf8_general_ci';
-$db['expressionengine']['cachedir'] = 'C:\\www\\Umbaugh\\UMB-11747\\system/expressionengine/cache/db_cache/';
-
+//$db['expressionengine']['cachedir'] = 'C:\\www\\Umbaugh\\UMB-11747\\system/expressionengine/cache/db_cache/';
+$db['expressionengine']['cachedir'] = '/home/umbaughsystem/expressionengine/cache/db_cache/';
 /* End of file database.php */
 /* Location: ./system/expressionengine/config/database.php */
