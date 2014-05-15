@@ -3,49 +3,48 @@
 {embed='includes/header'}
 <div class="wrapper">
   <div class="interior-content">
-    <div id="mainColumn" class="wide">
-    	{if segment_3 ==""}
-              <h1>Our Experience</h1>
-              <p>How do you describe in a list of services all the steps it takes to  assemble an economic development package just right for your community?  How do you briefly explain what it takes to start with just the need for  a new school building and get it financed and built? You can&#8217;t. Every  project is different.</p>
-              <p>You can, however, learn from the experiences of others. In the Umbaugh case studies below see how we helped:</p>
-              <ul>
-                <li>save more than $141 million for one school district&#8217;s taxpayers,</li>
-                <li>identify $2 million a year in annual efficiencies for one group of municipal utilities,</li>
-                <li>secure the right economic development arrangements to lure a Honda plant,</li>
-                <li>finance an entire series of library renovations, and</li>
-                <li>improve the financial outlook for countless units of local government.</li>
-              </ul>
-              {exp:channel:entries channel="our_experience"}
-              <div class="news-story">
-                <h2><a href="{site_url}services/our-experience/{url_title}">{title}</a></h2>
-                <span class="date">Project Leader: {our_experience_author}</span><br />
-                <p>{exp:word_limit total="100"}{our_experience_body}{/exp:word_limit}</p>
-                <p class="readmore"><a href="{site_url}services/our-experience/{url_title}">Read More &raquo;</a><br/>
-                </p>
-              </div>
-              {/exp:channel:entries}
-		{/if}
-		{if segment_3 !=""}
-              {exp:channel:entries channel="our_experience"}
-              <h1>{title}</h1>
-              <div class="news-story"> <span class="date">Project Leader: {our_experience_author}</span><br />
-                <p>{our_experience_body}</p>
-              </div>
-              {/exp:channel:entries}
-	{/if}
-       </div><!--end #mainColumn  -->
+    <div id="mainColumn" class="wide"> {if segment_3 ==""}
+      <h1>Our Experience</h1>
+      <p>How do you describe in a list of services all the steps it takes to  assemble an economic development package just right for your community?  How do you briefly explain what it takes to start with just the need for  a new school building and get it financed and built? You can&#8217;t. Every  project is different.</p>
+      <p>You can, however, learn from the experiences of others. In the Umbaugh case studies below see how we helped:</p>
+      <ul>
+        <li>save more than $141 million for one school district&#8217;s taxpayers,</li>
+        <li>identify $2 million a year in annual efficiencies for one group of municipal utilities,</li>
+        <li>secure the right economic development arrangements to lure a Honda plant,</li>
+        <li>finance an entire series of library renovations, and</li>
+        <li>improve the financial outlook for countless units of local government.</li>
+      </ul>
+      {exp:channel:entries channel="our_experience"}
+      <div class="news-story">
+        <h2><a href="{site_url}services/our-experience/{url_title}">{title}</a></h2>
+        <span class="date">Project Leader: {our_experience_author}</span><br />
+        <p>{exp:word_limit total="100"}{our_experience_body}{/exp:word_limit}</p>
+        <p class="readmore"><a href="{site_url}services/our-experience/{url_title}">Read More &raquo;</a><br/>
+        </p>
+      </div>
+      {/exp:channel:entries}
+      {/if}
+      {if segment_3 !=""}
+      {exp:channel:entries channel="our_experience"}
+      <h1>{title}</h1>
+      <div class="news-story"> <span class="date">Project Leader: {our_experience_author}</span><br />
+        <p>{our_experience_body}</p>
+      </div>
+      {/exp:channel:entries}
+      {/if} </div>
+    <!--end #mainColumn  -->
     <div id="sideColumn">
-      <div id="nav_menu-5" class="widget widget_nav_menu">
-        <div class="menu-sidebar-menu-container">
-          <ul id="menu-sidebar-menu" class="menu">
-            <li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-255"><a href="http://www.umbaugh.com/about">More About Us</a></li>
-            <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-64"><a href="http://www.umbaugh.com/contact">Contact Us</a></li>
-            <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-65"><a href="http://www.umbaugh.com/join-our-firm">Join Our Firm</a></li>
-          </ul>
-        </div><!-- end #menu-sidebar-container-->
-      </div><!-- end #nav_menu-->
-    </div><!-- end #sideColumn-->
-  </div><!--end .interior-content --> 
-</div><!--end .wrapper --> 
+        {embed='includes/servicesContactJoin'}
+    
+        <!-- dotted seperator included in above widget div tag -->
+    
+        {embed='includes/latest-news'}
+    
+    </div>
+    <!-- end DIV #sideColumn --> 
+  </div>
+  <!--end .interior-content --> 
+</div>
+<!--end .wrapper --> 
 
 {embed='includes/footer'} 

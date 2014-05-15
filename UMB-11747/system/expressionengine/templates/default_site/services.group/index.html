@@ -7,7 +7,7 @@
       <h1>Our Services</h1>
       <div id="callout">
         <h2>Our Areas of Expertise</h2>
-        <div class="dotted-seperator" style="width: 200px;"></div>
+
         <ul>
           <li>&raquo; <a href="/services/government">Local Government</a></li>
           <li>&raquo; <a href="/services/utilities">Utilities</a></li>
@@ -23,28 +23,16 @@
       </div>
     </div>
     <!-- end div #mainColumn -->
+
     <div id="sideColumn">
-      <div id="nav_menu-4" class="widget widget_nav_menu">
-        <div class="menu-sidebar-menu-container">
-          <ul id="menu-sidebar-menu" class="menu">
-            <li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-255"><a href="http://www.umbaugh.com/about">About Us</a></li>
-            <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-64"><a href="http://www.umbaugh.com/contact">Contact Us</a></li>
-            <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-65"><a href="http://www.umbaugh.com/join-our-firm">Join Our Firm</a></li>
-          </ul>
-        </div>
-      </div>
-      <div id="category-content" class="widget widget_categoryContent">
-        <h2 class="widget-title"> Latest News </h2>
-        <ul>
-          {exp:channel:entries channel="news" limit="2"}
-          <li> <a href="/latest-news/{url_title}">{title}</a> {exp:word_limit total="20"}{news_body}{/exp:word_limit}
-            <p class="readmore"><a href="/latest-news/{url_title}">Read More &raquo;</a></p>
-          </li>
-          {/exp:channel:entries}
-        </ul>
-      </div>
+        {embed='includes/aboutContactJoin'}
+    
+        <!-- dotted seperator included in above widget div tag -->
+    
+        {embed='includes/latest-news'}
     </div>
     <!-- end DIV #sideColumn --> 
+    
   </div>
   <!-- end div .interior-content --> 
 </div>

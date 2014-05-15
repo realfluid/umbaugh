@@ -4,18 +4,21 @@
 <div class="wrapper">
   <div class="interior-content">
     <div id="mainColumn"> 
-		{if segment_2 == ""}
+		{if segment_2 == "" OR segment_2 == "P5" OR segment_2 == "P10" OR segment_2 == "P15" OR segment_2 == "P20"}
 
 			<h1>Latest News </h1>
 				<div id="news" class="wide">
-                	{exp:channel:entries channel="news"}
+                	{exp:channel:entries channel="news" paginate="bottom" sort="desc" limit="5"}
                         <div class="news-story">
                           <h2><a href="{site_url}latest-news/{url_title}">{title}</a></h2>
                           <span class="date"> By {news_author}, {if author_suffix == "Yes"} CPA,{/if} {author_position}, {entry_date format="%F %d, %Y"}<br />
-                          {categories}<a href="{category_url_title}">{category_name}</a> {/categories} </span> {exp:word_limit total="30"}{news_body}{/exp:word_limit}
+                          {categories}<a href="{category_url_title}">{category_name}</a> {/categories} </span> <p>{exp:word_limit total="30"}{news_body}{/exp:word_limit}</p>
                           
                           <p class="readmore"><a href="{url_title}">Read More &raquo;</a></p>
                         </div><!-- end #news-story --> 
+    {paginate}
+        <p>Page {current_page} of {total_pages} pages {pagination_links}</p>
+    {/paginate}         
 					{/exp:channel:entries}                
 				</div><!-- end #news --> 
 
@@ -27,7 +30,7 @@
                             <div class="news-story">
                               <h2><a href="{site_url}latest-news/{url_title}">{title}</a></h2>
                               <span class="date"> By {news_author}, {if author_suffix == "Yes"} CPA,{/if} {author_position}, {entry_date format="%F %d, %Y"}</span>
-                              {exp:word_limit total="30"}{news_body}{/exp:word_limit}
+                              <p>{exp:word_limit total="30"}{news_body}{/exp:word_limit}</p>
                               <p class="readmore"><a href="{url_title}">Read More &raquo;</a></p>
                             </div><!-- end #news-story --> 
     
@@ -55,7 +58,7 @@
                                     <div class="alignright"><img src="{news_image}" width="100" height="130"/></div>
                                 {/if}
                   
-                            {news_body}
+                            <p>{news_body}</p>
                             <div id="tabs">
                                 <ul>
                                   <li id="first"><a href="#tabs-1">Give Article Feedback</a> &raquo;</li>
@@ -101,11 +104,16 @@
             <li class="menu-item"><a href="/join-our-firm">Join Our Firm</a></li>
           </ul>
       </div>
-      <img src="/images/dotted-seperator.png" /><br />
+      <img src="/images/dotted-seperator.png" />
+      <br />
       <h2>Catagories</h2>
-      {exp:channel:categories channel="news" show_empty="no"} <a href="{path='latest-news/index'}">{category_name}</a> {/exp:channel:categories} <img src="../images/dotted-seperator.png" /><br />
+      {exp:channel:categories channel="news" show_empty="no"} <a href="{path='latest-news/index'}">{category_name}</a> {/exp:channel:categories}
+ 	  <ul><li><a href="/latest-news/newsletters/">Newsletter Archive</a></li></ul>
+      <img src="../images/dotted-seperator.png" />
+<!--      <br />
       <h2>News Archive</h2>
-      <img src="/images/dotted-seperator.png" /><br />
+      <img src="/images/dotted-seperator.png" />-->
+      <br />
       <h2>Newsletter Sign-Up</h2>
       <p>To receive our Footnotes Newsletters please provide us with your email address:</p>
       <form action="http://campaign.q-ux.com/t/r/s/tduypj/" method="post">

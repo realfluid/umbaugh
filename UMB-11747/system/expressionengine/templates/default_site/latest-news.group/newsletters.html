@@ -6,19 +6,50 @@
 	<div class="interior-content">
         <div id="mainColumn" class="wide">
 		<h1>Newsletters</h1>
-
-{exp:channel:entries channel="newsletter"}
-        <h1>{title}</h1>
-        {news}
-                <h3>{news:title}</h3>
-                <p>{news:news_author}</p>
-                <p>{news:news_body}</p>
-        {/news}
-{/exp:channel:entries}
-  
-		</div>
-
-	</div>
+            {exp:channel:entries channel="newsletter"}
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/{url_title}">{title}</a></h2>
+                {newsletter_article show_expired="yes" limit="10"}
+                    <p>{title} &mdash; {exp:remove_html}{exp:word_limit total="40"}{news_body}{/exp:word_limit}{/exp:remove_html}</p>
+                {/newsletter_article}
+			</div><!--end .news-story -->
+            {/exp:channel:entries}
+		</div><!-- end mainColumn -->
+        
+        <div id="sideColumn">
+          <div class="widget widget_nav_menu">
+              <ul class="menu">
+                <li class="menu-item"><a href="/services">Our Services</a></li>
+                <li class="menu-item"><a href="/contact">Contact Us</a></li>
+                <li class="menu-item"><a href="/join-our-firm">Join Our Firm</a></li>
+              </ul>
+          </div>
+          <img src="/images/dotted-seperator.png" />
+          <br />
+          <h2>Catagories</h2>
+          {exp:channel:categories channel="news" show_empty="no"} <a href="{path='latest-news/index'}">{category_name}</a> {/exp:channel:categories}
+          <ul><li><a href="/latest-news/newsletters/">Newsletter Archive</a></li></ul>
+          <img src="/images/dotted-seperator.png" />
+          <br />
+          <h2>News Archive</h2>
+          <img src="/images/dotted-seperator.png" />
+          <br />
+          <h2>Newsletter Sign-Up</h2>
+          <p>To receive our Footnotes Newsletters please provide us with your email address:</p>
+          <form action="http://campaign.q-ux.com/t/r/s/tduypj/" method="post">
+            <p>
+              <label for="fieldEmail">Email</label>
+              <br />
+              <input id="fieldEmail" name="cm-tduypj-tduypj" type="email" required />
+            </p>
+            <p>
+              <button type="submit" class="wpsb_form_btn">Submit</button>
+            </p>
+          </form>
+        </div><!-- sideColumn-->
+        
+        
+	</div><!-- interior-content -->
 </div><!--wrapper-->
 
 {embed='includes/footer'}
