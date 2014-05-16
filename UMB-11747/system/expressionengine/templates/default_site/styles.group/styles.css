@@ -71,7 +71,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 .header div { overflow: hidden; position: relative; width: 940px; margin: 0 auto; padding: 21px 0 0 0; }
 .header h1 { overflow: hidden; float: left; margin: 1px 0 0 11px; width: 178px; height: 54px; background: transparent url('images/logo.png') no-repeat 0 0; text-indent: -999em; }
 .header .form-search { clear: right; float: right; margin-bottom: 16px; overflow: hidden; width: 280px;}
-.header .phone { overflow: hidden; color: #aaaaac; text-align: right; font-size: 1.333em; font-weight: bold; float:right; width:200px; }
+.header .phone { overflow: hidden; color: #999; text-align: right; font-size: 1.333em; font-weight: bold; float:right; width:200px; }
 .header .form-search input { float: left; width: 205px; height: 24px; border: 1px solid #ccc; border-right: none; padding:0; }
 .header .form-search .search { width: 73px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 15px; color: #666; }
 .header .hiddenFields{ display:none;}
@@ -180,7 +180,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 #sideColumn ul.menu li a {display: block; height: 34px; margin: 0; padding: 0 0 0 55px;  background: url('images/gray-btn.png') 0 0 no-repeat; color: #FFF; font: normal 1.25em/34px "Times New Roman",Times,serif;}
 
 #sideColumn h2 {margin: 0.5em 0 0.75em; color: #7B7A7A; font-size: 1.417em;}
-#sideColumn .widget {padding: 5px 0; border-top: 1px dashed #C2C6C9;}
+#sideColumn .widget {padding: 5px 0; }
 #sideColumn .widget p{ font-size:11px; line-height:1.5em;}
 #sideColumn .widget:first-child {padding-top: 0; border-top: none;}
 
@@ -198,7 +198,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 .three-column ul, .three-column-last ul{ padding: 0px; margin: 9px 0 0 0; clear: left; list-style: none;}
 .three-column ul li, .three-column-last ul li { margin: 0 0 8px 0;}
 .three-column a, .three-column-last a { color: #e4ae1e; font-size: 0.917em; text-decoration: underline;}
-.professional { padding: 33px 0 29px 2px; color: #444; float: left; border-bottom: dashed; border-bottom-width: 1px; border-bottom-color: #c2c5c7; }
+.professional { padding: 33px 0 29px 2px; color: #717174; float: left; border-bottom: dashed; border-bottom-width: 1px; border-bottom-color: #c2c5c7; }
 .last{ border: none !important; }
 
 .professional img { border: 5px #d4d4d4 solid; }
@@ -220,7 +220,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 
 .careers {padding: 0 0 20px;}
 .careers p { width: 100% !important; font-size: 1em !important; margin-left: -1px; }
-.careers h3{ color: #3b5b71; font-size: 1.5em; font-family:Georgia, "Times New Roman", Times, serif; margin: 0 0 10px 0; }
+.careers h3{ color: #717174; font-size: 1.5em; font-family:Georgia, "Times New Roman", Times, serif; margin: 0 0 10px 0; }
 
 #career-table-top { background-color: #e1e8ed; color: #3b5b71; height: 32px; font-size: 1.5em; padding: 10px 0 0 15px; font-family:Georgia, "Times New Roman", Times, serif; margin: 3px 0 0 0; border-bottom: #b6bbbf solid 1px; }
 .job{ padding: 13px 13px 0 18px; color: #444; min-height: 85px; }
@@ -231,7 +231,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 
 /* career form */
 #career-form {border:#e4ae1e solid 3px; float:left; width:641px; padding: 0 0 10px 15px;  margin:0 0 34px 0; overflow: hidden;color:#7b7a7a;}
-#career-form h3 { font-size:18px; color:#444; font-family:Georgia, "Times New Roman", Times, serif; margin:21px 0 12px 0;  }
+#career-form h3 { font-size:18px; color:#717174; font-family:Georgia, "Times New Roman", Times, serif; margin:21px 0 12px 0;  }
 #career-form p { font-size:12px; }
 #career-form .submit-form { overflow: hidden; float: left; width: 265px;}
 #career-form .submit-form input { width: 235px; height: 24px; border: 1px solid #ccc; margin-bottom:10px; font-size:11px; padding: 0 10px 0 6px;}
@@ -314,6 +314,7 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
 #services-table p { margin-top: 20px; font-size: 1em; float: left; width: 100% !important; }
 #services-table ul { color: #3b5b71; font-size: 1em; margin: 0 2px 0 17px;}
 #services-table ul li{ width: 270px; padding-bottom: 6px;}
+#services-table strong { color:#717174;}
 
 /*services - schools*/
 #mainColumn ul.links {list-style:none; margin: 0; padding: 0;}
