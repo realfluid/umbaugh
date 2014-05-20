@@ -1,0 +1,40 @@
+	<body class="">
+		<div class="header">
+        	<div>
+            <a href="/"><img src="/images/umbCASLogo.png" alt="Umbaugh It's all about experience"></a>
+                	<p class="phone">(888) 516 9594</p>              
+                <br /><br/>
+
+				<ul class="menu">
+					<li><a href="/" {if segment_1 == ''}class="selected"{/if}>Home</a></li>
+					<li><a href="/about/" {if segment_1 == 'about'}class="selected"{/if}>About Us</a></li>
+					<li><a href="/services/" {if segment_1 == 'services'}class="selected"{/if}>Our Services</a></li>
+					<li><a href="/contact/" {if segment_1 == 'contact'}class="selected"{/if}>Contact Us</a></li>
+					<li><a href="/latest-news/" {if segment_1 == 'latest-news'}class="selected"{/if}>Latest News</a></li>
+				</ul>
+
+
+				{exp:search:simple_form channel="news|our_library" form_class="form-search" result_page="search" no_result_page="search/noresults"}
+  					<input type="text" name="keywords" id="keywords" value="" size="18" maxlength="100">
+					<input type="submit" value="Search" class="search">
+				{/exp:search:simple_form}
+			</div>
+
+			<!--breadcrumb here-->
+
+			{if segment_1 == "search"}
+			<div id="breadcrumb">
+				<a href="{site_url}">Home </a> &raquo; {exp:search:keywords}{/exp:search:keywords}
+			</div>
+			{if:elseif segment_1 != ""}
+			<div id="breadcrumb">
+				{exp:crumbly:breadcrumbs}
+				    {if count < total_results}<a href="{breadcrumb_url}">{/if}
+				    {breadcrumb_title}
+				    {if count < total_results}</a>&raquo;{/if}
+				{/exp:crumbly:breadcrumbs}
+			</div>
+			{/if}
+
+
+		</div><!-- end DIV .header -->

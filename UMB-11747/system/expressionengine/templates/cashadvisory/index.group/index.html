@@ -1,0 +1,58 @@
+{embed='includes/xhtml' page_title=""}
+
+{embed='includes/header'}
+<div class="home-wrapper">
+<div class="home-content">
+<div class="banner">
+	<div class="banner-img">
+        <a href="http://local.umbaugh.com"> &laquo; return to umbaugh.com</a>
+    	<img src="/images/umbCASBanner.png" />
+    </div>
+</div>
+<!-- end DIV .banner-tab-labels -->
+
+  
+  <div class="content">
+    <div>
+      <div class="three-columns">
+
+
+        <!--start of first column-->
+        <div class="column-one column">
+          <h2><a href="/latest-news">Latest News</a></h2>
+          <ul>
+            {exp:channel:entries channel="news" limit="3"}
+            <li>
+              <h3><a href="/latest-news/{url_title}">{title}</a></h3>
+              {exp:word_limit total="30"}{news_body}{/exp:word_limit}
+              <p class="readmore"><a href="/latest-news/{url_title}">Read More &raquo;</a></p>
+            </li>
+            {/exp:channel:entries}
+          </ul>
+        </div>
+        <!-- end first column --> 
+
+
+          <!--start of second column-->
+        <div class="column-two column">
+          <h2><a href="/services/our-library">Our Library</a></h2>
+          <ul class="links pdf">
+            {exp:channel:entries channel="our_library" limit="5"}
+            <li>
+              <p><a href="{our_library_upload}">{title}</a><br />
+              </p>
+            </li>
+            {/exp:channel:entries}
+          </ul>
+          <p class="links"><a href="/services/our-library">Read More of Our Library »</a></p>
+        </div><!--end of second column--> 
+
+
+        
+      </div><!-- end three columns -->
+    </div>
+  </div><!-- end .content --> 
+</div><!-- .home-content --> 
+</div><!-- .home-wrapper --> 
+
+{embed='includes/footer'}

@@ -1,0 +1,13 @@
+  <divclass="widget widget_categoryContent">
+    <h2 class="widget-title"> Latest News </h2>
+    <ul>
+            {exp:channel:entries channel="news" limit="2"}
+            <li>
+              <a href="/latest-news/{url_title}">{title}</a>
+              {exp:word_limit total="20"}{news_body}{/exp:word_limit}
+              <br /><br />
+              <p class="readmore"><a href="/latest-news/{url_title}">Read More &raquo;</a></p>
+            </li>
+            {/exp:channel:entries}
+    </ul>
+  </div>
