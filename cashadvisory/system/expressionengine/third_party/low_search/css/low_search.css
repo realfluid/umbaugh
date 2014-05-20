@@ -1,0 +1,490 @@
+/**
+ * Low Search CSS file
+ *
+ * @package         low-search-ee_addon
+ * @version         1.1.0
+ * @author          Lodewijk Schutte ~ Low <hi@gotolow.com>
+ * @link            http://gotolow.com/addons/low-search
+ * @copyright       Copyright (c) 2011, Low
+ */
+
+.hidden {
+	display:none;
+}
+
+/* Module homepage
+-------------------------------------------------*/
+
+#low-search-index fieldset {
+	float:left;
+	margin:0 14px 0 0;
+	background:#fff;
+	padding:0;
+	width:250px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+#low-search-index fieldset h3 {
+	font-size:14px;
+	line-height:normal;
+	padding:7px 14px;
+	margin:0;
+	border-bottom:1px dashed #ddd;
+}
+
+#low-search-index fieldset ul {
+	margin:7px 0;
+}
+
+#low-search-index fieldset a {
+	display:block;
+	padding:7px 14px;
+}
+
+#low-search-index fieldset a:hover {
+	background:#f6f6f6;
+}
+
+#low-search-index fieldset span {
+	display:block;
+	padding:7px 14px 2px;
+}
+
+#low-search-index fieldset code {
+	display:block;
+	padding:2px 14px 7px;
+	font:12px/normal 'consolas', 'monaco', 'lucida sans unicode', monospace;
+	cursor:pointer;
+	width:222px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+/* Global Table listings
+-------------------------------------------------*/
+
+#mainContent table.low-list {
+	margin-bottom:0;
+}
+
+#mainContent table.low-list td:last-child img {
+	display:block;
+}
+
+#mainContent table.low-list tfoot td {
+	border:none;
+	background:transparent;
+	padding:14px 10px 0;
+}
+
+#mainContent table.low-list tfoot td:last-child {
+	border:none !important;
+}
+
+#paginationLinks {
+	margin:11px 0 0 !important;
+}
+
+/* Global table-form styles
+-------------------------------------------------*/
+
+.low-form input.medium {
+	width:50%;
+}
+
+.low-form input.small {
+	width:5em;
+}
+
+.low-form label + label {
+	margin-left:1.5em;
+}
+
+.low-form td.multiple {
+	vertical-align:top;
+}
+
+.low-form td p {
+	font-size:11px;
+	line-height:1.5;
+	margin-bottom:0 !important;
+}
+
+/* Collections list (progress bar)
+-------------------------------------------------*/
+
+.low-index {
+	padding:0 !important;
+}
+
+.low-index div {
+	display:none;
+	text-indent:10px;
+}
+
+.low-index.ready .index-options {
+	display:block;
+}
+
+.low-index.loading .index-progress-bar {
+	display:block;
+	white-space:nowrap;
+	background:#fda;
+	width:0%;
+	padding:7px 0;
+	text-shadow:1px 1px 1px rgba(255,255,255,0.5);
+}
+
+.low-index.loading.done .index-progress-bar {
+	background:#cfc;
+}
+
+/* Search filter settings
+-------------------------------------------------*/
+
+#parameters {
+	padding:0;
+}
+
+#parameters div {
+	padding:5px 10px;
+	border-bottom:1px dashed #ccc;
+}
+
+#parameters input {
+	width:25%;
+}
+
+#parameters button {
+	cursor:pointer;
+}
+
+#parameters button[type=button] {
+	border:none;
+	background:none;
+	display:inline-block;
+	padding:7px 10px;
+	margin:0;
+	text-decoration:none;
+	color:#bbb;
+	color:rgba(0,0,0,0.4);
+	text-shadow:1px 1px 1px #fff;
+	outline:none;
+}
+
+#parameters button[type=button]:hover {
+	color:#888;
+	color:rgba(0,0,0,0.6);
+}
+
+#parameters button[type=button] b {
+	font:bold 16px/1 arial;
+	margin-right:2px;
+	position:relative;
+	top:2px;
+}
+
+/* Drag shortcuts
+-------------------------------------------------*/
+
+.drag-handle {
+	cursor:move;
+	cursor:-moz-grab;
+	cursor:-webkit-grab;
+}
+
+.ui-sortable-helper .drag-handle,
+.ui-sortable-helper td {
+	cursor:-moz-grabbing;
+	cursor:-webkit-grabbing;
+}
+
+/* Search log filter
+-------------------------------------------------*/
+
+#low-search-filter {
+	margin-bottom:14px;
+}
+
+#low-search-filter input,
+#low-search-filter select {
+	display:inline;
+	width:auto;
+	margin-right:7px;
+}
+
+#low-search-filter button {
+	cursor:pointer;
+}
+
+/* Low Search Log
+-------------------------------------------------*/
+
+.low-search-log-msg {
+	margin-bottom:14px;
+	overflow:hidden;
+}
+
+.low-search-log-msg p {
+	margin:0;
+}
+
+.low-search-log-msg .submit {
+	float:right;
+	margin-left:7px;
+}
+
+#low-search-log td {
+	vertical-align:top;
+}
+
+#low-search-log li {
+	margin-top:5px;
+	display:none;
+}
+
+#low-search-log li:first-child {
+	display:block;
+	margin:0;
+}
+
+#low-search-log td.has-more {
+	cursor:pointer;
+}
+
+#low-search-log .open li {
+	display:block;
+}
+
+#low-search-log .open li span {
+	display:none;
+}
+
+#low-search-log .shortcut {
+	padding:5px 10px;
+}
+
+#low-search-log .shortcut a {
+	display:block;
+	width:16px;
+	height:16px;
+	background:transparent none -32px -64px no-repeat;
+	overflow:hidden;
+	text-indent:-999em;
+}
+
+#low-dialog {
+	max-height:400px;
+	padding:5px 0;
+	overflow:auto;
+}
+
+/* Find & Replace
+-------------------------------------------------*/
+
+#low-filters {
+	float:left;
+	width:250px;
+}
+
+#low-tabs li {
+	float:left;
+	margin-bottom:-1px;
+}
+
+#low-tabs a {
+	display:block;
+	padding:7px 14px 6px;
+}
+
+#low-tabs .active a {
+	padding:6px 13px;
+	border:1px solid #ddd;
+	border-bottom-color:#fff;
+	background:#fff;
+
+	-webkit-border-radius:4px 4px 0 0;
+	-moz-border-radius:4px 4px 0 0;
+	border-radius:4px 4px 0 0;
+}
+
+#low-tabs :not(.active) a {
+	color:rgba(0,0,0,0.5);
+}
+
+#low-filters fieldset.tab {
+	display:none;
+}
+
+#low-filters fieldset.tab.active {
+	display:block;
+}
+
+#low-filters fieldset {
+	padding:7px 0;
+	background:#fff;
+	clear:both;
+	border:1px solid #ddd;
+	margin-bottom:14px;
+	overflow:hidden;
+
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+#low-filters fieldset:first-of-type {
+	-webkit-border-radius:0 4px 4px 4px;
+	-moz-border-radius:0 4px 4px 4px;
+	border-radius:0 4px 4px 4px;
+}
+
+#low-filters .low-pane {
+	max-height:550px;
+	overflow:auto;
+}
+
+#low-filters fieldset h3 {
+	font-size:14px;
+	line-height:normal;
+	padding:7px 14px;
+	margin:0;
+	border-bottom:1px dashed #ddd;
+}
+
+#low-filters select {
+	margin:0 0 14px 14px;
+}
+
+#low-filters fieldset .low-boxes {
+	margin:14px 0 0;
+}
+
+#low-filters fieldset .low-boxes h4 {
+	padding:2px 14px;
+}
+
+#low-filters fieldset .low-boxes h4 span {
+	cursor:pointer;
+}
+
+#low-filters fieldset .low-boxes label {
+	display:block;
+	cursor:pointer;
+	padding:2px 14px;
+	margin:0;
+	font-weight:normal;
+	white-space:nowrap;
+	overflow:hidden;
+	max-width:220px;
+	text-overflow:ellipsis;
+}
+
+#low-filters fieldset .low-boxes label:hover {
+	background:#f6f6f6;
+	color:#000;
+}
+
+#low-find {
+	padding-top:1px;
+}
+
+#low-find,
+#low-preview {
+	margin-left:270px;
+}
+
+.low-inline-form {
+	margin-bottom:14px;
+}
+
+.low-inline-form label {
+	display:inline-block;
+	width:10%;
+	padding:0;
+}
+
+.low-inline-form input {
+	display:inline-block;
+	width:50%;
+	margin:0;
+}
+
+.low-inline-form .throbber {
+	vertical-align:middle;
+	margin-left:10px;
+	display:none;
+}
+
+.loading .low-inline-form .throbber {
+	display:inline-block;
+}
+
+#low-preview h2 {
+	margin:0 0 .5em;
+	padding-top:.5em;
+	border-top:1px dotted #ccc;
+	text-shadow:1px 1px 1px #fff;
+}
+
+#low-preview table th {
+	padding:9px 10px;
+}
+
+#low-preview table input {
+	margin:0;
+}
+
+#low-preview tbody td {
+	vertical-align:top;
+}
+
+#low-preview dl {
+	margin:7px -10px 0;
+	padding:7px 10px 0;
+	border-top:1px dashed #ddd;
+	border-color:rgba(0,0,0,0.1);
+	font-size:11px;
+	line-height:1.455;
+}
+
+#low-preview dd {
+	color:#999;
+	margin:0 20px;
+}
+
+#low-preview dd strong {
+	font-weight:normal;
+	color:#333;
+}
+
+#low-preview .low-feedback,
+.low-feedback {
+	border:1px solid #CCA;
+	background:#FFE;
+	color:#666;
+	padding:14px;
+	border-radius:4px;
+}
+
+#low-preview .low-feedback p:last-child,
+.low-feedback p:last-child {
+	margin-bottom:0;
+}
+
+/* Extension settings
+-------------------------------------------------*/
+
+.low-more-settings {
+	margin:7px -10px 0;
+	padding:7px 10px 0;
+	border-top:1px dashed #ddd;
+}
+
+.low-more-settings label {
+	font-weight:normal;
+	cursor:pointer;
+}
