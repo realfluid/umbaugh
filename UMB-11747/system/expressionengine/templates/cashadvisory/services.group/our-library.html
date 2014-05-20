@@ -1,0 +1,23 @@
+{embed='includes/xhtml' page_title=""}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn" class="wide">
+      <h1>Our Library</h1>
+      <p>We love to share our expertise!  Umbaugh representatives frequently  speak before seminars, conferences and government hearings to help even  the experts stay current during these changing times for local  governments and finances. In this section you&#8217;ll find presentations, timely  articles from past issues of Footnotes and even a white paper or two.   (Don&#8217;t let the term &#8216;white paper&#8217; scare you; it&#8217;s technical, but  understandable, information.)</p>
+      <p>Check this section often – we&#8217;ll update it often.</p>
+      <p>If you&#8217;d like to schedule a presentation tailored to  your group – or if you don&#8217;t find the topic you&#8217;re looking for, please  call us at (888-516-9594) and we&#8217;ll find the person or information you&#8217;re  looking for.</p>
+      <ul class="links">
+        {exp:channel:entries channel="our_library"}
+        <li> <a href="{library_item_upload}">{title}</a><br />
+        </li>
+        {/exp:channel:entries}
+      </ul>
+    </div>
+        <div id="sideColumn"></div><!-- end DIV #sideColumn --> 
+  </div>
+</div>
+<!--wrapper--> 
+
+{embed='includes/footer'}

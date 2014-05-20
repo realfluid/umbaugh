@@ -1,0 +1,139 @@
+{embed='includes/xhtml' page_title="About Umbaugh"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn" class="about">
+      <h1>About Umbaugh</h1>
+      <div class="about-copy">
+          <p>With more than 60 years of experience and expertise in all areas of public finance, H. J. Umbaugh &amp; Associates Certified Public Accountants is one of the largest and most active independent financial advisors to governmental units in the Midwest.</p>
+          <p>UMBAUGH provides timely, independent, meaningful and actionable financial guidance for cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports.</p>
+          <p>We solve problems, create opportunities and complete successful financings. In short, we help community leaders resolve the financial issues they face as they work to improve the quality of life in their communities.</p>
+          <p>Our client service leaders are supported by a staff of approximately 70 people in three offices.</p>
+      </div>
+      <div id="professionals-list">
+        <h2>Client Service Leaders</h2>
+		<br />
+		<div class="twoColumns">
+          <ul>
+            {exp:low_reorder:entries set="umbaugh_partners"}
+            <li><a href="#{anchor_tag}">{title}</a></li>
+            {/exp:low_reorder:entries}
+          </ul>
+		</div>
+		<div class="twoColumns" style="float:right;">
+          <ul>
+            {exp:low_reorder:entries set="umbaugh_principals"}
+            <li><a href="#{anchor_tag}">{title}</a></li>
+            {/exp:low_reorder:entries}
+          </ul>
+		</div>
+      </div>
+      <!-- end DIV #professionals-list -->
+
+      <div id="professionals-table">
+      <h2>Client Service Leaders</h2>
+        {exp:low_reorder:entries set="umbaugh_partners"}
+        <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
+          <div class="bio-info">
+            <h3><strong>{title}</strong>, {people_extension}</h3>
+            <span class="professional-role">{people_level}, {people_location}</span>
+            <div class="two-col">
+              <div class="contact-info">
+                <h4>Contact Information</h4>
+                <ul>
+                  <li>{people_phone}</li>
+                  <li><a href="mailto:{people_email}">{people_email}</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            {people_bio} <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+        {/exp:low_reorder:entries}
+        
+        
+        
+        {exp:low_reorder:entries set="umbaugh_principals" entry_id="not 41"}
+        <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
+          <div class="bio-info">
+            <h3><strong>{title}</strong>, {people_extension}</h3>
+            <span class="professional-role">{people_level}, {people_location}</span>
+            <div class="two-col">
+              <div class="contact-info">
+                <h4>Contact Information</h4>
+                <ul>
+                  <li>{people_phone}</li>
+                  <li><a href="mailto:{people_email}">{people_email}</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            {people_bio} <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div><!-- end DIV professional --> 
+        {/exp:low_reorder:entries}
+        
+        
+        
+        
+		<div class="professional" id="jmesser"> <img src="{site_url}uploads/jmesser.png"/>
+          <div class="bio-info">
+            <h3><strong>Jeffrey A. Messer</strong>, </h3>
+            <span class="professional-role">Director of Umbaugh Cash Advisory Services, LLC, Indianapolis, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+                <h4>Contact Information</h4>
+                <ul>
+                  <li>(317) 465-1531</li>
+                  <li><a href="mailto:messer@umbaugh.com">messer@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Jeffrey A. Messer serves as an independent investment advisor in Michigan, Indiana and Illinois. He has 22 years of banking experience in Michigan, Indiana and throughout the Midwest with an emphasis on public funds banking and investments.</p>
+			<p>At Umbaugh Cash Advisory Services he provides investment and banking services to municipalities throughout Indiana and Michigan, including helping municipalities invest their municipal bond proceeds and operating funds. Messer has assisted municipalities in structuring more than $1 billion of municipal bond proceeds. He also led a team of bankers in creating two new successful municipal investment products.</p>
+			<p>Messer joined Umbaugh in 2005. His group provides independent advice on investments in excess of $450 million in assets for school districts and local units of government throughout Indiana and Michigan and is responsible for bank analysis and RFPs for banking services for many Umbaugh clients.</p>
+			<p>Messer also is responsible for the many services provided by the Michigan School Investment Association.</p>
+			<p>He writes weekly commentary for the Michigan School Investment Association's Weekly Market Review and is often called upon to give presentations at various association conferences in Michigan and Indiana on investment-related topics.</p>
+			<p>He is a graduate of Indiana University.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+        
+        
+        
+        
+        
+        
+        
+        
+
+	</div><!-- end DIV #professionals-table --> 
+    </div><!-- end div #mainColumn -->
+    
+    <div id="sideColumn">
+        {embed='includes/servicesContactJoin'}
+    
+        <!-- dotted seperator included in above widget div tag -->
+    
+        {embed='includes/latest-news'}
+    
+        <img src="../images/dotted-seperator.png" />
+            
+        {embed='includes/resources'}
+    </div>
+    <!-- end DIV #sideColumn --> 
+  </div>
+  <!-- end div .interior-content --> 
+</div>
+<!-- end div .wrapper --> 
+{embed='includes/footer'}

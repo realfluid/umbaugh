@@ -1,0 +1,160 @@
+{embed='includes/xhtml' page_title="Latest News"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn"> {if segment_2 ==""}
+      <h1>Latest News </h1>
+      <div id="news" class="wide"> {exp:channel:entries channel="news" limit="10"}
+        <div class="news-story">
+          <h2><a href="{site_url}latest-news/{url_title}">{title}</a></h2>
+          <span class="date"> By {news_author}, {if author_suffix == "Yes"} CPA,{/if} {author_position}, {entry_date format="%F %d, %Y"}<br />
+          {exp:channel:categories style="linear" show_empty="no"} <a href="{category_url_title}">{category_name}</a> {/exp:channel:categories} </span> {exp:word_limit total="30"}{news_body}{/exp:word_limit}
+          <p class="readmore"><a href="{url_title}">Read More &raquo;</a></p>
+        </div>
+        <!-- end #news-story --> 
+        {/exp:channel:entries} </div>
+      <!-- end #news --> 
+      {/if}
+      {if segment_2 !=""} 
+      <script>
+        $(function() {
+        $( "#tabs" ).tabs({
+          collapsible: true,
+          active: false
+        });
+        });
+        </script>
+      <div id="news" class="wide"> {exp:channel:entries channel="news"}
+        <div class="news-story last pxBuffer">
+          <h1>{title}</h1>
+          <span class="date">By {news_author}, CPA, Partner, {entry_date format="%F %d, %Y"}</span><br />
+          {if news_image != ""}
+          <div class="alignright"><img src="{news_image}" width="100" height="130"/></div>
+          {/if} 
+          
+          {news_body}
+          <div id="tabs">
+            <ul>
+              <li id="first"><a href="#tabs-1">Give Article Feedback</a> &raquo;</li>
+              <li>|</li>
+              <li><a href="#tabs-2">E-mail Umbaugh</a> &raquo;</li>
+              <li>|</li>
+              <li><a href="javascript:window.print()">Print Article</a> &raquo;</li>
+            </ul>
+            <div id="tabs-1" class="tab_content" style="display: none;">
+            <div class="contact_us-form">
+              <h3>Send your feedback:</h3>
+              {exp:freeform:form
+              form_id="2"
+              required="name|email"
+              recipient_template="contact_form"
+              notify_user="yes"
+              user_email_field="email"
+              inline_errors="yes"
+              admin_notify="dannym@quinlanmarketing.com" 
+              }
+              <input type="hidden" name="articleName" value="{title}">
+              <div class="submit-form">
+                <div class="radio_list">Is this item worthy of implementation?
+                  <div class="radio_box">
+                    <input type="radio" name="implementation" id="vote_1" value="Yes" />
+                    <div class="radio_label">
+                      <label for="vote_1">Yes</label>
+                    </div>
+                    <input type="radio" name="implementation" id="vote_2" value="No" />
+                    <label for="vote_2">No</label>
+                    <input type="radio" name="implementation" id="vote_3" value="Maybe" />
+                    <label for="vote_3">Maybe</label>
+                  </div>
+                  <!--radio-box--> 
+                </div>
+                <!--radio-list implementation-->
+                
+                <div class="radio_list">Is this item worth sharing with other associates?
+                  <div class="radio_box">
+                    <input type="radio" name="sharing" id="vote_1" value="Yes" />
+                    <label for="vote_1">Yes</label>
+                    <input type="radio" name="sharing" id="vote_2" value="No" />
+                    <label for="vote_2">No</label>
+                    <input type="radio" name="sharing" id="vote_3" value="Maybe" />
+                    <label for="vote_3">Maybe</label>
+                  </div>
+                  <!--radio-box--> 
+                </div>
+                <!--radio-list sharing-->
+                
+                <div class="radio_list">Did this item present value to you and your business?
+                  <div class="radio_box">
+                    <input type="radio" name="value" id="vote_1" value="Yes" />
+                    <label for="vote_1">Yes</label>
+                    <input type="radio" name="value" id="vote_2" value="No" />
+                    <label for="vote_2">No</label>
+                    <input type="radio" name="value" id="vote_3" value="Maybe" />
+                    <label for="vote_3">Maybe</label>
+                  </div>
+                  <!--radio-box--> 
+                </div>
+                <!--radio-list value--> 
+              </div>
+              <!--submit-form-->
+              <div class="submit-form_left">
+                <label>{freeform:label:email}</label>
+                {if freeform:error:email} <span class="error"> {freeform:error:email} </span> {/if}
+                {freeform:field:email}
+                <label>{freeform:label:user_message}</label>
+                <label>{freeform:field:user_message}</label>
+                <input type="submit" value="Submit" class="submit" >
+              </div>
+              <!--submit-form_left--> 
+              {/exp:freeform:form} 
+			</div><!--.contact_us-->
+            </div>
+            <!--tabs-1-->
+            <div id="tabs-2" class="tab_content" style="display: none;">
+            <div class="contact_us-form ">
+              <h3> E-mail Umbaugh</h3>
+              {exp:freeform:form
+              form_id="3"
+              }
+              <div class="submit-form">
+                <label>{freeform:label:name}</label>
+                {if freeform:error:name} <span class="error"> {freeform:error:name} </span> {/if}
+                {freeform:field:name}
+                <label>{freeform:label:email}</label>
+                {if freeform:error:email} <span class="error"> {freeform:error:email} </span> {/if}
+                {freeform:field:email}
+                <label>{freeform:label:phone}</label>
+                {freeform:field:phone}
+                <label>{freeform:label:organization}</label>
+                {freeform:field:organization} </div>
+              <div class="submit-form_left">
+                <label>{freeform:label:user_message}</label>
+                <label>{freeform:field:user_message}</label>
+                <input type="submit" value="Submit" class="submit" >
+              </div>
+              {/exp:freeform:form}
+              </div><!--.contat_us-->
+            </div>
+            <!--tabs-2--> 
+          </div>
+          <!--#tabs-->
+          
+          <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature.
+            Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
+        </div>
+        <!--news-story last pxBuffer --> 
+        {/exp:channel:entries} </div>
+      <!-- end #news--> 
+      {/if} </div>
+    <!-- end #mainColumn -->
+    
+    <div id="sideColumn">
+      <h2>Catagories</h2>
+      {exp:channel:categories channel="news" show_empty="no"} <a href="{path='latest-news/index'}">{category_name}</a> {/exp:channel:categories}
+    </div>
+  </div>
+</div>
+<!--wrapper--> 
+
+{embed='includes/footer'}

@@ -1,0 +1,53 @@
+{embed='includes/xhtml' page_title="About Umbaugh"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn" class="about">
+      <h1>About Umbaugh</h1>
+      <h2 id="team-caption">Umbaugh Partners</h2>
+		<p>At UCAS, we understand that municipalities continue to face budget challenges and are increasingly being asked to do more with less.  Developing an efficient banking and investment program that not only protects your funds, but also provides an adequate return is no easy task.</p>
+		<p>This is where our experienced team at UCAS comes in to assist our municipal clients with professional investment advice.  When it comes to investing public dollars, we focus on safety, liquidity and return, in that order.  Our core business is assisting our clients in developing short-term structured portfolios for their bond proceeds and operating funds. Our goal is to assist our clients in safely generating additional interest earnings for their budgets.</p>
+		<p>UCAS is a federally registered investment advisor. For more information about our qualifications and business practices please see the following brochure</p>
+		<p><strong>We provide the following <a href="/services">services: </a></strong></p>
+        
+        <ul>        
+            <li>Bond Proceeds Investment Advisory</li>
+            <li>Operating Funds Investment Advisory</li>
+            <li>Banking Request for Proposal Services</li>
+            <li>Construction Fund Administration Services</li>
+        </ul>
+        
+      <div id="professionals-table">
+        <h2>Partners</h2>
+        {exp:channel:entries channel="people" orderby="date" sort="desc"}
+        <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
+          <div class="bio-info">
+            <h3><strong>{title}</strong>, {people_extension}</h3>
+            <span class="professional-role">{people_level}, {people_location}</span>
+            <div class="two-col">
+              <div class="contact-info">
+                <h4>Contact Information</h4>
+                <ul>
+                  <li>{people_phone}</li>
+                  <li><a href="mailto:{people_email}">{people_email}</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            {people_bio} <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div><!-- end DIV professional --> 
+
+        {/exp:channel:entries}
+        
+         </div><!-- end DIV #professionals-table --> 
+    </div>
+    <!-- end div #mainColumn -->
+    
+    <div id="sideColumn"></div><!-- end DIV #sideColumn --> 
+  </div><!-- end div .interior-content --> 
+</div><!-- end div .wrapper --> 
+{embed='includes/footer'}
