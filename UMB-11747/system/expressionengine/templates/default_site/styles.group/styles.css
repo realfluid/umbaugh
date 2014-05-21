@@ -347,7 +347,7 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
 .three-columns .column-three { float: left; width: 256px;  }
 .three-columns .column h2 { padding-bottom: 7px; border-bottom: 4px solid #cacaca; color: #bb8e1a; font-family:Georgia, "Times New Roman", Times, serif; font-size: 18px; font-weight: normal; }
 .three-columns .column h2 a {color: #e4ae1e;}
-.three-columns .column h3{ color: #e4ae1e; font-size: 13px; font-family:franklin_gothic_mediumregular; font-weight:normal; }
+.three-columns .column h3{ color: #e4ae1e; font-size: 13px; font-family:franklin_gothic_bookregular; font-weight:normal; }
 .three-columns .column h3 a{ color: #e4ae1e; }
 .three-columns .column ul { overflow: hidden; margin-top: 3ex; padding: 0; list-style: none; }
 .three-columns .column li { margin-top: -1px; padding: 5px 0; border-top: 1px solid #e9e9ea; }
