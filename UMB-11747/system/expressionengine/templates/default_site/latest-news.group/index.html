@@ -4,14 +4,14 @@
 <div class="wrapper">
   <div class="interior-content">
     <div id="mainColumn"> 
-		{if segment_2 == "" OR segment_2 == "P5" OR segment_2 == "P10" OR segment_2 == "P15" OR segment_2 == "P20"}
+		{if segment_2 == "" OR segment_2 == "P10" OR segment_2 == "P20" OR segment_2 == "P30" OR segment_2 == "P40"}
 
 			<h1>Latest News </h1>
 				<div id="news" class="wide">
-                	{exp:channel:entries channel="news" paginate="bottom" sort="desc" limit="5"}
+                	{exp:channel:entries channel="news" paginate="bottom" sort="desc" limit="10"}
                         <div class="news-story">
                           <h2><a href="{site_url}latest-news/{url_title}">{title}</a></h2>
-                          <span class="date"> By {news_author}, {if author_suffix == "Yes"} CPA,{/if} {author_position}, {entry_date format="%F %d, %Y"}<br />
+                          <span class="date"> By {news_author}, {author_suffix} {author_position}, {entry_date format="%F %d, %Y"}<br />
                           {categories}<a href="{category_url_title}">{category_name}</a> {/categories} </span> <p>{exp:word_limit total="30"}{news_body}{/exp:word_limit}</p>
                           
                           <p class="readmore"><a href="{url_title}">Read More &raquo;</a></p>
@@ -29,7 +29,7 @@
                         {exp:channel:entries channel="news" category_id="{segment_2}"}
                             <div class="news-story">
                               <h2><a href="{site_url}latest-news/{url_title}">{title}</a></h2>
-                              <span class="date"> By {news_author}, {if author_suffix == "Yes"} CPA,{/if} {author_position}, {entry_date format="%F %d, %Y"}</span>
+                              <span class="date"> By {news_author}, {author_suffix} {author_position}, {entry_date format="%F %d, %Y"}</span>
                               <p>{exp:word_limit total="30"}{news_body}{/exp:word_limit}</p>
                               <p class="readmore"><a href="{url_title}">Read More &raquo;</a></p>
                             </div><!-- end #news-story --> 
@@ -53,7 +53,7 @@
                   {exp:channel:entries channel="news"}
                         <div class="news-story last pxBuffer">
                             <h1>{title}</h1>
-                            <span class="date">By {news_author}, CPA, Partner, {entry_date format="%F %d, %Y"}</span><br />
+                            <span class="date">By {news_author}, {author_suffix} {author_position}, {entry_date format="%F %d, %Y"}</span><br />
                                 {if news_image != ""}
                                     <div class="alignright"><img src="{news_image}" width="100" height="130"/></div>
                                 {/if}
@@ -86,7 +86,7 @@
                                   </div><!--.contat_us-->
                                 </div><!--tabs-2--> 
                             </div><!--#tabs-->
-                          <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:footnotes@umbaugh.com">footnotes@umbaugh.com.</a></em></p>
+                          <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:vision@umbaugh.com">vision@umbaugh.com.</a></em></p>
                         </div><!--news-story last pxBuffer --> 
                 {/exp:channel:entries} 
                 </div><!-- end #news--> 

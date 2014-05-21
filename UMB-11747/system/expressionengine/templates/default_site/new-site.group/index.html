@@ -1,0 +1,41 @@
+{embed='includes/xhtml' page_title=""}
+
+
+
+	<body class="">
+	<script type="text/javascript">document.body.className += ' js';</script>
+		<div class="header">
+        	<div>
+            <a href="/"><img src="/images/logo.png" alt="Umbaugh It's all about experience"></a>
+                	<p class="phone">(888) 516 9594</p>              
+				{exp:search:simple_form channel="news|our_experience|our_library" form_class="form-search" result_page="search" no_result_page="search/noresults"}
+  					<p><input type="text" name="keywords" id="keywords" value="" size="18" maxlength="100">
+					<input type="submit" value="Search" class="search"></p>
+				{/exp:search:simple_form}
+                
+				<ul class="menu">
+					<li><a href="/" {if segment_1 == ''}class="selected"{/if}>Home</a></li>
+					<li><a href="/about/" {if segment_1 == 'about'}class="selected"{/if}>About Us</a></li>
+					<li><a href="/services/" {if segment_1 == 'services'}class="selected"{/if}>Our Services</a></li>
+					<li><a href="/join-our-firm/" {if segment_1 == 'join-our-firm'}class="selected"{/if}>Join Our Firm</a></li>
+					<li><a href="/contact/" {if segment_1 == 'contact'}class="selected"{/if}>Contact Us</a></li>
+					<li><a href="/latest-news/" {if segment_1 == 'latest-news'}class="selected"{/if}>Latest News</a></li>
+					<li><a href="/login/" {if segment_1 == 'login'}class="selected"{/if}>Login</a></li>
+				</ul>
+			</div>
+		</div><!-- end DIV .header -->
+
+<div class="home-wrapper">
+<div class="home-content">
+<div class="banner" style="margin:0 auto; text-align:center;">
+
+
+	<iframe src="//player.vimeo.com/video/95900497" width="941" height="529" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+</div>
+  <!-- end .content --> 
+</div><!-- .home-content --> 
+</div><!-- .home-wrapper --> 
+
+{embed='includes/footer'}
