@@ -4,8 +4,8 @@ $active_group = 'expressionengine';
 $active_record = TRUE;
 
 $db['expressionengine']['hostname'] = 'localhost';
-$db['expressionengine']['username'] = 'root';
-$db['expressionengine']['password'] = '';
+$db['expressionengine']['username'] = 'umbaugh_eecms';
+$db['expressionengine']['password'] = 'x09J1lYha3R9';
 $db['expressionengine']['database'] = 'umbaugh_webcms';
 $db['expressionengine']['dbdriver'] = 'mysql';
 $db['expressionengine']['pconnect'] = FALSE;

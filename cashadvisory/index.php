@@ -24,7 +24,7 @@
  * http://ellislab.com/expressionengine/user-guide/installation/best_practices.html
  *
  */
-	$system_path = '../UMB-11747/system/';
+	$system_path = '../_subdomains/cashadvisory/public_html/system/';
 
 
 /*
