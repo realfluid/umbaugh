@@ -1,0 +1,31 @@
+{embed='includes/xhtml' page_title="DRAFTS"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+<h1 style="color:red; font-size:20px; text-align:center;">*DRAFTS*</h1>
+    <div id="mainColumn">
+      <div id="news" class="wide"> {exp:channel:entries channel="news" status="draft"}
+        <div class="news-story last pxBuffer">
+          <h1>{title}</h1>
+          <span class="date">By {news_author}, {if author_suffix != ""}{author_suffix},{/if} {if author_position != ""}{author_position},{/if} {entry_date format="%F %d, %Y"}</span><br />
+          {if news_image != ""}
+          <div class="alignright"><img src="{news_image}"/></div>
+          {/if}
+		{news_body}
+          <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:vision@umbaugh.com">vision@umbaugh.com.</a></em></p>
+        </div>
+        <!--news-story last pxBuffer --> 
+        {/exp:channel:entries} </div>
+      <!-- end #news--> 
+      
+    </div>
+    <!-- end #mainColumn -->
+    
+    <div id="sideColumn"> 
+    </div><!-- sideColumn--> 
+  </div>
+  <!-- interior-content --> 
+</div>
+<!--wrapper--> 
+{embed='includes/footer'} 

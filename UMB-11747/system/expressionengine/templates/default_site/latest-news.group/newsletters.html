@@ -6,13 +6,21 @@
 	<div class="interior-content">
         <div id="mainColumn" class="wide">
 		<h1>Newsletters</h1>
-            {exp:channel:entries channel="newsletter"}
+            {exp:channel:entries channel="newsletter" paginate="bottom" limit="5" status="open"}
             <div class="news-story">
 				<h2><a href="{site_url}latest-news/newsletter/{url_title}">{title}</a></h2>
                 {newsletter_article show_expired="yes" limit="10"}
                     <p>{title} &mdash; {exp:remove_html}{exp:word_limit total="40"}{news_body}{/exp:word_limit}{/exp:remove_html}</p>
                 {/newsletter_article}
 			</div><!--end .news-story -->
+
+
+	{paginate}
+        	<p>Page {current_page} of {total_pages} pages {pagination_links}</p>
+        {/paginate} 
+
+
+
             {/exp:channel:entries}
 		</div><!-- end mainColumn -->
         

@@ -61,7 +61,7 @@
     <div>
       <div class="three-columns">
         <div class="column-one column">
-          <h2><a href="/services/our-library">Our Library</a></h2>
+          <h2><a href="/services/our-library/">Our Library</a></h2>
           
           <!--start of first column-->
           
@@ -80,7 +80,7 @@
         <!--start of second column-->
         
         <div class="column-two column">
-          <h2><a href="/services/our-experience">Our Experience</a></h2>
+          <h2><a href="/services/our-experience/">Our Experience</a></h2>
           <ul class="links">
             {exp:channel:entries channel="our_experience" limit="5"}
             <li>
@@ -94,9 +94,9 @@
         <!--end of second column-->
         
         <div class="column-three column">
-          <h2><a href="/latest-news">Latest News</a></h2>
+          <h2><a href="/latest-news/">Latest News</a></h2>
           <ul>
-            {exp:channel:entries channel="news" limit="3"}
+            {exp:channel:entries channel="news" limit="3" status="open"}
             <li>
               <h3><a href="/latest-news/{url_title}">{title}</a></h3>
               {exp:word_limit total="10"}{news_body}{/exp:word_limit}

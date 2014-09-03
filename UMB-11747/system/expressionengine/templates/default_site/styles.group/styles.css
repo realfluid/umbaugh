@@ -1,37 +1,30 @@
-/*
-Theme Name: Umbaugh
-Theme URI: http: //umbaugh.com/
-Description: Umbaugh theme
-Author: Umbaugh
-Version: 1.0
-Tags:
-*/
+@charset "utf-8";
 @font-face {
     font-family: 'franklin_gothic_mediumregular';
-    src: url('/system/expressionengine/fonts/franklin_gothic_medium-webfont.eot');
-    src: url('/system/expressionengine/fonts/franklin_gothic_medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/system/expressionengine/fonts/franklin_gothic_medium-webfont.woff') format('woff'),
-         url('/system/expressionengine/fonts/franklin_gothic_medium-webfont.ttf') format('truetype'),
-         url('/system/expressionengine/fonts/franklin_gothic_medium-webfont.svg#franklin_gothic_mediumregular') format('svg');
+    src: url('http://www.umbaugh.com/fonts/franklin_gothic_medium-webfont.eot');
+    src: url('http://www.umbaugh.com/fonts/franklin_gothic_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.umbaugh.com/fonts/franklin_gothic_medium-webfont.woff') format('woff'),
+         url('http://www.umbaugh.com/fonts/franklin_gothic_medium-webfont.ttf') format('truetype'),
+         url('http://www.umbaugh.com/fonts/franklin_gothic_medium-webfont.svg#franklin_gothic_mediumregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'franklin_gothic_bookregular';
-    src: url('/system/expressionengine/fonts/franklin_gothic_book-webfont.eot');
-    src: url('/system/expressionengine/fonts/franklin_gothic_book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/system/expressionengine/fonts/franklin_gothic_book-webfont.woff') format('woff'),
-         url('/system/expressionengine/fonts/franklin_gothic_book-webfont.ttf') format('truetype'),
-         url('/system/expressionengine/fonts/franklin_gothic_book-webfont.svg#franklin_gothic_bookregular') format('svg');
+    src: url('http://www.umbaugh.com/fonts/franklin_gothic_book-webfont.eot');
+    src: url('http://www.umbaugh.com/fonts/franklin_gothic_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.umbaugh.com/fonts/franklin_gothic_book-webfont.woff') format('woff'),
+         url('http://www.umbaugh.com/fonts/franklin_gothic_book-webfont.ttf') format('truetype'),
+         url('http://www.umbaugh.com/fonts/franklin_gothic_book-webfont.svg#franklin_gothic_bookregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 * { margin: 0; padding: 0; }
 html { height: 100%; padding-bottom: 1px; font-size: 100%; }
-body { padding: 0; background: #EAEAEA; color: #666; font-family:franklin_gothic_bookregular; font-size:12px; }/*eaeaea*/
+body { padding: 0; background: #EAEAEA; color: #666; font-family:"franklin_gothic_bookregular", franklin gothic; font-size:12px; }/*eaeaea*/
 
-p, ul, ol, dl { padding-bottom: 1em; }
-ul, ol { margin-left: 0; padding-left: 2em; }
+p, ul, ol, dl {  }
+ul, ol { margin-left: 0; padding-left: 2em; font-size:13px; }
 h1, h2, h3, h4, h5, h6 { font-size: 1em; }
 textarea, input, select, option, optgroup, button { font: 1em "Arial", "Helvetica", sans-serif; }
 img { border: none; vertical-align: bottom; }
@@ -77,6 +70,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 .header .hiddenFields{ display:none;}
 
 .header .menu {overflow: hidden; padding: 10px 0 0 0; background-color:#e4ae1e; list-style: none; }
+.header .menu li{font-size:12px; }
 .header .menu li { float: left;}
 .header .menu li a { display: block; float: left; margin-top: -5px; padding: 7px 14px; color: #fff; background-color:#e4ae1e; font-family: 'Georgia', 'serif'; font-weight: bold; line-height: 1; border-right: 1px #edbb49 solid; }
 .header .menu li.first a { background-position: -1px 100%; }
@@ -144,7 +138,8 @@ ol li {margin-bottom: 10px; color: #444444;}
 #mainColumn p { color: #444; font-size: 1.167em; line-height:1.5em;}
 #mainColumn h1 {margin-bottom: 15px; border-bottom: 4px solid #eee; line-height: 1.5em; }
 #mainColumn h2{ font-size: 1.5em; margin: 0;}
-#mainColumn ul li {color: #444; font-size: 1em; }
+#mainColumn ul { margin-top: 10px;}
+#mainColumn ul li {color: #444; font-size: 13px; }
 #mainColumn #callout{ border:#e4ae1e solid 4px; width: 232px; padding: 13px 17px 20px 19px; margin: 3px 0 10px 20px; clear: both; float: right; min-height: 164px;}
 #mainColumn #callout img{ margin: 8px 0 0 0; padding: 0px; }
 #mainColumn #callout h2{ margin: 0; color:#717174; border-bottom: thin dashed #999999; padding-bottom:10px; }
@@ -236,7 +231,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 #career-form .submit-form { overflow: hidden; float: left; width: 265px;}
 #career-form .submit-form input { width: 235px; height: 24px; border: 1px solid #ccc; margin-bottom:10px; font-size:11px; padding: 0 10px 0 6px;}
 #career-form .submit-form_left { overflow: hidden; float: left; width: 365px;}
-#career-form textarea { float: left; height: 86px; border: 1px solid #ccc; margin: 0 0 10px; font-size:11px; padding: 5px;}
+#career-form textarea { float: left; height: 86px; border: 1px solid #ccc; margin: 0 0 10px; font-size:11px; padding: 5px; width:100%;}
 #career-form .submit { width: 59px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:left;}
 #career-form .submit input{padding: 0;margin: 0;}
 
@@ -264,13 +259,14 @@ ol li {margin-bottom: 10px; color: #444444;}
 
 /*news*/
 #mainColumn #news { margin-top: -19px }
+#news table { border:1px; border-collapse:collapse;}
 .news-archive p{ width: 656px !important; }
 #mainColumn .news-story { margin: 10px 0; padding: 15px 0 25px; border-bottom: #b6bbbf dashed 1px;  }
 #mainColumn .news-story h2 { color: #717174; font-size: 1.333em; font-family:Georgia, "Times New Roman", Times, serif; font-weight: bold; text-decoration: none; margin-top:15px; margin-bottom:5px; }
 #mainColumn .news-story h2 a { color: #E4AE1E; font-size: 1em; font-family: franklin_gothic_bookregular; font-weight: bold; text-decoration: none; }
-#mainColumn .news-story p{ color: #444; font-size: 13px; margin: 15px 0 0 0; padding: 0;}
+#mainColumn .news-story p{ color: #444; font-size: 13px; margin: 8px 0; padding: 0;}
 #mainColumn .news-story.last.pxBuffer {}
-#mainColumn .news-story a{ color: #999; text-decoration: underline; padding: 0px;}
+#mainColumn .news-story a{ color: #999; text-decoration: underline; padding: 0px; font-family:"franklin_gothic_bookregular", franklin gothic;}
 #mainColumn .news-story .date { font-size: 0.917em; margin: 0px; color: #939393; clear: both; }
 #mainColumn .news-story .date a { color: #999; text-decoration: none; float: none;}
 
@@ -289,7 +285,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 #mainColumn .newsletter-item .tag { color: #666; font-size: 0.917em; float: left;}
 
 #mainColumn #tabs ul{ list-style:none; padding:0;}
-#mainColumn #tabs li{  display:inline; margin:0 10px;}
+#mainColumn #tabs li{  display:inline; margin:0 10px; float:left;}
 #mainColumn #tabs #first{ margin-left:0px;}
 
 
@@ -320,7 +316,7 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
 #mainColumn ul.links {list-style:none; margin: 0; padding: 0;}
 #mainColumn ul.links li {min-height: 32px; margin: 0; padding: 15px; padding-left: 40px; border-bottom: #b6bbbf dashed 1px; width: 617px; background: url('images/pdficon_large.gif') 0 15px no-repeat; line-height: 1.5em;}
 #mainColumn ul.links li span {font-size: 0.917em; }
-#mainColumn ul.links li a { color: #3b7059; font-size: 1.5em; font-family:Georgia, "Times New Roman", Times, serif; text-decoration: underline; }
+#mainColumn ul.links li a { color: #717174; font-size: 18px; font-family:Georgia, "Times New Roman", Times, serif; text-decoration: underline; }
 
 
 #mainColumn p.readmore {margin-bottom: 15px; }
@@ -355,7 +351,7 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
 .three-columns .column p { color: #666; padding-bottom: 1ex; }
 .three-columns .column p.readmore {margin: 1em 0;}
 .three-columns .column p.links a, .three-columns .column p.readmore a { color: #999; text-decoration: underline; }
-.three-columns .column p.links a:hover, .three-columns .column p.readmore a:hover { color: #3f775f; text-decoration: none; }
+.three-columns .column p.links a:hover, .three-columns .column p.readmore a:hover { color: #666; text-decoration: none; }
 
 
 /*
@@ -379,6 +375,8 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
 .wrapper form ol li {margin: 10px 0;}
 .wrapper textarea, .wrapper select {width: 229px; padding: 5px 10px; border: 1px solid #ccc; background: #fff; color: #7B7A7A; font-size: 0.917em; }
 input {width: 200px; padding: 5px 10px; border: 1px solid #ccc; background: #fff; color: #7B7A7A; font-size: 0.917em; }
+#tabs form { float:left;}
+.articleBtn {width: 80px; border:none; background: #fff; color: #999; font-size: 13px; font-family:"franklin_gothic_bookregular", franklin gothic; text-decoration:underline; padding:0}
 
 .wrapper select { width: 249px; padding: 5px 5px;}
 .wrapper select option {padding: 0 5px;}
@@ -410,7 +408,7 @@ input.wpsb_form_txt {width: 100px;}
 
 /* Contact form */
 #contact-form { border:#e4ae1e solid 3px; float:left; width:641px; padding:0 0 20px 15px; margin:0 0 34px 0; overflow: hidden;color:#7b7a7a; }
-#contact-form h3 { font-size:18px; color:#444; font-family:Georgia, "Times New Roman", Times, serif; margin:21px 0 12px 0; }
+#contact-form h3 { font-size:18px; color:#717174; font-family:Georgia, "Times New Roman", Times, serif; margin:21px 0 12px 0; }
 #contact-form p { font-size:12px; }
 #contact-form .submit-form { overflow: hidden; float: left; width: 265px;}
 #contact-form .submit-form input { float: left; width: 235px; height: 24px; border: 1px solid #ccc; margin-bottom:10px; font-size:11px; color:#7b7a7a;padding: 0 10px 0 6px;}
@@ -420,12 +418,10 @@ input.wpsb_form_txt {width: 100px;}
 #contact-form .checkbox_right { float: right; width: 160px; font-size:11px; color:#7b7a7a; padding:2px 0 0 6px;}
 #contact-form .checkbox_box input {padding: 0 0 0 20px;width: 20px;border-style: none;}
 #contact-form .clear {clear: both;}
-#contact-form textarea { float: left; height: 50px; border: 1px solid #ccc; margin: 0 0 10px; font-size:11px; color:#7b7a7a;padding: 5px;}
+#contact-form textarea { float: left; height: 50px; border: 1px solid #ccc; margin: 0 0 10px; font-size:11px; color:#7b7a7a; padding: 10px;}
 #contact-form .submit { width: 59px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right; margin-right:6px; }
 #contact-form .submit input{padding: 0;margin: 0;}
-/*** contact validation ***/
-/*** By Toon Nelissen ***/
-/*** From AppSaloon ***/
+
 #contact-form input.error, #contact-form textarea.error {border-color: red;margin-bottom: 2px;color: red;}
 #contact-form input.error:focus, #contact-form textarea.error:focus {outline-style: dotted;outline-width: 1px;outline-color: red;}
 #contact-form label.error {border-color: red;float: left;color: red;margin-bottom: 10px;padding-left: 10px;}
@@ -443,7 +439,7 @@ input.wpsb_form_txt {width: 100px;}
 #survey-form h3 { margin-bottom: 5px;}
 
 /*contact us*/
-.contact_us-form { border:#E4AE1E solid 3px; width:641px; margin:0 0 34px 0; color:#7b7a7a; }
+.contact_us-form { border:#E4AE1E solid 3px; width:641px; margin:0 0 34px 0; color:#7b7a7a; float:left; }
 .contact_us-form .submit-form input { float: left; width: 235px; height: 24px; border: 1px solid #ccc; margin-bottom:10px; font-size:11px; color:#7b7a7a;padding: 0 5px;}
 .contact_us-form textarea { float: left; width: 347px; height: 122px; border: 1px solid #ccc; margin: 0 0 10px; font-size:11px; color:#7b7a7a;padding: 5px;}
 .contact_us-form .submit-form { overflow: hidden; float: left; width: 265px;}
@@ -451,3 +447,4 @@ input.wpsb_form_txt {width: 100px;}
 .contact_us-form .submit { width: 59px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right; margin-right:6px; }
 .contact_us-form h3 { margin-bottom: 5px;}
 .contact_us-form p{ margin:0 !important; padding:0 !important;}
+#tabs-1, #tabs-2 { float:left;}
