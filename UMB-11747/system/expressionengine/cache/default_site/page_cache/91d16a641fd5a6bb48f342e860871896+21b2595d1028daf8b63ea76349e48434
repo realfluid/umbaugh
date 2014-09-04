@@ -1,0 +1,446 @@
+a:3:{s:4:"time";i:1409844522;s:3:"ttl";i:0;s:4:"data";s:18037:"{embed='includes/xhtml' page_title="Contact Us"}
+
+{embed='includes/header'}
+
+<div class="wrapper">
+<div class="interior-content">
+  <div id="mainColumn">
+    <h1> Contact Us </h1>
+    <h2>Main Phone Number: <span id="phone-number-lg"> (888)516-9594</span></h2>
+    <div class="locationColumns">
+      <h2>Our Locations:</h2>
+      <div class="column-one">
+        <dl>
+          <dt class="location-title">Indianapolis, Indiana</dt>
+          <dt>Phone</dt>
+          <dd>(317) 465-1500</dd>
+          <dt>Fax</dt>
+          <dd>(317) 465-1550</dd>
+          <dt>Address</dt>
+          <dd>8365 Keystone Crossing<br />
+            Suite 300<br />
+            Indianapolis, IN 46240</dd>
+        </dl>
+      </div>
+      <div class="column-two">
+        <dl>
+          <dt class="location-title">Mishawaka, Indiana</dt>
+          <dt>Phone</dt>
+          <dd>(574) 935-5178</dd>
+          <dt>Fax</dt>
+          <dd>(574) 935-5928</dd>
+          <dt>Address</dt>
+          <dd>112 IronWorks Avenue<br />
+            Suite C<br />
+            Mishawaka, IN 46544</dd>
+        </dl>
+      </div>
+      <div class="column-three">
+        <dl>
+          <dt class="location-title">Lansing, Michigan</dt>
+          <dt>Phone</dt>
+          <dd>(517) 321-0110</dd>
+          <dt>Fax</dt>
+          <dd>(517) 321-8866</dd>
+          <dt>Address</dt>
+          <dd>2150 Association Drive<br />
+            Suite 100<br />
+            Okemos, MI 48864</dd>
+        </dl>
+      </div>
+    </div>
+    
+    
+    <div id="contact-form">
+      <h3>Have any questions? Contact Us.</h3>
+      <p>We would like to hear from you.</p>
+      
+        <form action="http://www.umbaugh.com/?ACT=28" accept-charset="utf-8" method="post"><div style="display:none">
+<input type="hidden" name="params_id" value="46048" />
+<input type="hidden" name="XID" value="60b3bae65233111e1d41a726b3264d2345b79d7c" />
+<input type="hidden" name="csrf_token" value="60b3bae65233111e1d41a726b3264d2345b79d7c" />
+</div><style type="text/css">
+	.ff_composer * {
+		-webkit-box-sizing	: border-box;
+		-moz-box-sizing		: border-box;
+		box-sizing			: initial;
+	}
+	.ff_composer .line,
+	.ff_composer .line:last-child,
+	.ff_composer .last_unit{overflow:hidden;}
+	.ff_composer .unit{float:left;}
+	.ff_composer .unit_right{float:right;}
+	.ff_composer .size1of1{float:none;}
+	.ff_composer .size1of2{width:50%;}
+	.ff_composer .size1of3{width:33.33333%;}
+	.ff_composer .size2of3{width:66.66666%;}
+	.ff_composer .size1of4{width:25%;}
+	.ff_composer .size3of4{width:75%;}
+	.ff_composer .line:last-child,
+	.ff_composer .last_unit{float:none;width:auto;}
+	.ff_composer p,
+	.ff_composer h1,
+	.ff_composer h2,
+	.ff_composer h3,
+	.ff_composer h4,
+	.ff_composer h5,
+	.ff_composer h6 {margin: 0; padding:0;}
+	.ff_composer .required_item {margin-left: 4px; color:red;}
+	.ff_composer textarea,
+	.ff_composer input[type="text"],
+	.ff_composer input[type="email"],
+	.ff_composer input[type="url"],
+	.ff_composer input[type="number"],
+	.ff_composer input[type="password"],
+	.ff_composer input[type="search"] {width: 80%;}
+	.ff_composer ul.dynamic_recipients {list-style: none; padding:0;}
+	.ff_composer .field_label {font-size:13px;}
+        .ff_composer input[type=submit] {width: 59px; height: 26px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:left; clear:left; }
+        .ff_composer .unit ul {  border: 1px solid #CCCCCC; padding: 5px !important; width: 85%; margin-bottom: 10px; } 
+        input[type=checkbox], input.radio { width:13px;}
+        .ff_composer .unit ul li label { color: #7B7A7A; font-size: 11px; padding: 2px 0 0 6px;}
+</style>
+<div class="ff_composer">
+
+	
+			<div class="line">
+		
+				<div class="unit size1of2">
+				{if "5" == 0}
+					 
+				{/if}
+			
+				{if "Name"}
+					{if "text" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Name</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "name" != ''}for="freeform_name"{/if}>
+							Name{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:name"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="name" value="" id="freeform_name" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="name" value="" id="freeform_name" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Email"}
+					{if "text" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Email</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "email" != ''}for="freeform_email"{/if}>
+							Email{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:email"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="email" value="" id="freeform_email" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="email" value="" id="freeform_email" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Phone"}
+					{if "text" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Phone</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "phone" != ''}for="freeform_phone"{/if}>
+							Phone{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:phone"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="phone" value="" id="freeform_phone" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="phone" value="" id="freeform_phone" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Organization"}
+					{if "text" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Organization</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "organization" != ''}for="freeform_organization"{/if}>
+							Organization{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:organization"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="organization" value="" id="freeform_organization" maxlength="250"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="organization" value="" id="freeform_organization" maxlength="250"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Message"}
+					{if "textarea" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Message</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "message" != ''}for="freeform_message"{/if}>
+							Message{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:message"}
+					{if "textarea" == 'nonfield_title'}
+						<h2><textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea></h2>
+					{if:elseif "textarea" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea></p>
+					{/if}
+				{/if}
+			
+				</div>
+		
+				<div class="unit size1of2">
+				{if "2" == 0}
+					 
+				{/if}
+			
+				{if "Areas of Interest:"}
+					{if "checkbox_group" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Areas of Interest: </strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "areas_of_interest" != ''}for="freeform_areas_of_interest"{/if}>
+							Areas of Interest: {if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:areas_of_interest"}
+					{if "checkbox_group" == 'nonfield_title'}
+						<h2><ul  style="list-style:none; padding:0;"><li><input type="checkbox" name="areas_of_interest[]" value="Accounting Services" id="freeform_areas_of_interest_1"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_1">Accounting Services</label></li><li><input type="checkbox" name="areas_of_interest[]" value="Arbitrage Services" id="freeform_areas_of_interest_2"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_2">Arbitrage Services</label></li><li><input type="checkbox" name="areas_of_interest[]" value="Debt Management" id="freeform_areas_of_interest_3"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_3">Debt Management</label></li><li><input type="checkbox" name="areas_of_interest[]" value="Economic Development" id="freeform_areas_of_interest_4"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_4">Economic Development</label></li><li><input type="checkbox" name="areas_of_interest[]" value="Financial Management" id="freeform_areas_of_interest_5"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_5">Financial Management</label></li><li><input type="checkbox" name="areas_of_interest[]" value="Utility Services" id="freeform_areas_of_interest_6"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_6">Utility Services</label></li></ul></h2>
+					{if:elseif "checkbox_group" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><ul  style="list-style:none; padding:0;"><li><input type="checkbox" name="areas_of_interest[]" value="Accounting Services" id="freeform_areas_of_interest_1"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_1">Accounting Services</label></li><li><input type="checkbox" name="areas_of_interest[]" value="Arbitrage Services" id="freeform_areas_of_interest_2"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_2">Arbitrage Services</label></li><li><input type="checkbox" name="areas_of_interest[]" value="Debt Management" id="freeform_areas_of_interest_3"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_3">Debt Management</label></li><li><input type="checkbox" name="areas_of_interest[]" value="Economic Development" id="freeform_areas_of_interest_4"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_4">Economic Development</label></li><li><input type="checkbox" name="areas_of_interest[]" value="Financial Management" id="freeform_areas_of_interest_5"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_5">Financial Management</label></li><li><input type="checkbox" name="areas_of_interest[]" value="Utility Services" id="freeform_areas_of_interest_6"  />&nbsp;&nbsp;<label for="freeform_areas_of_interest_6">Utility Services</label></li></ul></p>
+					{/if}
+				{/if}
+			
+				{if ""}
+					{if "nonfield_submit" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong></strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "" != ''}for="freeform_"{/if}>
+							{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:submit attr:value=&#34;Submit&#34;"}
+					{if "nonfield_submit" == 'nonfield_title'}
+						<h2><input type="submit" name="submit" value="Submit"  /></h2>
+					{if:elseif "nonfield_submit" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="submit" name="submit" value="Submit"  /></p>
+					{/if}
+				{/if}
+			
+				</div>
+		
+			</div>
+	
+
+</div>
+</form>
+	</div><!-- #contact-form-->
+    
+    
+    
+    <h2><strong>Client Service Leaders Contact Information</strong></h2>
+
+
+<!-- start partners box -->
+
+    <div class="professional-quickInfo ">
+      <div class="quickInfoColumn left">
+
+      
+        <p><span>Todd A. Samuelson</span><br />
+          (574) 935-5178<br />
+          <a href="mailto:samuelson@umbaugh.com">Email</a><br /></p>
+        <p><span>John D. Julien</span><br />
+          (574)935-5178<br />
+          <a href="mailto:julien@umbaugh.com">Email</a><br /></p>
+        <p><span>Colette J. Irwin-Knott</span><br />
+          (317) 465-1504<br />
+          <a href="mailto:irwinknott@umbaugh.com">Email</a><br /></p>
+        <p><span>Brian C. Colton</span><br />
+          (317) 465-1516<br />
+          <a href="mailto:colton@umbaugh.com">Email</a><br /></p>
+        <p><span>Scott A. Miller</span><br />
+          (317) 465-1506<br />
+          <a href="mailto:miller@umbaugh.com">Email</a><br /></p>
+      </div>
+      <div class="quickInfoColumn right">
+        <p><span>Gerald G. Malone</span><br />
+          (317) 465-1501<br />
+          <a href="mailto:malone@umbaugh.com">Email</a><br /></p>
+        <p><span>John M. Seever</span><br />
+          (317) 465-1507<br />
+          <a href="mailto:seever@umbaugh.com">Email</a><br /></p>
+        <p><span>Doug Baldessari</span><br />
+          (317) 465-1508<br />
+          <a href="mailto:baldessari@umbaugh.com">Email</a><br /></p>
+        <p><span>Daniel A. Hedden</span><br />
+          (317) 465-1503<br />
+          <a href="mailto:hedden@umbaugh.com">Email</a><br /></p>
+        <p><span>Curt W. Pletcher</span><br />
+          (574) 935-5178<br />
+          <a href="mailto:pletcher@umbaugh.com">Email</a><br /></p>
+
+
+          
+      </div>
+      
+    </div>
+<!-- end partners box -->
+
+<!-- start principals box -->
+    <div class="professional-quickInfo right">
+      <div class="quickInfoColumn left">
+        <p><span>Robert J. Clifford</span><br />
+          (317) 465-1560<br />
+          <a href="mailto:clifford@umbaugh.com">Email</a><br /></p>
+        <p><span>Loren M. Matthes</span><br />
+          (317) 465-1505<br />
+          <a href="mailto:matthes@umbaugh.com">Email</a><br /></p>
+        <p><span>Deen C. Rogers</span><br />
+          (317) 465-1538<br />
+          <a href="mailto:rogers@umbaugh.com">Email</a><br /></p>
+        <p><span>Paige E. Sansone</span><br />
+          (317) 465-1521<br />
+          <a href="mailto:sansone@umbaugh.com">Email</a><br /></p>
+        <p><span>Tom Traciak</span><br />
+          (517) 321-0110<br />
+          <a href="mailto:traciak@umbaugh.com">Email</a><br /></p>
+      </div>
+      <div class="quickInfoColumn right">
+        <p><span>Jeffrey A. Messer</span><br />
+          (317) 465-1531<br />
+          <a href="mailto:messer@umbaugh.com">Email</a><br /></p>
+        <p><span>Jesse R. Nelson</span><br />
+          (517) 321-0110<br />
+          <a href="mailto:nelson@umbaugh.com">Email</a><br /></p>
+        <p><span>Jeffrey P. Rowe</span><br />
+          (574) 935-5178<br />
+          <a href="mailto:rowe@umbaugh.com">Email</a><br /></p>
+        <p><span>Jason G. Semler</span><br />
+          (317) 465-1540<br />
+          <a href="mailto:semler@umbaugh.com">Email</a><br /></p>
+
+      </div>
+    </div>
+<!-- start principals box -->
+    
+  </div><!-- end main column -->
+  <div id="sideColumn">
+    <div id="nav_menu-4" class="widget widget_nav_menu">
+      <div class="menu-sidebar-menu-container">
+        <ul id="menu-sidebar-menu" class="menu">
+          <li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-255"><a href="http://www.umbaugh.com/about">More About Us</a></li>
+          <li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-64"><a href="http://www.umbaugh.com/contact">Contact Us</a></li>
+          <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-65"><a href="http://www.umbaugh.com/join-our-firm">Join Our Firm</a></li>
+        </ul>
+      </div>
+    </div>
+      <div id="category-content" class="widget widget_categoryContent">
+        <h2 class="widget-title"> Latest News </h2>
+        <ul>
+          
+          <li> <a href="/latest-news/wifia-a-new-source-for-funding-water-infrastructure-projects">WIFIA: A New Source for Funding Water Infrastructure Projects</a> <p>​Many utilities are looking for ways to fund water infrastructure projects. The federal government is working on a program to&#8230;
+            <p class="readmore"><a href="/latest-news/wifia-a-new-source-for-funding-water-infrastructure-projects">Read More &raquo;</a></p>
+          </li>
+          
+          <li> <a href="/latest-news/redevelopment-commissions-budgets-and-planning">Redevelopment Commissions: Budgets And Planning</a> <p>The redevelopment statute does not specifically require Redevelopment Commissions to prepare a formal budget (other than budgeting a redevelopment tax&#8230;
+            <p class="readmore"><a href="/latest-news/redevelopment-commissions-budgets-and-planning">Read More &raquo;</a></p>
+          </li>
+          
+        </ul>
+      </div>
+    <div id="text-6" class="widget widget_text">
+      <h2 class="widget-title">Here&#8217;s what others say about why they chose to work with Umbaugh:</h2>
+      <div class="textwidget">
+        <blockquote>
+          <p>The people at Umbaugh are wonderful to work with. They come to meetings and make presentations to the public. They even make suggestions about how they can help you effectively communicate the financial picture.</p>
+        </blockquote>
+        <span class="author">Ken Paust,<br />
+        County Commissioner,<br />
+        Wayne County, Indiana</span></div>
+    </div>
+  </div>
+</div><!-- end .interior-content -->
+</div><!-- end .wrapper -->
+
+{embed='includes/footer'}
+";}

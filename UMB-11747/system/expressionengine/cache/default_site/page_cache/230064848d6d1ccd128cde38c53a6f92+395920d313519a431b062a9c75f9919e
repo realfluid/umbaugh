@@ -1,0 +1,176 @@
+a:3:{s:4:"time";i:1409852904;s:3:"ttl";i:0;s:4:"data";s:9386:"{embed='includes/xhtml' page_title=""}
+
+{embed='includes/header'}
+<div class="home-wrapper">
+<div class="home-content">
+<div class="banner">
+  <ul class="tab-content">
+    <li id="tab1" class="active">
+      <h2>It&#8217;s all about experience</h2>
+      <p class="banner-image"><img width="407" height="320" src="/images/umbaugh1.png" class="attachment-showcase wp-post-image" alt="umbaugh" title="umbaugh" /></p>
+      <p>Umbaugh is one of the largest and most active independent financial advisors to governmental units in the Midwest. Advising cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports isn&#8217;t just a PART of what UMBAUGH does; it is ALL we do. We offer a depth of experience you won&#8217;t find elsewhere.</p>
+      <p class="links"><a href="{site_url}services" class="more">View All Services »</a></p>
+    </li>
+    <li id="tab2" >
+      <h2>Local Government</h2>
+      <p class="banner-image"><img width="407" height="320" src="/images/local-government.png" class="attachment-showcase wp-post-image" alt="local-government" title="local-government" /></p>
+      <p>UMBAUGH applies its broad understanding of how local government works to help community leaders resolve financial issues as they work to improve the quality of life in their communities.</p>
+      <p class="links"><a href="{site_url}services/government" class="more">View Local Government »</a></p>
+    </li>
+    <li id="tab3" >
+      <h2>Utilities</h2>
+      <p class="banner-image"><img width="407" height="320" src="/images/utilities.png" class="attachment-showcase wp-post-image" alt="utilities" title="utilities" /></p>
+      <p>UMBAUGH serves the unique financial needs of municipal utilities, including sanitary, wastewater, gas, electric, storm water and telecom service — and now even wind generation.</p>
+      <p class="links"><a href="{site_url}services/utilities" class="more">View Utilities »</a></p>
+    </li>
+    <li id="tab4" >
+      <h2>Economic Development</h2>
+      <p class="banner-image"><img width="407" height="320" src="/images/farm.png" class="attachment-showcase wp-post-image" alt="farm" title="farm" /></p>
+      <p>UMBAUGH helps communities develop customized economic packages to generate income and jobs — and protect their investments.</p>
+      <p class="links"><a href="{site_url}services/development" class="more">View Economic Development »</a></p>
+    </li>
+    <li id="tab5" >
+      <h2>Schools</h2>
+      <p class="banner-image"><img width="407" height="320" src="/images/school.png" class="attachment-showcase wp-post-image" alt="school" title="school" /></p>
+      <p>UMBAUGH serves as the independent financial advisor to school districts of all sizes. We guide them through the process of determining the best financial solutions for meeting the fiscal challenges they are facing — both in terms of capital improvements and operational needs.</p>
+      <p class="links"><a href="{site_url}services/schools" class="more">View Schools »</a></p>
+    </li>
+    <li id="tab6" >
+      <h2>Libraries</h2>
+      <p class="banner-image"><img width="407" height="320" src="/images/library.png" class="attachment-showcase wp-post-image" alt="library" title="library" /></p>
+      <p>UMBAUGH serves as financial advisor for a number of libraries — particularly for bond issues and projections of property tax revenue.</p>
+      <p class="links"><a href="{site_url}services/libraries" class="more">View Libraries »</a></p>
+    </li>
+  </ul>
+</div>
+<div class="banner-tab-labels">
+  <ul>
+    <li class="first active"><a href="#tab1" class="banner-tab-label">Umbaugh</a></li>
+    <li ><a href="#tab2" class="banner-tab-label">Local Government</a></li>
+    <li ><a href="#tab3" class="banner-tab-label">Utilities</a></li>
+    <li ><a href="#tab4" class="banner-tab-label">Economic Development</a></li>
+    <li ><a href="#tab5" class="banner-tab-label">Schools</a></li>
+    <li ><a href="#tab6" class="banner-tab-label">Libraries</a></li>
+  </ul>
+</div>
+<!-- end DIV .banner-tab-labels -->
+
+
+  
+  <div class="content">
+    <div>
+      <div class="three-columns">
+        <div class="column-one column">
+          <h2><a href="/services/our-library/">Our Library</a></h2>
+          
+          <!--start of first column-->
+          
+          <ul class="links pdf">
+            
+            <li>
+              <p><a href="http://www.umbaugh.com/uploads/2012-IACT-Budget-Workshops.pdf">2012 IACT Budget Workshops</a><br />
+              </p>
+            </li>
+            
+            <li>
+              <p><a href="http://www.umbaugh.com/uploads/What_Does_the_State_Overpayment_of_Local_Income_Taxes_Mean_to_Local_Governments.pdf">What Does the State Overpayment of Local Income Taxes Mean to Local Governments</a><br />
+              </p>
+            </li>
+            
+            <li>
+              <p><a href="http://www.umbaugh.com/uploads/Revenue_Sources_Debt_Financing_secured.pdf">Revenue Sources and Debt Financing Jan 2011</a><br />
+              </p>
+            </li>
+            
+            <li>
+              <p><a href="http://www.umbaugh.com/uploads/Michigan_Library_Assoc_2010.pdf">Michigan Library Association 2010 Annual Conference</a><br />
+              </p>
+            </li>
+            
+            <li>
+              <p><a href="http://www.umbaugh.com/uploads/How_to_Finance-Refinance_Library_Construction.pdf">How to Finance/Refinance Library Construction</a><br />
+              </p>
+            </li>
+            
+          </ul>
+          <p class="links"><a href="/services/our-library">Read More of Our Library »</a></p>
+        </div>
+        <!--end of first column--> 
+        
+        <!--start of second column-->
+        
+        <div class="column-two column">
+          <h2><a href="/services/our-experience/">Our Experience</a></h2>
+          <ul class="links">
+            
+            <li>
+              <p><a href="{site_url}services/our-experience/winning-a-honda-plant-for-decatur-county">Winning a Honda Plant for Decatur County</a><br />
+              </p>
+            </li>
+            
+            <li>
+              <p><a href="{site_url}services/our-experience/umbaugh-advises-indianapolis-public-schools-on-indianas-largest-school-cons">Umbaugh Advises Indianapolis Public Schools on Indiana’s Largest School Construction Program</a><br />
+              </p>
+            </li>
+            
+            <li>
+              <p><a href="{site_url}services/our-experience/mishawaka-sewage-works-finding-a-solution-that-works-environmentally-and-fi">Mishawaka Sewage Works – Finding A Solution That Works Environmentally And Financially</a><br />
+              </p>
+            </li>
+            
+            <li>
+              <p><a href="{site_url}services/our-experience/allen-county-public-library-renovation-and-expansion">Allen County Public Library Renovation and Expansion</a><br />
+              </p>
+            </li>
+            
+            <li>
+              <p><a href="{site_url}services/our-experience/a-financial-road-map-for-wayne-county-in">A Financial Road Map for Wayne County, IN</a><br />
+              </p>
+            </li>
+            
+          </ul>
+          <p class="links"><a href="/services/our-experience">Read More of Our Experience »</a></p>
+        </div>
+        <!--end of second column-->
+        
+        <div class="column-three column">
+          <h2><a href="/latest-news/">Latest News</a></h2>
+          <ul>
+            
+            <li>
+              <h3><a href="/latest-news/wifia-a-new-source-for-funding-water-infrastructure-projects">WIFIA: A New Source for Funding Water Infrastructure Projects</a></h3>
+              <p>​Many utilities are looking for ways to fund water infrastructure&#8230;
+              <p class="readmore"><a href="/latest-news/wifia-a-new-source-for-funding-water-infrastructure-projects">Read More &raquo;</a></p>
+            </li>
+            
+            <li>
+              <h3><a href="/latest-news/redevelopment-commissions-budgets-and-planning">Redevelopment Commissions: Budgets And Planning</a></h3>
+              <p>The redevelopment statute does not specifically require Redevelopment Commissions to&#8230;
+              <p class="readmore"><a href="/latest-news/redevelopment-commissions-budgets-and-planning">Read More &raquo;</a></p>
+            </li>
+            
+            <li>
+              <h3><a href="/latest-news/its-convention-season-in-indiana">It’s Convention Season in Indiana!</a></h3>
+              <p>Umbaugh professionals are gearing up to attend a variety of&#8230;
+              <p class="readmore"><a href="/latest-news/its-convention-season-in-indiana">Read More &raquo;</a></p>
+            </li>
+            
+          </ul>
+        </div>
+        <!-- end thrid column --> 
+        
+      </div>
+      <!-- end three columns -->
+      <div id="wide-callout">
+        <h2>Cash Advisory Services</h2>
+        <p><a href="http://cashadvisory.umbaugh.com" target="_blank">Umbaugh Cash Advisory Services, LLC</a> was developed as an independent business entity to help create<br />
+          structured investment programs for our client's bond proceeds and operating funds.</p>
+      </div>
+      <!-- end #wide-callout --> 
+    </div>
+  </div>
+  <!-- end .content --> 
+</div><!-- .home-content --> 
+</div><!-- .home-wrapper --> 
+
+{embed='includes/footer'}";}

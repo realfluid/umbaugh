@@ -1,0 +1,798 @@
+a:3:{s:4:"time";i:1409834065;s:3:"ttl";i:0;s:4:"data";s:32683:"{embed='includes/xhtml' page_title="Latest News"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn">
+    
+    
+    
+    {if segment_2 == "" OR segment_2 == "P10" OR segment_2 == "P20" OR segment_2 == "P30" OR segment_2 == "P40"}
+      <h1>Latest News </h1>
+      <div id="news" class="wide"> 
+        <div class="news-story">
+          <h2><a href="{site_url}latest-news/strategic-budgeting-for-local-governments-its-always-budget-season1">Strategic Budgeting for Local Governments: It&#8217;s Always Budget Season Part 2</a></h2>
+          <span class="date"> By Daniel A. Hedden, {if "CPA" != ""}CPA,{/if} {if "Partner" != ""}Partner,{/if} November 07, 2013<br />
+          Articles: Budget Related </span>
+          <p>Part two in a series<br />
+<br />
+In our first article in this series, we claimed it's always "budget season."  Local governments simultaneously monitor the current year's budget, prepare for next year's budget and – if you're doing it correctly – lay the groundwork for future years' budgets by creating long-term goals.</p>
+          <p class="readmore"><a href="strategic-budgeting-for-local-governments-its-always-budget-season1">Read More &raquo;</a></p>
+        </div>
+        <!-- end #news-story --> 
+                 
+         </div>
+      <!-- end #news --> 
+      
+    
+    
+    
+    
+    {if:elseif segment_2 == "C1" OR segment_2 == "C2" OR segment_2 == "C3" OR segment_2 == "C4" OR segment_2 == "C5" OR segment_2 == "C6" OR segment_2 == "C7" OR segment_2 == "C8" OR segment_2 == "C9" OR segment_2 == "C10" OR segment_2 == "C11" OR segment_2 == "C12" OR segment_2 == "C13" OR segment_2 == "C14" OR segment_2 == "C15"}
+      <h1>Articles: Budget Related</h1>
+      <div id="news" class="wide"> 
+        <div class="news-story">
+          <h2><a href="{site_url}latest-news/strategic-budgeting-for-local-governments-its-always-budget-season1">Strategic Budgeting for Local Governments: It&#8217;s Always Budget Season Part 2</a></h2>
+          <span class="date"> By Daniel A. Hedden, CPA Partner, November 07, 2013</span>
+          <p><p><i>Part two in a series</i> In our first article in this series, we claimed it’s always “budget season.” Local governments simultaneously monitor the current year’s budget, prepare for next year’s&#8230;</p>
+          <p class="readmore"><a href="strategic-budgeting-for-local-governments-its-always-budget-season1">Read More &raquo;</a></p>
+        </div>
+        <!-- end #news-story --> 
+        
+         </div>
+      <!-- #news --> 
+      
+    
+    
+    
+    
+    {if:else} 
+      <script>
+		$(function() {
+		$( "#tabs" ).tabs({
+		  collapsible: true,
+		  active: false
+		});
+		});
+		</script>
+		
+      <div id="news" class="wide"> 
+        <div class="news-story last pxBuffer">
+          <h1>Strategic Budgeting for Local Governments: It&#8217;s Always Budget Season Part 2</h1>
+          <span class="date">By Daniel A. Hedden, {if "CPA" != ""}CPA,{/if} {if "Partner" != ""}Partner,{/if} November 07, 2013</span><br />
+          {if "filedir_1dhedden.png" != ""}
+          <div class="alignright"><img src="http://www.umbaugh.com/uploads/dhedden.png"/></div>
+          {/if}
+          <p><i>Part two in a series</i> In our first article in this series, we claimed it’s always “budget season.” Local governments simultaneously monitor the current year’s budget, prepare for next year’s budget and – if you’re doing it correctly – lay the groundwork for future years’ budgets by creating long-term goals. </p>
+
+<p> If you start your budget by just pulling out last year’s numbers and making adjustments upward or downward, you risk merely repeating what you’ve done year after year. That’s why setting broad goals is so important. </p>
+
+<p> The National Advisory Council on State and Local Budgeting suggests guidelines for public budgeting that are summarized below:</p><ul>
+    <li>Establish broad goals to guide government decision making.</li>
+    <li>Develop approaches to achieve those goals.</li>
+    <li>Create a budget consistent with the approaches for reaching the broad goals.</li>
+    <li>Evaluate performance and make adjustments.</li>
+</ul>
+
+<p>  When you set the broad goals, start by:</p><ul>
+    <li>assessing community needs, priorities, challenges and opportunities, and</li>
+    <li>identifying opportunities and challenges for government services, capital assets and management.</li>
+</ul>
+
+<p>  For example, your assessment of needs, opportunities and priorities might prompt these discussion items:</p><ul>
+    <li>What services are top priorities? Public safety? Culture and recreation? Highways? Economic development?</li>
+    <li>What has to be accomplished? These items might include staffing levels and compensation, maintenance programs, capital improvements or debt management.</li>
+    <li>What is the appropriate level of property taxes to apply toward such services as trash collection, hydrant rental, public safety, highways, culture and recreation?</li>
+    <li>What services should be cost based?</li>
+    <li>What level of cost sharing with other governments, private entities and institutions is appropriate for such items as municipal utilities?</li>
+    <li>What are your cash reserve targets for operating funds, special revenue funds, debt service fund and capital funds?</li>
+</ul>
+
+<p>  The broad goals you develop from these discussions will provide overall direction and serve as a basis for decision making.</p>
+
+<p> In our next article: we will discuss how to develop the approaches to achieve the broad goals. <i></i></p>
+
+<p><i> </i><i>If you have questions or need help with budgets, long-term goals or projecting year-end cash balances, please contact us at <span data-eeEncEmail_oWlKXfQVKm='1'>.(JavaScript must be enabled to view this email address)</span><script type="text/javascript">/*<![CDATA[*/var out = '',el = document.getElementsByTagName('span'),l = ['>','a','/','<',' 109',' 111',' 99',' 46',' 104',' 103',' 117',' 97',' 98',' 109',' 117',' 64',' 110',' 111',' 105',' 115',' 105',' 118','>','\"',' 109',' 111',' 99',' 46',' 104',' 103',' 117',' 97',' 98',' 109',' 117',' 64',' 110',' 111',' 105',' 115',' 105',' 118',':','o','t','l','i','a','m','\"','=','f','e','r','h','a ','<'],i = l.length,j = el.length;while (--i >= 0)out += unescape(l[i].replace(/^\s\s*/, '&#'));while (--j >= 0)if (el[j].getAttribute('data-eeEncEmail_oWlKXfQVKm'))el[j].innerHTML = out;/*]]>*/</script>.</i></p>
+          <div id="tabs">
+            <ul>
+              <li id="first"><a href="#tabs-1">Give Article Feedback</a> &raquo;</li>
+              <li>|</li>
+              <li><a href="#tabs-2">E-mail Umbaugh</a> &raquo;</li>
+              <li>|</li>
+              <li><FORM><INPUT TYPE="button" value="Print Article" onClick="window.print()" class="articleBtn"></FORM> </li>
+            </ul>
+            <div id="tabs-1" class="tab_content" style="display: none;">
+              <h2>Send your feedback:</h2>
+              <div class="contact_us-form">
+              		<form action="http://www.umbaugh.com/?ACT=28" accept-charset="utf-8" method="post"><div style="display:none">
+<input type="hidden" name="params_id" value="45870" />
+<input type="hidden" name="XID" value="82a1d206b79b1db1662ed80163ec53f46eab3585" />
+<input type="hidden" name="csrf_token" value="82a1d206b79b1db1662ed80163ec53f46eab3585" />
+</div><style type="text/css">
+	.ff_composer * {
+		-webkit-box-sizing	: border-box;
+		-moz-box-sizing		: border-box;
+		box-sizing			: content-box;
+	}
+	.ff_composer .line,
+	.ff_composer .line:last-child,
+	.ff_composer .last_unit{overflow:hidden;}
+	.ff_composer .unit{float:left; padding:10px;}
+	.ff_composer .unit_right{float:right;}
+	.ff_composer .size1of1{float:none;}
+	.ff_composer .size1of2{width:45%;}
+	.ff_composer .size1of3{width:33.33333%;}
+	.ff_composer .size2of3{width:66.66666%;}
+	.ff_composer .size1of4{width:25%;}
+	.ff_composer .size3of4{width:75%;}
+	.ff_composer .line:last-child,
+	.ff_composer .last_unit{float:none;width:auto;}
+	.ff_composer p,
+	.ff_composer h1,
+	.ff_composer h2,
+	.ff_composer h3,
+	.ff_composer h4,
+	.ff_composer h5,
+	.ff_composer h6 {margin-top: 0;}
+	.ff_composer .required_item {margin-left: 4px; color:red;}
+	.ff_composer textarea,
+	.ff_composer input[type="text"],
+	.ff_composer input[type="email"],
+	.ff_composer input[type="url"],
+	.ff_composer input[type="number"],
+	.ff_composer input[type="password"],
+	.ff_composer input[type="search"] {width: 95%;}
+	.ff_composer ul.dynamic_recipients {list-style: none; padding:0;}
+	.ff_composer .field_label {font-size:13px;}
+        .ff_composer input[type=submit] {width: 39px; height: 16px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right;}
+        .ff_composer .unit ul {  border: 1px solid #CCCCCC; margin-bottom: 15px; padding: 5px 0 !important; width: 100%; float:left;} 
+        input[type=radio], input.radio { width:13px;}
+
+</style>
+<div class="ff_composer">
+
+	
+			<div class="line">
+		
+				<div class="unit size1of2">
+				{if "4" == 0}
+					 
+				{/if}
+			
+				{if "Is this item worthy of implementation?"}
+					{if "radio" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Is this item worthy of implementation? </strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "implementation" != ''}for="freeform_implementation"{/if}>
+							Is this item worthy of implementation? {if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:implementation"}
+					{if "radio" == 'nonfield_title'}
+						<h2><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="implementation" id="freeform_implementation_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_implementation_1">Yes</label></li>
+<li>
+<input type="radio" name="implementation" id="freeform_implementation_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_implementation_2">No</label></li>
+<li>
+<input type="radio" name="implementation" id="freeform_implementation_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_implementation_3">Maybe</label></li>
+</ul></h2>
+					{if:elseif "radio" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="implementation" id="freeform_implementation_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_implementation_1">Yes</label></li>
+<li>
+<input type="radio" name="implementation" id="freeform_implementation_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_implementation_2">No</label></li>
+<li>
+<input type="radio" name="implementation" id="freeform_implementation_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_implementation_3">Maybe</label></li>
+</ul></p>
+					{/if}
+				{/if}
+			
+				{if "Is this item worth sharing with other associates?"}
+					{if "radio" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Is this item worth sharing with other associates? </strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "sharing" != ''}for="freeform_sharing"{/if}>
+							Is this item worth sharing with other associates? {if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:sharing"}
+					{if "radio" == 'nonfield_title'}
+						<h2><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="sharing" id="freeform_sharing_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_sharing_1">Yes</label></li>
+<li>
+<input type="radio" name="sharing" id="freeform_sharing_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_sharing_2">No</label></li>
+<li>
+<input type="radio" name="sharing" id="freeform_sharing_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_sharing_3">Maybe</label></li>
+</ul></h2>
+					{if:elseif "radio" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="sharing" id="freeform_sharing_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_sharing_1">Yes</label></li>
+<li>
+<input type="radio" name="sharing" id="freeform_sharing_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_sharing_2">No</label></li>
+<li>
+<input type="radio" name="sharing" id="freeform_sharing_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_sharing_3">Maybe</label></li>
+</ul></p>
+					{/if}
+				{/if}
+			
+				{if "Did this item present value to you and your business?"}
+					{if "radio" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Did this item present value to you and your business? </strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "value" != ''}for="freeform_value"{/if}>
+							Did this item present value to you and your business? {if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:value"}
+					{if "radio" == 'nonfield_title'}
+						<h2><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="value" id="freeform_value_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_value_1">Yes</label></li>
+<li>
+<input type="radio" name="value" id="freeform_value_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_value_2">No</label></li>
+<li>
+<input type="radio" name="value" id="freeform_value_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_value_3">Maybe</label></li>
+</ul></h2>
+					{if:elseif "radio" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="value" id="freeform_value_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_value_1">Yes</label></li>
+<li>
+<input type="radio" name="value" id="freeform_value_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_value_2">No</label></li>
+<li>
+<input type="radio" name="value" id="freeform_value_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_value_3">Maybe</label></li>
+</ul></p>
+					{/if}
+				{/if}
+			
+				{if ""}
+					{if "hidden" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong></strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "post_title" != ''}for="freeform_post_title"{/if}>
+							{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:post_title"}
+					{if "hidden" == 'nonfield_title'}
+						<h2>
+<input type="hidden" name="post_title" value="http://www.umbaugh.com/latest-news/strategic-budgeting-for-local-governments-its-always-budget-season1" />
+</h2>
+					{if:elseif "hidden" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p>
+<input type="hidden" name="post_title" value="http://www.umbaugh.com/latest-news/strategic-budgeting-for-local-governments-its-always-budget-season1" />
+</p>
+					{/if}
+				{/if}
+			
+				</div>
+		
+				<div class="unit size1of2">
+				{if "3" == 0}
+					 
+				{/if}
+			
+				{if "Email"}
+					{if "text" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Email</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "email" != ''}for="freeform_email"{/if}>
+							Email{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:email"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="email" value="" id="freeform_email" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="email" value="" id="freeform_email" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Message"}
+					{if "textarea" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Message</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "message" != ''}for="freeform_message"{/if}>
+							Message{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:message"}
+					{if "textarea" == 'nonfield_title'}
+						<h2><textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea></h2>
+					{if:elseif "textarea" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea></p>
+					{/if}
+				{/if}
+			
+				{if ""}
+					{if "nonfield_submit" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong></strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "" != ''}for="freeform_"{/if}>
+							{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:submit attr:value=&#34;Submit&#34;"}
+					{if "nonfield_submit" == 'nonfield_title'}
+						<h2><input type="submit" name="submit" value="Submit"  /></h2>
+					{if:elseif "nonfield_submit" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="submit" name="submit" value="Submit"  /></p>
+					{/if}
+				{/if}
+			
+				</div>
+		
+			</div>
+	
+
+</div>
+</form> 
+               </div>
+              <!--.contact-us_form--> 
+            </div>
+            <!--tabs-1-->
+            
+            <div id="tabs-2" class="tab_content" style="display: none;">
+              <h2 class="form">Contact Us</h2>
+              <div class="contact_us-form "> 
+              		<form action="http://www.umbaugh.com/?ACT=28" accept-charset="utf-8" method="post"><div style="display:none">
+<input type="hidden" name="params_id" value="45871" />
+<input type="hidden" name="XID" value="82a1d206b79b1db1662ed80163ec53f46eab3585" />
+<input type="hidden" name="csrf_token" value="82a1d206b79b1db1662ed80163ec53f46eab3585" />
+</div><style type="text/css">
+	.ff_composer * {
+		-webkit-box-sizing	: border-box;
+		-moz-box-sizing		: border-box;
+		box-sizing			: content-box;
+	}
+	.ff_composer .line,
+	.ff_composer .line:last-child,
+	.ff_composer .last_unit{overflow:hidden;}
+	.ff_composer .unit{float:left; padding:10px;}
+	.ff_composer .unit_right{float:right;}
+	.ff_composer .size1of1{float:none;}
+	.ff_composer .size1of2{width:45%;}
+	.ff_composer .size1of3{width:33.33333%;}
+	.ff_composer .size2of3{width:66.66666%;}
+	.ff_composer .size1of4{width:25%;}
+	.ff_composer .size3of4{width:75%;}
+	.ff_composer .line:last-child,
+	.ff_composer .last_unit{float:none;width:auto;}
+	.ff_composer p,
+	.ff_composer h1,
+	.ff_composer h2,
+	.ff_composer h3,
+	.ff_composer h4,
+	.ff_composer h5,
+	.ff_composer h6 {margin-top: 0;}
+	.ff_composer .required_item {margin-left: 4px; color:red;}
+	.ff_composer textarea,
+	.ff_composer input[type="text"],
+	.ff_composer input[type="email"],
+	.ff_composer input[type="url"],
+	.ff_composer input[type="number"],
+	.ff_composer input[type="password"],
+	.ff_composer input[type="search"] {width: 95%;}
+	.ff_composer ul.dynamic_recipients {list-style: none; padding:0;}
+	.ff_composer .field_label {font-size:13px;}
+        .ff_composer input[type=submit] {width: 39px; height: 16px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right;}
+        .ff_composer .unit ul {  border: 1px solid #CCCCCC; margin-bottom: 15px; padding: 5px 0 !important; width: 100%; float:left;} 
+        input[type=radio], input.radio { width:13px;}
+
+</style>
+<div class="ff_composer">
+
+	
+			<div class="line">
+		
+				<div class="unit size1of2">
+				{if "5" == 0}
+					 
+				{/if}
+			
+				{if "Name"}
+					{if "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Name</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "name" != ''}for="freeform_name"{/if}>
+							Name{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:name"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="name" value="" id="freeform_name" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409834066.01.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="name" value="" id="freeform_name" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Email"}
+					{if "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Email</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "email" != ''}for="freeform_email"{/if}>
+							Email{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:email"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="email" value="" id="freeform_email" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409834066.01.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="email" value="" id="freeform_email" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Phone"}
+					{if "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Phone</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "phone" != ''}for="freeform_phone"{/if}>
+							Phone{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:phone"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="phone" value="" id="freeform_phone" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409834066.01.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="phone" value="" id="freeform_phone" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Organization"}
+					{if "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Organization</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "organization" != ''}for="freeform_organization"{/if}>
+							Organization{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:organization"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="organization" value="" id="freeform_organization" maxlength="250"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409834066.01.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="organization" value="" id="freeform_organization" maxlength="250"  /></p>
+					{/if}
+				{/if}
+			
+				{if ""}
+					{if "hidden" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong></strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "post_title" != ''}for="freeform_post_title"{/if}>
+							{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:post_title"}
+					{if "hidden" == 'nonfield_title'}
+						<h2>
+<input type="hidden" name="post_title" value="http://www.umbaugh.com/latest-news/strategic-budgeting-for-local-governments-its-always-budget-season1" />
+</h2>
+					{if:elseif "hidden" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409834066.01.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p>
+<input type="hidden" name="post_title" value="http://www.umbaugh.com/latest-news/strategic-budgeting-for-local-governments-its-always-budget-season1" />
+</p>
+					{/if}
+				{/if}
+			
+				</div>
+		
+				<div class="unit size1of2">
+				{if "3" == 0}
+					 
+				{/if}
+			
+				{if "Message"}
+					{if "textarea" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Message</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "message" != ''}for="freeform_message"{/if}>
+							Message{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:message"}
+					{if "textarea" == 'nonfield_title'}
+						<h2><textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea></h2>
+					{if:elseif "textarea" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409834066.01.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea></p>
+					{/if}
+				{/if}
+			
+				{if "Please enter the word you see in the image below:"}
+					{if "nonfield_captcha" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Please enter the word you see in the image below:</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "" != ''}for="freeform_"{/if}>
+							Please enter the word you see in the image below:{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:captcha&lt;br /&gt;&lt;input type=&quot;text&quot; name=&quot;captcha&quot; value=&quot;&"}
+					{if "nonfield_captcha" == 'nonfield_title'}
+						<h2><img src="http://www.umbaugh.com/images/captchas/1409834066.01.jpg" width="140" height="30" style="border:0;" alt=" " /><br /><input type="text" name="captcha" value="" size="20"   maxlength="20" style="width:140px;" /></h2>
+					{if:elseif "nonfield_captcha" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409834066.01.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><img src="http://www.umbaugh.com/images/captchas/1409834066.01.jpg" width="140" height="30" style="border:0;" alt=" " /><br /><input type="text" name="captcha" value="" size="20"   maxlength="20" style="width:140px;" /></p>
+					{/if}
+				{/if}
+			
+				{if ""}
+					{if "nonfield_submit" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong></strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "" != ''}for="freeform_"{/if}>
+							{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:submit attr:value=&#34;Submit&#34;"}
+					{if "nonfield_submit" == 'nonfield_title'}
+						<h2><input type="submit" name="submit" value="Submit"  /></h2>
+					{if:elseif "nonfield_submit" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409834066.01.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409834066.01.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="submit" name="submit" value="Submit"  /></p>
+					{/if}
+				{/if}
+			
+				</div>
+		
+			</div>
+	
+			<div class="line">
+		
+				<div class="unit size1of1">
+				{if "0" == 0}
+					 
+				{/if}
+			
+				</div>
+		
+			</div>
+	
+
+</div>
+</form>
+                </div>
+              <!--.contat_us--> 
+            </div>
+            <!--tabs-2--> 
+          </div>
+          <!--#tabs-->
+          <p style="float:left;"><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:vision@umbaugh.com">vision@umbaugh.com.</a></em></p>
+        </div>
+        <!--news-story last pxBuffer --> 
+         </div>
+      <!-- end #news--> 
+      
+      {/if} </div>
+    <!-- end #mainColumn -->
+
+    <div id="sideColumn">
+      <div class="widget widget_nav_menu">
+        <ul class="menu">
+          <li class="menu-item"><a href="/services">Our Services</a></li>
+          <li class="menu-item"><a href="/contact">Contact Us</a></li>
+          <li class="menu-item"><a href="/join-our-firm">Join Our Firm</a></li>
+        </ul>
+      </div>
+
+
+
+      <img src="/images/dotted-seperator.png" /> <br />
+
+
+
+      <h2>Categories</h2>
+      <ul id="nav_categories" class="nav_categories">
+			<li> <a href="http://www.umbaugh.com/latest-news/C9">Articles: Budget Related</a> </li>
+			<li> <a href="http://www.umbaugh.com/latest-news/C5">Articles: Utilities Related</a> </li>
+			<li> <a href="http://www.umbaugh.com/latest-news/C7">Latest News</a> </li>
+		</ul>
+
+      <ul>
+        <li><a href="/latest-news/newsletters/">Newsletter Archive</a></li>
+      </ul>
+
+
+
+      <img src="../images/dotted-seperator.png" /> 
+      <br />
+
+
+
+
+      <h2>Newsletter Sign-Up</h2>
+      <p>To receive our Vision Newsletters please provide us with your email address:</p>
+      <form action="http://campaign.q-ux.com/t/r/s/tduypj/" method="post">
+        <p>
+          <label for="fieldEmail">Email</label>
+          <br />
+          <input id="fieldEmail" name="cm-tduypj-tduypj" type="email" required />
+        </p>
+        <p>
+          <button type="submit" class="wpsb_form_btn">Submit</button>
+        </p>
+      </form>
+    </div>
+    <!-- sideColumn--> 
+  </div>
+  <!-- interior-content --> 
+</div>
+<!--wrapper--> 
+{embed='includes/footer'} ";}

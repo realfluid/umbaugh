@@ -1,0 +1,130 @@
+a:3:{s:4:"time";i:1409838724;s:3:"ttl";i:0;s:4:"data";s:6617:"{embed='includes/xhtml' page_title="Newsletters"}
+
+{embed='includes/header'}
+
+<div class="wrapper">
+	<div class="interior-content">
+        <div id="mainColumn" class="wide">
+		<h1>Newsletters</h1>
+            
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/september-03-2014-newsletter-indiana">September-03-2014 Newsletter (Indiana)</a></h2>
+                
+                    <p>WIFIA: A New Source for Funding Water Infrastructure Projects &mdash; ​Many utilities are looking for ways to fund water infrastructure projects. The federal government is working on a program to increase and assist with funding water infrastructure projects in the form of the Water Infrastructure Finance and Innovation Act (WIFIA).&#8230;</p>
+                
+                    <p>Redevelopment Commissions: Budgets And Planning &mdash; The redevelopment statute does not specifically require Redevelopment Commissions to prepare a formal budget (other than budgeting a redevelopment tax levy, when applicable). However, SEA 118 gave the legislative body (Council) new oversight over Redevelopment Commissions, specifically “review” of the&#8230;</p>
+                
+			</div><!--end .news-story -->
+
+
+	 
+
+
+
+            
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/august-27-2014-newsletter-indiana">August-27-2014 Newsletter (Indiana)</a></h2>
+                
+                    <p>It’s Convention Season in Indiana! &mdash; Umbaugh professionals are gearing up to attend a variety of conferences. We hope to see you there, too.
+
+  Please look for us and say hello. We always look forward to spending time with our friends from across Indiana. Here’s&#8230;</p>
+                
+			</div><!--end .news-story -->
+
+
+	 
+
+
+
+            
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/august-20-2014-newsletter-indiana">August-20-2014 Newsletter (Indiana)</a></h2>
+                
+                    <p>Can Utilities Give Their Municipality Money? &mdash; Municipalities, like everyone else, occasionally find themselves short of money. When that occurs we are often asked if municipally owned utilities may to give money to their municipality’s General Fund. 
+
+  When funds are needed for a short-term&#8230;</p>
+                
+                    <p>Creating a School District Budget When Your Revenue is Unknown &mdash; Creating the annual school district budget has always been a complex task, but it’s even more difficult now because revenues are so uncertain. Choose your analogy: throwing darts at a dartboard, working while blindfolded, shooting in the dark – they&#8230;</p>
+                
+			</div><!--end .news-story -->
+
+
+	 
+
+
+
+            
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/august-8-2014-newsletter-indiana">August-8-2014 Newsletter (Indiana)</a></h2>
+                
+                    <p>How to Reallocate Circuit Breaker Credits &mdash; Due to Indiana’s implementation of “protected taxes,” a law passed in 2013 authorized reallocating circuit breaker credits beginning in 2014. Protected taxes are levies for debt service and include debt that is both exempt and non-exempt from the circuit breaker&#8230;</p>
+                
+                    <p>Indiana SRF Issues Draft Project Priority Lists &mdash; The Indiana Finance Authority’s State Revolving Fund (SRF) Loan Program provides low-interest loans to Indiana communities for wastewater and drinking water infrastructure projects. On July 17 SRF released draft lists of 23 priority wastewater projects and six priority drinking water&#8230;</p>
+                
+			</div><!--end .news-story -->
+
+
+	 
+
+
+
+            
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/august-4-2014-newsletter-indiana">August-4-2014 Newsletter (Indiana)</a></h2>
+                
+                    <p>SEC Extends MCDC Deadline for Bond Issuers to Report Misstatements &mdash; The Securities and Exchange Commission (SEC) has revised the deadline for bond issuers to self-report instances where the Official Statement used in connection with bond offerings contained materially untrue statements regarding the issuer’s compliance with previous continuing disclosure commitments. This&#8230;</p>
+                
+			</div><!--end .news-story -->
+
+
+	 
+
+
+
+            
+        	<p>Page 1 of 8 pages &nbsp;<strong>1</strong>&nbsp;<a href="http://www.umbaugh.com/latest-news/newsletters/P5">2</a>&nbsp;<a href="http://www.umbaugh.com/latest-news/newsletters/P10">3</a>&nbsp;<a href="http://www.umbaugh.com/latest-news/newsletters/P5">&gt;</a>&nbsp;&nbsp;<a href="http://www.umbaugh.com/latest-news/newsletters/P35">Last &rsaquo;</a></p>
+        
+		</div><!-- end mainColumn -->
+        
+        <div id="sideColumn">
+          <div class="widget widget_nav_menu">
+              <ul class="menu">
+                <li class="menu-item"><a href="/services">Our Services</a></li>
+                <li class="menu-item"><a href="/contact">Contact Us</a></li>
+                <li class="menu-item"><a href="/join-our-firm">Join Our Firm</a></li>
+              </ul>
+          </div>
+          <img src="/images/dotted-seperator.png" />
+          <br />
+          <h2>Catagories</h2>
+          <ul id="nav_categories" class="nav_categories">
+			<li> <a href="http://www.umbaugh.com/latest-news/C9">Articles: Budget Related</a> </li>
+			<li> <a href="http://www.umbaugh.com/latest-news/C5">Articles: Utilities Related</a> </li>
+			<li> <a href="http://www.umbaugh.com/latest-news/C7">Latest News</a> </li>
+		</ul>
+
+          <ul><li><a href="/latest-news/newsletters/">Newsletter Archive</a></li></ul>
+          <img src="/images/dotted-seperator.png" />
+          <br />
+          <h2>News Archive</h2>
+          <img src="/images/dotted-seperator.png" />
+          <br />
+          <h2>Newsletter Sign-Up</h2>
+          <p>To receive our Footnotes Newsletters please provide us with your email address:</p>
+          <form action="http://campaign.q-ux.com/t/r/s/tduypj/" method="post">
+            <p>
+              <label for="fieldEmail">Email</label>
+              <br />
+              <input id="fieldEmail" name="cm-tduypj-tduypj" type="email" required />
+            </p>
+            <p>
+              <button type="submit" class="wpsb_form_btn">Submit</button>
+            </p>
+          </form>
+        </div><!-- sideColumn-->
+        
+        
+	</div><!-- interior-content -->
+</div><!--wrapper-->
+
+{embed='includes/footer'}";}

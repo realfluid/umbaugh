@@ -1,0 +1,801 @@
+a:3:{s:4:"time";i:1409833765;s:3:"ttl";i:0;s:4:"data";s:34016:"{embed='includes/xhtml' page_title="Latest News"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn">
+    
+    
+    
+    {if segment_2 == "" OR segment_2 == "P10" OR segment_2 == "P20" OR segment_2 == "P30" OR segment_2 == "P40"}
+      <h1>Latest News </h1>
+      <div id="news" class="wide"> 
+        <div class="news-story">
+          <h2><a href="{site_url}latest-news/annexation-success-story-washington-indiana">Annexation Success Story: Washington, Indiana</a></h2>
+          <span class="date"> By Deen C. Rogers, {if "CPA" != ""}CPA,{/if} {if "Principal" != ""}Principal,{/if} May 28, 2014<br />
+          Latest News </span>
+          <p>Annexation does not have to be massive or daunting. In the best case scenario, the reasons for annexation can be so compelling that all affected parties readily see the benefits.</p>
+          <p class="readmore"><a href="annexation-success-story-washington-indiana">Read More &raquo;</a></p>
+        </div>
+        <!-- end #news-story --> 
+                 
+         </div>
+      <!-- end #news --> 
+      
+    
+    
+    
+    
+    {if:elseif segment_2 == "C1" OR segment_2 == "C2" OR segment_2 == "C3" OR segment_2 == "C4" OR segment_2 == "C5" OR segment_2 == "C6" OR segment_2 == "C7" OR segment_2 == "C8" OR segment_2 == "C9" OR segment_2 == "C10" OR segment_2 == "C11" OR segment_2 == "C12" OR segment_2 == "C13" OR segment_2 == "C14" OR segment_2 == "C15"}
+      <h1>Latest News</h1>
+      <div id="news" class="wide"> 
+        <div class="news-story">
+          <h2><a href="{site_url}latest-news/annexation-success-story-washington-indiana">Annexation Success Story: Washington, Indiana</a></h2>
+          <span class="date"> By Deen C. Rogers, CPA Principal, May 28, 2014</span>
+          <p><p>Annexation does not have to be massive or daunting. In the best case scenario, the reasons for annexation can be so compelling that all affected parties readily see the benefits.&#8230;</p>
+          <p class="readmore"><a href="annexation-success-story-washington-indiana">Read More &raquo;</a></p>
+        </div>
+        <!-- end #news-story --> 
+        
+         </div>
+      <!-- #news --> 
+      
+    
+    
+    
+    
+    {if:else} 
+      <script>
+		$(function() {
+		$( "#tabs" ).tabs({
+		  collapsible: true,
+		  active: false
+		});
+		});
+		</script>
+		
+      <div id="news" class="wide"> 
+        <div class="news-story last pxBuffer">
+          <h1>Annexation Success Story: Washington, Indiana</h1>
+          <span class="date">By Deen C. Rogers, {if "CPA" != ""}CPA,{/if} {if "Principal" != ""}Principal,{/if} May 28, 2014</span><br />
+          {if "filedir_1drodgers.png" != ""}
+          <div class="alignright"><img src="http://www.umbaugh.com/uploads/drodgers.png"/></div>
+          {/if}
+          <p>Annexation does not have to be massive or daunting. In the best case scenario, the reasons for annexation can be so compelling that all affected parties readily see the benefits. </p>
+
+<p>  Washington, Indiana began to explore the possibility of annexing 1,234 acres adjacent to an interchange for the new section of I-69 connecting Evansville and Bloomington in April 2012. The land was about a half-mile east of the then-existing city limits and already included a small industrial park.</p>
+
+<p>  A new interstate exchange inevitably attracts development, and annexing the land would allow the City to have some influence on the zoning and provide for more orderly development according to Washington Mayor Joe Wellman.</p>
+
+<p>  The process began by assembling a professional services team of attorneys, engineers, surveyors and Umbaugh as the financial advisor.</p>
+
+<p>  It helped that most of the annexation was farmland, and the farm owners clearly understood that the availability of municipal services would increase the value of their land. The annexation area also included a few homes, whose owners initially were not as enthusiastic as the farm owners.</p>
+
+<p>  “Although there were some concerns expressed at the public hearings, no one took it to the level of remonstration against the annexation,” said Wellman.</p>
+
+<p>  Wellman credits that to good communication with the homeowners: “We went door to door, talking to homeowners about the advantages of annexation. Umbaugh prepared a parcel-by-parcel analysis of the tax impact. We could show each homeowner how the annexation would affect their taxes, but we also explained what they would gain from the annexation.”</p>
+
+<p>  The annexation resolution was introduced in November 2012. When the 90-day remonstrance period passed with no objections, the annexation was finalized immediately afterward, accomplishing the entire process in less than 12 months.</p>
+
+<p>  In considering the annexation, the City had to weigh both the advantages and the costs.</p>
+
+<p>  “We are implementing the first phase of a three-phase utility improvement program that will take seven to ten years to complete,” said Wellman. “The first phase includes a new water tower, upgraded mains in the industrial park, and three conduits under I-69 to extend water and sewer service to the other side of the highway in the future.” </p>
+
+<p>  The annexed land has since been zoned for light industrial to commercial development for roadside businesses, and another section could be used for single and multi-family residential development. “The area that is zoned light industrial will include rail access,” explained Wellman, “as we are working with the railroad and a developer right now to provide rail siding and off-load facilities. This will give businesses both rail and interstate access in one location.” </p>
+
+<p>  Wellman anticipates the annexed land will attract restaurants, retail outlets, gas stations and hotels. Fully developing the new land could take a decade or even longer, but the City is already working on projects that should come to fruition in late 2014 or early 2015.</p>
+
+<p>  Like economic development, interstate highway construction takes time and patience. </p>
+
+<p>  “Believe it or not, I went to my first meeting about the I-69 extension in 1984, so this project has been in the works for 30 years,” Wellman said. “The original intent of the ‘mid-continental’ highway is the ability to travel from Port Huron, Michigan to Laredo, Texas.”</p>
+
+<p>  Washington is a half-way point between Bloomington and Evansville. The I-69 section from Evansville to the Crane Naval Surface Warfare Center opened in November 2012 and already takes 10-15 minutes off the trip to Evansville.</p>
+
+<p>  “The Crane Naval Surface Warfare Center attracts high-tech workers and we’re hoping this easy highway access encourages more of them to become Washington residents,” said Wellman. </p>
+
+<p>  The water tower, to be completed in June 2014, will be visible from the I-69 exchange and clearly marked with the city’s name. Said Wellman, “We’re already on the map. Development of this area will make us a bigger star on the map.”</p>
+
+<p>  If you have questions about how annexation could be beneficial to your area, please contact us at <a href="“mailto:vision@umbaugh.com”"><span data-eeEncEmail_fcprTYhTIr='1'>.(JavaScript must be enabled to view this email address)</span><script type="text/javascript">/*<![CDATA[*/var out = '',el = document.getElementsByTagName('span'),l = ['>','a','/','<',' 109',' 111',' 99',' 46',' 104',' 103',' 117',' 97',' 98',' 109',' 117',' 64',' 110',' 111',' 105',' 115',' 105',' 118','>','\"',' 109',' 111',' 99',' 46',' 104',' 103',' 117',' 97',' 98',' 109',' 117',' 64',' 110',' 111',' 105',' 115',' 105',' 118',':','o','t','l','i','a','m','\"','=','f','e','r','h','a ','<'],i = l.length,j = el.length;while (--i >= 0)out += unescape(l[i].replace(/^\s\s*/, '&#'));while (--j >= 0)if (el[j].getAttribute('data-eeEncEmail_fcprTYhTIr'))el[j].innerHTML = out;/*]]>*/</script></a>.</p>
+          <div id="tabs">
+            <ul>
+              <li id="first"><a href="#tabs-1">Give Article Feedback</a> &raquo;</li>
+              <li>|</li>
+              <li><a href="#tabs-2">E-mail Umbaugh</a> &raquo;</li>
+              <li>|</li>
+              <li><FORM><INPUT TYPE="button" value="Print Article" onClick="window.print()" class="articleBtn"></FORM> </li>
+            </ul>
+            <div id="tabs-1" class="tab_content" style="display: none;">
+              <h2>Send your feedback:</h2>
+              <div class="contact_us-form">
+              		<form action="http://www.umbaugh.com/?ACT=28" accept-charset="utf-8" method="post"><div style="display:none">
+<input type="hidden" name="params_id" value="45810" />
+<input type="hidden" name="XID" value="5d233112f3ad3e604b5c97dd4a9ef7596f3cb1c0" />
+<input type="hidden" name="csrf_token" value="5d233112f3ad3e604b5c97dd4a9ef7596f3cb1c0" />
+</div><style type="text/css">
+	.ff_composer * {
+		-webkit-box-sizing	: border-box;
+		-moz-box-sizing		: border-box;
+		box-sizing			: content-box;
+	}
+	.ff_composer .line,
+	.ff_composer .line:last-child,
+	.ff_composer .last_unit{overflow:hidden;}
+	.ff_composer .unit{float:left; padding:10px;}
+	.ff_composer .unit_right{float:right;}
+	.ff_composer .size1of1{float:none;}
+	.ff_composer .size1of2{width:45%;}
+	.ff_composer .size1of3{width:33.33333%;}
+	.ff_composer .size2of3{width:66.66666%;}
+	.ff_composer .size1of4{width:25%;}
+	.ff_composer .size3of4{width:75%;}
+	.ff_composer .line:last-child,
+	.ff_composer .last_unit{float:none;width:auto;}
+	.ff_composer p,
+	.ff_composer h1,
+	.ff_composer h2,
+	.ff_composer h3,
+	.ff_composer h4,
+	.ff_composer h5,
+	.ff_composer h6 {margin-top: 0;}
+	.ff_composer .required_item {margin-left: 4px; color:red;}
+	.ff_composer textarea,
+	.ff_composer input[type="text"],
+	.ff_composer input[type="email"],
+	.ff_composer input[type="url"],
+	.ff_composer input[type="number"],
+	.ff_composer input[type="password"],
+	.ff_composer input[type="search"] {width: 95%;}
+	.ff_composer ul.dynamic_recipients {list-style: none; padding:0;}
+	.ff_composer .field_label {font-size:13px;}
+        .ff_composer input[type=submit] {width: 39px; height: 16px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right;}
+        .ff_composer .unit ul {  border: 1px solid #CCCCCC; margin-bottom: 15px; padding: 5px 0 !important; width: 100%; float:left;} 
+        input[type=radio], input.radio { width:13px;}
+
+</style>
+<div class="ff_composer">
+
+	
+			<div class="line">
+		
+				<div class="unit size1of2">
+				{if "4" == 0}
+					 
+				{/if}
+			
+				{if "Is this item worthy of implementation?"}
+					{if "radio" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Is this item worthy of implementation? </strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "implementation" != ''}for="freeform_implementation"{/if}>
+							Is this item worthy of implementation? {if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:implementation"}
+					{if "radio" == 'nonfield_title'}
+						<h2><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="implementation" id="freeform_implementation_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_implementation_1">Yes</label></li>
+<li>
+<input type="radio" name="implementation" id="freeform_implementation_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_implementation_2">No</label></li>
+<li>
+<input type="radio" name="implementation" id="freeform_implementation_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_implementation_3">Maybe</label></li>
+</ul></h2>
+					{if:elseif "radio" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="implementation" id="freeform_implementation_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_implementation_1">Yes</label></li>
+<li>
+<input type="radio" name="implementation" id="freeform_implementation_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_implementation_2">No</label></li>
+<li>
+<input type="radio" name="implementation" id="freeform_implementation_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_implementation_3">Maybe</label></li>
+</ul></p>
+					{/if}
+				{/if}
+			
+				{if "Is this item worth sharing with other associates?"}
+					{if "radio" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Is this item worth sharing with other associates? </strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "sharing" != ''}for="freeform_sharing"{/if}>
+							Is this item worth sharing with other associates? {if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:sharing"}
+					{if "radio" == 'nonfield_title'}
+						<h2><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="sharing" id="freeform_sharing_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_sharing_1">Yes</label></li>
+<li>
+<input type="radio" name="sharing" id="freeform_sharing_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_sharing_2">No</label></li>
+<li>
+<input type="radio" name="sharing" id="freeform_sharing_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_sharing_3">Maybe</label></li>
+</ul></h2>
+					{if:elseif "radio" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="sharing" id="freeform_sharing_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_sharing_1">Yes</label></li>
+<li>
+<input type="radio" name="sharing" id="freeform_sharing_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_sharing_2">No</label></li>
+<li>
+<input type="radio" name="sharing" id="freeform_sharing_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_sharing_3">Maybe</label></li>
+</ul></p>
+					{/if}
+				{/if}
+			
+				{if "Did this item present value to you and your business?"}
+					{if "radio" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Did this item present value to you and your business? </strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "value" != ''}for="freeform_value"{/if}>
+							Did this item present value to you and your business? {if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:value"}
+					{if "radio" == 'nonfield_title'}
+						<h2><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="value" id="freeform_value_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_value_1">Yes</label></li>
+<li>
+<input type="radio" name="value" id="freeform_value_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_value_2">No</label></li>
+<li>
+<input type="radio" name="value" id="freeform_value_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_value_3">Maybe</label></li>
+</ul></h2>
+					{if:elseif "radio" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><ul style="list-style:none; padding:0;" ><li>
+<input type="radio" name="value" id="freeform_value_1" value="Yes" />&nbsp;&nbsp;
+<label for="freeform_value_1">Yes</label></li>
+<li>
+<input type="radio" name="value" id="freeform_value_2" value="No" />&nbsp;&nbsp;
+<label for="freeform_value_2">No</label></li>
+<li>
+<input type="radio" name="value" id="freeform_value_3" value="Maybe" />&nbsp;&nbsp;
+<label for="freeform_value_3">Maybe</label></li>
+</ul></p>
+					{/if}
+				{/if}
+			
+				{if ""}
+					{if "hidden" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong></strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "post_title" != ''}for="freeform_post_title"{/if}>
+							{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:post_title"}
+					{if "hidden" == 'nonfield_title'}
+						<h2>
+<input type="hidden" name="post_title" value="http://www.umbaugh.com/latest-news/annexation-success-story-washington-indiana" />
+</h2>
+					{if:elseif "hidden" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p>
+<input type="hidden" name="post_title" value="http://www.umbaugh.com/latest-news/annexation-success-story-washington-indiana" />
+</p>
+					{/if}
+				{/if}
+			
+				</div>
+		
+				<div class="unit size1of2">
+				{if "3" == 0}
+					 
+				{/if}
+			
+				{if "Email"}
+					{if "text" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Email</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "email" != ''}for="freeform_email"{/if}>
+							Email{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:email"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="email" value="" id="freeform_email" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="email" value="" id="freeform_email" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Message"}
+					{if "textarea" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong>Message</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "message" != ''}for="freeform_message"{/if}>
+							Message{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:message"}
+					{if "textarea" == 'nonfield_title'}
+						<h2><textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea></h2>
+					{if:elseif "textarea" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea></p>
+					{/if}
+				{/if}
+			
+				{if ""}
+					{if "nonfield_submit" == 'nonfield_captcha'}
+						{if ""}
+						<p>
+							<strong></strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "" != ''}for="freeform_"{/if}>
+							{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:submit attr:value=&#34;Submit&#34;"}
+					{if "nonfield_submit" == 'nonfield_title'}
+						<h2><input type="submit" name="submit" value="Submit"  /></h2>
+					{if:elseif "nonfield_submit" == 'nonfield_captcha'}
+						{if ""}
+								<br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="submit" name="submit" value="Submit"  /></p>
+					{/if}
+				{/if}
+			
+				</div>
+		
+			</div>
+	
+
+</div>
+</form> 
+               </div>
+              <!--.contact-us_form--> 
+            </div>
+            <!--tabs-1-->
+            
+            <div id="tabs-2" class="tab_content" style="display: none;">
+              <h2 class="form">Contact Us</h2>
+              <div class="contact_us-form "> 
+              		<form action="http://www.umbaugh.com/?ACT=28" accept-charset="utf-8" method="post"><div style="display:none">
+<input type="hidden" name="params_id" value="45811" />
+<input type="hidden" name="XID" value="5d233112f3ad3e604b5c97dd4a9ef7596f3cb1c0" />
+<input type="hidden" name="csrf_token" value="5d233112f3ad3e604b5c97dd4a9ef7596f3cb1c0" />
+</div><style type="text/css">
+	.ff_composer * {
+		-webkit-box-sizing	: border-box;
+		-moz-box-sizing		: border-box;
+		box-sizing			: content-box;
+	}
+	.ff_composer .line,
+	.ff_composer .line:last-child,
+	.ff_composer .last_unit{overflow:hidden;}
+	.ff_composer .unit{float:left; padding:10px;}
+	.ff_composer .unit_right{float:right;}
+	.ff_composer .size1of1{float:none;}
+	.ff_composer .size1of2{width:45%;}
+	.ff_composer .size1of3{width:33.33333%;}
+	.ff_composer .size2of3{width:66.66666%;}
+	.ff_composer .size1of4{width:25%;}
+	.ff_composer .size3of4{width:75%;}
+	.ff_composer .line:last-child,
+	.ff_composer .last_unit{float:none;width:auto;}
+	.ff_composer p,
+	.ff_composer h1,
+	.ff_composer h2,
+	.ff_composer h3,
+	.ff_composer h4,
+	.ff_composer h5,
+	.ff_composer h6 {margin-top: 0;}
+	.ff_composer .required_item {margin-left: 4px; color:red;}
+	.ff_composer textarea,
+	.ff_composer input[type="text"],
+	.ff_composer input[type="email"],
+	.ff_composer input[type="url"],
+	.ff_composer input[type="number"],
+	.ff_composer input[type="password"],
+	.ff_composer input[type="search"] {width: 95%;}
+	.ff_composer ul.dynamic_recipients {list-style: none; padding:0;}
+	.ff_composer .field_label {font-size:13px;}
+        .ff_composer input[type=submit] {width: 39px; height: 16px; background-color: #f1f1f1; border: 1px solid #ccc; font-size: 11px; color: #666; font-weight: bold; float:right;}
+        .ff_composer .unit ul {  border: 1px solid #CCCCCC; margin-bottom: 15px; padding: 5px 0 !important; width: 100%; float:left;} 
+        input[type=radio], input.radio { width:13px;}
+
+</style>
+<div class="ff_composer">
+
+	
+			<div class="line">
+		
+				<div class="unit size1of2">
+				{if "5" == 0}
+					 
+				{/if}
+			
+				{if "Name"}
+					{if "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Name</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "name" != ''}for="freeform_name"{/if}>
+							Name{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:name"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="name" value="" id="freeform_name" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409833765.63.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="name" value="" id="freeform_name" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Email"}
+					{if "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Email</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "email" != ''}for="freeform_email"{/if}>
+							Email{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:email"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="email" value="" id="freeform_email" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409833765.63.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="email" value="" id="freeform_email" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Phone"}
+					{if "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Phone</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "phone" != ''}for="freeform_phone"{/if}>
+							Phone{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:phone"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="phone" value="" id="freeform_phone" maxlength="150"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409833765.63.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="phone" value="" id="freeform_phone" maxlength="150"  /></p>
+					{/if}
+				{/if}
+			
+				{if "Organization"}
+					{if "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Organization</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "organization" != ''}for="freeform_organization"{/if}>
+							Organization{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:organization"}
+					{if "text" == 'nonfield_title'}
+						<h2><input type="text" name="organization" value="" id="freeform_organization" maxlength="250"  /></h2>
+					{if:elseif "text" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409833765.63.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="text" name="organization" value="" id="freeform_organization" maxlength="250"  /></p>
+					{/if}
+				{/if}
+			
+				{if ""}
+					{if "hidden" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong></strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "post_title" != ''}for="freeform_post_title"{/if}>
+							{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:post_title"}
+					{if "hidden" == 'nonfield_title'}
+						<h2>
+<input type="hidden" name="post_title" value="http://www.umbaugh.com/latest-news/annexation-success-story-washington-indiana" />
+</h2>
+					{if:elseif "hidden" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409833765.63.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p>
+<input type="hidden" name="post_title" value="http://www.umbaugh.com/latest-news/annexation-success-story-washington-indiana" />
+</p>
+					{/if}
+				{/if}
+			
+				</div>
+		
+				<div class="unit size1of2">
+				{if "3" == 0}
+					 
+				{/if}
+			
+				{if "Message"}
+					{if "textarea" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Message</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "message" != ''}for="freeform_message"{/if}>
+							Message{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:field:message"}
+					{if "textarea" == 'nonfield_title'}
+						<h2><textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea></h2>
+					{if:elseif "textarea" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409833765.63.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea></p>
+					{/if}
+				{/if}
+			
+				{if "Please enter the word you see in the image below:"}
+					{if "nonfield_captcha" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong>Please enter the word you see in the image below:</strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "" != ''}for="freeform_"{/if}>
+							Please enter the word you see in the image below:{if "1"}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:captcha&lt;br /&gt;&lt;input type=&quot;text&quot; name=&quot;captcha&quot; value=&quot;&"}
+					{if "nonfield_captcha" == 'nonfield_title'}
+						<h2><img src="http://www.umbaugh.com/images/captchas/1409833765.63.jpg" width="140" height="30" style="border:0;" alt=" " /><br /><input type="text" name="captcha" value="" size="20"   maxlength="20" style="width:140px;" /></h2>
+					{if:elseif "nonfield_captcha" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409833765.63.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><img src="http://www.umbaugh.com/images/captchas/1409833765.63.jpg" width="140" height="30" style="border:0;" alt=" " /><br /><input type="text" name="captcha" value="" size="20"   maxlength="20" style="width:140px;" /></p>
+					{/if}
+				{/if}
+			
+				{if ""}
+					{if "nonfield_submit" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+						<p>
+							<strong></strong>
+						</p>
+						{/if}
+					{if:else}
+						<label class="field_label" {if "" != ''}for="freeform_"{/if}>
+							{if ""}<span class="required_item">*</span>{/if}
+						</label>
+					{/if}
+				{/if}
+				{if "freeform:submit attr:value=&#34;Submit&#34;"}
+					{if "nonfield_submit" == 'nonfield_title'}
+						<h2><input type="submit" name="submit" value="Submit"  /></h2>
+					{if:elseif "nonfield_submit" == 'nonfield_captcha'}
+						{if "&lt;img src=&quot;http://www.umbaugh.com/images/captchas/1409833765.63.jpg&quot; width=&quot;140&quo"}
+								<img src="http://www.umbaugh.com/images/captchas/1409833765.63.jpg" width="140" height="30" style="border:0;" alt=" " /><br />
+								<input type="text" name="captcha" value=""
+									   size="20"   maxlength="20" style="width:140px;" />
+						{/if}
+					{if:else}
+						<p><input type="submit" name="submit" value="Submit"  /></p>
+					{/if}
+				{/if}
+			
+				</div>
+		
+			</div>
+	
+			<div class="line">
+		
+				<div class="unit size1of1">
+				{if "0" == 0}
+					 
+				{/if}
+			
+				</div>
+		
+			</div>
+	
+
+</div>
+</form>
+                </div>
+              <!--.contat_us--> 
+            </div>
+            <!--tabs-2--> 
+          </div>
+          <!--#tabs-->
+          <p style="float:left;"><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:vision@umbaugh.com">vision@umbaugh.com.</a></em></p>
+        </div>
+        <!--news-story last pxBuffer --> 
+         </div>
+      <!-- end #news--> 
+      
+      {/if} </div>
+    <!-- end #mainColumn -->
+
+    <div id="sideColumn">
+      <div class="widget widget_nav_menu">
+        <ul class="menu">
+          <li class="menu-item"><a href="/services">Our Services</a></li>
+          <li class="menu-item"><a href="/contact">Contact Us</a></li>
+          <li class="menu-item"><a href="/join-our-firm">Join Our Firm</a></li>
+        </ul>
+      </div>
+
+
+
+      <img src="/images/dotted-seperator.png" /> <br />
+
+
+
+      <h2>Categories</h2>
+      <ul id="nav_categories" class="nav_categories">
+			<li> <a href="http://www.umbaugh.com/latest-news/C9">Articles: Budget Related</a> </li>
+			<li> <a href="http://www.umbaugh.com/latest-news/C5">Articles: Utilities Related</a> </li>
+			<li> <a href="http://www.umbaugh.com/latest-news/C7">Latest News</a> </li>
+		</ul>
+
+      <ul>
+        <li><a href="/latest-news/newsletters/">Newsletter Archive</a></li>
+      </ul>
+
+
+
+      <img src="../images/dotted-seperator.png" /> 
+      <br />
+
+
+
+
+      <h2>Newsletter Sign-Up</h2>
+      <p>To receive our Vision Newsletters please provide us with your email address:</p>
+      <form action="http://campaign.q-ux.com/t/r/s/tduypj/" method="post">
+        <p>
+          <label for="fieldEmail">Email</label>
+          <br />
+          <input id="fieldEmail" name="cm-tduypj-tduypj" type="email" required />
+        </p>
+        <p>
+          <button type="submit" class="wpsb_form_btn">Submit</button>
+        </p>
+      </form>
+    </div>
+    <!-- sideColumn--> 
+  </div>
+  <!-- interior-content --> 
+</div>
+<!--wrapper--> 
+{embed='includes/footer'} ";}

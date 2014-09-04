@@ -1,0 +1,128 @@
+a:3:{s:4:"time";i:1409833553;s:3:"ttl";i:0;s:4:"data";s:5770:"{embed='includes/xhtml' page_title="Newsletters"}
+
+{embed='includes/header'}
+
+<div class="wrapper">
+	<div class="interior-content">
+        <div id="mainColumn" class="wide">
+		<h1>Newsletters</h1>
+            
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/july-30-2014-newsletter-indiana">July-30-2014 Newsletter (Indiana)</a></h2>
+                
+                    <p>Debt Service Cash Reserves Are Reduced Under New Law &mdash; Prior to the passage of HEA1062 in the 2014 Indiana General Assembly session, taxing units could levy property tax sufficient to fund two debt payments in the current budget year plus the first debt payment in the following year. In&#8230;</p>
+                
+                    <p>Tyler K. Blake Earns Promotion to Manager &mdash; Please join us in congratulating Tyler K. Blake, CPA, who was promoted to a client manager at Umbaugh July 1st. Tyler works on a wide range of engagements, with a focus on cities, towns and utility matters. 
+
+  He&#8230;</p>
+                
+			</div><!--end .news-story -->
+
+
+	 
+
+
+
+            
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/july-23-2014-newsletter-indiana">July-23-2014 Newsletter (Indiana)</a></h2>
+                
+                    <p>MCDC: Your Window to Report Bond Issuance Misstatements &mdash; ​This past March, the Securities and Exchange Commission created a “cooperation initiative” called the Municipalities Continuing Disclosure Cooperation (MCDC) Initiative as part of its efforts to improve transparency in the municipal bond markets.
+
+  The program, extended to both issuers&#8230;</p>
+                
+			</div><!--end .news-story -->
+
+
+	 
+
+
+
+            
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/july-9-2014-newsletter-indiana">July-9-2014 Newsletter (Indiana)</a></h2>
+                
+                    <p>What is a Non-Binding Review? &mdash; All taxing units with elected governing bodies (except those located in a county with a consolidated city) are required to submit their budgets to the County Council for non-binding review no later than September 1.
+
+  The budgets of other&#8230;</p>
+                
+			</div><!--end .news-story -->
+
+
+	 
+
+
+
+            
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/june-25-2014-newsletter-indiana">June-25-2014-Newsletter (Indiana)</a></h2>
+                
+                    <p>SEC Rules for Municipal Advisor Registration Become Effective July 1 &mdash; After three years of proposed rule making and one postponement, new Securities and Exchange Commission (SEC) rules go into effect July 1 requiring municipal advisors to be registered. We have followed the development of these rules and reported on them&#8230;</p>
+                
+			</div><!--end .news-story -->
+
+
+	 
+
+
+
+            
+            <div class="news-story">
+				<h2><a href="{site_url}latest-news/newsletter/june-11-2014-newsletter-indiana">June-11-2014 Newsletter (Indiana)</a></h2>
+                
+                    <p>Linking Debt in Gateway &mdash; Did you issue new property tax supported bonds or refund existing ones in 2013? If so, make sure your new or updated debt payments are connected in the Gateway system as budget documents are prepared for 2015. Gateway is the&#8230;</p>
+                
+			</div><!--end .news-story -->
+
+
+	 
+
+
+
+            
+        	<p>Page 2 of 8 pages &nbsp;<a href="http://www.umbaugh.com/latest-news/newsletters">&lt;</a>&nbsp;<a href="http://www.umbaugh.com/latest-news/newsletters">1</a>&nbsp;<strong>2</strong>&nbsp;<a href="http://www.umbaugh.com/latest-news/newsletters/P10">3</a>&nbsp;<a href="http://www.umbaugh.com/latest-news/newsletters/P15">4</a>&nbsp;<a href="http://www.umbaugh.com/latest-news/newsletters/P10">&gt;</a>&nbsp;&nbsp;<a href="http://www.umbaugh.com/latest-news/newsletters/P35">Last &rsaquo;</a></p>
+        
+		</div><!-- end mainColumn -->
+        
+        <div id="sideColumn">
+          <div class="widget widget_nav_menu">
+              <ul class="menu">
+                <li class="menu-item"><a href="/services">Our Services</a></li>
+                <li class="menu-item"><a href="/contact">Contact Us</a></li>
+                <li class="menu-item"><a href="/join-our-firm">Join Our Firm</a></li>
+              </ul>
+          </div>
+          <img src="/images/dotted-seperator.png" />
+          <br />
+          <h2>Catagories</h2>
+          <ul id="nav_categories" class="nav_categories">
+			<li> <a href="http://www.umbaugh.com/latest-news/C9">Articles: Budget Related</a> </li>
+			<li> <a href="http://www.umbaugh.com/latest-news/C5">Articles: Utilities Related</a> </li>
+			<li> <a href="http://www.umbaugh.com/latest-news/C7">Latest News</a> </li>
+		</ul>
+
+          <ul><li><a href="/latest-news/newsletters/">Newsletter Archive</a></li></ul>
+          <img src="/images/dotted-seperator.png" />
+          <br />
+          <h2>News Archive</h2>
+          <img src="/images/dotted-seperator.png" />
+          <br />
+          <h2>Newsletter Sign-Up</h2>
+          <p>To receive our Footnotes Newsletters please provide us with your email address:</p>
+          <form action="http://campaign.q-ux.com/t/r/s/tduypj/" method="post">
+            <p>
+              <label for="fieldEmail">Email</label>
+              <br />
+              <input id="fieldEmail" name="cm-tduypj-tduypj" type="email" required />
+            </p>
+            <p>
+              <button type="submit" class="wpsb_form_btn">Submit</button>
+            </p>
+          </form>
+        </div><!-- sideColumn-->
+        
+        
+	</div><!-- interior-content -->
+</div><!--wrapper-->
+
+{embed='includes/footer'}";}
