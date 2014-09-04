@@ -1,0 +1,57 @@
+a:3:{s:4:"time";i:1409834005;s:3:"ttl";i:0;s:4:"data";s:2375:"	<body class="">
+	<script type="text/javascript">document.body.className += ' js';</script>
+		<div class="header">
+        	<div>
+            <a href="/"><img src="/images/logo.png" alt="Umbaugh It's all about experience"></a>
+                	<p class="phone">(888) 516 9594</p>              
+				<form class="form-search" method="post" action="http://www.umbaugh.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="N7U2WIYGrhfDklmvbUVRRNj9JJGM/UxHIbvgzdWmjpFbyJ3YEOs0byUPlhEV7QU5JoCVd9x04+UJ6By6Dyk8IWYcvVexIlM0t2P12xah4f7hiu3DsmxDNuTR5PINb/XoHkUQ2dRw2QcV0Yzq21FD59FoI78K+6WUwEBXnx8YtFz+/GMn2Z1BdAZsi1nUQ6Wl0DxP5Wd/n3vDqAOv6konBzvDxuBMIbmI59wPQuoLdwLvjamtrtNLVtPe5iwt2/3+BryugGSuvPehC4nlzXjrw8Z9j86I4iGrummXSROKp14K8KrqnG2cIHebPvdhB9OXGU0yU/9jHqPyVXoHHM6Y1GuduGfPFzTRIaatgYmOi+Ad94Rv6csoU/N2QJOLx+xb" />
+<input type="hidden" name="site_id" value="1" />
+<input type="hidden" name="csrf_token" value="{csrf_token}" />
+</div>
+
+
+  					<p><input type="text" name="keywords" id="keywords" value="" size="18" maxlength="100">
+					<input type="submit" value="Search" class="search"></p>
+				</form>
+                
+				<ul class="menu">
+					<li><a href="/" >Home</a></li>
+					<li><a href="/about/" >About Us</a></li>
+					<li><a href="/services/" >Our Services</a></li>
+					<li><a href="/join-our-firm/" >Join Our Firm</a></li>
+					<li><a href="/contact/" >Contact Us</a></li>
+					<li><a href="/latest-news/" class="selected">Latest News</a></li>
+					<li><a href="/login/" >Login</a></li>
+				</ul>
+			</div>
+
+			<!--breadcrumb here-->
+
+			{if segment_1 == "search"}
+			<div id="breadcrumb">
+				<a href="{site_url}">Home </a> &raquo; 
+			</div>
+			{if:elseif segment_1 != ""}
+			<div id="breadcrumb">
+				
+				    {if "1" < "3"}<a href="http://www.umbaugh.com/">{/if}
+				    Home
+				    {if "1" < "3"}</a>&raquo;{/if}
+				
+				    {if "2" < "3"}<a href="http://www.umbaugh.com/latest-news">{/if}
+				    Latest News
+				    {if "2" < "3"}</a>&raquo;{/if}
+				
+				    {if "3" < "3"}<a href="http://www.umbaugh.com/latest-news/legislative-changes-impact-budgeting-for-property-tax-caps">{/if}
+				    Legislative Changes Impact Budgeting For Property Tax Caps
+				    {if "3" < "3"}</a>&raquo;{/if}
+				
+			</div>
+			{/if}
+
+
+		</div><!-- end DIV .header -->";}

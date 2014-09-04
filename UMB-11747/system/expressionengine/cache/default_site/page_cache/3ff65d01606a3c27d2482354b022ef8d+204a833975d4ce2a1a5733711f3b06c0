@@ -1,0 +1,24 @@
+a:3:{s:4:"time";i:1409843566;s:3:"ttl";i:0;s:4:"data";s:647:"{embed='includes/xhtml' page_title="Login"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn" class="wide">
+      <h1>Login</h1>
+      <h2><a href="http://links.umbaugh.com/">Employee Portal</a></h2>
+      <p>Umbaugh Employee Links. This site is restricted to Umbaugh employees.</p>
+    </div>
+       <div id="sideColumn">
+        {embed='includes/servicesContactJoin'}
+    
+        <!-- dotted seperator included in above widget div tag -->
+    
+        {embed='includes/latest-news'}
+
+    </div>
+    <!-- end DIV #sideColumn -->
+  </div>
+</div>
+<!--wrapper--> 
+
+{embed='includes/footer'} ";}

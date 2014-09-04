@@ -1,6 +1,4 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
-
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');$config['ip2nation'] = "y";$config['ip2nation_db_date'] = "1335677198";$config['htaccess_path'] = "/home/umbaugh/public_html/.htaccess";
 $config['enable_db_caching'] = "n";
 $config['multiple_sites_enabled'] = "y";
 $config['index_page'] = "";

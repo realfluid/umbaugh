@@ -1,0 +1,40 @@
+a:3:{s:4:"time";i:1409852224;s:3:"ttl";i:0;s:4:"data";s:1735:"{embed='includes/xhtml' page_title="Our Services"}
+
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn" class="services">
+      <h1>Our Services</h1>
+      <div id="callout">
+        <h2>Our Areas of Expertise</h2>
+
+        <ul>
+          <li>&raquo; <a href="/services/government">Local Government</a></li>
+          <li>&raquo; <a href="/services/utilities">Utilities</a></li>
+          <li>&raquo; <a href="/services/development">Economic Development</a></li>
+          <li>&raquo; <a href="/services/schools">Schools</a></li>
+          <li>&raquo; <a href="/services/libraries">Libraries</a></li>
+        </ul>
+      </div>
+      <p>Our comprehensive services are tailored to each client's special needs, offering guidance and assistance from inception to project completion, financial analysis and long-term planning. Because we are independent advisors, we are objective in analyzing, planning and structuring creative solutions for many types of projects.</p>
+      <div id="wide-callout">
+        <h2>Cash Advisory Services</h2>
+        <p><a href="http://cashadvisory.umbaugh.com/">Umbaugh Cash Advisory Services, LLC</a> was developed as an independent business entity to help create structured investment programs for our client's bond proceeds and operating funds.</p>
+      </div>
+    </div>
+    <!-- end div #mainColumn -->
+
+    <div id="sideColumn">
+        {embed='includes/aboutContactJoin'}
+    
+        <!-- dotted seperator included in above widget div tag -->
+    
+        {embed='includes/latest-news'}
+    </div>
+    <!-- end DIV #sideColumn --> 
+    
+  </div>
+  <!-- end div .interior-content --> 
+</div>
+<!-- end div #wrapper --> 
+{embed='includes/footer'}";}
