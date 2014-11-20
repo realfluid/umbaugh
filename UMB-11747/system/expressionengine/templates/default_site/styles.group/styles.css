@@ -31,7 +31,7 @@ img { border: none; vertical-align: bottom; }
 a { text-decoration: none; outline: none; cursor: pointer; color: #666666; }
 a:hover { text-decoration: underline; }
 button, input.radio, input.checkbox, label, select { cursor: pointer; }
-
+table td { text-align:center;}
 
 
 /*

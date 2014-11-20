@@ -1,13 +1,11 @@
-{embed='includes/xhtml' page_title="Latest News"}
+<?php include 'formphp.php'; ?>
 
+{embed='includes/xhtml' page_title="Latest News"}
+<link rel="stylesheet" type="text/css" media="all" href="{stylesheet='styles/ajax-form'}">
 {embed='includes/header'}
 <div class="wrapper">
   <div class="interior-content">
-    <div id="mainColumn">
-    
-    
-    
-    {if segment_2 == "" OR segment_2 == "P10" OR segment_2 == "P20" OR segment_2 == "P30" OR segment_2 == "P40"}
+    <div id="mainColumn"> {if segment_2 == "" OR segment_2 == "P10" OR segment_2 == "P20" OR segment_2 == "P30" OR segment_2 == "P40"}
       <h1>Latest News </h1>
       <div id="news" class="wide"> {exp:channel:entries channel="news" paginate="bottom" sort="desc" limit="10" status="open"}
         <div class="news-story">
@@ -24,11 +22,7 @@
         {/exp:channel:entries} </div>
       <!-- end #news --> 
       
-    
-    
-    
-    
-    {if:elseif segment_2 == "C1" OR segment_2 == "C2" OR segment_2 == "C3" OR segment_2 == "C4" OR segment_2 == "C5" OR segment_2 == "C6" OR segment_2 == "C7" OR segment_2 == "C8" OR segment_2 == "C9" OR segment_2 == "C10" OR segment_2 == "C11" OR segment_2 == "C12" OR segment_2 == "C13" OR segment_2 == "C14" OR segment_2 == "C15"}
+      {if:elseif segment_2 == "C1" OR segment_2 == "C2" OR segment_2 == "C3" OR segment_2 == "C4" OR segment_2 == "C5" OR segment_2 == "C6" OR segment_2 == "C7" OR segment_2 == "C8" OR segment_2 == "C9" OR segment_2 == "C10" OR segment_2 == "C11" OR segment_2 == "C12" OR segment_2 == "C13" OR segment_2 == "C14" OR segment_2 == "C15"}
       <h1>{exp:channel:entries channel="news" limit="1"}{categories limit="1"}{category_name}{/categories}{/exp:channel:entries}</h1>
       <div id="news" class="wide"> {exp:channel:entries channel="news" category_id="{segment_2}" status="open"}
         <div class="news-story">
@@ -42,11 +36,7 @@
         {/exp:channel:entries} </div>
       <!-- #news --> 
       
-    
-    
-    
-    
-    {if:else} 
+      {if:else} 
       <script>
 		$(function() {
 		$( "#tabs" ).tabs({
@@ -55,7 +45,6 @@
 		});
 		});
 		</script>
-		
       <div id="news" class="wide"> {exp:channel:entries channel="news" status="open"}
         <div class="news-story last pxBuffer">
           <h1>{title}</h1>
@@ -70,32 +59,143 @@
               <li>|</li>
               <li><a href="#tabs-2">E-mail Umbaugh</a> &raquo;</li>
               <li>|</li>
-              <li><FORM><INPUT TYPE="button" value="Print Article" onClick="window.print()" class="articleBtn"></FORM> </li>
+              <li>
+                <FORM>
+                  <INPUT TYPE="button" value="Print Article" onClick="window.print()" class="articleBtn">
+                </FORM>
+              </li>
             </ul>
             <div id="tabs-1" class="tab_content" style="display: none;">
               <h2>Send your feedback:</h2>
-              <div class="contact_us-form">
-              		{exp:freeform:composer
-				form_name="send_your_feedback"
-                		admin_notify="hollowway@umbaugh.com|seever@umbaugh.com"
-                		admin_notification_template="latest_news_feedback"
-               		} 
-               </div>
-              <!--.contact-us_form--> 
+              <div class="contact">
+                <?php if(isset($emailSent) && $emailSent == true) { ?>
+                <p class="info">Your email was sent.</p>
+                <?php } else { ?>
+                <?php if(isset($hasError) || isset($captchaError) ) { ?>
+                <p class="alert">Error submitting the form</p>
+                <?php } ?>
+                <form id="feedback" action="{url_title}" method="post" name="feedback">
+                  <div style="float:left; width:318px;">
+                    <div class="formblock">
+                      <label class="screen-reader-text">Is this item worthy of implementation?</label>
+                      <input type="radio" name="feedback1" value="Yes">
+                      Yes
+                      <input type="radio" name="feedback1" value="No">
+                      No
+                      <input type="radio" name="feedback1" value="Maybe">
+                      Maybe <br />
+                    </div>
+                    <div class="formblock">
+                      <label class="screen-reader-text">Is this item worth sharing with other associates?</label>
+                      <input type="radio" name="feedback2" value="Yes">
+                      Yes
+                      <input type="radio" name="feedback2" value="No">
+                      No
+                      <input type="radio" name="feedback2" value="Maybe">
+                      Maybe <br />
+                    </div>
+                    <div class="formblock">
+                      <label class="screen-reader-text">Did this item present value to you and your business?</label>
+                      <input type="radio" name="feedback3" value="Yes">
+                      Yes
+                      <input type="radio" name="feedback3" value="No">
+                      No
+                      <input type="radio" name="feedback3" value="Maybe">
+                      Maybe <br />
+                    </div>
+                  </div>
+                  <div style="float:right; width:318px;">
+                    <div class="formblock">
+                      <label class="screen-reader-text">Email<span>*</span></label>
+                      <input type="text" name="feedbackEmail" id="feedbackEmail" value="<?php if(isset($_POST['feedbackEmail']))  echo $_POST['feedbackEmail'];?>" class="txt requiredFeedbackField emailFeedback" placeholder="Email:" />
+                      <br />
+                      <?php if($emailError != '') { ?>
+                      <br />
+                      <span class="errorFeedback"><?php echo $emailError;?></span>
+                      <?php } ?>
+                    </div>
+                    <div class="formblock">
+                      <input type="hidden" name="feedbackNews" id="feedbackNews" value="{title}" class="txt" />
+                      <input type="hidden" name="XID" value="{XID_HASH}">
+                      <p class="greeting">
+                        <input type="text" name="hi-there" />
+                      </p>
+                      <label class="screen-reader-text">Message</label>
+                      <textarea name="comments" id="commentsText" class="txtarea" placeholder="Message:"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?>
+</textarea>
+                    </div>
+                    <button name="submit" type="submit" class="subbutton">Submit</button>
+                    <input type="hidden" name="feedback" id="feedback" value="true" />
+                  </div>
+                </form>
+                <?php } ?>
+              </div>
+              <!-- End #contact --> 
             </div>
             <!--tabs-1-->
             
+            
+            
+            
+            
+            
+            
+            
             <div id="tabs-2" class="tab_content" style="display: none;">
               <h2 class="form">Contact Us</h2>
-              <div class="contact_us-form "> 
-              		{exp:freeform:composer
-                		form_name="latest_news_contact_us"
-				require_captcha="yes"
-                		admin_notify="hollowway@umbaugh.com|seever@umbaugh.com"
-                		admin_notification_template="latest_news_email_umbaugh"
-                	}
-                </div>
-              <!--.contat_us--> 
+              <div class="contact">
+                <?php if(isset($emailSent) && $emailSent == true) { ?>
+                <p class="info">Your email was sent.</p>
+                <?php } else { ?>
+                <?php if(isset($hasError) || isset($captchaError) ) { ?>
+                <p class="alert">Error submitting the form</p>
+                <?php } ?>
+                <form id="contact-us" action="{url_title}" method="post">
+                  <div style="float:left; width:318px;">
+                    <div class="formblock">
+                      <label class="screen-reader-text">Name<span>*</span></label>
+                      <input type="text" name="contactName" id="contactName" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" class="txt requiredField" placeholder="Name:" />
+                      <br />
+                      <?php if($nameError != '') { ?>
+                      <br />
+                      <span class="error"><?php echo $nameError;?></span>
+                      <?php } ?>
+                    </div>
+                    <div class="formblock">
+                      <label class="screen-reader-text">Email<span>*</span></label>
+                      <input type="text" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>" class="txt requiredField email" placeholder="Email:" />
+                      <br />
+                      <?php if($emailError != '') { ?>
+                      <br />
+                      <span class="error"><?php echo $emailError;?></span>
+                      <?php } ?>
+                    </div>
+                    <div class="formblock">
+                      <label class="screen-reader-text">Phone</label>
+                      <input type="text" name="contactPhone" id="contactPhone" value="<?php if(isset($_POST['contactPhone'])) echo $_POST['contactPhone'];?>" class="txt" placeholder="Phone:" />
+                    </div>
+                    <div class="formblock">
+                      <label class="screen-reader-text">Organization</label>
+                      <input type="text" name="organization" id="organization" value="<?php if(isset($_POST['organization']))  echo $_POST['organization'];?>" class="txt organization" placeholder="Organization:" />
+                      <input type="hidden" name="feedbackNews" id="feedbackNews" value="{title}" class="txt" />
+                      <input type="hidden" name="XID" value="{XID_HASH}">
+                      <p class="greeting">
+                        <input type="text" name="hi-there" />
+                      </p>
+                    </div>
+                  </div>
+                  <div style="float:right; width:318px;">
+                    <div class="formblock">
+                      <label class="screen-reader-text">Message</label>
+                      <textarea name="comments" id="commentsText" class="txtarea" placeholder="Message:"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
+                    </div>
+                    <button name="submit" type="submit" class="subbutton">Send us Mail!</button>
+                    <input type="hidden" name="submitted" id="submitted" value="true" />
+                  </div>
+                </form>
+                <?php } ?>
+              </div>
+              <!-- End #contact --> 
             </div>
             <!--tabs-2--> 
           </div>
@@ -108,7 +208,7 @@
       
       {/if} </div>
     <!-- end #mainColumn -->
-
+    
     <div id="sideColumn">
       <div class="widget widget_nav_menu">
         <ul class="menu">
@@ -117,27 +217,13 @@
           <li class="menu-item"><a href="/join-our-firm">Join Our Firm</a></li>
         </ul>
       </div>
-
-
-
       <img src="/images/dotted-seperator.png" /> <br />
-
-
-
       <h2>Categories</h2>
       {exp:channel:categories channel="news" show_empty="no" } <a href="{path='latest-news/index'}">{category_name}</a> {/exp:channel:categories}
       <ul>
         <li><a href="/latest-news/newsletters/">Newsletter Archive</a></li>
       </ul>
-
-
-
-      <img src="../images/dotted-seperator.png" /> 
-      <br />
-
-
-
-
+      <img src="../images/dotted-seperator.png" /> <br />
       <h2>Newsletter Sign-Up</h2>
       <p>To receive our Vision Newsletters please provide us with your email address:</p>
       <form action="http://campaign.q-ux.com/t/r/s/tduypj/" method="post">
@@ -155,5 +241,6 @@
   </div>
   <!-- interior-content --> 
 </div>
-<!--wrapper--> 
+<!--wrapper-->
+<?php include 'formjs.php'; ?>
 {embed='includes/footer'} 
