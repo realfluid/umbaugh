@@ -75,7 +75,6 @@ if(isset($_POST['feedback'])) {
 
 	$actual_link = trim($_POST['feedbackNews']);
 
-	$qmc = 'danny@realfluid.com';
 	
 	// need valid email
 	if(trim($_POST['feedbackEmail']) === '')  {

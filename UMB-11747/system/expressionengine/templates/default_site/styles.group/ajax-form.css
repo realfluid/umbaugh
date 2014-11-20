@@ -1,0 +1,25 @@
+.contact { width: 641px; background: #fff; border: 3px solid #e4ae1e; padding: 10px 0px 10px 10px; float:left; }
+
+.contact .desc { }
+.contact .desc h2 { font-family: Georgia, Tahoma, sans-serif; font-weight: normal; letter-spacing: -0.03em; color: #444; font-size: 2.4em; margin-bottom: 8px; }
+
+.contact .desc p { font-family: Arial, Verdana, sans-serif; font-size: 1.2em; color: #333; line-height: 1.3em; margin-bottom: 15px; }
+
+.contact .formblock { display: block; margin-bottom: 11px; font-size:12px; color: #7b7a7a; font-family: "franklin_gothic_bookregular",franklin gothic; }
+.contact .formblock label { font-size: 13px; display: block; font-weight: normal; color: #7b7a7a; font-family: "franklin_gothic_bookregular",franklin gothic;}
+
+.contact .formblock label span{ color: #f00;}
+
+.contact .formblock .txt { padding: 4px 6px; font-size: 12px; font-family: Arial, Tahoma, sans-serif; color: #666; width: 290px; }
+.contact .formblock .txtarea { font-size: 12px; font-family: Arial, Tahoma, sans-serif; padding: 3px 5px; color: #666; width: 290px; height: 140px; }
+
+.contact .formblock .errorFeedback { font-weight: bold; font-size: 12px; font-style: normal; font-family: Arial, Tahoma, sans-serif; color: #9d3131; }
+.contact .formblock .error { font-weight: bold; font-size: 12px; font-style: normal; font-family: Arial, Tahoma, sans-serif; color: #9d3131; }
+.contact .info { font-weight: bold; font-size: 12px; color: #59913d; margin-bottom: 10px; font-family: Arial, Tahoma, sans-serif; }
+
+.contact input { width:5px;}
+.greeting{ visibility:hidden; display:none;}
+
+.contact p.tick { font-family: Georgia,"Times New Roman",Times,serif; font-size: 12px; color: #7b7a7a; }
+
+.contact .subbutton { padding: 3px 7px; font-size: 1.1em; font-weight: bold; font-family: "Trebuchet MS", Arial, Tahoma, sans-serif; color: #565656; }
