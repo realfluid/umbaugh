@@ -44,7 +44,7 @@ if(isset($_POST['submitted'])) {
 	}
 		
 	// upon no failure errors let's email now!
-	if(isset($_POST['url']) && $_POST['url'] == '' && (!isset($hasError))) {
+	if(isset($_POST['hi-there']) && $_POST['hi-there'] == '' && (!isset($hasError))) {
 		
 		$emailTo = 'holloway@umbaugh.com, seever@umbaugh.com';
 		$subject = 'Submitted message from the latest news article - '.$actual_link;
@@ -93,7 +93,7 @@ if(isset($_POST['feedback'])) {
 	$comments = trim($_POST['comments']);
 		
 	// upon no failure errors let's email now!
-	if(isset($_POST['url']) && $_POST['url'] == '' && (!isset($hasError))) {
+	if(isset($_POST['hi-there']) && $_POST['hi-there'] == '' && (!isset($hasError))) {
 		
 		$emailTo = 'holloway@umbaugh.com, seever@umbaugh.com';
 		$subject = 'Submitted message from the latest news article - '.$actual_link;
