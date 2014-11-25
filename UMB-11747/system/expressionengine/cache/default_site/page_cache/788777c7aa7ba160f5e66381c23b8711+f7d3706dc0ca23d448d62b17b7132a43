@@ -1,0 +1,144 @@
+a:3:{s:4:"time";i:1416943654;s:3:"ttl";i:0;s:4:"data";s:5161:"
+{embed='includes/xhtml' page_title="Latest News"}
+<link rel="stylesheet" type="text/css" media="all" href="{stylesheet='styles/ajax-form'}">
+{embed='includes/header'}
+<div class="wrapper">
+  <div class="interior-content">
+    <div id="mainColumn"> {if segment_2 == "" OR segment_2 == "P10" OR segment_2 == "P20" OR segment_2 == "P30" OR segment_2 == "P40"}
+      <h1>Latest News </h1>
+      <div id="news" class="wide">  </div>
+      <!-- end #news --> 
+      
+      {if:elseif segment_2 == "C1" OR segment_2 == "C2" OR segment_2 == "C3" OR segment_2 == "C4" OR segment_2 == "C5" OR segment_2 == "C6" OR segment_2 == "C7" OR segment_2 == "C8" OR segment_2 == "C9" OR segment_2 == "C10" OR segment_2 == "C11" OR segment_2 == "C12" OR segment_2 == "C13" OR segment_2 == "C14" OR segment_2 == "C15"}
+      <h1></h1>
+      <div id="news" class="wide">  </div>
+      <!-- #news --> 
+      
+      {if:else} 
+      <script>
+		$(function() {
+		$( "#tabs" ).tabs({
+		  collapsible: true,
+		  active: false
+		});
+		});
+		</script>
+      <div id="news" class="wide">  </div>
+      <!-- end #news--> 
+      
+      {/if} </div>
+    <!-- end #mainColumn -->
+    
+    <div id="sideColumn">
+      <div class="widget widget_nav_menu">
+        <ul class="menu">
+          <li class="menu-item"><a href="/services">Our Services</a></li>
+          <li class="menu-item"><a href="/contact">Contact Us</a></li>
+          <li class="menu-item"><a href="/join-our-firm">Join Our Firm</a></li>
+        </ul>
+      </div>
+      <img src="/images/dotted-seperator.png" /> <br />
+      <h2>Categories</h2>
+      <ul id="nav_categories" class="nav_categories">
+			<li> <a href="http://www.umbaugh.com/latest-news/C9">Articles: Budget Related</a> </li>
+			<li> <a href="http://www.umbaugh.com/latest-news/C5">Articles: Utilities Related</a> </li>
+			<li> <a href="http://www.umbaugh.com/latest-news/C7">Latest News</a> </li>
+		</ul>
+
+      <ul>
+        <li><a href="/latest-news/newsletters/">Newsletter Archive</a></li>
+      </ul>
+      <img src="../images/dotted-seperator.png" /> <br />
+      <h2>Newsletter Sign-Up</h2>
+      <p>To receive our Vision Newsletters please provide us with your email address:</p>
+      <form action="http://campaign.q-ux.com/t/r/s/tduypj/" method="post">
+        <p>
+          <label for="fieldEmail">Email</label>
+          <br />
+          <input id="fieldEmail" name="cm-tduypj-tduypj" type="email" required />
+        </p>
+        <p>
+          <button type="submit" class="wpsb_form_btn">Submit</button>
+        </p>
+      </form>
+    </div>
+    <!-- sideColumn--> 
+  </div>
+  <!-- interior-content --> 
+</div>
+<!--wrapper-->
+<script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+	$(document).ready(function() {
+		$('form#contact-us').submit(function() {
+			$('form#contact-us .error').remove();
+			var hasError = false;
+			$('.requiredField').each(function() {
+				if($.trim($(this).val()) == '') {
+					var labelText = $(this).prev('label').text();
+					$(this).parent().append('<span class="error">Your forgot to enter your '+labelText+'.</span>');
+					$(this).addClass('inputError');
+					hasError = true;
+				} else if($(this).hasClass('email')) {
+					var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+					if(!emailReg.test($.trim($(this).val()))) {
+						var labelText = $(this).prev('label').text();
+						$(this).parent().append('<span class="error">Sorry! You\'ve entered an invalid '+labelText+'.</span>');
+						$(this).addClass('inputError');
+						hasError = true;
+					}
+				}
+			});
+			if(!hasError) {
+				var formInput = $(this).serialize();
+				$.post($(this).attr('action'),formInput, function(data){
+					$('form#contact-us').slideUp("fast", function() {				   
+						$(this).before('<p class="tick"><strong>Thanks!</strong> Your email has been delivered.</p>');
+					});
+				});
+			}
+			
+			return false;	
+		});
+	});
+	//-->!]]>
+</script>
+
+<script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+	$(document).ready(function() {
+		$('form#feedback').submit(function() {
+			$('form#feedback .errorFeedback').remove();
+			var hasError = false;
+			$('.requiredFeedbackField').each(function() {
+				if($.trim($(this).val()) == '') {
+					var labelText = $(this).prev('label').text();
+					$(this).parent().append('<span class="errorFeedback">Your forgot to enter your '+labelText+'.</span>');
+					$(this).addClass('inputError');
+					hasError = true;
+				} else if($(this).hasClass('emailFeedback')) {
+					var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+					if(!emailReg.test($.trim($(this).val()))) {
+						var labelText = $(this).prev('label').text();
+						$(this).parent().append('<span class="errorFeedback">Sorry! You\'ve entered an invalid '+labelText+'.</span>');
+						$(this).addClass('inputError');
+						hasError = true;
+					}
+				}
+			});
+			if(!hasError) {
+				var formInput = $(this).serialize();
+				$.post($(this).attr('action'),formInput, function(data){
+					$('form#feedback').slideUp("fast", function() {				   
+						$(this).before('<p class="tick">Thank you for the feedback.</p>');
+					});
+				});
+			}
+			
+			return false;	
+		});
+	});
+	
+	
+	//-->!]]>
+</script>{embed='includes/footer'} ";}

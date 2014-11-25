@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1409852341;s:3:"ttl";i:0;s:4:"data";s:441:"// Banner Tabs handling
+a:3:{s:4:"time";i:1416944031;s:3:"ttl";i:0;s:4:"data";s:441:"// Banner Tabs handling
 $('.banner-tab-label').click(function(e) {
     e.preventDefault();
 
