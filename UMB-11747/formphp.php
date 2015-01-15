@@ -30,6 +30,7 @@ if(isset($_POST['submitted'])) {
 
 		$actual_link = trim($_POST['feedbackNews']);
 
+		$user_ip = $_SERVER['REMOTE_ADDR'];
 	
 	// we need at least some content
 	if(trim($_POST['comments']) === '') {
@@ -46,10 +47,10 @@ if(isset($_POST['submitted'])) {
 	// upon no failure errors let's email now!
 	if(isset($_POST['hi-there']) && $_POST['hi-there'] == '' && (!isset($hasError))) {
 		
-		$emailTo = 'holloway@umbaugh.com, seever@umbaugh.com';
+		$emailTo = 'ixianradeon@gmail.com';
 		$subject = 'Submitted message from the latest news article - '.$actual_link;
 		$sendCopy = trim($_POST['sendCopy']);
-		$body = "Name: $name \n\nEmail: $email \n\nPhone: $phone \n\nOrganization: $organization \n\nComments: $comments \n\nNews Article: $actual_link";
+		$body = "Name: $name \n\nEmail: $email \n\nPhone: $phone \n\nOrganization: $organization \n\nComments: $comments \n\nNews Article: $actual_link \n\nUser IP Address: $user_ip";
 		$headers .= 'From: Umbaugh Website <no-reply@umbaugh.com>' . "\r\n";
 		$headers .= 'Bcc: dannym@quinlanmarketing.com' . "\r\n";
 		mail($emailTo, $subject, $body, $headers);
@@ -75,6 +76,8 @@ if(isset($_POST['feedback'])) {
 
 	$actual_link = trim($_POST['feedbackNews']);
 
+	$user_ip = $_SERVER['REMOTE_ADDR'];
+
 	
 	// need valid email
 	if(trim($_POST['feedbackEmail']) === '')  {
@@ -95,10 +98,10 @@ if(isset($_POST['feedback'])) {
 	// upon no failure errors let's email now!
 	if(isset($_POST['hi-there']) && $_POST['hi-there'] == '' && (!isset($hasError))) {
 		
-		$emailTo = 'holloway@umbaugh.com, seever@umbaugh.com';
+		$emailTo = 'ixianradeon@gmail.com';
 		$subject = 'Submitted message from the latest news article - '.$actual_link;
 		$sendCopy = trim($_POST['sendCopy']);
-		$body = "Is this item worthy of implementation: $question1 \n\nIs this item worth sharing with other associates: $question2 \n\nDid this item present value to you and your business: $question3 \n\nEmail: $feedbackEmail \n\nComments: $comments \n\nNews Article: $actual_link";
+		$body = "Is this item worthy of implementation: $question1 \n\nIs this item worth sharing with other associates: $question2 \n\nDid this item present value to you and your business: $question3 \n\nEmail: $feedbackEmail \n\nComments: $comments \n\nNews Article: $actual_link \n\nUser IP Address: $user_ip";
 		$headers .= 'From: Umbaugh Website <no-reply@umbaugh.com>' . "\r\n";
 		$headers .= 'Bcc: dannym@quinlanmarketing.com' . "\r\n";
 		//$headers = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
