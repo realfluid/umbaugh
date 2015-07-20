@@ -6,45 +6,45 @@
     <div id="mainColumn" class="about">
       <h1>About Umbaugh</h1>
       <div class="about-copy">
-          <p>With more than 60 years of experience and expertise in all areas of public finance, H. J. Umbaugh &amp; Associates Certified Public Accountants is one of the largest and most active independent financial advisors to governmental units in the Midwest.</p>
-          <p>UMBAUGH provides timely, independent, meaningful and actionable financial guidance for cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports.</p>
-          <p>We solve problems, create opportunities and complete successful financings. In short, we help community leaders resolve the financial issues they face as they work to improve the quality of life in their communities.</p>
-          <p>Our client service leaders are supported by a staff of approximately 70 people in three offices.</p>
+        <p>With more than 60 years of experience and expertise in all areas of public finance, H. J. Umbaugh &amp; Associates Certified Public Accountants is one of the largest and most active independent financial advisors to governmental units in the Midwest.</p>
+        <p>UMBAUGH provides timely, independent, meaningful and actionable financial guidance for cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports.</p>
+        <p>We solve problems, create opportunities and complete successful financings. In short, we help community leaders resolve the financial issues they face as they work to improve the quality of life in their communities.</p>
+        <p>Our client service leaders are supported by a staff of approximately 70 people in three offices.</p>
       </div>
       <div id="professionals-list">
         <h2>Client Service Leaders</h2>
-		<br />
-		<div class="twoColumns">
-          <ul>
-            {exp:low_reorder:entries set="umbaugh_partners"}
-            <li><a href="#{anchor_tag}">{title}</a></li>
-            {/exp:low_reorder:entries}
-          </ul>
-		</div>
-		<div class="twoColumns" style="float:right;">
-          <ul>
-            {exp:low_reorder:entries set="umbaugh_principals" entry_id="not 23|24|25|26|27|28|29|30|31|32"}
-            <li><a href="#{anchor_tag}">{title}</a></li>
-            {/exp:low_reorder:entries}
-          </ul>
-		</div>
+        <br />
+
+{exp:channel:entries channel="people" orderby="anchor_tag" sort="asc"}
+
+    {if count % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#{anchor_tag}">{title}</a></li>
+
+
+    {if count % 12 == 0 OR count == total_results}
+        </ul>
+    {/if}
+
+{/exp:channel:entries}
+
+
+
       </div>
       <!-- end DIV #professionals-list -->
-
-      <div id="professionals-table">
-      <h2>Client Service Leaders</h2>
       
-
-
-
-        {exp:low_reorder:entries set="umbaugh_partners"}
+      <div id="professionals-table">
+        <h2>Client Service Leaders</h2>
+{exp:channel:entries channel="people" orderby="anchor_tag" sort="asc"}
         <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
           <div class="bio-info">
             <h3><strong>{title}</strong>{if people_extension != ""}, {people_extension}{/if}</h3>
             <span class="professional-role">{people_level}, {people_location}</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if people_phone != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>{people_phone}</li>
                   <li><a href="mailto:{people_email}">{people_email}</a></li>
@@ -58,53 +58,22 @@
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        {/exp:low_reorder:entries}
-
-
-
-
-        {exp:low_reorder:entries set="umbaugh_principals" entry_id="not 23|24|25|26|27|28|29|30|31|32"}
-        <div class="professional" id="{anchor_tag}"> <img src="{people_picture}"/>
-          <div class="bio-info">
-            <h3><strong>{title}</strong>{if people_extension != ""}, {people_extension}{/if}</h3>
-            <span class="professional-role">{people_level}, {people_location}</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>{people_phone}</li>
-                  <li><a href="mailto:{people_email}">{people_email}</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            {people_bio} <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        {/exp:low_reorder:entries}  
+{/exp:channel:entries}
         
-
         
         
         
 
-	</div><!-- end DIV #professionals-table --> 
-    </div><!-- end div #mainColumn -->
-    
-    <div id="sideColumn">
-        {embed='includes/servicesContactJoin'}
-    
-        <!-- dotted seperator included in above widget div tag -->
-    
-        {embed='includes/latest-news'}
-    
-        <img src="../images/dotted-seperator.png" />
-            
-        {embed='includes/resources'}
+ </div>
+      <!-- end DIV #professionals-table --> 
     </div>
+    <!-- end div #mainColumn -->
+    
+    <div id="sideColumn"> {embed='includes/servicesContactJoin'} 
+      
+      <!-- dotted seperator included in above widget div tag --> 
+      
+      {embed='includes/latest-news'} <img src="../images/dotted-seperator.png" /> {embed='includes/resources'} </div>
     <!-- end DIV #sideColumn --> 
   </div>
   <!-- end div .interior-content --> 

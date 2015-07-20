@@ -5,7 +5,8 @@
   <div class="interior-content">
 <h1 style="color:red; font-size:20px; text-align:center;">*DRAFTS*</h1>
     <div id="mainColumn">
-      <div id="news" class="wide"> {exp:channel:entries channel="news" status="draft"}
+      <div id="news" class="wide">
+      {exp:channel:entries channel="news" status="draft" limit="10"}
         <div class="news-story last pxBuffer">
           <h1>{title}</h1>
           <span class="date">By {news_author}, {if author_suffix != ""}{author_suffix},{/if} {if author_position != ""}{author_position},{/if} {entry_date format="%F %d, %Y"}</span><br />
@@ -16,11 +17,9 @@
           <p><em>Information in this article was believed current as of the date of publication.  As you know, changes occur frequently.  The information presented is of a general educational nature. Before applying to your specific circumstances, please contact us at <a href="mailto:vision@umbaugh.com">vision@umbaugh.com.</a></em></p>
         </div>
         <!--news-story last pxBuffer --> 
-        {/exp:channel:entries} </div>
-      <!-- end #news--> 
-      
-    </div>
-    <!-- end #mainColumn -->
+        {/exp:channel:entries}
+      </div><!-- end #news--> 
+    </div><!-- end #mainColumn -->
     
     <div id="sideColumn"> 
     </div><!-- sideColumn--> 

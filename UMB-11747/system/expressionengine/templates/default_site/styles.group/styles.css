@@ -21,7 +21,7 @@
 }
 * { margin: 0; padding: 0; }
 html { height: 100%; padding-bottom: 1px; font-size: 100%; }
-body { padding: 0; background: #EAEAEA; color: #666; font-family:"franklin_gothic_bookregular", franklin gothic; font-size:12px; }/*eaeaea*/
+body { padding: 0; background: #EAEAEA; color: #444; font-family:"franklin_gothic_bookregular", franklin gothic; font-size:13px;}/*eaeaea*/
 
 p, ul, ol, dl {  }
 ul, ol { margin-left: 0; padding-left: 2em; font-size:13px; }
@@ -31,8 +31,9 @@ img { border: none; vertical-align: bottom; }
 a { text-decoration: none; outline: none; cursor: pointer; color: #666666; }
 a:hover { text-decoration: underline; }
 button, input.radio, input.checkbox, label, select { cursor: pointer; }
-table td { text-align:center;}
-
+table {padding:5px; border:1px; border-collapse:collapse;}
+td {padding:5px}
+#table-class { text-algin:center;}
 
 /*
  * some globally used classes
@@ -139,7 +140,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 #mainColumn h1 {margin-bottom: 15px; border-bottom: 4px solid #eee; line-height: 1.5em; }
 #mainColumn h2{ font-size: 1.5em; margin: 0;}
 #mainColumn ul { margin-top: 10px;}
-#mainColumn ul li {color: #444; font-size: 13px; }
+#mainColumn ul li {color: #444; font-size: 13px; padding:3px 0; }
 #mainColumn #callout{ border:#e4ae1e solid 4px; width: 232px; padding: 13px 17px 20px 19px; margin: 3px 0 10px 20px; clear: both; float: right; min-height: 164px;}
 #mainColumn #callout img{ margin: 8px 0 0 0; padding: 0px; }
 #mainColumn #callout h2{ margin: 0; color:#717174; border-bottom: thin dashed #999999; padding-bottom:10px; }
@@ -147,7 +148,6 @@ ol li {margin-bottom: 10px; color: #444444;}
 #mainColumn #callout a{ font-size: 1em; margin: 10px 0 0 0; color: #58585a; text-decoration: underline; }
 #mainColumn #callout ul { list-style: none; padding: 20px 0 0 0;}
 #mainColumn #callout ul li { color: #58585a; padding-bottom: 5px; text-decoration: none; font-size: 1.25em;  }
-#mainColumn #callout ul li a { text-decoration: none; }
 #wide-callout { width: 630px; border: #949598 solid 2px; padding: 15px 10px 0 15px; font-size: 1em; margin: 16px 0 40px 0; float: left; height:85px; }
 #wide-callout p { font-size: 1em; margin: 8px 0 0 2px; float: left; width: 100% !important; color:#444; }
 #wide-callout a{ color: #3f7764; text-decoration: underline; }
@@ -201,7 +201,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 .professional h3 { font-family:Georgia, "Times New Roman", Times, serif; font-size: 1.333em;}
 .professional h4 { font-family:Georgia, "Times New Roman", Times, serif; font-weight: bold; font-size: 1.167em; clear: left;}
 .professional-role { font-family:Georgia, "Times New Roman", Times, serif; color: #E4AE1E; font-size: 15px; float: left; margin: 0; padding: 0; }
-.professional .two-col { min-height: 80px; margin: 5px 0; clear: both;}
+.professional .two-col { margin: 5px 0; clear: both;}
 .professional .two-col .service-areas { width: 230px; }
 .professional .two-col .contact-info {  width: 230px; }
 .professional ul { list-style: none; clear: left; margin: 0; padding: 0; }
@@ -228,6 +228,7 @@ ol li {margin-bottom: 10px; color: #444444;}
 #career-form {border:#e4ae1e solid 3px; float:left; width:641px; padding: 0 0 10px 15px;  margin:0 0 34px 0; overflow: hidden;color:#7b7a7a;}
 #career-form h3 { font-size:18px; color:#717174; font-family:Georgia, "Times New Roman", Times, serif; margin:21px 0 12px 0;  }
 #career-form p { font-size:12px; }
+
 #career-form .submit-form { overflow: hidden; float: left; width: 265px;}
 #career-form .submit-form input { width: 235px; height: 24px; border: 1px solid #ccc; margin-bottom:10px; font-size:11px; padding: 0 10px 0 6px;}
 #career-form .submit-form_left { overflow: hidden; float: left; width: 365px;}
@@ -239,27 +240,27 @@ ol li {margin-bottom: 10px; color: #444444;}
 /*contact*/
 #phone-number-lg { font-family: franklin_gothic_bookregular; }
 
-.locationColumns { overflow: hidden; background: url('images/table-blue-bg.png') top left repeat-x; background-color:#eee; width: 630px; height: 296px; float: left; padding: 12px 10px 0 20px; margin: 30px 0 23px 0;}
+.locationColumns { overflow: hidden; background: url('images/table-blue-bg.png') top left repeat-x; background-color:#eee; width: 660px; height: 256px; float: left; padding: 12px 5px 0 5px; margin: 30px 0 23px 0;}
 .locationColumns h2 { color: #fff; font-size: 18px; font-weight: normal; font-weight:bold; }
-.locationColumns dt.location-title  { color: #616161 !important; font-size: 14px; font-weight: bold; font-family:Georgia, "Times New Roman", Times, serif; margin: 0 0 15px 0;}
-.locationColumns .column-one { float: left; width: 199px; margin: 20px 0 0 0; border-right: #d4d4d4 dashed 1px;}
-.locationColumns .column-two { float: left; width: 200px; margin: 20px 0 0 18px; border-right: #d4d4d4 dashed 1px;}
-.locationColumns .column-three { float: left; width: 150px; margin: 20px 0 0 18px; }
+.locationColumns dt.location-title  { color: #616161 !important; font-size: 12px; font-weight: bold; font-family:Georgia, "Times New Roman", Times, serif; margin: 0 0 15px 0;}
+.locationColumns .column-one   { float: left; width: 150px; margin: 20px 0 0 15px; border-right: #d4d4d4 dashed 1px;}
+.locationColumns .column-two   { float: left; width: 150px; margin: 20px 0 0 15px; border-right: #d4d4d4 dashed 1px;}
+.locationColumns .column-three { float: left; width: 150px; margin: 20px 0 0 15px; border-right: #d4d4d4 dashed 1px;}
+.locationColumns .column-four  { float: left; width: 150px; margin: 20px 0 0 10px;}
 .locationColumns dt { padding: 0; color: #7b7a7a; }
-.locationColumns dd { padding: 0; color: #444; margin: 0 0 14px 0; font-size: 1.083em; font-family: franklin_gothic_bookregular; }
+.locationColumns dd { padding: 0; color: #444; margin: 0 0 14px 0; font-size: 12px; font-family: franklin_gothic_bookregular; }
 
-.professional-quickInfo { background-color: #eee; width: 302px; padding: 20px 0 0 20px; float: left; margin: 10px 0 13px;}
+.professional-quickInfo { background-color: #eee; width: 302px; padding: 20px 0 0 20px; float: left; margin: 10px 0 13px; min-height:370px;}
 .professional-quickInfo h2{ font-weight: bold; margin-bottom: 15px;}
 .professional-quickInfo .quickInfoColumn{ width: 141px; }
 .professional-quickInfo p { width: 141px; font-size: 1em !important; }
 .professional-quickInfo a { color: #999; text-decoration: underline;  }
-.professional-quickInfo span { font-family:Georgia, "Times New Roman", Times, serif; font-size: 1.25em; }
+.professional-quickInfo span { font-family:Georgia, "Times New Roman", Times, serif; font-size: 1.1em; }
 
 .error{ color:#cc3333;}
 
 /*news*/
 #mainColumn #news { margin-top: -19px }
-#news table { border:1px; border-collapse:collapse;}
 .news-archive p{ width: 656px !important; }
 #mainColumn .news-story { margin: 10px 0; padding: 15px 0 25px; border-bottom: #b6bbbf dashed 1px;  }
 #mainColumn .news-story h2 { color: #717174; font-size: 1.333em; font-family:Georgia, "Times New Roman", Times, serif; font-weight: bold; text-decoration: none; margin-top:15px; margin-bottom:5px; }
@@ -330,10 +331,13 @@ p.author {margin: 5px 0; color: #c89a23; font-size: 0.917em; }
 .two-col-list ul { list-style: none; margin: 0; padding: 0; width: 310px; }
 .two-col-list ul li{color: #444; padding: 3px 0;}
 
-.twoColumns { width:40%; float:left;}
-.twoColumns ul{ list-style:none; padding:0; margin:0;}
-.twoColumns li { padding:5px 0;}
-.twoColumns li a{ color:#999; text-decoration:underline; font-size:11px;}
+
+.twoColumns { width:50%; float:left; list-style:none; padding:0; margin:0;}
+
+.twoColumns ul li { margin:3px 0;}
+
+.twoColumns ul li a{ color:#999; text-decoration:underline; font-size:11px;}
+
 
 
 
@@ -398,6 +402,7 @@ li#li-2-5 input.browse {left: 170px; padding: 5px 10px;}
 
 
 #mainColumn p.cf-sb {width: 625px; padding: 0 0 1em 0; text-align: right;}
+
 .wrapper input.sendbutton {width: auto; background: #f1f1f1; font-weight: bold;}
 
 /* newsletter opt-in form */

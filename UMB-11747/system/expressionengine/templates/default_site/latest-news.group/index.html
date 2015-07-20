@@ -116,12 +116,13 @@
                     </div>
                     <div class="formblock">
                       <input type="hidden" name="feedbackNews" id="feedbackNews" value="{title}" class="txt" />
-						<input type="hidden" name="XID" value="{XID_HASH}">  
+<input type="hidden" name="XID" value="{XID_HASH}">  
                       <p class="greeting">
                         <input type="text" name="hi-there" />
                       </p>
                       <label class="screen-reader-text">Message</label>
-                      <textarea name="comments" id="commentsText" class="txtarea" placeholder="Message:"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?></textarea>
+                      <textarea name="comments" id="commentsText" class="txtarea" placeholder="Message:"><?php if(isset($_POST['comments'])) { if(function_exists('stripslashes')) { echo stripslashes($_POST['comments']); } else { echo $_POST['comments']; } } ?>
+</textarea>
                     </div>
                     <button name="submit" type="submit" class="subbutton">Submit</button>
                     <input type="hidden" name="feedback" id="feedback" value="true" />
@@ -177,9 +178,10 @@
                       <label class="screen-reader-text">Organization</label>
                       <input type="text" name="organization" id="organization" value="<?php if(isset($_POST['organization']))  echo $_POST['organization'];?>" class="txt organization" placeholder="Organization:" />
                       <input type="hidden" name="feedbackNews" id="feedbackNews" value="{title}" class="txt" />
-
-                      <p class="greeting"><input type="text" name="hi-there" /></p>
-
+<input type="hidden" name="XID" value="{XID_HASH}">  
+                      <p class="greeting">
+                        <input type="text" name="hi-there" />
+                      </p>
                     </div>
                   </div>
                   <div style="float:right; width:318px;">

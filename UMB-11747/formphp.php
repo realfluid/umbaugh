@@ -47,7 +47,7 @@ if(isset($_POST['submitted'])) {
 	// upon no failure errors let's email now!
 	if(isset($_POST['hi-there']) && $_POST['hi-there'] == '' && (!isset($hasError))) {
 		
-		$emailTo = 'ixianradeon@gmail.com';
+		$emailTo = 'holloway@umbaugh.com, seever@umbaugh.com';
 		$subject = 'Submitted message from the latest news article - '.$actual_link;
 		$sendCopy = trim($_POST['sendCopy']);
 		$body = "Name: $name \n\nEmail: $email \n\nPhone: $phone \n\nOrganization: $organization \n\nComments: $comments \n\nNews Article: $actual_link \n\nUser IP Address: $user_ip";
@@ -98,7 +98,7 @@ if(isset($_POST['feedback'])) {
 	// upon no failure errors let's email now!
 	if(isset($_POST['hi-there']) && $_POST['hi-there'] == '' && (!isset($hasError))) {
 		
-		$emailTo = 'ixianradeon@gmail.com';
+		$emailTo = 'holloway@umbaugh.com, seever@umbaugh.com';
 		$subject = 'Submitted message from the latest news article - '.$actual_link;
 		$sendCopy = trim($_POST['sendCopy']);
 		$body = "Is this item worthy of implementation: $question1 \n\nIs this item worth sharing with other associates: $question2 \n\nDid this item present value to you and your business: $question3 \n\nEmail: $feedbackEmail \n\nComments: $comments \n\nNews Article: $actual_link \n\nUser IP Address: $user_ip";
