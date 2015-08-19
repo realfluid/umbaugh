@@ -31,9 +31,8 @@ img { border: none; vertical-align: bottom; }
 a { text-decoration: none; outline: none; cursor: pointer; color: #666666; }
 a:hover { text-decoration: underline; }
 button, input.radio, input.checkbox, label, select { cursor: pointer; }
-table {padding:5px; border:1px; border-collapse:collapse;}
-td {padding:5px}
-#table-class { text-algin:center;}
+table {padding:5px; border:1px; border-collapse:collapse; margin:0 auto;}
+td > p, th > p{ margin: 0 !important; padding: 0;}
 
 /*
  * some globally used classes

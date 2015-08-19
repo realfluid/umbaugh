@@ -10,7 +10,7 @@
             <div class="news-story">
 				<h2><a href="{site_url}latest-news/newsletter/{url_title}">{title}</a></h2>
                 {newsletter_article show_expired="yes" limit="10"}
-                    <p>{title} &mdash; {exp:remove_html}{exp:word_limit total="40"}{news_body}{/exp:word_limit}{/exp:remove_html}</p>
+                    <p>{title} &mdash; {exp:remove_html}{exp:word_limit total="40"}{news_body}{news_test_body}{/exp:word_limit}{/exp:remove_html}</p>
                 {/newsletter_article}
 			</div><!--end .news-story -->
 

@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/xhtml' page_title="About Umbaugh"}
+a:3:{s:4:"time";i:1440001660;s:3:"ttl";i:0;s:4:"data";s:53911:"{embed='includes/xhtml' page_title="About Umbaugh"}
 
 {embed='includes/header'}
 <div class="wrapper">
@@ -6,214 +6,331 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
     <div id="mainColumn" class="about">
       <h1>About Umbaugh</h1>
       <div class="about-copy">
-          <p>With more than 60 years of experience and expertise in all areas of public finance, H. J. Umbaugh &amp; Associates Certified Public Accountants is one of the largest and most active independent financial advisors to governmental units in the Midwest.</p>
-          <p>UMBAUGH provides timely, independent, meaningful and actionable financial guidance for cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports.</p>
-          <p>We solve problems, create opportunities and complete successful financings. In short, we help community leaders resolve the financial issues they face as they work to improve the quality of life in their communities.</p>
-          <p>Our client service leaders are supported by a staff of approximately 70 people in three offices.</p>
+        <p>With more than 60 years of experience and expertise in all areas of public finance, H. J. Umbaugh &amp; Associates Certified Public Accountants is one of the largest and most active independent financial advisors to governmental units in the Midwest.</p>
+        <p>UMBAUGH provides timely, independent, meaningful and actionable financial guidance for cities, towns, townships, counties, utilities, schools, libraries, hospitals and airports.</p>
+        <p>We solve problems, create opportunities and complete successful financings. In short, we help community leaders resolve the financial issues they face as they work to improve the quality of life in their communities.</p>
+        <p>Our client service leaders are supported by a staff of approximately 70 people in three offices.</p>
       </div>
       <div id="professionals-list">
         <h2>Client Service Leaders</h2>
-		<br />
-		<div class="twoColumns">
-          <ul>
-            
-            <li><a href="#tsamuelson">Todd A. Samuelson</a></li>
-            
-            <li><a href="#gmalone">Gerald G. Malone</a></li>
-            
-            <li><a href="#jjulien">John D. Julien</a></li>
-            
-            <li><a href="#jseever">John M. Seever</a></li>
-            
-            <li><a href="#cknott">Colette J. Irwin-Knott</a></li>
-            
-            <li><a href="#dbaldessari">Doug L. Baldessari</a></li>
-            
-            <li><a href="#bcolton">Brian C. Colton</a></li>
-            
-            <li><a href="#dhedden">Daniel A. Hedden</a></li>
-            
-            <li><a href="#smiller">Scott A. Miller</a></li>
-            
-            <li><a href="#cpletcher">Curt W. Pletcher</a></li>
-            
-          </ul>
-		</div>
-		<div class="twoColumns" style="float:right;">
-          <ul>
-            
-            <li><a href="#rclifford">Robert J. Clifford</a></li>
-            
-            <li><a href="#lmatthes">Loren M. Matthes</a></li>
-            
-            <li><a href="#jmesser">Jeffrey A. Messer</a></li>
-            
-            <li><a href="#jnelson">Jesse R. Nelson</a></li>
-            
-            <li><a href="#drodgers">Deen C. Rogers</a></li>
-            
-            <li><a href="#jrowe">Jeffrey P. Rowe</a></li>
-            
-            <li><a href="#psansone">Paige E. Sansone</a></li>
-            
-            <li><a href="#jsemler">Jason G. Semler</a></li>
-            
-            <li><a href="#ttraciak">Tom Traciak</a></li>
-            
-          </ul>
-		</div>
+        <br />
+
+
+
+    {if "1" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#baldessari">Doug L. Baldessari</a></li>
+
+
+    {if "1" % 12 == 0 OR "1" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "2" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#clifford">Robert J. Clifford</a></li>
+
+
+    {if "2" % 12 == 0 OR "2" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "3" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#colton">Brian C. Colton</a></li>
+
+
+    {if "3" % 12 == 0 OR "3" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "4" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#cooper">Brian S. Cooper</a></li>
+
+
+    {if "4" % 12 == 0 OR "4" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "5" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#eckerle">Matthew R. Eckerle</a></li>
+
+
+    {if "5" % 12 == 0 OR "5" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "6" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#gray">Belvia B. Gray</a></li>
+
+
+    {if "6" % 12 == 0 OR "6" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "7" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#hedden">Daniel A. Hedden</a></li>
+
+
+    {if "7" % 12 == 0 OR "7" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "8" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#irwin">Colette J. Irwin-Knott</a></li>
+
+
+    {if "8" % 12 == 0 OR "8" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "9" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#julien">John D. Julien</a></li>
+
+
+    {if "9" % 12 == 0 OR "9" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "10" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#malone">Gerald G. Malone</a></li>
+
+
+    {if "10" % 12 == 0 OR "10" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "11" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#matthes">Loren M. Matthes</a></li>
+
+
+    {if "11" % 12 == 0 OR "11" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "12" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#messer">Jeffrey A. Messer</a></li>
+
+
+    {if "12" % 12 == 0 OR "12" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "13" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#miller">Scott A. Miller</a></li>
+
+
+    {if "13" % 12 == 0 OR "13" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "14" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#nelson">Jesse R. Nelson</a></li>
+
+
+    {if "14" % 12 == 0 OR "14" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "15" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#pletcher">Curt W. Pletcher</a></li>
+
+
+    {if "15" % 12 == 0 OR "15" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "16" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#rodgers">Deen C. Rogers</a></li>
+
+
+    {if "16" % 12 == 0 OR "16" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "17" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#rowe">Jeffrey R. Rowe</a></li>
+
+
+    {if "17" % 12 == 0 OR "17" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "18" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#samuelson">Todd A. Samuelson</a></li>
+
+
+    {if "18" % 12 == 0 OR "18" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "19" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#sansone">Paige E. Sansone</a></li>
+
+
+    {if "19" % 12 == 0 OR "19" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "20" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#seever">John M. Seever</a></li>
+
+
+    {if "20" % 12 == 0 OR "20" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "21" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#semler">Jason G. Semler</a></li>
+
+
+    {if "21" % 12 == 0 OR "21" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "22" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#traciak">Tom Traciak</a></li>
+
+
+    {if "22" % 12 == 0 OR "22" == "23"}
+        </ul>
+    {/if}
+
+
+
+    {if "23" % 12 == 1}
+        <ul class="twoColumns">
+    {/if}
+
+     <li><a href="#walsh">Eric J. Walsh</a></li>
+
+
+    {if "23" % 12 == 0 OR "23" == "23"}
+        </ul>
+    {/if}
+
+
+
+
+
       </div>
       <!-- end DIV #professionals-list -->
-
-      <div id="professionals-table">
-      <h2>Client Service Leaders</h2>
       
+      <div id="professionals-table">
+        <h2>Client Service Leaders</h2>
 
-
-
-        
-        <div class="professional" id="tsamuelson"> <img src="http://www.umbaugh.com/uploads/tsamuelson.png"/>
-          <div class="bio-info">
-            <h3><strong>Todd A. Samuelson</strong>{if "CPA" != ""}, CPA{/if}</h3>
-            <span class="professional-role">Executive Partner, Mishawaka, IN</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>(574) 935-5178</li>
-                  <li><a href="mailto:samuelson@umbaugh.com">samuelson@umbaugh.com</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            <p>Todd A. Samuelson works with cities, towns, counties, school corporations, libraries and utilities on comprehensive financial planning, bond issues and economic development. He also assists numerous clients with budgeting, forecasting and strategic planning.</p>
-
-<p>Samuelson worked with White County, Indiana on an alternative energy economic development project which will become the largest wind farm development in Indiana. In addition he has worked on economic development packages in Whitley County, Indiana for Steel Dynamics; a county corrections complex and strategic planning for Elkhart County, Indiana; and bond issues for major facility improvements for the Allen County Public Library in Fort Wayne, Indiana.</p>
-
-<p>Samuelson has provided expert testimony at local and state public hearings on capital projects, tax increment financing (TIF), property and income tax matters and issuance of tax-exempt bonds. He also has been a speaker on numerous occasions for the Indiana Association of Cities and Towns (IACT), the Association of Indiana Counties, the Indiana Association of County Commissioners (IACC), the Indiana Library Federation, the Michigan Library Federation, the Michigan School Business Officials and the Indiana League of Municipal Clerk Treasurers.</p>
-
-<p>Samuelson is a member of the Indiana, Michigan and Illinois CPA Societies and the American Institute of Certified Public Accountants. A 1987 graduate of DePauw University, Samuelson was a senior accountant and financial advisor with Arthur Andersen &amp; Company in Chicago before joining Umbaugh in 1989. He is based in Umbaugh’s Mishawaka office.</p> <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        
-        <div class="professional" id="gmalone"> <img src="http://www.umbaugh.com/uploads/gmalone.png"/>
-          <div class="bio-info">
-            <h3><strong>Gerald G. Malone</strong>{if "CPA" != ""}, CPA{/if}</h3>
-            <span class="professional-role">Partner, Indianapolis, IN</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>(317) 465-1501</li>
-                  <li><a href="mailto:malone@umbaugh.com">malone@umbaugh.com</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            <p>Gary Malone&#8217;s practice at Umbaugh includes numerous projects for local governments, including bond financing, financial analysis and economic development. He has helped local governments develop financial incentives for such major companies as Toyota, AK Steele, Chrysler/Getrag, Honda and Medco.</p>
-
-<p>Malone frequently testifies as an expert witness on the subject of municipal finance before the Indiana General Assembly, state regulatory agencies and local public hearings. He has been a guest speaker and panelist for the Indiana Continuing Legal Education Forum, the Indiana Association of Cities and Towns, the Association of Indiana Counties and several other professional organizations.</p>
-
-<p>He has been with Umbaugh since 1975 and is based in the Indianapolis office. Originally from southwest Indiana, Malone graduated from Indiana University - Bloomington in 1975. He is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society and the Governmental Finance Officers Association and serves on the board of directors of the Indiana Association of Cities and Towns and the Indiana Association of Cities and Towns Foundation. Malone was awarded the 2006 CPA of the Year in Public Practice by the Indiana CPA Society.</p> <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        
-        <div class="professional" id="jjulien"> <img src="http://www.umbaugh.com/uploads/jjulien.png"/>
-          <div class="bio-info">
-            <h3><strong>John D. Julien</strong>{if "CPA" != ""}, CPA{/if}</h3>
-            <span class="professional-role">Partner, Mishawaka IN</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>(574)935-5178</li>
-                  <li><a href="mailto:julien@umbaugh.com">julien@umbaugh.com</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            <p>John D. Julien works with utilities and municipalities. He has conducted financial studies for municipally owned sewage, water, stormwater, electric and gas utilities, regional water and sewer districts and conservancy districts. These studies often involve short- and long-term financial planning, cost-of-service studies and financial planning for the issuance of municipal tax-exempt bonds, notes and loans. In addition, Julien has worked extensively on municipal tax budgets, economic development projects, tax incremental financing projects, annexation studies and the issuance of tax-supported and income-supported debt.</p>
-
-<p>Julien has presented at seminars sponsored by the U.S.D.A. – Rural Development (formerly FmHA), the American Association of Civil Engineers and the Michigan and Indiana sections of AWWA and WEA on governmental accounting and public finance, financial planning, performance management, utility rates and cost-of-service studies. He has also been a guest lecturer for the Indiana University School of Public and Environmental Affairs, Bloomington and South Bend campuses.</p>
-
-<p>Julien is a member of the Michigan and Indiana CPA Societies, the American Institute of Certified Public Accountants, Government Finance Officers Association, American Waterworks Association, the National Association of School Business Officers, American Public Power Association and the Water Environment Federation. He has served as an expert witness before the State Tax Board, the Indiana Utility Regulatory Commission and local public hearings regarding utility rate making and tax-exempt financing. He is a graduate of the University of Notre Dame. Julien joined Umbaugh in 1981 and is based in the Mishawaka office.</p>
-
-<p>John is a member of Umbaugh&#8217;s Executive Committee.</p> <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        
-        <div class="professional" id="jseever"> <img src="http://www.umbaugh.com/uploads/jseever.png"/>
-          <div class="bio-info">
-            <h3><strong>John M. Seever</strong>{if "CPA" != ""}, CPA{/if}</h3>
-            <span class="professional-role">Partner, Indianapolis, IN</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>(317) 465-1507</li>
-                  <li><a href="mailto:seever@umbaugh.com">seever@umbaugh.com</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            <p>John has been involved in many professional engagements, including financial studies for cities, towns and utilities. These studies often involve budgeting, financial reporting, annexation, consolidation and financial planning for municipalities and the determination of revenue requirements, cost-of-service studies and the financial planning associated with the issuance of debt and capital project planning for utilities.</p>
-
-<p>He is a frequent speaker concerning municipal finance and utility rates before various trade groups and often serves as an expert witness on behalf of clients.</p>
-
-<p>He is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society and the American Water Works Association, among other professional groups. In addition, he currently serves on Indiana Association of Cities and Town’s board of directors and is an officer in the Indiana Section American Water Works Association.</p>
-
-<p>Seever graduated from Indiana University – Bloomington. He joined Umbaugh in 1982 and is based in Indianapolis.</p>
-
-<p>Seever is a member of Umbaugh&#8217;s Executive Committee.</p> <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        
-        <div class="professional" id="cknott"> <img src="http://www.umbaugh.com/uploads/cknott.png"/>
-          <div class="bio-info">
-            <h3><strong>Colette J. Irwin-Knott</strong>{if "" != ""}, {/if}</h3>
-            <span class="professional-role">Partner, Indianapolis</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>(317) 465-1504</li>
-                  <li><a href="mailto:irwinknott@umbaugh.com">irwinknott@umbaugh.com</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            <p>Colette Irwin-Knott works with schools, cities, towns, counties and libraries in providing capital budgeting and financial advisory services for municipal bond financings. She has provided expert testimony at State hearings and participated in state and national conferences as a guest speaker and panelist for numerous municipal finance programs.</p>
-
-<p>Irwin-Knott is a Certified Independent Public Finance Advisor (CIPFA) and serves on the board of the National Association of Independent Public Finance Advisors (NAIPFA). She serves on the board of directors for Valparaiso University, is a member of the Government Finance Officers Association and was named by the Indianapolis Business Journal as a “Woman in the Lead” for financial services.</p>
-
-<p>Irwin-Knott joined Umbaugh in 1981 after graduating from Valparaiso University with a degree in business administration. She is based in Umbaugh’s Indianapolis office.</p>
-
-<p>Colette is a member of Umbaugh&#8217;s Executive Committee.</p> <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        
-        <div class="professional" id="dbaldessari"> <img src="http://www.umbaugh.com/uploads/dbaldessari.png"/>
+        <div class="professional" id="baldessari"> <img src="http://www.umbaugh.com/uploads/dbaldessari.png"/>
           <div class="bio-info">
             <h3><strong>Doug L. Baldessari</strong>{if "CPA" != ""}, CPA{/if}</h3>
             <span class="professional-role">Partner, Indianapolis, IN</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if "&#40;317&#41; 465-1508" != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>(317) 465-1508</li>
                   <li><a href="mailto:baldessari@umbaugh.com">baldessari@umbaugh.com</a></li>
@@ -233,121 +350,14 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        
-        <div class="professional" id="bcolton"> <img src="http://www.umbaugh.com/uploads/bcolton.png"/>
-          <div class="bio-info">
-            <h3><strong>Brian C. Colton</strong>{if "" != ""}, {/if}</h3>
-            <span class="professional-role">Partner, Indianapolis, IN</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>(317) 465-1516</li>
-                  <li><a href="mailto:colton@umbaugh.com">colton@umbaugh.com</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            <p>Brian C. Colton leads the Public Finance Group and serves on the management committee of Umbaugh. Brian’s practice includes tax increment financing, economic development, municipal bond issues, capital project planning, property tax appeal issues and annexation fiscal plans. Colton has been involved in a number of special projects at Umbaugh, including: the creation of the firm’s right-of-way user fees report for the Indiana Association of Cities and Towns, assisting with fiscal home rule reports for the Indiana Association of Cities and Towns and the Association of Indiana Counties and assisting with the firm’s analysis of the estimated impact of recent and proposed property tax regulations on TIF areas throughout Indiana.</p>
 
-<p>Colton has been a guest lecturer on local government finance topics for the School of Public and Environmental Affairs at Indiana University – Bloomington, on local government funding for the Association of Indiana Counties and on public-private partnerships for the Indiana Association of Cities and Towns Municipal Management Institute.</p>
-
-<p>Colton joined Umbaugh in 1997. He has a degree in economics and political science from the University of Iowa and a Master of Public Affairs with concentrations in public financial management and policy analysis from the School of Public and Environmental Affairs at Indiana University. He is also a Certified Independent Public Finance Advisor (CIPFA). Colton is based in Umbaugh’s Indianapolis office and lives in Carmel.</p> <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        
-        <div class="professional" id="dhedden"> <img src="http://www.umbaugh.com/uploads/dhedden.png"/>
-          <div class="bio-info">
-            <h3><strong>Daniel A. Hedden</strong>{if "CPA" != ""}, CPA{/if}</h3>
-            <span class="professional-role">Partner, Indianapolis, IN</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>(317) 465-1503</li>
-                  <li><a href="mailto:hedden@umbaugh.com">hedden@umbaugh.com</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            <p>Daniel A. Hedden’s practice is focused on management advisory services, ranging from training to budget services, budget modeling, financial management reports and advanced services involving financial accounting and reporting. In addition, he assists governmental units with process management and increasing their technology utilization to provide better and more useful information to a wider range of users. Hedden has been involved with financial studies for municipally owned utilities, not-for-profit corporations, regional water and sewer districts and conservancy districts.</p>
-
-<p>Hedden joined Umbaugh in 1996.</p>
-
-<p>He served in the United States Army and the Indiana Army National Guard and is a graduate of Indiana University-Purdue University in Indianapolis with degrees in accounting and finance. He has completed professional courses sponsored by the American Institute of Certified Public Accountants, the Indiana CPA Society and other professional organizations. Hedden is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society, the Association of Government Accountants and the American Water Works Association.</p>
-
-<p>Hedden lives in Fortville and is based in Umbaugh’s Indianapolis office.</p> <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        
-        <div class="professional" id="smiller"> <img src="http://www.umbaugh.com/uploads/smiller.png"/>
-          <div class="bio-info">
-            <h3><strong>Scott A. Miller</strong>{if "CPA" != ""}, CPA{/if}</h3>
-            <span class="professional-role">Partner, Indianapolis, IN</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>(317) 465-1506</li>
-                  <li><a href="mailto:miller@umbaugh.com">miller@umbaugh.com</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            <p>Scott A. Miller leads the Accounting Services Group and serves on the management committee of Umbaugh. Scott works primarily with utility clients. He has performed financial studies for municipally owned water, electric, gas and sewage utilities, not-for-profit and investor owned water and sewer corporations, regional water and sewer districts and conservancy districts. These studies often involve determining utility revenue and rate requirements, cost-of-service studies and the financial planning associated with the acquisition of capital. Miller also oversees Umbaugh’s regulatory services.</p>
-
-<p>He often speaks on utility rates and financing topics for the Indiana Section of the American Water Works Association, the Indiana Rural Water Association, the Alliance of Indiana Rural Water, the Indiana Association of Sewer Companies, the Indiana Water Environment Association and the Indiana Association of Cities and Towns.</p>
-
-<p>In addition, Miller frequently serves as an expert accounting witness before the Indiana Utility Regulatory Commission on behalf of clients in connection with improvement projects, bond issues and rate increases.</p>
-
-<p>A graduate of the Kelley School of Business at Indiana University in Bloomington, Indiana, Miller is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society, the Indiana Water Environment Association and the American Water Works Association. He has been with Umbaugh since 1995 and is based in the Indianapolis office.</p> <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        
-        <div class="professional" id="cpletcher"> <img src="http://www.umbaugh.com/uploads/cpletcher.png"/>
-          <div class="bio-info">
-            <h3><strong>Curt W. Pletcher</strong>{if "CPA" != ""}, CPA{/if}</h3>
-            <span class="professional-role">Partner, Mishawaka, IN</span>
-            <div class="two-col">
-              <div class="contact-info">
-                <h4>Contact Information</h4>
-                <ul>
-                  <li>(574) 935-5178</li>
-                  <li><a href="mailto:pletcher@umbaugh.com">pletcher@umbaugh.com</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end DIV .two-col -->
-            <h4>Experience</h4>
-            <p>Curt W. Pletcher works with schools, cities, towns, counties and libraries, providing financial advisory services for financing and refinancing opportunities as well as providing other client accounting and financial services. Pletcher has more than 25 years of financial and accounting management experience in the public and private sectors.</p>
-
-<p>Pletcher, a graduate of Indiana University, joined Umbaugh in 2000. He is a member of the Indiana CPA Society and the American Institute of Certified Public Accountants. He also serves as a member of the John Glenn School Corporation Board of Trustees.</p> <a href="#">Back to top</a> </div>
-          <!-- end DIV .bio-info -->
-          <div class="dashed"></div>
-        </div>
-        <!-- end DIV professional --> 
-        
-
-
-
-
-        
-        <div class="professional" id="rclifford"> <img src="http://www.umbaugh.com/uploads/rclifford.png"/>
+        <div class="professional" id="clifford"> <img src="http://www.umbaugh.com/uploads/rclifford.png"/>
           <div class="bio-info">
             <h3><strong>Robert J. Clifford</strong>{if "CPA" != ""}, CPA{/if}</h3>
             <span class="professional-role">Principal, Indianapolis, IN</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if "&#40;317&#41; 465-1560" != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>(317) 465-1560</li>
                   <li><a href="mailto:clifford@umbaugh.com">clifford@umbaugh.com</a></li>
@@ -367,14 +377,218 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        
-        <div class="professional" id="lmatthes"> <img src="http://www.umbaugh.com/uploads/lmatthes.png"/>
+
+        <div class="professional" id="colton"> <img src="http://www.umbaugh.com/uploads/bcolton.png"/>
+          <div class="bio-info">
+            <h3><strong>Brian C. Colton</strong>{if "" != ""}, {/if}</h3>
+            <span class="professional-role">Partner, Indianapolis, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;317&#41; 465-1516" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(317) 465-1516</li>
+                  <li><a href="mailto:colton@umbaugh.com">colton@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Brian C. Colton leads the Public Finance Group and serves on the management committee of Umbaugh. Brian’s practice includes tax increment financing, economic development, municipal bond issues, capital project planning, property tax appeal issues and annexation fiscal plans. Colton has been involved in a number of special projects at Umbaugh, including: the creation of the firm’s right-of-way user fees report for the Indiana Association of Cities and Towns, assisting with fiscal home rule reports for the Indiana Association of Cities and Towns and the Association of Indiana Counties and assisting with the firm’s analysis of the estimated impact of recent and proposed property tax regulations on TIF areas throughout Indiana.</p>
+
+<p>Colton has been a guest lecturer on local government finance topics for the School of Public and Environmental Affairs at Indiana University – Bloomington, on local government funding for the Association of Indiana Counties and on public-private partnerships for the Indiana Association of Cities and Towns Municipal Management Institute.</p>
+
+<p>Colton joined Umbaugh in 1997. He has a degree in economics and political science from the University of Iowa and a Master of Public Affairs with concentrations in public financial management and policy analysis from the School of Public and Environmental Affairs at Indiana University. He is also a Certified Independent Public Finance Advisor (CIPFA). Colton is based in Umbaugh’s Indianapolis office and lives in Carmel.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="cooper"> <img src="http://www.umbaugh.com/uploads/bCooper.png"/>
+          <div class="bio-info">
+            <h3><strong>Brian S. Cooper</strong>{if "" != ""}, {/if}</h3>
+            <span class="professional-role">Principal, Columbus, OH</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "614-985-3744" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>614-985-3744</li>
+                  <li><a href="mailto:cooper@umbaugh.com">cooper@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Brian Cooper concentrates on general obligation, income tax revenue, non-tax revenue and special revenue bonds.&nbsp; Since 2003, Cooper has worked on 120 distinct project financings in Ohio representing over $2.75 billion in financed projects for municipal finance, economic development, utilities and infrastructure. </p>
+
+<p>Cooper graduated from the Ohio State University in 2001 and is a municipal advisor registered with the Securities and Exchange Commission (SEC) and with the Municipal Securities Rulemaking Board (MSRB).</p>
+
+<p>He has been a presenter at the Council of Development Finance Agencies’ national conference and serves as their muni bond advisor for both beginner and advanced bond courses and has also presented at the annual conferences for the Ohio Economic Development Association, the Ohio Government Finance Officers Association and is a guest lecturer at the Ohio State University.</p>
+
+<p>Cooper joined Umbaugh in 2015 when his practice, ACI Advisors, LLC, merged with Umbaugh.&nbsp; He is based in Umbaugh’s Columbus, Ohio, office and lives in Worthington, Ohio with his wife Patty and their three boys, Alex, Calvin and Ivan.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="eckerle"> <img src="http://www.umbaugh.com/uploads/MattEckerle.png"/>
+          <div class="bio-info">
+            <h3><strong>Matthew R. Eckerle</strong>{if "" != ""}, {/if}</h3>
+            <span class="professional-role">Principal, Indianapolis, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;317&#41; 465-1520" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(317) 465-1520</li>
+                  <li><a href="mailto:eckerle@umbaugh.com">eckerle@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Matt Eckerle joined Umbaugh as a financial analyst in 2005 and concentrates on tax increment financing, economic development projects and road and park impact fees.&nbsp; </p>
+
+<p>Matt is a member of the Indiana Economic Development Association and the National Association of Municipal Advisors.</p>
+
+<p>He is originally from in Marion, Indiana and received his Bachelor of Science in finance from Indiana University - Bloomington.&nbsp; A resident of Carmel, Eckerle is based in the Indianapolis office.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="gray"> <img src="http://www.umbaugh.com/uploads/belvia.jpg"/>
+          <div class="bio-info">
+            <h3><strong>Belvia B. Gray</strong>{if "" != ""}, {/if}</h3>
+            <span class="professional-role">Principal, Indianapolis, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;317&#41; 465-1523" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(317) 465-1523</li>
+                  <li><a href="mailto:gray@umbaugh.com">gray@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Belvia B. Gray has been involved in many areas of practice at Umbaugh, but she is especially active in bond issues for schools and libraries, budgeting and legislative analysis.&nbsp; </p>
+
+<p>Belvia was a founding and current board member for the Indiana Women in Public Finance association.&nbsp; She is also on the Butler University Alumni Board of Directors.</p>
+
+<p>She earned a Bachelor of Arts degree in political science and public relations from Butler University and a Master of Public Affairs degree from the School of Public and Environmental Affairs at Indiana University – Bloomington with concentrations in public financial management, policy analysis and economic development.&nbsp; She joined Umbaugh in 2005.&nbsp; A resident of Carmel, Gray is based in the Indianapolis office.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="hedden"> <img src="http://www.umbaugh.com/uploads/dhedden.png"/>
+          <div class="bio-info">
+            <h3><strong>Daniel A. Hedden</strong>{if "CPA" != ""}, CPA{/if}</h3>
+            <span class="professional-role">Partner, Indianapolis, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;317&#41; 465-1503" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(317) 465-1503</li>
+                  <li><a href="mailto:hedden@umbaugh.com">hedden@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Daniel A. Hedden’s practice is focused on management advisory services, ranging from training to budget services, budget modeling, financial management reports and advanced services involving financial accounting and reporting. In addition, he assists governmental units with process management and increasing their technology utilization to provide better and more useful information to a wider range of users. Hedden has been involved with financial studies for municipally owned utilities, not-for-profit corporations, regional water and sewer districts and conservancy districts.</p>
+
+<p>Hedden joined Umbaugh in 1996.</p>
+
+<p>He served in the United States Army and the Indiana Army National Guard and is a graduate of Indiana University-Purdue University in Indianapolis with degrees in accounting and finance. He has completed professional courses sponsored by the American Institute of Certified Public Accountants, the Indiana CPA Society and other professional organizations. Hedden is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society, the Association of Government Accountants and the American Water Works Association.</p>
+
+<p>Hedden lives in Fortville and is based in Umbaugh’s Indianapolis office.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="irwin"> <img src="http://www.umbaugh.com/uploads/cknott.png"/>
+          <div class="bio-info">
+            <h3><strong>Colette J. Irwin-Knott</strong>{if "" != ""}, {/if}</h3>
+            <span class="professional-role">Partner, Indianapolis, IN (Retired)</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li></li>
+                  <li><a href="mailto:"></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>We thank Colette for her many years of distinguished service at Umbaugh.</p>
+
+<p>If you have any questions or need further assistance with your school or library, please contact either  <a href="mailto:pletcher@umbaugh.com">Curt  Pletcher</a> or <a href="mailto:gray@umbaugh.com">Belvia Gray</a>.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="julien"> <img src="http://www.umbaugh.com/uploads/jjulien.png"/>
+          <div class="bio-info">
+            <h3><strong>John D. Julien</strong>{if "CPA" != ""}, CPA{/if}</h3>
+            <span class="professional-role">Partner, Mishawaka IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;574&#41; 935-5178" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(574) 935-5178</li>
+                  <li><a href="mailto:julien@umbaugh.com">julien@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>John D. Julien works with utilities and municipalities. He has conducted financial studies for municipally owned sewage, water, stormwater, electric and gas utilities, regional water and sewer districts and conservancy districts. These studies often involve short- and long-term financial planning, cost-of-service studies and financial planning for the issuance of municipal tax-exempt bonds, notes and loans. In addition, Julien has worked extensively on municipal tax budgets, economic development projects, tax incremental financing projects, annexation studies and the issuance of tax-supported and income-supported debt.</p>
+
+<p>Julien has presented at seminars sponsored by the U.S.D.A. – Rural Development (formerly FmHA), the American Association of Civil Engineers and the Michigan and Indiana sections of AWWA and WEA on governmental accounting and public finance, financial planning, performance management, utility rates and cost-of-service studies. He has also been a guest lecturer for the Indiana University School of Public and Environmental Affairs, Bloomington and South Bend campuses.</p>
+
+<p>Julien is a member of the Michigan and Indiana CPA Societies, the American Institute of Certified Public Accountants, Government Finance Officers Association, American Waterworks Association, the National Association of School Business Officers, American Public Power Association and the Water Environment Federation. He has served as an expert witness before the State Tax Board, the Indiana Utility Regulatory Commission and local public hearings regarding utility rate making and tax-exempt financing. He is a graduate of the University of Notre Dame. Julien joined Umbaugh in 1981 and is based in the Mishawaka office.</p>
+
+<p>John is a member of Umbaugh&#8217;s Executive Committee.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="malone"> <img src="http://www.umbaugh.com/uploads/gmalone.png"/>
+          <div class="bio-info">
+            <h3><strong>Gerald G. Malone</strong>{if "CPA" != ""}, CPA{/if}</h3>
+            <span class="professional-role">Partner, Indianapolis, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;317&#41; 465-1501" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(317) 465-1501</li>
+                  <li><a href="mailto:malone@umbaugh.com">malone@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Gary Malone&#8217;s practice at Umbaugh includes numerous projects for local governments, including bond financing, financial analysis and economic development. He has helped local governments develop financial incentives for such major companies as Toyota, AK Steele, Chrysler/Getrag, Honda and Medco.</p>
+
+<p>Malone frequently testifies as an expert witness on the subject of municipal finance before the Indiana General Assembly, state regulatory agencies and local public hearings. He has been a guest speaker and panelist for the Indiana Continuing Legal Education Forum, the Indiana Association of Cities and Towns, the Association of Indiana Counties and several other professional organizations.</p>
+
+<p>He has been with Umbaugh since 1975 and is based in the Indianapolis office. Originally from southwest Indiana, Malone graduated from Indiana University - Bloomington in 1975. He is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society and the Governmental Finance Officers Association and serves on the board of directors of the Indiana Association of Cities and Towns and the Indiana Association of Cities and Towns Foundation. Malone was awarded the 2006 CPA of the Year in Public Practice by the Indiana CPA Society.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="matthes"> <img src="http://www.umbaugh.com/uploads/lmatthes.png"/>
           <div class="bio-info">
             <h3><strong>Loren M. Matthes</strong>{if "" != ""}, {/if}</h3>
             <span class="professional-role">Principal, Indianapolis,IN</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if "&#40;317&#41; 465-1505" != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>(317) 465-1505</li>
                   <li><a href="mailto:matthes@umbaugh.com">matthes@umbaugh.com</a></li>
@@ -396,14 +610,14 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        
-        <div class="professional" id="jmesser"> <img src="http://www.umbaugh.com/uploads/jmesser.png"/>
+
+        <div class="professional" id="messer"> <img src="http://www.umbaugh.com/uploads/jmesser.png"/>
           <div class="bio-info">
             <h3><strong>Jeffrey A. Messer</strong>{if "" != ""}, {/if}</h3>
             <span class="professional-role">Director of Umbaugh Cash Advisory Services, LLC, Indianapolis, IN</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if "&#40;317&#41; 465-1531" != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>(317) 465-1531</li>
                   <li><a href="mailto:messer@umbaugh.com">messer@umbaugh.com</a></li>
@@ -427,14 +641,41 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        
-        <div class="professional" id="jnelson"> <img src="http://www.umbaugh.com/uploads/jnelson.png"/>
+
+        <div class="professional" id="miller"> <img src="http://www.umbaugh.com/uploads/smiller.png"/>
+          <div class="bio-info">
+            <h3><strong>Scott A. Miller</strong>{if "CPA" != ""}, CPA{/if}</h3>
+            <span class="professional-role">Partner, Indianapolis, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;317&#41; 465-1506" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(317) 465-1506</li>
+                  <li><a href="mailto:miller@umbaugh.com">miller@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Scott A. Miller leads the Accounting Services Group and serves on the management committee of Umbaugh. Scott works primarily with utility clients. He has performed financial studies for municipally owned water, electric, gas and sewage utilities, not-for-profit and investor owned water and sewer corporations, regional water and sewer districts and conservancy districts. These studies often involve determining utility revenue and rate requirements, cost-of-service studies and the financial planning associated with the acquisition of capital. Miller also oversees Umbaugh’s regulatory services.</p>
+
+<p>He often speaks on utility rates and financing topics for the Indiana Section of the American Water Works Association, the Indiana Rural Water Association, the Alliance of Indiana Rural Water, the Indiana Association of Sewer Companies, the Indiana Water Environment Association and the Indiana Association of Cities and Towns.</p>
+
+<p>In addition, Miller frequently serves as an expert accounting witness before the Indiana Utility Regulatory Commission on behalf of clients in connection with improvement projects, bond issues and rate increases.</p>
+
+<p>A graduate of the Kelley School of Business at Indiana University in Bloomington, Indiana, Miller is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society, the Indiana Water Environment Association and the American Water Works Association. He has been with Umbaugh since 1995 and is based in the Indianapolis office.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="nelson"> <img src="http://www.umbaugh.com/uploads/jnelson.png"/>
           <div class="bio-info">
             <h3><strong>Jesse R. Nelson</strong>{if "CPA" != ""}, CPA{/if}</h3>
             <span class="professional-role">Principal, Lansing, MI</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if "&#40;517&#41; 321-0110" != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>(517) 321-0110</li>
                   <li><a href="mailto:nelson@umbaugh.com">nelson@umbaugh.com</a></li>
@@ -456,14 +697,37 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        
-        <div class="professional" id="drodgers"> <img src="http://www.umbaugh.com/uploads/drodgers.png"/>
+
+        <div class="professional" id="pletcher"> <img src="http://www.umbaugh.com/uploads/cpletcher.png"/>
+          <div class="bio-info">
+            <h3><strong>Curt W. Pletcher</strong>{if "CPA" != ""}, CPA{/if}</h3>
+            <span class="professional-role">Partner, Mishawaka, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;574&#41; 935-5178" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(574) 935-5178</li>
+                  <li><a href="mailto:pletcher@umbaugh.com">pletcher@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Curt W. Pletcher&#8217;s practice includes working or includes schools, cities, towns, counties and libraries, providing financial advisory services for financing and refinancing opportunities as well as providing other client accounting and financial services. Pletcher has more than 25 years of financial and accounting management experience in the public and private sectors.</p>
+
+<p>Pletcher, a graduate of Indiana University, joined Umbaugh in 2000. He is a member of the Indiana CPA Society and the American Institute of Certified Public Accountants.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="rodgers"> <img src="http://www.umbaugh.com/uploads/drodgers.png"/>
           <div class="bio-info">
             <h3><strong>Deen C. Rogers</strong>{if "CPA" != ""}, CPA{/if}</h3>
             <span class="professional-role">Principal, Indianapolis, IN</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if "&#40;317&#41; 465-1538" != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>(317) 465-1538</li>
                   <li><a href="mailto:rogers@umbaugh.com">rogers@umbaugh.com</a></li>
@@ -483,14 +747,14 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        
-        <div class="professional" id="jrowe"> <img src="http://www.umbaugh.com/uploads/jrowe.png"/>
+
+        <div class="professional" id="rowe"> <img src="http://www.umbaugh.com/uploads/jrowe.png"/>
           <div class="bio-info">
-            <h3><strong>Jeffrey P. Rowe</strong>{if "CPA" != ""}, CPA{/if}</h3>
+            <h3><strong>Jeffrey R. Rowe</strong>{if "CPA" != ""}, CPA{/if}</h3>
             <span class="professional-role">Principal, Mishawaka, IN</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if "&#40;574&#41; 935-5178" != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>(574) 935-5178</li>
                   <li><a href="mailto:rowe@umbaugh.com">rowe@umbaugh.com</a></li>
@@ -508,14 +772,41 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        
-        <div class="professional" id="psansone"> <img src="http://www.umbaugh.com/uploads/pgregory.png"/>
+
+        <div class="professional" id="samuelson"> <img src="http://www.umbaugh.com/uploads/tsamuelson.png"/>
+          <div class="bio-info">
+            <h3><strong>Todd A. Samuelson</strong>{if "CPA" != ""}, CPA{/if}</h3>
+            <span class="professional-role">Executive Partner, Mishawaka, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;574&#41; 935-5178" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(574) 935-5178</li>
+                  <li><a href="mailto:samuelson@umbaugh.com">samuelson@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Todd A. Samuelson works with cities, towns, counties, school corporations, libraries and utilities on comprehensive financial planning, bond issues and economic development. He also assists numerous clients with budgeting, forecasting and strategic planning.</p>
+
+<p>Samuelson worked with White County, Indiana on an alternative energy economic development project which will become the largest wind farm development in Indiana. In addition he has worked on economic development packages in Whitley County, Indiana for Steel Dynamics; a county corrections complex and strategic planning for Elkhart County, Indiana; and bond issues for major facility improvements for the Allen County Public Library in Fort Wayne, Indiana.</p>
+
+<p>Samuelson has provided expert testimony at local and state public hearings on capital projects, tax increment financing (TIF), property and income tax matters and issuance of tax-exempt bonds. He also has been a speaker on numerous occasions for the Indiana Association of Cities and Towns (IACT), the Association of Indiana Counties, the Indiana Association of County Commissioners (IACC), the Indiana Library Federation, the Michigan Library Federation, the Michigan School Business Officials and the Indiana League of Municipal Clerk Treasurers.</p>
+
+<p>Samuelson is a member of the Indiana, Michigan and Illinois CPA Societies and the American Institute of Certified Public Accountants. A 1987 graduate of DePauw University, Samuelson was a senior accountant and financial advisor with Arthur Andersen &amp; Company in Chicago before joining Umbaugh in 1989. He is based in Umbaugh’s Mishawaka office.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="sansone"> <img src="http://www.umbaugh.com/uploads/pgregory.png"/>
           <div class="bio-info">
             <h3><strong>Paige E. Sansone</strong>{if "CPA" != ""}, CPA{/if}</h3>
             <span class="professional-role">Principal, Indianapolis, IN</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if "&#40;317&#41; 465-1521" != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>(317) 465-1521</li>
                   <li><a href="mailto:sansone@umbaugh.com">sansone@umbaugh.com</a></li>
@@ -533,14 +824,43 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        
-        <div class="professional" id="jsemler"> <img src="http://www.umbaugh.com/uploads/jsemler.png"/>
+
+        <div class="professional" id="seever"> <img src="http://www.umbaugh.com/uploads/jseever.png"/>
           <div class="bio-info">
-            <h3><strong>Jason G. Semler</strong>{if "CPA" != ""}, CPA{/if}</h3>
-            <span class="professional-role">Principal, Indianapolis, IN</span>
+            <h3><strong>John M. Seever</strong>{if "CPA" != ""}, CPA{/if}</h3>
+            <span class="professional-role">Partner, Indianapolis, IN</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if "&#40;317&#41; 465-1507" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(317) 465-1507</li>
+                  <li><a href="mailto:seever@umbaugh.com">seever@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>John has been involved in many professional engagements, including financial studies for cities, towns and utilities. These studies often involve budgeting, financial reporting, annexation, consolidation and financial planning for municipalities and the determination of revenue requirements, cost-of-service studies and the financial planning associated with the issuance of debt and capital project planning for utilities.</p>
+
+<p>He is a frequent speaker concerning municipal finance and utility rates before various trade groups including IACT, IMLA, IACC, IRWA and IWEA often serves as an expert witness on behalf of clients.&nbsp;  John has testified before the Indiana General Assembly on matters related to utilities.</p>
+
+<p>He is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society and the Governmental Finance Officers Associations, among other professional groups. In addition, he currently serves on Indiana Association of Cities and Town’s board of directors and is an officer in the Indiana Section American Water Works Association.</p>
+
+<p>Seever graduated from Indiana University – Bloomington. He joined Umbaugh in 1982 and is based in Indianapolis.</p>
+
+<p>John is a member of Umbaugh’s Executive Committee and currently serves as the firm&#8217;s practice development partner.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
+
+        <div class="professional" id="semler"> <img src="http://www.umbaugh.com/uploads/jsemler.png"/>
+          <div class="bio-info">
+            <h3><strong>Jason G. Semler</strong>{if "CPA" != ""}, CPA{/if}</h3>
+            <span class="professional-role">Partner, Indianapolis, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;317&#41; 465-1540" != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>(317) 465-1540</li>
                   <li><a href="mailto:semler@umbaugh.com">semler@umbaugh.com</a></li>
@@ -549,25 +869,25 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
             </div>
             <!-- end DIV .two-col -->
             <h4>Experience</h4>
-            <p>Jason G. Semler works on economic development, financing and utility projects. His economic development work involves developing diverse revenue sources, such as tax increment financing (TIF) and local option income taxes, examining taxing units’ assessed values and their respective abatements, and the financial planning associated with the issuance of both tax-exempt and taxable bonds.</p>
+            <p>Jason G. Semler&#8217;s practice includes economic development, financing and utility projects. His economic development work involves developing diverse revenue sources, such as tax increment financing (TIF) and local option income taxes, examining taxing units’ assessed values and their respective abatements, and the financial planning associated with the issuance of both tax-exempt and taxable bonds.</p>
 
 <p>Semler has been involved in numerous governmental projects, including projects financed by bonds secured by ad valorem taxes, income taxes and food and beverage taxes. He also has assisted communities with their capital project planning efforts and analyzed the estimated impacts that recent and proposed property tax regulations could have on various clients throughout Indiana.</p>
 
 <p>He is a member of the Indiana CPA Society and the Indiana Economic Development Association.</p>
 
-<p>Semler is a graduate of Ball State University with a degree in finance with concentrations in corporate financial management and financial planning. He joined Umbaugh in 1999. A resident of Noblesville, Semler is based in the Indianapolis office.</p> <a href="#">Back to top</a> </div>
+<p>Jason is a graduate of Ball State University with a degree in finance with concentrations in corporate financial management and financial planning. He joined Umbaugh in 1999. A resident of Noblesville, Semler is based in the Indianapolis office.</p> <a href="#">Back to top</a> </div>
           <!-- end DIV .bio-info -->
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-        
-        <div class="professional" id="ttraciak"> <img src="http://www.umbaugh.com/uploads/ttraciak.png"/>
+
+        <div class="professional" id="traciak"> <img src="http://www.umbaugh.com/uploads/ttraciak.png"/>
           <div class="bio-info">
             <h3><strong>Tom Traciak</strong>{if "" != ""}, {/if}</h3>
             <span class="professional-role">Principal, Lansing, MI</span>
             <div class="two-col">
               <div class="contact-info">
-                <h4>Contact Information</h4>
+		{if "&#40;517&#41; 321-0110" != ""}<h4>Contact Information</h4>{/if}
                 <ul>
                   <li>(517) 321-0110</li>
                   <li><a href="mailto:traciak@umbaugh.com">traciak@umbaugh.com</a></li>
@@ -587,27 +907,47 @@ a:3:{s:4:"time";i:1409852340;s:3:"ttl";i:0;s:4:"data";s:44799:"{embed='includes/
           <div class="dashed"></div>
         </div>
         <!-- end DIV professional --> 
-          
-        
+
+        <div class="professional" id="walsh"> <img src="http://www.umbaugh.com/uploads/walsh.png"/>
+          <div class="bio-info">
+            <h3><strong>Eric J. Walsh</strong>{if "CPA" != ""}, CPA{/if}</h3>
+            <span class="professional-role">Principal, Mishawaka, IN</span>
+            <div class="two-col">
+              <div class="contact-info">
+		{if "&#40;574&#41; 935-5178" != ""}<h4>Contact Information</h4>{/if}
+                <ul>
+                  <li>(574) 935-5178</li>
+                  <li><a href="mailto:walsh@umbaugh.com">walsh@umbaugh.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- end DIV .two-col -->
+            <h4>Experience</h4>
+            <p>Eric Walsh works primarily with municipalities and utilities providing training, budget services, financial management reports, assistance with tax exempt bond issuance and advanced services involving financial accounting and reporting.&nbsp; </p>
+
+<p>Walsh is a member of the American Institute of Certified Public Accountants, the Indiana CPA Society and the American Water Works Association and other professional organizations.</p>
+
+<p>Eric graduated from Goshen College in Goshen, Indiana with a Bachelor of Arts degree in accounting and is licensed as a CPA.&nbsp; Eric joined Umbaugh in 2006.&nbsp; A resident of Macy, Walsh is based in the Mishawaka office.</p> <a href="#">Back to top</a> </div>
+          <!-- end DIV .bio-info -->
+          <div class="dashed"></div>
+        </div>
+        <!-- end DIV professional --> 
 
         
         
         
+        
 
-	</div><!-- end DIV #professionals-table --> 
-    </div><!-- end div #mainColumn -->
-    
-    <div id="sideColumn">
-        {embed='includes/servicesContactJoin'}
-    
-        <!-- dotted seperator included in above widget div tag -->
-    
-        {embed='includes/latest-news'}
-    
-        <img src="../images/dotted-seperator.png" />
-            
-        {embed='includes/resources'}
+ </div>
+      <!-- end DIV #professionals-table --> 
     </div>
+    <!-- end div #mainColumn -->
+    
+    <div id="sideColumn"> {embed='includes/servicesContactJoin'} 
+      
+      <!-- dotted seperator included in above widget div tag --> 
+      
+      {embed='includes/latest-news'} <img src="../images/dotted-seperator.png" /> {embed='includes/resources'} </div>
     <!-- end DIV #sideColumn --> 
   </div>
   <!-- end div .interior-content --> 

@@ -99,7 +99,7 @@
             {exp:channel:entries channel="news" limit="3" status="open"}
             <li>
               <h3><a href="/latest-news/{url_title}">{title}</a></h3>
-              {exp:word_limit total="10"}{news_body}{/exp:word_limit}
+              {exp:word_limit total="10"}{news_body}{news_test_body}{/exp:word_limit}
               <p class="readmore"><a href="/latest-news/{url_title}">Read More &raquo;</a></p>
             </li>
             {/exp:channel:entries}
