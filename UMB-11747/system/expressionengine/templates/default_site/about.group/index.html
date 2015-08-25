@@ -45,10 +45,12 @@
             <div class="two-col">
               <div class="contact-info">
 		{if people_phone != ""}<h4>Contact Information</h4>{/if}
-                <ul>
-                  <li>{people_phone}</li>
-                  <li><a href="mailto:{people_email}">{people_email}</a></li>
-                </ul>
+                {if people_phone && people_email != ""}
+			<ul>
+        	          {if people_phone != ""}<li>{people_phone}</li>{/if}
+                	  {if people_email != ""}<li><a href="mailto:{people_email}">{people_email}</a></li>{/if}
+	                </ul>
+		{/if}
               </div>
             </div>
             <!-- end DIV .two-col -->
